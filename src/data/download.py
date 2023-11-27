@@ -1,20 +1,24 @@
+# ===============================================================================================
+# Author: Chang Zeng
+# Multi-Thread Downloader for LaMP Dataset
+# Dataset Stored in ./src/data/LaMP_<dataset index>_<dataset category>_<dataset type>.json
+# For example `LaMP_1_dev_outputs.json` is the label data for validation task of dataset 1
+# Source: https://lamp-benchmark.github.io/download
+# ===============================================================================================
+
 import json
 import os
 import threading
-import time
-from queue import Queue
 from typing import List
 
 import requests
 from rich.progress import Progress, TaskID
 
-# https://ciir.cs.umass.edu/downloads/LaMP/LaMP_2/dev/dev_questions.json
-
 
 end_point = "https://ciir.cs.umass.edu/downloads/LaMP/LaMP_{index}/{category}/{category}_{type}.json"
 
 storage = os.path.join("src", "data")
-CHUNKSIZE = 50 * 1024
+CHUNKSIZE = 5 * 1024 * 1024
 default_total_step = 1000
 
 msg_dict = dict()
@@ -77,6 +81,9 @@ def downloader(
         completed=default_total_step,
         advance=default_total_step,
     )
+
+    os.makedirs(storage, exist_ok=True)
+
     with open(os.path.join(storage, f"LaMP_{i}_{category}_{curr_type}.json"), "w") as f:
         content_json = json.loads(content)
         json.dump(
@@ -116,7 +123,7 @@ if __name__ == "__main__":
 
     with Progress() as progress:
         task_index = 0
-        for i in range(1, 3, 1):
+        for i in range(2, 3, 1):
             for category in data_category:
                 for curr_type in data_type:
                     file_name = f"LaMP_{i}_{category}_{curr_type}.json"
