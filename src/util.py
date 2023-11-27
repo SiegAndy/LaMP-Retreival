@@ -1,4 +1,5 @@
 from enum import Enum
+import subprocess
 
 
 class DatasetType(Enum):
@@ -20,3 +21,10 @@ class DatasetCategory(Enum):
 
 default_text_rank_window_size = 2
 default_top_k_keywords = 5
+
+def copy2clip(txt):
+    content = txt
+    if isinstance(txt, list):
+        content = ", ".join(txt)
+    cmd='echo '+content+' | clip'
+    return subprocess.check_call(cmd, shell=True)

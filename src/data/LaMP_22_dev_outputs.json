@@ -1,0 +1,17 @@
+{
+    "task": "LaMP_2",
+    "golds": [
+        {
+            "id": "112",
+            "output": "politics"
+        },
+        {
+            "id": "113",
+            "output": "sports"
+        },
+        {
+            "id": "114",
+            "output": "crime"
+        }
+    ]
+}
