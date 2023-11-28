@@ -11,9 +11,11 @@ lemmatizer = nltk.stem.WordNetLemmatizer()
 lemmatizer_pipeline: Callable[[str], str] = lambda x: lemmatizer.lemmatize(x)
 stop_words = set(stopwords.words("english"))
 
+
 def tokenize_corpus(corpus: List[str], tokenizer: Callable[[str], str]):
     tokenizer_pool = Pool(cpu_count())
     return tokenizer_pool.map(tokenizer, corpus)
+
 
 def tokenize(text: str, method: Callable[[str], str]) -> list[str]:
     tokens = nltk.word_tokenize(text.lower())

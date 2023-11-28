@@ -42,7 +42,7 @@ def text_rank(
     alpha: float = 0.2,
     iteration: int = 1000,
     tolerance: float = 1e-32,
-) -> List[Tuple[str, float]]:
+) -> List[str]:
     adjacency_matrix, id_vocab, len_vocab = text_rank_init(tokens=tokens)
     n = len_vocab
     p_curr = np.random.rand(n, 1)
