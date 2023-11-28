@@ -1,5 +1,4 @@
-# LaMP-Retreival
-
+# [LaMP-Retreival](https://github.com/SiegAndy/LaMP-Retreival)
 
 
 # Package
