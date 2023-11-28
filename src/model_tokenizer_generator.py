@@ -23,8 +23,8 @@ def generate_result_by_device(model: T5ForConditionalGeneration,
     return outputs
 
 
-def get_and_save_model(model: str, save_dir: str):
-    tokenizer = AutoTokenizer.from_pretrained(str)
-    model = AutoModelForCausalLM.from_pretrained(str)
-    tokenizer.save_pretrained(str)
-    model.save_pretrained(str)
+def get_and_save_T5_model(model: str, save_dir: str):
+    tokenizer = T5Tokenizer.from_pretrained(model)
+    model = T5ForConditionalGeneration.from_pretrained(model)
+    tokenizer.save_pretrained(save_dir)
+    model.save_pretrained(save_dir)
