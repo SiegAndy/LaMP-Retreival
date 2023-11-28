@@ -3,7 +3,7 @@
 #   2): Keywords extraction with title with ranking where ranks the author's profile
 #           with respect to abstract of profile with specified title. In the meantime,
 #           mention such rank order in the prompt.
-
+from __future__ import annotations
 
 from collections import defaultdict
 import json
@@ -63,6 +63,8 @@ def extract_info_LaMP_1(
             # id, title, abstract
             curr_profile = ranker.corpus[rel_doc_index]
             tokens = tokenizer(curr_profile[2])
+            if len(tokens) <= 2:
+                continue
             keywords = text_rank(tokens)
             curr_prompt.append(
                 f"title: \"{curr_profile[1]}\" with keywords: [{', '.join(keywords)}]"
