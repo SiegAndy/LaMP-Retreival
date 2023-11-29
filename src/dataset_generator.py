@@ -90,3 +90,8 @@ def generate_np_X_y(purpose: str, task: str):
             y_data.append(data)
     return X_data, y_data
 
+#
+# extract_prompt_from("./data/LaMP_1_dev_questions.json", "LaMP_1")
+# extract_labels_from("./data/LaMP_1_dev_outputs.json", "LaMP_1")
+# X, y = generate_np_X_y_save("dev", "LaMP_1")
+# print(len(X[0].replace("", "\n").split(" ")))

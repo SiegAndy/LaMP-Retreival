@@ -20,7 +20,7 @@ from src.tokenization import lemma_tokenizer
 
 manual_feed_collect = False
 
-task_1_template = 'Given above information, for an author who has written the paper with the title "{author_title}", which reference is related? Just answer with [1] or [2] without explanation. [1]: "{title_opt1}" [2]: "{title_opt2}"'
+task_1_template = 'Given above information, for an author who has written the paper with the title "{author_title}", which reference is related? Just answer with 1 or 2 without explanation. 1 is "{title_opt1}" 2 is "{title_opt2}"'
 
 task_2_category = 'categories: ["women", "religion", "politics", "style & beauty", "entertainment", "culture & arts", "sports", "science & technology", "travel", "business", "crime", "education", "healthy living", "parents", "food & drink"]'
 
