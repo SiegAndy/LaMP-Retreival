@@ -7,7 +7,7 @@ import os
 import shutil
 import evaluate
 
-from src.util import default_extract_addr
+from src.util import default_extract_path
 
 
 def postprocess_text_classification(preds, labels):
@@ -110,7 +110,7 @@ class LaMPEvaluation(object):
         self,
         all_golds_zip_file_addr=None,
         single_gold_json_file_addr=None,
-        extract_addr=default_extract_addr,
+        extract_addr=default_extract_path,
     ) -> None:
         assert (
             all_golds_zip_file_addr or single_gold_json_file_addr
