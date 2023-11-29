@@ -1,6 +1,5 @@
-from src.util import DTOEncoder
+from src.util import DTOEncoder, extract_prompt_tokens_stats, extract_output_tokens_stats
 from src.extraction import *
-import numpy as np
 
 
 def extract_prompt_from(data_path: str, task_name: str):
@@ -35,7 +34,7 @@ def extract_labels_from(data_path, task_name: str):
         json.dump(outputs, output, cls=DTOEncoder, indent=4)
 
 
-def generate_np_X_y_save(purpose: str, task: str):
+def generate_X_y_save(purpose: str, task: str):
     X_data_path = f"./data/{task}_{purpose}_X.json"
     y_data_path = f"./data/{task}_{purpose}_y.json"
     X_data_output_path = f"./data/{task}_{purpose}_X_only_str.json"
@@ -59,10 +58,10 @@ def generate_np_X_y_save(purpose: str, task: str):
         json.dump(X_data, X_output, cls=DTOEncoder, indent=4)
     with open(y_data_output_path, "w", encoding="utf-8") as y_output:
         json.dump(y_data, y_output, cls=DTOEncoder, indent=4)
-    return np.array(X_data), np.array(y_data)
+    return X_data, y_data
 
 
-def generate_np_test_X(task):
+def generate_test_X(task):
     X_test_path = f"./data/{task}_test_X.json"
     X_test = []
     with open(X_test_path, "r", encoding="utf-8") as X_file:
@@ -70,10 +69,10 @@ def generate_np_test_X(task):
         for x_test in X_outputs.values():
             x = '\n'.join(x_test)
             X_test.append(x)
-    return np.array(X_test)
+    return X_test
 
 
-def generate_np_X_y(purpose: str, task: str):
+def generate_X_y(purpose: str, task: str):
     X_data_output_path = f"./data/{task}_{purpose}_X_only_str.json"
     y_data_output_path = f"./data/{task}_{purpose}_y_only_str.json"
     X_data = []
@@ -90,8 +89,3 @@ def generate_np_X_y(purpose: str, task: str):
             y_data.append(data)
     return X_data, y_data
 
-#
-# extract_prompt_from("./data/LaMP_1_dev_questions.json", "LaMP_1")
-# extract_labels_from("./data/LaMP_1_dev_outputs.json", "LaMP_1")
-# X, y = generate_np_X_y_save("dev", "LaMP_1")
-# print(len(X[0].replace("", "\n").split(" ")))
