@@ -35,9 +35,11 @@ def extract_labels_from(data_path, task_name: str):
         json.dump(outputs, output, cls=DTOEncoder, indent=4)
 
 
-def generate_np_X_y(purpose: str, task: str):
+def generate_np_X_y_save(purpose: str, task: str):
     X_data_path = f"./data/{task}_{purpose}_X.json"
     y_data_path = f"./data/{task}_{purpose}_y.json"
+    X_data_output_path = f"./data/{task}_{purpose}_X_only_str.json"
+    y_data_output_path = f"./data/{task}_{purpose}_y_only_str.json"
     X_data = []
     y_data = []
     X_outputs = None
@@ -53,6 +55,10 @@ def generate_np_X_y(purpose: str, task: str):
         x = '\n'.join(x)
         X_data.append(x)
         y_data.append(label)
+    with open(X_data_output_path, "w", encoding="utf-8") as X_output:
+        json.dump(X_data, X_output, cls=DTOEncoder, indent=4)
+    with open(y_data_output_path, "w", encoding="utf-8") as y_output:
+        json.dump(y_data, y_output, cls=DTOEncoder, indent=4)
     return np.array(X_data), np.array(y_data)
 
 
@@ -65,3 +71,22 @@ def generate_np_test_X(task):
             x = '\n'.join(x_test)
             X_test.append(x)
     return np.array(X_test)
+
+
+def generate_np_X_y(purpose: str, task: str):
+    X_data_output_path = f"./data/{task}_{purpose}_X_only_str.json"
+    y_data_output_path = f"./data/{task}_{purpose}_y_only_str.json"
+    X_data = []
+    y_data = []
+    X_outputs = None
+    y_outputs = None
+    with open(X_data_output_path, "r", encoding="utf-8") as X_file:
+        X_outputs = json.load(X_file)
+        for data in X_outputs:
+            X_data.append(data)
+    with open(y_data_output_path, "r", encoding="utf-8") as y_file:
+        y_outputs = json.load(y_file)
+        for data in y_outputs:
+            y_data.append(data)
+    return X_data, y_data
+
