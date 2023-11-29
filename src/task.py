@@ -14,7 +14,7 @@ class LaMPTask:
     store_path: str  # where query, label, and results are stored
     extract_path: str  # where the results/lables are extract to for evaluation
     prompt_save_path: str
-
+    
     subscribers: Dict[str, Callable[[Dict[str, str], labels], None]]
 
     task_question_file: str
@@ -22,7 +22,7 @@ class LaMPTask:
     task_id: str
     task_type: str
     task_name: str  # name of LaMP dataset (LaMP_1 or LaMP_2 in this case)
-
+    
     parsed_prompts: Dict[str, str]
     evaluation: LaMPEvaluation
     preds: Dict[str, labels]
@@ -38,15 +38,10 @@ class LaMPTask:
         store_path: str = default_data_path,
         extract_path: str = default_extract_path,
     ) -> None:
-        assert (
-            subscribers is not None
-            and isinstance(subscribers, dict)
-            and len(subscribers) > 0
-        ), "Need feeds function to feed prompt into language model"
 
-        assert isinstance(
-            list(subscribers.values())[0], Callable
-        ), "subscriber(s) need to be a function"
+        assert (subscribers is not None and isinstance(subscribers, dict) and len(subscribers) > 0), "Need feeds function to feed prompt into language model"
+
+        assert (isinstance(list(subscribers.values())[0], Callable)), "subscriber(s) need to be a function"
 
         self.subscribers = subscribers
 
@@ -55,7 +50,7 @@ class LaMPTask:
             self.store_path = store_path
 
         self.extract_path = extract_path
-        self.prompt_save_path = prompt_save_path
+        self.prompt_save_path=prompt_save_path
 
         self.parsed_prompts = None
         self.preds = None
@@ -87,19 +82,19 @@ class LaMPTask:
 
         if self.prompt_save_path is not None and self.prompt_save_path != "":
             prompt_save_name = os.path.join(
-                self.prompt_save_path,
-                f"LaMP_{self.task_id}_{self.task_type}_prompts.json",
-            )
+                    self.prompt_save_path,
+                    f"LaMP_{self.task_id}_{self.task_type}_prompts.json",
+                )
             with open(prompt_save_name, "w", encoding="utf-8") as output:
                 json.dump(self.parsed_prompts, output, cls=DTOEncoder, indent=4)
-
+        
         self.preds = dict()
         self.score = dict()
         # feed prompt into subscriber
         for subscriber_name, subscriber_func in self.subscribers.items():
             curr_preds = labels(task=self.task_name, golds=list())
             subscriber_func(self.parsed_prompts, curr_preds)
-
+            
             self.preds[subscriber_name] = curr_preds
 
             if self.store_path is not None and self.store_path != "":
@@ -111,7 +106,5 @@ class LaMPTask:
                 with open(preds_save_name, "w", encoding="utf-8") as output:
                     json.dump(curr_preds, output, cls=DTOEncoder, indent=4)
 
-            self.score[subscriber_name] = self.evaluation.evaluate_task(
-                preds_save_name, self.task_name
-            )
+            self.score[subscriber_name] = self.evaluation.evaluate_task(preds_save_name, self.task_name)
         return self.score
