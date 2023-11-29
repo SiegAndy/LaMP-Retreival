@@ -1,0 +1,17 @@
+{
+    "task": "LaMP_1",
+    "golds": [
+        {
+            "id": "000",
+            "output": "1"
+        },
+        {
+            "id": "001",
+            "output": "Based on the given information, the related reference is 1, \"Neural networks with dynamic synapses.\""
+        },
+        {
+            "id": "002",
+            "output": "1"
+        }
+    ]
+}

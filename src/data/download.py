@@ -32,8 +32,6 @@ def downloader(
     category: str,
     curr_type: str,
 ):
-    # file_name = f"LaMP_{i}_{category}_{curr_type}.json"
-    # msg_dict[file_name] = f"Downloading {file_name}..."
     resp = requests.get(
         end_point.format(index=index, category=category, type=curr_type),
         stream=True,
@@ -45,18 +43,13 @@ def downloader(
             prog_task,
             description=f"Accepting {file_name} with length {total_mbs:.2f} mbs...",
         )
-        # msg_dict[
-        #     file_name
-        # ] = f"Accepting {file_name} with length {total_mbs:.2f} mbs..."
     else:
-        # print(f"{file_name} Does not Exist...")
         prog.update(
             prog_task,
             description=f"{file_name} Does not Exist...",
             completed=default_total_step,
             advance=default_total_step,
         )
-        # msg_dict[file_name] = f"{file_name} Does not Exist..."
         return
     curr_length = 0
     content = ""
@@ -73,8 +66,6 @@ def downloader(
         )
         advance = (len(chunk) / total_length) * default_total_step
         prog.update(prog_task, description=msg, advance=advance)
-        # msg_dict[file_name] = msg
-        # print(msg, end="\r")
     prog.update(
         prog_task,
         description=f"Storing Content into File: {file_name}",
@@ -97,7 +88,6 @@ def downloader(
         completed=default_total_step,
         advance=default_total_step,
     )
-    # msg_dict[file_name] = f"{file_name} Process Finished..."
 
 
 def get_color(colors: List[str] = None) -> str:
@@ -123,7 +113,7 @@ if __name__ == "__main__":
 
     with Progress() as progress:
         task_index = 0
-        for i in range(2, 3, 1):
+        for i in range(1, 3, 1):
             for category in data_category:
                 for curr_type in data_type:
                     file_name = f"LaMP_{i}_{category}_{curr_type}.json"
