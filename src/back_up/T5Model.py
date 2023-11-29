@@ -3,16 +3,13 @@ from torch.optim import AdamW
 
 
 class T5Model(pl.LightningModule):
-
     def __init__(self, model):
         super().__init__()
         self.model = model
 
     def forward(self, input_ids, attention_mask, labels=None):
         output = self.model(
-            input_ids=input_ids,
-            attention_mask=attention_mask,
-            labels=labels
+            input_ids=input_ids, attention_mask=attention_mask, labels=labels
         )
         return output.loss, output.logits
 
@@ -24,7 +21,7 @@ class T5Model(pl.LightningModule):
 
         self.log("train_loss", loss, prog_bar=True, logger=True)
 
-        return {'loss': loss}
+        return {"loss": loss}
 
     def validation_step(self, batch, batch_idx):
         input_ids = batch["input_ids"]
@@ -34,7 +31,7 @@ class T5Model(pl.LightningModule):
 
         self.log("val_loss", loss, prog_bar=True, logger=True)
 
-        return {'val_loss': loss}
+        return {"val_loss": loss}
 
     def configure_optimizers(self):
         return AdamW(self.parameters(), lr=0.0001)

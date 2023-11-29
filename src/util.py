@@ -103,16 +103,22 @@ def remove_enter_punctuation(prompt: str):
     new_prompt = copy(prompt)
     for punctuation in string.punctuation:
         new_prompt = new_prompt.replace(punctuation, "")
-    new_prompt.replace("\n"," ")
+    new_prompt.replace("\n", " ")
     return new_prompt
 
 
-def extract_prompt_tokens_stats(flatten_prompts: List[str], price_per_1k_tokens: float = 0.001):
+def extract_prompt_tokens_stats(
+    flatten_prompts: List[str], price_per_1k_tokens: float = 0.001
+):
     total_tokens = 0
     for prompt in flatten_prompts:
         cur_num_tokens = number_of_tokens(remove_enter_punctuation(prompt))
         total_tokens += cur_num_tokens
-    return total_tokens, total_tokens / len(flatten_prompts), round(total_tokens * price_per_1k_tokens / 1000, 2)
+    return (
+        total_tokens,
+        total_tokens / len(flatten_prompts),
+        round(total_tokens * price_per_1k_tokens / 1000, 2),
+    )
 
 
 def extract_output_tokens_stats(output_json_path, price_per_1k_tokens: float = 0.002):
