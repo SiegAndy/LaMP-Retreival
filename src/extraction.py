@@ -3,7 +3,6 @@
 #   2): Keywords extraction with title with ranking where ranks the author's profile
 #           with respect to abstract of profile with specified title. In the meantime,
 #           mention such rank order in the prompt.
-from __future__ import annotations
 
 from collections import defaultdict
 import json
@@ -11,20 +10,20 @@ import os
 from typing import Callable, Dict, List, Set
 
 
-from src.BM25 import BM25Okapi as BM25
+from src.models.BM25 import BM25Okapi as BM25
 
-from src.TextRank import text_rank
+from src.models.TextRank import text_rank
 
-from src.util import DatasetType, copy2clip
+from src.utils import DatasetType, copy2clip
 from src.tokenization import lemma_tokenizer
 
 manual_feed_collect = False
 
-task_1_template = 'Given above information, for an author who has written the paper with the title "{author_title}", which reference is related? Just answer with 1 or 2 without explanation. 1 is "{title_opt1}" 2 is "{title_opt2}"'
+task_1_template = '\nGiven above information, for an author who has written the paper with the title "{author_title}", which reference is related? Just choose 1 or 2! No explanation. 1 is "{title_opt1}" 2 is "{title_opt2}"'
 
 task_2_category = 'categories: ["women", "religion", "politics", "style & beauty", "entertainment", "culture & arts", "sports", "science & technology", "travel", "business", "crime", "education", "healthy living", "parents", "food & drink"]'
 
-task_2_template = f"Given above information, which category does the following article relate to? Just answer with the category name without further explanation. {task_2_category} article: {{article}}"
+task_2_template = f"\nGiven above information, which category does the following article relate to? Just answer with the category name without further explanation. {task_2_category} article: {{article}}"
 
 
 def collect_feedback(text: str, copy_to_clipboard: bool = True):

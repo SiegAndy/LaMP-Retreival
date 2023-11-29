@@ -7,7 +7,7 @@ import os
 import shutil
 import evaluate
 
-from src.util import default_extract_path
+from src.utils import default_extract_path
 
 
 def postprocess_text_classification(preds, labels):

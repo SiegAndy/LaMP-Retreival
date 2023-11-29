@@ -1,4 +1,8 @@
-from src.util import DTOEncoder, extract_prompt_tokens_stats, extract_output_tokens_stats
+from src.utils import (
+    DTOEncoder,
+    extract_prompt_tokens_stats,
+    extract_output_tokens_stats,
+)
 from src.extraction import *
 
 
@@ -8,8 +12,7 @@ def extract_prompt_from(data_path: str, task_name: str):
     data_file_name = data_file_name.split("_")
     purpose = data_file_name[2]
     prompt_path = os.path.join(
-        "./data/"
-        f"{task_name}_{purpose}_X.json",
+        "./data/" f"{task_name}_{purpose}_X.json",
     )
     os.makedirs("./data/", exist_ok=True)
 
@@ -25,8 +28,7 @@ def extract_labels_from(data_path, task_name: str):
         data_file_name = data_file_name.split("_")
         purpose = data_file_name[2]
         labels_path = os.path.join(
-            "./data/"
-            f"{task_name}_{purpose}_y.json",
+            "./data/" f"{task_name}_{purpose}_y.json",
         )
         os.makedirs("./data/", exist_ok=True)
 
@@ -51,7 +53,7 @@ def generate_X_y_save(purpose: str, task: str):
         label_id = features["id"]
         label = features["output"]
         x = X_outputs[label_id]
-        x = '\n'.join(x)
+        x = "\n".join(x)
         X_data.append(x)
         y_data.append(label)
     with open(X_data_output_path, "w", encoding="utf-8") as X_output:
@@ -67,7 +69,7 @@ def generate_test_X(task):
     with open(X_test_path, "r", encoding="utf-8") as X_file:
         X_outputs = json.load(X_file)
         for x_test in X_outputs.values():
-            x = '\n'.join(x_test)
+            x = "\n".join(x_test)
             X_test.append(x)
     return X_test
 
@@ -88,4 +90,3 @@ def generate_X_y(purpose: str, task: str):
         for data in y_outputs:
             y_data.append(data)
     return X_data, y_data
-

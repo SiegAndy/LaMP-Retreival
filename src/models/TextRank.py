@@ -1,7 +1,7 @@
 from typing import List, Tuple
 
 import numpy as np
-from src.util import default_text_rank_window_size, default_top_k_keywords
+from src.utils import default_text_rank_window_size, default_top_k_keywords
 
 np.random.seed(0)
 

@@ -6,7 +6,7 @@
         "title: \"A Linear-Time Algorithm to Find Four Independent Spanning Trees in Four-Connected Planar Graphs\" with keywords: [tree, vertex, find, graph, rooted]",
         "title: \"Convex grid drawings of plane graphs with rectangular contours\" with keywords: [drawing, grid, convex, leaf, triconnected]",
         "title: \"Rectangular drawings of planar graphs\" with keywords: [drawn, drawing, graph, rectangular, plane]",
-        "Given above information, for an author who has written the paper with the title \"Algorithms for routing around a rectangle\", which reference is related? Just answer with 1 or 2 without explanation. 1 is \"Reliable broadcasting in product networks with Byzantine faults\" 2 is \"Auctions with heterogeneous items and budget limits\""
+        "\nGiven above information, for an author who has written the paper with the title \"Algorithms for routing around a rectangle\", which reference is related? Just choose 1 or 2! No explanation. 1 is \"Reliable broadcasting in product networks with Byzantine faults\" 2 is \"Auctions with heterogeneous items and budget limits\""
     ],
     "001": [
         "Here are the documents ranked by relevance, with titles and keywords, from most relevant to least relevant, for the topic of 'Autonomous and Interactive Improvement of Binocular Visual Depth Estimation through Sensorimotor Interaction':",
@@ -15,7 +15,7 @@
         "title: \"Neural model of disinhibitory interactions in the modified Poggendorff illusion.\" with keywords: [illusion, visual, model, illusory, disinhibition]",
         "title: \"Fast and accurate retinal vasculature tracing and kernel-Isomap-based feature selection\" with keywords: [feature, based, biometric, image, fast]",
         "title: \"Emergence of Memory in Reactive Agents Equipped With Environmental Markers\" with keywords: [memory, agent, task, feedforward, behavior]",
-        "Given above information, for an author who has written the paper with the title \"Autonomous and Interactive Improvement of Binocular Visual Depth Estimation through Sensorimotor Interaction\", which reference is related? Just answer with 1 or 2 without explanation. 1 is \"Neural networks with dynamic synapses.\" 2 is \"Uncertainty Measure for Selective Sampling Based on Class Probability Output Networks.\""
+        "\nGiven above information, for an author who has written the paper with the title \"Autonomous and Interactive Improvement of Binocular Visual Depth Estimation through Sensorimotor Interaction\", which reference is related? Just choose 1 or 2! No explanation. 1 is \"Neural networks with dynamic synapses.\" 2 is \"Uncertainty Measure for Selective Sampling Based on Class Probability Output Networks.\""
     ],
     "002": [
         "Here are the documents ranked by relevance, with titles and keywords, from most relevant to least relevant, for the topic of 'Temperature-aware floorplanning of microarchitecture blocks with IPC-power dependence modeling and transient analysis':",
@@ -24,6 +24,6 @@
         "title: \"Comparing processor allocation strategies in multiprogrammed shared-memory multiprocessors\" with keywords: [system, processor, application, performance, allocation]",
         "title: \"Performance-based path determination for interprocessor communication in distributed computing systems\" with keywords: [network, message, technique, communication, application]",
         "title: \"Partitioning Tasks Between A Pair Of Interconnected Heterogeneous Processors - A Case-Study\" with keywords: [machine, architecture, model, program, heterogeneous]",
-        "Given above information, for an author who has written the paper with the title \"Temperature-aware floorplanning of microarchitecture blocks with IPC-power dependence modeling and transient analysis\", which reference is related? Just answer with 1 or 2 without explanation. 1 is \"A survey of power estimation techniques in VLSI circuits\" 2 is \"Terrestrial cosmic ray intensities\""
+        "\nGiven above information, for an author who has written the paper with the title \"Temperature-aware floorplanning of microarchitecture blocks with IPC-power dependence modeling and transient analysis\", which reference is related? Just choose 1 or 2! No explanation. 1 is \"A survey of power estimation techniques in VLSI circuits\" 2 is \"Terrestrial cosmic ray intensities\""
     ]
 }
