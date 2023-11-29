@@ -62,7 +62,6 @@ class BM25:
         raise NotImplementedError()
 
     def get_top_n(self, query: List[str], n: int = -1, sequence_only: bool = False):
-
         if n == -1:
             n = self.corpus_size
         scores = self.get_scores(query)
