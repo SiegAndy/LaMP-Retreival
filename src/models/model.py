@@ -119,6 +119,9 @@ class MiniLM(HuggingFaceModel):
             },
         )
         result: List[float] = response.json()
+        if not isinstance(result, List):
+            time.sleep(1)
+            return self.conversation(message)
         maximum_score = 0.0
         for score in result:
             if score > maximum_score:

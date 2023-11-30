@@ -190,7 +190,10 @@ def extract_labels(outputs: Dict[str, str | List], **params) -> Dict[str, str]:
 
 
 def parse_dataset_to_prompt(
-    filename: str, task_name: str, keyword_extraction: bool, **params
+    filename: str,
+    task_name: str,
+    keyword_extraction: bool,
+    **params,
 ) -> Dict[str, str]:
     if not os.path.isfile(filename):
         raise FileNotFoundError(f"Dataset File <{filename}> not Found.")
@@ -199,6 +202,14 @@ def parse_dataset_to_prompt(
         if not str(DatasetType.data) in filename:
             return extract_labels(contents, **params)
         if task_name == "LaMP_1":
-            return extract_info_LaMP_1(contents, keyword_extraction=keyword_extraction, **params)
+            return extract_info_LaMP_1(
+                contents,
+                keyword_extraction=keyword_extraction,
+                **params,
+            )
         else:
-            return extract_info_LaMP_2_alt(contents, keyword_extraction=keyword_extraction, **params)
+            return extract_info_LaMP_2_alt(
+                contents,
+                keyword_extraction=keyword_extraction,
+                **params,
+            )
