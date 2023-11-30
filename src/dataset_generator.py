@@ -90,3 +90,54 @@ def generate_X_y(purpose: str, task: str):
         for data in y_outputs:
             y_data.append(data)
     return X_data, y_data
+
+
+def generate_limited_questions_outpus(
+        question_path: str,
+        outputs_path: str,
+        limited: int,
+        limited_question_path: str,
+        limited_outputs_path: str,
+):
+    questions = None
+    outputs = None
+    with open(question_path, "r", encoding="utf-8") as question_file:
+        questions = json.load(question_file)
+    with open(outputs_path, "r", encoding="utf-8") as outputs_file:
+        outputs = json.load(outputs_file)
+    new_questions = questions[: limited]
+    new_outputs = {"task": outputs["task"], "golds": outputs["golds"][: limited]}
+    with open(limited_question_path, "w", encoding="utf-8") as limited_question_file:
+        json.dump(new_questions, limited_question_file, cls=DTOEncoder, indent=4)
+    with open(limited_outputs_path, "w", encoding="utf-8") as limited_outputs_file:
+        json.dump(new_outputs, limited_outputs_file, cls=DTOEncoder, indent=4)
+
+
+def verify_output_length(outputs_path: str, limited: int):
+    with open(outputs_path, "r", encoding="utf-8") as outputs_file:
+        outputs = json.load(outputs_file)
+        return len(outputs["golds"]) == limited
+
+
+def verify_questions_length(questions_path: str, limited: int):
+    with open(questions_path, "r", encoding="utf-8") as questions_file:
+        questions = json.load(questions_file)
+        return len(questions) == limited
+
+
+limited = 100
+old_questions_path = "./data/orginal_data/LaMP_1_dev_questions.json"
+old_outputs_path = "./data/orginal_data/LaMP_1_dev_outputs.json"
+new_questions_path = f"./data/LaMP_11_dev_questions.json"
+new_outputs_path = f"./data/LaMP_11_dev_outputs.json"
+
+generate_limited_questions_outpus(
+    question_path=old_questions_path,
+    outputs_path=old_outputs_path,
+    limited=limited,
+    limited_question_path=new_questions_path,
+    limited_outputs_path=new_outputs_path
+)
+
+print(verify_output_length(new_outputs_path, limited))
+print(verify_questions_length(new_questions_path, limited))

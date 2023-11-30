@@ -1,3 +1,4 @@
+import json
 import time
 from typing import Callable, Dict, List, Type
 
@@ -64,7 +65,11 @@ class DistilBERTModel(HuggingFaceModel):
                 },
             },
         )
-        result_json = response.json()
+        try:
+            result_json = response.json()
+        except json.JSONDecodeError:
+            time.sleep(1)
+            return self.conversation(message)
         if "answer" not in result_json:
             time.sleep(1)
             return self.conversation(message)
@@ -88,7 +93,11 @@ class BERTSERINIModel(HuggingFaceModel):
                 },
             },
         )
-        result_json = response.json()
+        try:
+            result_json = response.json()
+        except json.JSONDecodeError:
+            time.sleep(1)
+            return self.conversation(message)
         if "answer" not in result_json:
             time.sleep(1)
             return self.conversation(message)
@@ -159,14 +168,15 @@ def feed_prompt_to_lm(
 ) -> labels:
     if ret is None:
         ret = labels(golds=list())
-
+    count = 0
     container = ret.golds
 
     for id, prompt in prompts.items():
+        count += 1
+        print(count)
         model_response = model.conversation(message=prompt)
         if callback is not None:
             model_response = callback(model_response, prompt)
         # print(model_response)
         container.append(label(id=id, output=model_response))
-
     return ret
