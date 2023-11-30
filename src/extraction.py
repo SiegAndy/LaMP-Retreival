@@ -19,7 +19,9 @@ from src.tokenization import lemma_tokenizer
 
 manual_feed_collect = False
 
-task_1_template = '\nGiven above information, for an author who has written the paper with the title "{author_title}", which reference is related? Just choose 1 or 2! No explanation. 1 is "{title_opt1}" 2 is "{title_opt2}"'
+task_1_template = '\nGiven above information, for an author who has written the paper with the title "{author_title}", which reference is related? Just choose 1 or 2! No explanation.'
+
+task_1_options = "1 is \"{title_opt1}\", 2 is \"{title_opt2}\"."
 
 task_2_category = 'categories: ["women", "religion", "politics", "style & beauty", "entertainment", "culture & arts", "sports", "science & technology", "travel", "business", "crime", "education", "healthy living", "parents", "food & drink"]'
 
@@ -68,11 +70,12 @@ def extract_info_LaMP_1(
             curr_prompt.append(
                 f"title: \"{curr_profile[1]}\" with keywords: [{', '.join(keywords)}]"
             )
+
         curr_prompt.append(
-            task_1_template.format(
-                author_title=author_title, title_opt1=title_opt1, title_opt2=title_opt2
-            )
+            task_1_options.format(title_opt1=title_opt1, title_opt2=title_opt2)
         )
+
+        curr_prompt.append(task_1_template.format(author_title=author_title))
 
         collect_feedback(curr_prompt)
 

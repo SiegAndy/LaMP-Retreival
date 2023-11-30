@@ -1,7 +1,7 @@
-from typing import Callable, Dict, Type
+from typing import Callable, Dict, List, Type
 
-from src.utils import labels, label
-
+from src.utils import labels, label, check_config
+import requests
 
 from openai import OpenAI
 
@@ -13,7 +13,7 @@ class LMModel:
         raise NotImplementedError
 
 
-class OpenAIModel:
+class OpenAIModel(LMModel):
     model_name: str
     client: OpenAI
 
@@ -21,7 +21,9 @@ class OpenAIModel:
         self.client = OpenAI()
         self.model_name = model_name
 
-    def conversation(self, message: str) -> str:
+    def conversation(self, message: List[str]) -> str:
+        if isinstance(message, list):
+            message = "\n".join(message)
         completion = self.client.chat.completions.create(
             model=self.model_name,
             messages=[
@@ -32,15 +34,61 @@ class OpenAIModel:
         return completion.choices[0].message.content
 
 
-def task_1_parse_response(response: str) -> str:
-    return f"[{response}]"
+class HuggingFaceModel(LMModel):
+    model_name = "Hugging-Face-Place_holder"
+    API_URL = "https://api-inference.huggingface.co/models/{model_name}"
+    headers = {"Authorization": "Bearer {Hugging_Face_Key}"}
 
+    def __init__(self) -> None:
+        self.API_URL = self.API_URL.format(model_name=self.model_name)
+        self.headers["Authorization"] = self.headers["Authorization"].format(
+            Hugging_Face_Key=check_config("HUGGING_FACE_KEY")
+        )
+
+
+class DistilBERTModel(HuggingFaceModel):
+    model_name = "distilbert-base-uncased-distilled-squad"
+
+    def conversation(self, message: List[str]) -> str:
+        message = message[1 : len(message) - 1]  # remove the first and last sentence
+        message = "\n".join(message)
+        response = requests.post(
+            self.API_URL,
+            headers=self.headers,
+            json={
+                "inputs": {
+                    "question": "is reference 1 or 2 related? Just answer with one token.",
+                    "context": message,
+                },
+            },
+        )
+        return response.json()["answer"]
+
+
+def task_1_parse_response(response: str, prompts: List[str]) -> str:
+    prompt_with_refs = prompts[-2]
+
+    _, opt1, _, opt2, *_ = prompt_with_refs.split("\"")
+    print(response)
+    potential_answer = []
+    if "1" in response or opt1 in response:
+        potential_answer.append("[1]")
+    if "2" in response or opt2 in response:
+        potential_answer.append("[2]")
+    if len(potential_answer) == 2:
+        # undetermined
+        return "[3]"
+    elif len(potential_answer) == 1:
+        return potential_answer[0]
+    else:
+        # no answer
+        return "[0]"
 
 def feed_prompt_to_lm(
     prompts: Dict[str, str],
     model: Type[LMModel],
     ret: labels = None,
-    callback: Callable[[str], str] = None,
+    callback: Callable[[str, List[str]], str] = None,
 ) -> labels:
     if ret is None:
         ret = labels(golds=list())
@@ -48,11 +96,9 @@ def feed_prompt_to_lm(
     container = ret.golds
 
     for id, prompt in prompts.items():
-        joined_prompt = "\n".join(prompt)
-        # print(joined_prompt)
-        model_response = model.conversation(message=joined_prompt)
+        model_response = model.conversation(message=prompt)
         if callback is not None:
-            model_response = callback(model_response)
+            model_response = callback(model_response, prompt)
         # print(model_response)
         container.append(label(id=id, output=model_response))
 
