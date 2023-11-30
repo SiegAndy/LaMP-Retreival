@@ -30,22 +30,24 @@ class LaMPTask:
     evaluation: LaMPEvaluation
     preds: Dict[str, labels]
     score: List[Dict]
+    keyword_extraction: bool  # determine whether using keyword_extraction
 
     def __init__(
-        self,
-        task_question_file: str,
-        task_output_file: str,
-        subscribers: Dict[str, Callable[[Dict[str, str], labels], None]],
-        prompt_save_path: str = None,
-        save_lables: bool = True,
-        run_eval: bool = False,
-        store_path: str = default_data_path,
-        extract_path: str = default_extract_path,
+            self,
+            task_question_file: str,
+            task_output_file: str,
+            subscribers: Dict[str, Callable[[Dict[str, str], labels], None]],
+            prompt_save_path: str = None,
+            save_lables: bool = True,
+            run_eval: bool = False,
+            store_path: str = default_data_path,
+            extract_path: str = default_extract_path,
+            keyword_extraction: bool = True,
     ) -> None:
         assert (
-            subscribers is not None
-            and isinstance(subscribers, dict)
-            and len(subscribers) > 0
+                subscribers is not None
+                and isinstance(subscribers, dict)
+                and len(subscribers) > 0
         ), "Need feeds function to feed prompt into language model"
 
         assert isinstance(
@@ -63,18 +65,18 @@ class LaMPTask:
         self.parsed_prompts = None
         self.preds = None
         self.score = None
-
         _, q_id, q_type, *_ = task_question_file.split("_")
         _, o_id, o_type, *_ = task_output_file.split("_")
         assert (
-            q_id == o_id and q_type == o_type
+                q_id == o_id and q_type == o_type
         ), "question file and output file id not match"
         self.task_id = q_id
         self.task_type = q_type
 
         self.task_question_file = task_question_file
         self.task_output_file = task_output_file
-
+        self.keyword_extraction = keyword_extraction
+        self.suffix = "with_keyword" if self.keyword_extraction else "without_keyword"
         with open(task_output_file, "r", encoding="utf-8") as file:
             contents = json.load(file)
             self.task_name = contents["task"]
@@ -134,20 +136,20 @@ class LaMPTask:
 
     def construct_prompt(self) -> None:
         self.parsed_prompts = parse_dataset_to_prompt(
-            self.task_question_file, self.task_name
+            self.task_question_file, self.task_name, self.keyword_extraction
         )
 
         if self.prompt_save_path is not None and self.prompt_save_path != "":
             prompt_save_name = os.path.join(
                 self.prompt_save_path,
-                f"LaMP_{self.task_id}_{self.task_type}_prompts.json",
+                f"LaMP_{self.task_id}_{self.task_type}_prompts_{self.suffix}.json",
             )
             with open(prompt_save_name, "w", encoding="utf-8") as output:
                 json.dump(self.parsed_prompts, output, cls=DTOEncoder, indent=4)
 
     def run(self) -> None:
         self.construct_prompt()
-        self.subscribe()
+        # self.subscribe()
 
     def __call__(self, prompt_path: str = None) -> Any:
         if prompt_path is None or prompt_path == "":
@@ -155,8 +157,13 @@ class LaMPTask:
                 return self.run()
             prompt_path = os.path.join(
                 self.prompt_save_path,
-                f"LaMP_{self.task_id}_{self.task_type}_prompts.json",
+                f"LaMP_{self.task_id}_{self.task_type}_prompts_{self.suffix}.json",
             )
+        cur_suffix = "_".join(prompt_path.split(".")[1].split("_")[-2:])
+        if cur_suffix != self.suffix:
+            task_purpose = "keyword-extraction" if self.keyword_extraction else "non-keyword-extraction"
+            file_purpose = "keyword-extraction" if cur_suffix == "with_keyword" else "non-keyword-extraction"
+            raise RuntimeError(f"the file pass in is for {file_purpose}, but the task is for {task_purpose}")
         if os.path.isfile(prompt_path):
             with open(prompt_path, "r", encoding="utf-8") as prompt_file:
                 self.parsed_prompts = json.load(prompt_file)

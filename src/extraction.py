@@ -3,6 +3,7 @@
 #   2): Keywords extraction with title with ranking where ranks the author's profile
 #           with respect to abstract of profile with specified title. In the meantime,
 #           mention such rank order in the prompt.
+from __future__ import annotations
 
 from collections import defaultdict
 import json
@@ -45,6 +46,7 @@ def extract_info_LaMP_1(
     questions: List[Dict[str, str | List]],
     tokenizer: Callable[[str], str] = lemma_tokenizer,
     bm25_top_k=5,
+    keyword_extraction: bool = True,
     **params,
 ) -> Dict[str, str]:
     """
@@ -76,13 +78,18 @@ def extract_info_LaMP_1(
             for rel_doc_index in rel_sequence:
                 # id, title, abstract
                 curr_profile = ranker.corpus[rel_doc_index]
-                tokens = tokenizer(curr_profile[2])
-                if len(tokens) <= 2:
-                    continue
-                keywords = text_rank(tokens)
-                curr_prompt.append(
-                    f"title: \"{curr_profile[1]}\" with keywords: [{', '.join(keywords)}]"
-                )
+                title = curr_profile[1]
+                abstract = curr_profile[2]
+                if keyword_extraction:
+                    tokens = tokenizer(abstract)
+                    if len(tokens) <= 2:
+                        continue
+                    keywords = text_rank(tokens)
+                    curr_prompt.append(
+                        f"title: \"{title}\" with keywords: [{', '.join(keywords)}]"
+                    )
+                else:
+                    curr_prompt.append(f'title: "{title}" with abstract: "{abstract}"')
 
             curr_prompt.append(
                 task_1_options.format(title_opt1=title_opt1, title_opt2=title_opt2)
@@ -145,6 +152,7 @@ def extract_PPEP_LaMP_2_alt(
 def extract_info_LaMP_2_alt(
     questions: List[Dict[str, str | List]],
     tokenizer: Callable[[str], str] = lemma_tokenizer,
+    keyword_extraction: bool = True,
     **params,
 ) -> Dict[str, str]:
     """
@@ -181,7 +189,9 @@ def extract_labels(outputs: Dict[str, str | List], **params) -> Dict[str, str]:
     pass
 
 
-def parse_dataset_to_prompt(filename: str, task_name: str, **params) -> Dict[str, str]:
+def parse_dataset_to_prompt(
+    filename: str, task_name: str, keyword_extraction: bool, **params
+) -> Dict[str, str]:
     if not os.path.isfile(filename):
         raise FileNotFoundError(f"Dataset File <{filename}> not Found.")
     with open(filename, "r", encoding="utf-8") as file:
@@ -189,6 +199,6 @@ def parse_dataset_to_prompt(filename: str, task_name: str, **params) -> Dict[str
         if not str(DatasetType.data) in filename:
             return extract_labels(contents, **params)
         if task_name == "LaMP_1":
-            return extract_info_LaMP_1(contents, **params)
+            return extract_info_LaMP_1(contents, keyword_extraction=keyword_extraction, **params)
         else:
-            return extract_info_LaMP_2_alt(contents, **params)
+            return extract_info_LaMP_2_alt(contents, keyword_extraction=keyword_extraction, **params)
