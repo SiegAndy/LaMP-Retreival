@@ -28,5 +28,25 @@
         "title: \"Partitioning Tasks Between A Pair Of Interconnected Heterogeneous Processors - A Case-Study\" with keywords: [machine, architecture, model, program, heterogeneous]",
         "1 is \"A survey of power estimation techniques in VLSI circuits\", 2 is \"Terrestrial cosmic ray intensities\".",
         "\nGiven above information, for an author who has written the paper with the title \"Temperature-aware floorplanning of microarchitecture blocks with IPC-power dependence modeling and transient analysis\", which reference is related? Just choose 1 or 2! No explanation."
+    ],
+    "007": [
+        "Here are the documents ranked by relevance, with titles and keywords, from most relevant to least relevant, for the topic of 'Measuring Inconsistency through Minimal Inconsistent Sets':",
+        "title: \"Merging with Integrity Constraints\" with keywords: [show, merging, operator, integrity, constraint]",
+        "title: \"Merging of Abstract Argumentation Frameworks.\" with keywords: [merging, result, afs, argumentation, postulate]",
+        "title: \"On the Difference between Merging Knowledge Bases and Combining them\" with keywords: [operator, selection, combination, logical, property]",
+        "title: \"Logic Based Merging\" with keywords: [merging, work, belief, logical, mention]",
+        "title: \"Propositional merging operators based on set-theoretic closeness\" with keywords: [operator, aggregation, merging, base, closeness]",
+        "1 is \"Towards (Probabilistic) Argumentation for Jury-based Dispute Resolution\", 2 is \"A logical model of Nash bargaining solution\".",
+        "\nGiven above information, for an author who has written the paper with the title \"Measuring Inconsistency through Minimal Inconsistent Sets\", which reference is related? Just choose 1 or 2! No explanation."
+    ],
+    "008": [
+        "Here are the documents ranked by relevance, with titles and keywords, from most relevant to least relevant, for the topic of 'MIMO transceiver design using geometric mean decomposition':",
+        "title: \"An exact algorithm for graph partitioning\" with keywords: [algorithm, problem, obtained, concave, smallest]",
+        "title: \"The Gradient Projection Method with Exact Line Search\" with keywords: [problem, minimization, constraint, may, projection]",
+        "title: \"The Euler approximation in state constrained optimal control\" with keywords: [euler, time, result, problem, state]",
+        "title: \"Modifying a Sparse Cholesky Factorization\" with keywords: [\\bf, sparse, factorization, method, technique]",
+        "title: \"Implicit Functions, Lipschitz Maps, and Stability in Optimization\" with keywords: [theorem, problem, implicit, optimization, stability]",
+        "1 is \"Detection of Copy-Move Forgery in Digital Images Using SIFT Algorithm\", 2 is \"An Efficient Implementation of an Active Set Method for SVMs\".",
+        "\nGiven above information, for an author who has written the paper with the title \"MIMO transceiver design using geometric mean decomposition\", which reference is related? Just choose 1 or 2! No explanation."
     ]
 }

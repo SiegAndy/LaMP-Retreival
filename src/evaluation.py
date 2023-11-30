@@ -193,7 +193,6 @@ class LaMPEvaluation(object):
 
         gold_ids = self._get_all_gold_ids(task_name)
         pred_ids = self._get_all_ids(predictions)
-
         assert gold_ids == pred_ids, "Predictions ids and gold ids do not match."
 
         if task_name in ["LaMP_1", "LaMP_2"]:

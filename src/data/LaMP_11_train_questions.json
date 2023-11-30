@@ -1491,5 +1491,632 @@
                 "id": "002127"
             }
         ]
+    },
+    {
+        "id": "007",
+        "input": "For an author who has written the paper with the title \"Measuring Inconsistency through Minimal Inconsistent Sets\", which reference is related? Just answer with [1] or [2] without explanation. [1]: \"Towards (Probabilistic) Argumentation for Jury-based Dispute Resolution\" [2]: \"A logical model of Nash bargaining solution\"",
+        "profile": [
+            {
+                "title": "DA2 merging operators",
+                "abstract": "A new framework for propositional merging is presented. DA2 merging operators, parameterized by a distance between interpretations and two aggregation functions, are introduced. Many distances and aggregation functions can be used and many merging operators already defined in the literature (including both model-based ones and syntax-based ones) can be encoded as specific DA2 operators. Both logical and complexity properties of those operators are studied. An important result is that (under very weak assumptions) query entailment from merged bases is \"only\" at the first level of the polynomial hierarchy when any of the DA2 operators is used. As a by-product, complexity results for several existing merging operators are derived as well.",
+                "id": "0070"
+            },
+            {
+                "title": "Dynamical revision operators with memory",
+                "abstract": "We have proposed in previous work (11, 12) a construction that allows to define opera- tors for iterated revision from classical AGM revision operators. We called those operators revision operators with memory and show that the operators obtained have nice logical prop- erties. But those operators can be considered as too conservative, since the revision policy of the agent, encoded as a faithful assignment, do not change during her life. In this paper we propose an extension of those operators, that aims to add more dynamic in the revision process.",
+                "id": "0071"
+            },
+            {
+                "title": "A reasoning platform based on the MI shapley inconsistency value",
+                "abstract": "In this paper we show how to build a reasoning platform using an inconsistency value. The idea is to use an inconsistency value for evaluating how much each formula of the belief base is responsible of the inconsistency of the base. Then this evaluation allows us to obtain a stratification (total pre-order) of the base, that can be used as the preferential input for different reasoning tasks, such as inference, belief revision, or conciliation. We show that the obtained operators are interesting and have good logical properties. We use as inconsistency value, the MI Shapley inconsistency value, that is known to have good properties, and that can be computed from minimal inconsistent subsets. We developed a java-based platform, that use the Sat4j library for computing the minimal inconsistent subsets, and that allows to have an effective way to compute the MI Shapley inconsistent subsets. We implemented also several inference, revision and conciliation methods, that use this inconsistency value. So this provides a complete reasoning platform, that can be used for instance for academic purposes.",
+                "id": "0072"
+            },
+            {
+                "title": "A framework for iterated revision",
+                "abstract": " We consider in this work the problem of iterated belief revision. Wepropose a family of belief revision operators called revision with memoryoperators and we give a logical characterization of these operators. Theyobey what we call the principle of strong primacy of update, i.e. when onerevises his beliefs by a new evidence, then all possible worlds that satisfythat new evidence become more reliable than those that do not.Keywords. Belief revision, Iteration1 Introduction... ",
+                "id": "0073"
+            },
+            {
+                "title": "On Iterated Contraction: Syntactic Characterization, Representation Theorem and Limitations of the Levi Identity.",
+                "abstract": "In this paper we study iterated contraction in the epistemic state framework, offering a counterpart of the work of Darwiche and Pearl for iterated revision. We provide pure syntactical postulates for iterated contraction, that is, the postulates are expressed only in terms of the contraction operator. We establish a representation theorem for these operators. Our results allow to highlight the relationships between iterated contraction and iterated revision. In particular we show that iterated revision operators form a larger class than that of iterated contraction operators. As a consequence of this, in the epistemic state framework, the Levi identity has limitations; namely, it doesn't allow to define all iterated revision operators.",
+                "id": "0074"
+            },
+            {
+                "title": "Credibility-Limited Improvement Operators.",
+                "abstract": "In this paper we introduce and study credibility-limited improvement operators. The idea is to accept the new piece of information if this information is judged credible by the agent, so in this case a revision is performed. When the new piece of information is not credible then it is not accepted (no revision is performed), but its plausibility is still improved in the epistemic state of the agent, similarly to what is done by improvement operators. We use a generalized definition of Darwiche and Pearl epistemic states, where to each epistemic state can be associated, in addition to the set of accepted formulas (beliefs), a set of credible formulas. We provide a syntactic and semantic characterization of these operators.",
+                "id": "0075"
+            },
+            {
+                "title": "Approaches to measuring inconsistent information",
+                "abstract": "Measures of quantity of information have been studied extensively for more than fifty years. The seminal work on information theory is by Shannon [67]. This work, based on probability theory, can be used in a logical setting when the worlds are the possible events. This work is also the basis of Lozinskii's work [48] for defining the quantity of information of a formula (or knowledgebase) in propositional logic. But this definition is not suitable when the knowledgebase is inconsistent. In this case, it has no classical model, so we have no \u201cevent\u201d to count. This is a shortcoming since in practical applications (e.g. databases) it often happens that the knowledgebase is not consistent. And it is definitely not true that all inconsistent knowledgebases contain the same (null) amount of information, as given by the \u201cclassical information theory\u201d. As explored for several years in the paraconsistent logic community, two inconsistent knowledgebases can lead to very different conclusions, showing that they do not convey the same information. There has been some recent interest in this issue, with some interesting proposals. Though a general approach for information theory in (possibly inconsistent) logical knowledgebases is missing. Another related measure is the measure of contradiction. It is usual in classical logic to use a binary measure of contradiction: a knowledgebase is either consistent or inconsistent. This dichotomy is obvious when the only deductive tool is classical inference, since inconsistent knowledgebases are of no use. But there are now a number of logics developed to draw non-trivial conclusions from an inconsistent knowledgebase. So this dichotomy is not sufficient to describe the amount of contradiction of a knowledgebase, one needs more fine-grained measures. Some interesting proposals have been made for this. The main aim of this paper is to review the measures of information and contradiction, and to study some potential practical applications. This has significant potential in developing intelligent systems that can be tolerant to inconsistencies when reasoning with real-world knowledge.",
+                "id": "0076"
+            },
+            {
+                "title": "On the aggregation of argumentation frameworks",
+                "abstract": "We study the problem of aggregation of Dung's abstract argumentation frameworks. Some operators for this aggregation have been proposed, as well as some rationality properties for this process. In this work we study the existing operators and new ones that we propose in light of the proposed properties, highlighting the fact that existing operators do not satisfy a lot of these properties. The conclusions are that on one hand none of the existing operators seem fully satisfactory, but on the other hand some of the properties proposed so far seem also too demanding.",
+                "id": "0077"
+            },
+            {
+                "title": "Belief base rationalization for propositional merging.",
+                "abstract": "Existing belief merging operators take advantage of all the models from the bases, including those contradicting the integrity constraint. In this paper, we argue that this is not suited to every merging scenario, especially when the integrity constraint encodes physical laws. In that case the bases have to be 'rationalized' with respect to the integrity constraint during the merging process. We define several conditions characterizing the operators that are independent to such a rationalization process, and we show how these conditions interact with the standard IC postulates for belief merging. Especially, we give an independence-based axiomatic characterization of a distance-based operator.",
+                "id": "0078"
+            },
+            {
+                "title": "Merging Information Under Constraints: A Logical Framework",
+                "abstract": "The paper considers the problem of merging several belief bases in the presence of integrity constraints and proposes a logical characterization of operators having a majority behaviour or a consensual one. Then a representation theorem in terms of predorders on interpretations is given. The close connection between belief revision and merging operators is shown and it is shown that the proposal e...",
+                "id": "0079"
+            },
+            {
+                "title": "Some Operators for Iterated Revision",
+                "abstract": "We propose a construction that allows to define operators for iterated revision from \"classical\" AGM revision operators. We call those operators revision with memory operators. We show that the operators obtained have nice logical properties.We illustrate this construction with the well-known Dalal revision operator. We also give two new particular revision operators based on the revision operators on OTP proposed by Ryan [20]. His operator do not satisfy a lot of logical properties. The two operators we give based on OTP satisfy all wanted revision properties.",
+                "id": "00710"
+            },
+            {
+                "title": "Contraction in Propositional Logic",
+                "abstract": "A study of contraction operators in propositional logic.Postulates and a representation theorem in terms of faithful assignments.Can be used as a basis for study contraction on weaker logics or for iterated contraction. The AGM model for the revision and contraction of belief sets provides rationality postulates for each of the two families of change operators. In the context of finite propositional logic, Katsuno and Mendelzon pointed out postulates for the revision of belief bases which correspond to the AGM postulates for the revision of beliefs sets. In this paper, we present postulates for the contraction of propositional belief bases which correspond to the AGM postulates for the contraction of belief sets. We highlight the existing connections with the revision of belief bases in the sense of Katsuno and Mendelzon thanks to Levi and Harper identities. We also present a representation theorem for contraction operators for propositional belief bases.",
+                "id": "00711"
+            },
+            {
+                "title": "Conflict-Based Merging Operators.",
+                "abstract": "This paper deals with propositional belief merging. The key problem in this setting is to define the beliefs/goals of a gro up of agents from a profile of bases, gathering the beliefs/goal s of each member of the group. To this aim, a well-studied fam- ily of merging operators consists of distance-based ones: t he models of the merged base are the closest interpretations to the given profile. Many operators from this family are based on the Hamming distance between interpretations, which can be viewed as a degree of conflict between them. In this pa- per, we introduce a more general family of merging oper- ators, based on a more primitive concept, namely the con- flict between interpretations itself. We show that this fami ly of conflict-based merging operators includes many operator s from the literature, both model-based ones and syntax-based ones. We present a number of comparison relations on con- flict vectors characterizing operators from this family, an d study the logical properties of conflict-based merging oper - ators.",
+                "id": "00712"
+            },
+            {
+                "title": "Selecting Extensions in Weighted Argumentation Frameworks.",
+                "abstract": "Recently, Dunne et al. [9,10] introduced the concept of WAF (Weighted Argumentation Framework). Such frameworks extend standard Dung's ones for abstract argumentation by associating weights with attacks. In the WAF setting, weights are used for relaxing extensions, which proves useful when there are too few extensions. In this paper, we exploit weights in a different perspective. We show how to take advantage of attacks weights within an argumentation process for selecting some extensions among Dung's ones, which proves useful when there are too many extensions, in order to improve the inferential power of the argumentation framework.",
+                "id": "00713"
+            },
+            {
+                "title": "Logic-based approaches to information fusion",
+                "abstract": "This survey covers recent contributions from the artificial intelligence research literature about logic-based information fusion. First, the main current approaches dealing with the standard propositional logic formalism are presented and compared. Then, techniques for fusing weighted belief bases are discussed. Finally, relationships between propositional information fusion and related areas such as belief revision and multi-agent negotiation are mentioned. d.",
+                "id": "00714"
+            },
+            {
+                "title": "On Consensus Extraction.",
+                "abstract": "Computing a consensus is a key task in various AI areas, ranging from belief fusion, social choice, negotiation, etc. In this work, we define consensus operators as functions that deliver parts of the set-theoretical union of the information sources (in propositional logic) to be reconciled, such that no source is logically contradicted. We also investigate different notions of maximality related to these consensuses. From a computational point of view, we propose a generic problem transformation that leads to a method that proves experimentally efficient very often, even for large conflicting sources to be reconciled.",
+                "id": "00715"
+            },
+            {
+                "title": "Confluence operators and their relationships with revision, update and merging",
+                "abstract": "In this paper we introduce confluence operators, that are inspired by the existing links between belief revision, update and merging operators. Roughly, update operators can be considered as pointwise revision, whereas revision operators can be considered as special case of merging operators. Confluence operators are to merging operators what update operators are to revision operators. Similarly, update operators can be considered as special case of confluence operators just as revision can be considered as special case of merging operators. Confluence operators gives all possible agreement situations from a set of belief bases.",
+                "id": "00716"
+            },
+            {
+                "title": "Argumentation Ranking Semantics Based on Propagation.",
+                "abstract": "Argumentation is based on the exchange and the evaluation of interacting arguments. Unlike Dung's theory where arguments are either accepted or rejected, ranking-based semantics rank-order arguments from the most to the least acceptable ones. We propose in this work six new ranking-based semantics. We argue that, contrarily to existing ranking semantics in the literature, that focus on evaluating attacks and defenses only, it is reasonable to give a prominent role to non-attacked arguments, as it is the case in standard Dung's semantics. Our six semantics are based on the propagation of the weight of each argument to its neighbors, where the weight of non-attacked arguments is greater than the attacked ones.",
+                "id": "00717"
+            },
+            {
+                "title": "Reasoning under inconsistency: the forgotten connective",
+                "abstract": "In many frameworks for reasoning under inconsistency, it is implicitly assumed that the formulae from the belief base are connected using a weak form of conjunction. When it is consistent, a belief base B = {\u03c61..., \u03c6n}, where the \u03c6i are propositional formulae, is logically equivalent to the base {\u03c61 \u039b ... \u039b \u03c6n}. However, when it is not consistent, both bases typically lead to different conclusions. This illustrates the fact that the comma used in base B has to be considered as an additional, genuine connective, and not as a simple conjunction. In this work we define and investigate a propositional framework with such a \"comma connective\". We give it a semantics and show how it generalizes several approaches for reasoning from inconsistent beliefs.",
+                "id": "00718"
+            },
+            {
+                "title": "Conciliation and consensus in iterated belief merging",
+                "abstract": "Two conciliation processes for intelligent agents based on an iterated merge-then-revise change function for belief profiles are introduced and studied. The first approach is skeptical in the sense that at any revision step, each agent considers that her current beliefs are more important than the current beliefs of the group, while the other case is considered in the second, credulous approach. Some key features of such conciliation processes are pointed out for several merging operators; especially, the convergence issue, the existence of consensus and the properties of the induced iterated merging operators are investigated.",
+                "id": "00719"
+            },
+            {
+                "title": "On the aggregation of argumentation frameworks: operators and postulates.",
+                "abstract": "In this paper, we study the problem of aggregation of Dung's abstract argumentation frameworks (AFs). An argumentation framework allows the representation of conflictual agent's beliefs by using a set of arguments and interactions between them (i.e. attack or non-attack). One AF per agent can be used to represent the beliefs of a group of agents. The aggregation process aims to represent the beliefs of this group by solving the potential conflicts between them. Some aggregation operators were defined, and more recently, some rationality properties for this process were introduced. In this work, we study the existing operators as well as some new ones, which we define in light of the proposed properties. We highlight the fact that existing operators do not satisfy a lot of properties. The conclusions are that on one hand none of the existing operators seem fully satisfactory, but on the other hand some of the properties proposed so far seem too demanding.",
+                "id": "00720"
+            },
+            {
+                "title": "Counting votes for aggregating judgments",
+                "abstract": "The aim of judgment aggregation is to make collective decisions based on the judgments of individual agents. Some rationality conditions governing the expected behavior of the aggregation function must be considered. However, impossibility theorems show that designing an aggregation function satisfying all desirable properties is not feasible. While some rationality conditions are very natural ones, other ones are more disputable. We show that this is the case of the systematicity condition that prevents from electing issues with more votes than others. Instead, a neutrality condition and a swap optimality condition are promoted. Swap optimality ensures that among two possible results, the one with the best support (number of votes) is chosen. We introduce a new family of judgment aggregation methods based on the support (number of votes) that each issue receives.",
+                "id": "00721"
+            },
+            {
+                "title": "On Iterated Revision in the AGM Framework",
+                "abstract": "While AGM belief revision identifies belief states with sets of formulas, proposals for iterated revision are usually based on more complex belief states. In this paper we investigate within the AGM framework several postulates embodying some aspects of iterated revision. Our main results are negative: when added to the AGM postulates, our postulates force revision to be maxichoice (whenever the new piece of information is inconsistent with the current beliefs the resulting belief set is maximal). We also compare our results to revision operators with memory and we investigate some postulates proposed in this framework.",
+                "id": "00722"
+            },
+            {
+                "title": "Dynamics of beliefs",
+                "abstract": "The dynamics of beliefs is one of the major components of any autonomous system, that should be able to incorporate new pieces of information. In this paper we give a quick overview of the main operators for belief change, in particular revision, update, and merging, when the beliefs are represented in propositional logic. And we discuss some works on belief change in more expressive frameworks.",
+                "id": "00723"
+            },
+            {
+                "title": "On the Frontier between Arbitration and Majority",
+                "abstract": " We give in this paper new results on mergingoperators. Those operators aim to dene thebeliefs (or goals) of an agents\" group from theindividuals beliefs (goals). Using the logicalframework of [KP99] we study the relationshipsbetween two important sub-families ofmerging operators: majority operators andarbitration operators. An open question wasto know if those two families are disjoint ornot. We show that there are operators thatbelong simultaneously to the two families. ",
+                "id": "00724"
+            },
+            {
+                "title": "Measuring Inconsistency through Minimal Inconsistent Sets",
+                "abstract": "In this paper, we explore the links between measures of in- consistency for a belief base and the minimal inconsistent subsets of that belief base. The minimal inconsistent subsets can be considered as the relevant part of the base to take into account to evaluate the amount of inconsistency. We define a very natural inconsistency value from these minimal incon- sistent sets. Then we show that the inconsistency value we obtain is a particular Shapley Inconsistency Value, and we provide a complete axiomatization of this value in terms of five simple and intuitive axioms. Defining this Shapley In- consistency Value using the notion of minimal inconsistent subsets allows us to look forward to a viable implementation of this value using SAT solvers.",
+                "id": "00725"
+            },
+            {
+                "title": "Quota and Gmin merging operators",
+                "abstract": "In this paper, two families of merging operators are considered: quota operators and Gmin operators. Quota operators rely on a simple idea: any possible world is viewed as a model of the result of the merging when it satisfies \"sufficiently many\" bases from the given profile (a multi-set of bases). Different interpretations of the \"sufficiently many\" give rise to specific operators. Each Gmin operator is parameterized by a pseudo-distance and each of them is intended to refine the quota operators (i.e., to preserve more information). Quota and Gmin operators are evaluated and compared along four dimensions: rationality, computational complexity, strategy-proofness, and discriminating power. Those two families are shown as interesting alternatives to the formula-based merging operators (which selects some formulas in the union of the bases).",
+                "id": "00726"
+            },
+            {
+                "title": "Propositional merging operators based on set-theoretic closeness",
+                "abstract": "In the propositional setting, a well-studied family of merging operators are distance-based ones: the models of the merged base are the closest interpretations to the given profile. Closeness is, in this context, measured as a number resulting from the aggregation of the distances to each base of the profile. In this work we define a new familly of propositional merging operators, close to such distance-based merging operators, but relying on a set-theoretic definition of closeness, already at work in several revision/update operators from the literature. We study a specific merging operator of this family, obtained by considering set-product as the aggregation function.",
+                "id": "00727"
+            },
+            {
+                "title": "Logic Based Merging",
+                "abstract": "Belief merging aims at combining several pieces of information coming from different sources. In this paper we review the\n works on belief merging of propositional bases. We discuss the relationship between merging, revision, update and confluence,\n and some links between belief merging and social choice theory. Finally we mention the main generalizations of these works\n in other logical frameworks.",
+                "id": "00728"
+            },
+            {
+                "title": "On the Difference between Merging Knowledge Bases and Combining them",
+                "abstract": " We investigate the logical properties of knowledgebase combination operators proposed inthe literature. These operators are based onthe selection of some maximal subsets of theunion of the knowledge bases. We argue thatthey are not fully satisfactory to merge knowledgebases, since the source of information islost in the combination process. We show thatit is the reason why those operators do not satisfya lot of logical properties. Then we proposeto use more rened selection... ",
+                "id": "00729"
+            },
+            {
+                "title": "Analysing Rational Properties of Change Operators Based on Forward Chaining",
+                "abstract": " . We propose an abstract framework to analyse the rationalityof change operators defined in a syntactical way. More precisely we propose&amp;quot;syntactical&amp;quot; postulates of rationality stemming from AGM ones.Then we introduce five change operators based on forward chaining. Finallywe apply our abstract framework to analyse the rationality of ouroperators.IntroductionRevision is the process of according an old knowledge base with a new evidence.In order to have a good behaviour, a revision... ",
+                "id": "00730"
+            },
+            {
+                "title": "Merging of Abstract Argumentation Frameworks.",
+                "abstract": "Formalizing dynamics of argumentation has received increasing attention over the last years. While AGM-like representation results for revision of argumentation frameworks (AFs) are now available, similar results for the problem of merging are still missing. In this paper, we close this gap and adapt model-based propositional belief merging to define extension-based merging operators for AFs. We state an axiomatic and a constructive characterization of merging operators through a family of rationality postulates and a representation theorem. Then we exhibit merging operators which satisfy the postulates. In contrast to the case of revision, we observe that obtaining a single framework as result of merging turns out to be a more subtle issue. Finally, we establish links between our new results and previous approaches to merging of AFs, which mainly relied on axioms from Social Choice Theory, but lacked AGM-like representation theorems.",
+                "id": "00731"
+            },
+            {
+                "title": "On Merging Strategy-Proofness",
+                "abstract": "Merging operators aim at defining the beliefs/goals of a group of agents from the beliefs/goals of each mem- ber of the group. Whenever an agent of the group has preferences over the possible results of the merging pro- cess (i.e. the possible merged bases), she can try to rig the merging process by lying on her true beliefs/goals if this leads to a better merged base according to her point of view. Obviously, strategy-proof operators are highly desirable in order to guarantee a fair merging process even when some of them are not sincere. In fact, when strategy-proofness is not guaranteed, it may be questioned whether the result of the merging process actually represents the beliefs/goals of the group. In this paper, the strategy-proof landscape for many merg- ing operators from the literature, including model-based ones and formula-based ones, is drawn. Both the gen- eral case and several restrictions on the merging process (among others, the number of agents and the presence of integrity constraints), are considered.",
+                "id": "00732"
+            },
+            {
+                "title": "Belief Revision Games",
+                "abstract": "Belief revision games (BRGs) are concerned with the dynamics of the beliefs of a group of communicating agents. BRGs are \"zero-player\" games where at each step every agent revises her own beliefs by taking account for the beliefs of her acquaintances. Each agent is associated with a belief state defined on some finite propositional language. We provide a general definition for such games where each agent has her own revision policy, and show that the belief sequences of agents can always be finitely characterized. We then define a set of revision policies based on belief merging operators. We point out a set of appealing properties for BRGs and investigate the extent to which these properties are satisfied by the merging-based policies under consideration.",
+                "id": "00733"
+            },
+            {
+                "title": "SAT Encodings for Distance-Based Belief Merging Operators.",
+                "abstract": "We present SAT encoding schemes for distance-based belief merging operators relying on the (possibly weighted) drastic distance or the Hamming distance between interpretations, and using sum, GMax (leximax) or GMin (leximin) as aggregation function. In order to evaluate these encoding schemes, we generated benchmarks of a time-tabling problem and translated them into belief merging instances. Then, taking advantage of these schemes, we compiled the merged bases of the resulting instances into query-equivalent CNF formulae. Experiments have shown the benefits which can be gained by considering the SAT encoding schemes we pointed out. Especially, thanks to them, we succeeded in computing query-equivalent formulae for merging instances based on hundreds of variables, which are out of reach of previous implementations.",
+                "id": "00734"
+            },
+            {
+                "title": "Iterated Revision by Epistemic States: Axioms, Semantics and Syntax",
+                "abstract": "We propose a very general syntactical notion of epistemic state and a compact axiomatization for iterated revision when the new information is an epistemic state. We set representation theorems and give two semantical representations of operators: by polynomials and by weighted belief bases. These representations will result to be equivalent.",
+                "id": "00735"
+            },
+            {
+                "title": "On Distances Between KD45n Kripke Models and Their Use for Belief Revision.",
+                "abstract": "In this paper, some distances between KD45n Kripke models are introduced and investigated. We define several distances between Kripke models, based on different criteria, inspired by various concepts such as bisimulation and propositional distances between valuations for different modal degrees. We study the properties of these distances. Such distances are useful for defining belief change operators in multi-agent scenarios. We show that they can be used to define belief revision operators based on the standard AGM framework and suited to KD45n Kripke models.",
+                "id": "00736"
+            },
+            {
+                "title": "Bipolarity in bilattice logics",
+                "abstract": "This paper is centered on a family of propositional multivalued logics, based on bilattices. The semantics of such logics relies on a set of \u201ctruth values,\u201d with two orderings that give the set a bilattice structure. Many interesting inference relations can be defined on these grounds, especially paraconsistent ones and-or nonmonotonic ones. The focus is laid on Belnap's fundamental bilattice logic FOUR, with four \u201cepistemic truth values,\u201d which proves sufficient for the purpose of inference. We show how the bilattice can be associated with a second biordinal structure, which no longer is bilatticial but bipolar. We show how additional inference relations in the logic FOUR can be obtained by exploiting the two preorders associated with this structure. \u00a9 2008 Wiley Periodicals, Inc.",
+                "id": "00737"
+            },
+            {
+                "title": "Three-Valued Logics for Inconsistency Handling",
+                "abstract": "While three-valued paraconsistent logic is a valuable framework for reasoning under inconsistency, the corresponding basic inference relation is too cautious and fails in discriminating in a fine-grained way the set of expected consequences of belief bases. To address both issues, we point out more refined inference relations. We analyze them from the logical and computational points of view and we compare them with respect to their relative cautiousness.",
+                "id": "00738"
+            },
+            {
+                "title": "Private Revision in a Multi-Agent Setting",
+                "abstract": "AGM belief change aims at modeling the evolution of an agent's beliefs about her environment. In many applications though, a set of agents sharing the same environment must be considered. For such scenarios, beliefs about other agents' beliefs must be taken into account. In this work, we study the private revision issue in a multi-agent setting represented by a KD45n model. More precisely, we investigate the changes induced by a new piece of objective information made available to one agent in the set. We point out an adaptation of AGM revision postulates to this setting, and present some specific revision operators.",
+                "id": "00739"
+            },
+            {
+                "title": "Shapley Inconsistency Values",
+                "abstract": "There are relatively few proposals for inconsistency measures for propositional belief bases. However inconsistency mea- sures are potentially as important as information measures for articial intelligence, and more generally for computer science. In particular, they can be useful to dene various operators for belief revision, belief merging, and negotiation. The measures that have been proposed so far can be split into two classes. The rst class of measures takes into account the number of formulae required to produce an inconsistency: the more formulae required to produce an inconsistency, the less inconsistent the base. The second class takes into account the proportion of the language that is affected by the incon- sistency: the more propositional variables affected, the more inconsistent the base. Both approaches are sensible, but there is no proposal for combining them. We address this need in this paper: our proposal takes into account both the number of variables affected by the inconsistency and the distribution of the inconsistency among the formulae of the base. Our idea is to use existing inconsistency measures (ones that takes into account the proportion of the language affected by the incon- sistency, and so allow us to look inside the formulae) in order to dene a game in coalitional form, and then to use the Shap- ley value to obtain an inconsistency measure that indicates the responsibility/contribution of each formula to the overall inconsistency in the base. This allows us to provide a more reliable image of the belief base and of the inconsistency in it.",
+                "id": "00740"
+            },
+            {
+                "title": "A Model for Multiple Outcomes Games",
+                "abstract": "We introduce and study qualitative multiple outcomes games. These games are noncooperative games with qualitative utilities (i.e., values over an ordinal scale), strictly qualitative uncertainty and possible coordination. By strictly qualitative uncertainty, we mean that when there is a set of possible events, the probability of each event is unknown. Coordination is a way offered to the players to remove uncertainty. Qualitative multiple outcomes games is a model for a number of multi-agent problems where agents have minimal information about the interaction effects and where probabilites are unavailable. Among them is multi-agent planning where autonomous planning agents do not share the same goals, and have to generate plans that interact with those of others in a way they cannot unilaterally predict or control.",
+                "id": "00741"
+            },
+            {
+                "title": "On the Logic of Merging",
+                "abstract": " This work proposes an axiomatic characterizationof merging operators. It underlines thedifferences between arbitration operators andmajority operators. A representation theoremis stated showing that each merging operatorcorresponds to a family of partial preorderson interpretations. Examples of operatorsare given. They show the consistency ofthe axiomatic characterization. A new mergingoperator 4GMax is provided. It is provedthat it is actually an arbitration operator.1... ",
+                "id": "00742"
+            },
+            {
+                "title": "On the measure of conflicts: Shapley Inconsistency Values",
+                "abstract": "There are relatively few proposals for inconsistency measures for propositional belief bases. However inconsistency measures are potentially as important as information measures for artificial intelligence, and more generally for computer science. In particular, they can be useful to define various operators for belief revision, belief merging, and negotiation. The measures that have been proposed so far can be split into two classes. The first class of measures takes into account the number of formulae required to produce an inconsistency: the more formulae required to produce an inconsistency, the less inconsistent the base. The second class takes into account the proportion of the language that is affected by the inconsistency: the more propositional variables affected, the more inconsistent the base. Both approaches are sensible, but there is no proposal for combining them. We address this need in this paper: our proposal takes into account both the number of variables affected by the inconsistency and the distribution of the inconsistency among the formulae of the base. Our idea is to use existing inconsistency measures in order to define a game in coalitional form, and then to use the Shapley value to obtain an inconsistency measure that indicates the responsibility/contribution of each formula to the overall inconsistency in the base. This allows us to provide a more reliable image of the belief base and of the inconsistency in it.",
+                "id": "00743"
+            },
+            {
+                "title": "Merging Argumentation Systems",
+                "abstract": "In this paper, we address the problem of deriving sensible in- formation from a collection of argumentation systems coming from different agents. A general framework for merging ar- gumentation systems from Dung's theory of argumentation is presented. Each argumentation system gives both a set of ar- guments and the way they interact (i.e. attack or non-attack) according to the corresponding agent. The aim is to define the argument system (or the set of argument systems) that best represents the group. Our framework is general enough to handle the case when agents do not share the same set of arguments. Merging argumentation systems is shown as a valuable approach for defining (sets of) arguments acceptable by the group.",
+                "id": "00744"
+            },
+            {
+                "title": "Distance Based Merging: A General Framework and some Complexity Results",
+                "abstract": " The importance of belief merging is reflected by theabundance of the literature about it for the last years.In the following, a model for belief merging based ondistances is introduced; many merging operators alreadypointed out so far can be recovered as specificinstances of this model. We investigate the computationalaspects of such distance-based operators andgive two general results showing that the complexity ofinference for them is at the first level of the polynomialhierarchy... ",
+                "id": "00745"
+            },
+            {
+                "title": "Belief Merging versus Judgment Aggregation",
+                "abstract": "The problem of aggregating pieces of propositional information coming from several agents has given rise to an intense research activity. Two distinct theories have emerged. On the one hand, belief merging has been considered in AI as an extension of belief revision. On the other hand, judgment aggregation has been developed in political philosophy and social choice theory. Judgment aggregation focusses on some specific issues (represented as formulas and gathered into an agenda) on which each agent has a judgment, and aims at defining a collective judgment set (or a set of collective judgment sets). Belief merging considers each source of information (the belief base of each agent) as a whole, and aims at defining the beliefs of the group without considering an agenda. In this work the relationships between the two theories are investigated both in the general case and in the fully informed case when the agenda is complete (i.e. it contains all the possible interpretations). Though it cannot be ensured in the general case that the collective judgment computed using a rational belief merging operator is compatible with the collective judgment computed using a rational judgment aggregation operator, we show that some close correspondences between the rationality properties considered in the two theories exist when the agenda is complete.",
+                "id": "00746"
+            },
+            {
+                "title": "Using Transfinite Ordinal Conditional Functions",
+                "abstract": "Ordinal Conditional Functions (OCFs) are one of the predominant frameworks to define belief change operators. In his original paper Spohn defines OCFs as functions from the set of worlds to the set of ordinals. But in subsequent paper by Spohn and others, OCFs are just used as functions from the set of worlds to natural numbers (plus eventually + ***). The use of transfinite ordinals in this framework has never been studied. This paper opens this way. We study generalisations of transmutations operators to transfinite ordinals. Using transfinite ordinals allows to represent different \"levels of beliefs\", that naturally appear in real applications. This can be viewed as a generalisation of the usual \"two levels of beliefs \" framework: knowledge versus beliefs ; or rules base versus facts base, issued from expert systems works.",
+                "id": "00747"
+            },
+            {
+                "title": "Quasi-possibilistic logic and its measures of information and conflict",
+                "abstract": "Possibilistic logic and quasi-classical logic are two logics that were developed in artificial intelligence for coping with inconsistency in different ways, yet preserving the main features of classical logic. This paper presents a new logic, called quasi-possibilistic logic, that encompasses possibilistic logic and quasi-classical logic, and preserves the merits of both logics. Indeed, it can handle plain conflicts taking place at the same level of certainty (as in quasi-classical logic), and take advantage of the stratification of the knowledge base into certainty layers for introducing gradedness in conflict analysis (as in possibilistic logic). When querying knowledge bases, it may be of interest to evaluate the extent to which the relevant available information is precise and consistent. The paper review measures of (im)precision and inconsistency/conflict existing in possibilistic logic and quasi-classical logic, and proposes generalized measures in the unified framework.",
+                "id": "00748"
+            },
+            {
+                "title": "The strategy-proofness landscape of merging",
+                "abstract": "Merging operators aim at defining the beliefs/goals of a group of agents from the beliefs/goals of each member of the group. Whenever an agent of the group has preferences over the possible results of the merging process (i.e., the possible merged bases), she can try to rig the merging process by lying on her true beliefs/goals if this leads to a better merged base according to her point of view. Obviously, strategy-proof operators are highly desirable in order to guarantee equity among agents even when some of them are not sincere. In this paper, we draw the strategy-proof landscape for many merging operators from the literature, including model-based ones and formula-based ones. Both the general case and several restrictions on the merging process are considered.",
+                "id": "00749"
+            },
+            {
+                "title": "The Epistemic View of Belief Merging: Can We Track the Truth?",
+                "abstract": "Belief merging is often described as the process of defining a base which best represents the beliefs of a group of agents (a profile of belief bases). The resulting base can be viewed as a synthesis of the input profile. In this paper another view of what belief merging aims at is considered: the epistemic view. Under this view the purpose of belief merging is to best approximate the true state of the world. We point out a generalization of Condorcet's Jury Theorem from the belief merging perspective. Roughly, we show that if the beliefs of sufficiently many reliable agents are merged then in the limit the true state of the world is identified. We introduce a new postulate suited to the truth tracking issue. We identify some merging operators from the literature which satisfy it and other operators which do not.",
+                "id": "00750"
+            },
+            {
+                "title": "Extension Enforcement in Abstract Argumentation as an Optimization Problem.",
+                "abstract": "Change in abstract argumentation frameworks (AFs) is a very active topic. Especially, the problem of enforcing a set E of arguments, i.e., ensuring that E is an extension (or a subset of an extension) of a given AF F, has received a particular attention in the recent years. In this paper, we define a new family of enforcement operators, for which enforcement can be achieved by adding new arguments (and attacks) to F (as in previous approaches to enforcement), but also by questioning some attacks (and non-attacks) of F. This family includes previous enforcement operators, but also new ones for which the success of the enforcement operation is guaranteed. We show how the enforcement problem for the operators of the family can be modeled as a pseudo-Boolean optimization problem. Intensive experiments show that the method is practical and that it scales up well.",
+                "id": "00751"
+            },
+            {
+                "title": "Propositional Merging and Judgment Aggregation: Two Compatible Approaches?",
+                "abstract": "There are two theories of aggregation of logical formulae: merging and judgment aggregation. In this work we investigate the relationships between these theories; one of our objectives is to point out some correspondences/discrepancies between the associated rationality properties.",
+                "id": "00752"
+            },
+            {
+                "title": "Is Promoting Beliefs Useful to Make Them Accepted in Networks of Agents?.",
+                "abstract": "We consider the problem of belief propagation in a network of communicating agents, modeled in the recently introduced Belief Revision Game (BRG) framework. In this setting, each agent expresses her belief through a propositional formula and revises her own belief at each step by considering the beliefs of her acquaintances, using belief change tools. In this paper, we investigate the extent to which BRGs satisfy some monotonicity properties, i.e., whether promoting some desired piece of belief to a given set of agents is actually always useful for making it accepted by all of them. We formally capture such a concept of promotion by a new family of belief change operators. We show that some basic monotonicity properties are not satisfied by BRGs in general, even when the agents merging-based revision policies are fully rational (in the AGM sense). We also identify some classes where they hold.",
+                "id": "00753"
+            },
+            {
+                "title": "Propositional belief merging and belief negotiation model",
+                "abstract": "We propose in this paper a new family of belief merging op-erators, that is based on a game between sources : Until a coherent set of sources is reached, at each round a contest is organized to find out the weakest sources, then those sources has to concede (weaken their point of view). This idea leads to numerous new interesting operators (depending of the ex-act meaning of \"weakest\" and \"concede\", that gives the two parameters for this family) and opens new perspectives for belief merging. Some existing operators are also recovered as particular cases. Those operators can be seen as a special case of Booth's Belief Negotiation Models (Booth 2002), but the achieved restriction forms a consistent family of merging operators that worths to be studied on its own. ",
+                "id": "00754"
+            },
+            {
+                "title": "Disjunctive merging: Quota and Gmin merging operators",
+                "abstract": "When aggregating information from a group of agents, accepting the pieces of information shared by all agents is a natural requirement. In this paper, we investigate such a unanimity condition in the setting of propositional merging. We discuss two interpretations of the unanimity condition. We show that the first interpretation is captured by existing postulates for merging. But the second interpretation is not, and this leads to the introduction of a new disjunction postulate (Disj). It turns out that existing operators satisfying (Disj) do not perform well with respect to the standard criteria used to evaluate merging operators: logical properties, computational complexity and strategy-proofness. To fill this gap, we introduce two new families of propositional merging operators, quota operators and Gmin operators, which satisfy (Disj), and achieve interesting trade-offs with respect to the logical, computational, and strategy-proofness criteria.",
+                "id": "00755"
+            },
+            {
+                "title": "Private Expansion and Revision in Multi-agent Settings",
+                "abstract": "AGM belief change aims at modeling the evolution of an agent's beliefs about its environment. In many applications though, a set of agents sharing the same environment must be considered. For such scenarios, beliefs about other agents' beliefs must be taken into account. In this work, we study private expansion and revision operators in such a multi-agent setting. More precisely, we investigate the changes induced by a new piece of information made available to one agent in the set. We point out an adaptation of AGM expansion and revision postulates to this setting, and present expansion and revision operators.",
+                "id": "00756"
+            },
+            {
+                "title": "Belief Base Merging as a Game",
+                "abstract": "We propose in this paper a new family of belief merging operators, that is based on a game between sources : until a coherent set of sources is reached, at each round a contest is organized to find out the weakest sources, then those sources has to concede (weaken their point of view). This idea leads to numerous new interesting operators (depending of the exact meaning of \"weakest\" and \"concede\", that gives the two parameters for this family) and opens new perspectives for belief merging. Some existing operators are also recovered as particular cases. Those operators can be seen as a special case of Booth's Belief Negotiation Models (BOO 02), but the achieved restriction forms a consistent family of merging operators that worths to be studied on its own.",
+                "id": "00757"
+            },
+            {
+                "title": "A Translation-Based Approach for Revision of Argumentation Frameworks.",
+                "abstract": "In this paper, we investigate the revision issue for Dung argumentation frameworks. The main idea is that such frameworks can be translated into propositional formulae, allowing the use of propositional revision operators to perform a rational minimal change. Our translation-based approach to revising argumentation frameworks can take advantage of any propositional revision operator '\u2014\u00ef\u00be\u00bf. Via a translation, each propositional operator '\u2014\u00ef\u00be\u00bf can be associated with some revision operators \u00ef\u00be\u00bf suited to argumentation frameworks. Some rationality postulates for the \u00ef\u00be\u00bf operators are presented. If the revision formulae are restricted to formulae about acceptance statuses, some \u00ef\u00be\u00bf operators satisfy these postulates provided that the corresponding '\u2014\u00ef\u00be\u00bf operator is AGM.",
+                "id": "00758"
+            },
+            {
+                "title": "Conciliation through Iterated Belief Merging",
+                "abstract": "Two families of conciliation processes for intelligent agents based on an iterated merge-then-revise change function for belief profiles are introduced and studied. The processes from the first family are sceptical in the sense that at any revision step, each agent considers that her current beliefs are more important than the current beliefs of the group, while the processes from the other family are credulous. Some key features of such conciliation processes are pointed out for several merging operators; especially, the stationarity issue, the existence of consensus and the properties of the induced iterated merging operators are investigated.",
+                "id": "00759"
+            },
+            {
+                "title": "On Supported Inference and Extension Selection in Abstract Argumentation Frameworks",
+                "abstract": "We present two approaches for deriving more arguments from an abstract argumentation framework than the ones obtained using sceptical inference, that is often too cautious. The first approach consists in selecting only some of the extensions. We point out several choice criteria to achieve such a selection process. Choices are based either on the attack relation between extensions or on the support of the arguments in each extension. The second approach consists of the definition of a new inference policy, between sceptical and credulous inference, and based as well on the support of the arguments. We illustrate the two approaches on examples, study their properties, and formally compare their inferential powers.",
+                "id": "00760"
+            },
+            {
+                "title": "A Comparative Study of Ranking-based Semantics for Abstract Argumentation.",
+                "abstract": "Argumentation is a process of evaluating and comparing a set of arguments. A way to compare them consists in using a ranking-based semantics which rank-order arguments from the most to the least acceptable ones. Recently, a number of such semantics have been proposed independently, often associated with some desirable properties. However, there is no comparative study which takes a broader perspective. This is what we propose in this work. We provide a general comparison of all these semantics with respect to the proposed properties. That allows to underline the differences of behavior between the existing semantics.",
+                "id": "00761"
+            },
+            {
+                "title": "A Parametrized Ranking-Based Semantics for Persuasion.",
+                "abstract": "In this paper we question the ability of the existant ranking semantics for argumentation to capture persuasion settings, emphasizing in particular the phenomena of protocatalepsis (the fact that it is often efficient to anticipate the counter-arguments of the audience), and of fading (the fact that long lines of argumentation become ineffective). It turns out that some widely accepted principles of ranking-based semantics are incompatible with a faithful treatment of these phenomena. We thus propose a parametrized semantics based on propagation of values, which allows to control the scope of arguments to be considered for evaluation. We investigate its properties (identifying in particular threshold values guaranteeing that some properties hold), and report experimental results showing that the family of rankings that may be returned have a high coherence rate.",
+                "id": "00762"
+            },
+            {
+                "title": "Propositional belief base merging or how to merge beliefs/goals coming from several sources and some links with social choice theory",
+                "abstract": "We give in this paper new results on merging operators. Those operators aim to define the goals (or beliefs) of an agents' group after the individuals' goals (beliefs). Using the logical framework of Konieczny and Pino P\u00e9rez [Proceedings of the Fifth European Conference on Symbolic and Quantitative Approaches to Reasoning with Uncertainty (ECSQARU'99), Lecture Notes in Artificial Intelligence 1638, 1999, pp. 233\u2013244] we study the relationships between two important sub-families of merging operators: majority operators and arbitration operators. An open question was to know if those two families were disjoint or not. We show that there are operators that belong simultaneously to the two families. Furthermore, the new family introduced allows the user to choose the \u201cconsensual level\u201d he wants for his majority operator. We show at the end of this work some relationships between logical belief merging operators and social choice rules.",
+                "id": "00763"
+            },
+            {
+                "title": "Merging with Integrity Constraints",
+                "abstract": " We consider, in this paper, the problem of knowledge basemerging with integrity constraints. We propose a logical characterizationof those operators and give a representation theorem in terms of preorderson interpretations. We show the close connection between beliefrevision and merging operators and we show that our proposal extendsthe pure merging case (i.e. without integrity constraints) we study in aprevious work. Finally we show that Liberatore and Schaerf commutativerevision ... ",
+                "id": "00764"
+            }
+        ]
+    },
+    {
+        "id": "008",
+        "input": "For an author who has written the paper with the title \"MIMO transceiver design using geometric mean decomposition\", which reference is related? Just answer with [1] or [2] without explanation. [1]: \"Detection of Copy-Move Forgery in Digital Images Using SIFT Algorithm\" [2]: \"An Efficient Implementation of an Active Set Method for SVMs\"",
+        "profile": [
+            {
+                "title": "Fast Algorithms for Image Reconstruction with Application to Partially Parallel MR Imaging",
+                "abstract": "This paper presents two fast algorithms for total variation-based image reconstruction in a magnetic resonance imaging technique known as partially parallel imaging (PPI), where the inversion matrix is large and ill-conditioned. These algorithms utilize variable splitting techniques to decouple the original problem into more easily solved subproblems. The first method reduces the image reconstruction problem to an unconstrained minimization problem, which is solved by an alternating proximal minimization algorithm. One phase of the algorithm solves a total variation (TV) denoising problem, and the second phase solves an ill-conditioned linear system. Linear and sublinear convergence results are given, and an implementation based on a primal-dual hybrid gradient (PDHG) scheme for the TV problem and on a Barzilai-Borwein scheme for the linear inversion is proposed. The second algorithm exploits the special structure of the PPI reconstruction problem by decomposing it into one subproblem involving Fourier transforms and another subproblem that can be treated by the PDHG scheme. Numerical results and comparisons with recently developed methods indicate the efficiency of the proposed algorithms.",
+                "id": "0080"
+            },
+            {
+                "title": "Optimality conditions for maximizing a function over a polyhedron",
+                "abstract": "We present new first and second-order optimality conditions for maximizing a function over a polyhedron. These conditions are expressed in terms of the first and second-order directional derivatives along the edges of the polyhedron, and an edge description of the polyhedron. If the objective function is quadratic and edge-convex, and the constraint polyhedron includes a box constraint, then local optimality can be checked in polynomial time. The theory is applied to continuous formulations of the vertex and edge separator problems. It is seen that the necessary and sufficient optimality conditions for these problems are related to the existence of edges at specific locations in the graph.",
+                "id": "0081"
+            },
+            {
+                "title": "Continuous quadratic programming formulations of optimization problems on graphs.",
+                "abstract": "\u2022Vertex separator problem is reformulated as a continuous bilinear quadratic program.\u2022Objective function has equal number of positive and negative eigenvalues.\u2022Objective function is convex on edges of constraint polyhedron.",
+                "id": "0082"
+            },
+            {
+                "title": "MIMO transceiver design using geometric mean decomposition",
+                "abstract": "We present a multi-input multi-output (MIMO) transceiver design that combines the geometric mean decomposition (GMD) with either the conventional zero-forcing VBLAST decoder (ZF-VBLAST), or the zero-forcing dirty paper precoder (ZF-DP). Our approach decomposes a MIMO channel into multiple identical subchannels, which obviates the need of bit allocation and simplifies the design of modulation/demodulation and coding/decoding schemes. Moreover, we prove that our scheme is asymptotically optimal for high signal-to-noise ratio (SNR) in terms of both the channel throughput and the bit-error-rate (BER) performance.",
+                "id": "0083"
+            },
+            {
+                "title": "A sparse proximal implementation of the LP dual active set algorithm",
+                "abstract": "We present an implementation of the LP Dual Active Set Algorithm (LP DASA) based on a quadratic proximal approximation, a strategy for dropping inactive equations from the constraints, and recently developed algorithms for updating a sparse Cholesky factorization after a low-rank change. Although our main focus is linear programming, the first and second-order proximal techniques that we develop are applicable to general concave\u2013convex Lagrangians and to linear equality and inequality constraints. We use Netlib LP test problems to compare our proximal implementation of LP DASA to Simplex and Barrier algorithms as implemented in CPLEX.",
+                "id": "0084"
+            },
+            {
+                "title": "A Multilevel Bilinear Programming Algorithm For the Vertex Separator Problem.",
+                "abstract": "The Vertex Separator Problem for a graph is to find the smallest collection of vertices whose removal breaks the graph into two disconnected subsets that satisfy specified size constraints. The Vertex Separator Problem was formulated in the paper  as a continuous (non-concave/non-convex) bilinear quadratic program. In this paper, we develop a more general continuous bilinear program which incorporates vertex weights, and which applies to the coarse graphs that are generated in a multilevel compression of the original Vertex Separator Problem. We develop a method for improving upon a given vertex separator by applying a Mountain Climbing Algorithm to the bilinear program using an incidence vector for the separator as a starting guess. Sufficient conditions are developed under which the algorithm can improve upon the starting guess after at most two iterations. The refinement algorithm is augmented with a perturbation technique to enable escapes from local optima and is embedded in a multilevel framework for solving large scale instances of the problem. The multilevel algorithm is shown through computational experiments to perform particularly well on communication and collaboration networks.",
+                "id": "0085"
+            },
+            {
+                "title": "An Efficient Hybrid Algorithm for the Separable Convex Quadratic Knapsack Problem.",
+                "abstract": "This article considers the problem of minimizing a convex, separable quadratic function subject to a knapsack constraint and a box constraint. An algorithm called NAPHEAP has been developed to solve this problem. The algorithm solves the Karush-Kuhn-Tucker system using a starting guess to the optimal Lagrange multiplier and updating the guess monotonically in the direction of the solution. The starting guess is computed using the variable fixing method or is supplied by the user. A key innovation in our algorithm is the implementation of a heap data structure for storing the break points of the dual function and computing the solution of the dual problem. Also, a new version of the variable fixing algorithm is developed that is convergent even when the objective Hessian is not strictly positive definite. The hybrid algorithm NAPHEAP that uses a Newton-type method (variable fixing method, secant method, or Newton's method) to bracket a root, followed by a heap-based monotone break point search, can be faster than a Newton-type method by itself, as demonstrated in the numerical experiments.\n\n",
+                "id": "0086"
+            },
+            {
+                "title": "An affine-scaling interior-point CBB method for box-constrained optimization",
+                "abstract": "We develop an affine-scaling algorithm for box-constrained optimization which has the property that each iterate is a scaled cyclic Barzilai\u2013Borwein (CBB) gradient iterate that lies in the interior of the feasible set. Global convergence is established for a nonmonotone line search, while there is local R-linear convergence at a nondegenerate local minimizer where the second-order sufficient optimality conditions are satisfied. Numerical experiments show that the convergence speed is insensitive to problem conditioning. The algorithm is particularly well suited for image restoration problems which arise in positron emission tomography where the cost function can be infinite on the boundary of the feasible set.",
+                "id": "0087"
+            },
+            {
+                "title": "Algorithm 887: CHOLMOD, Supernodal Sparse Cholesky Factorization and Update/Downdate",
+                "abstract": "CHOLMOD is a set of routines for factorizing sparse symmetric positive definite matrices of the form A or AAT, updating/downdating a sparse Cholesky factorization, solving linear systems, updating/downdating the solution to the triangular system Lx\u2009=\u2009b, and many other sparse matrix functions for both symmetric and unsymmetric matrices. Its supernodal Cholesky factorization relies on LAPACK and the Level-3 BLAS, and obtains a substantial fraction of the peak performance of the BLAS. Both real and complex matrices are supported. CHOLMOD is written in ANSI/ISO C, with both C and MATLABTM interfaces. It appears in MATLAB 7.2 as x\u2009=\u2009A\\b when A is sparse symmetric positive definite, as well as in several other sparse matrix functions.",
+                "id": "0088"
+            },
+            {
+                "title": "A New Conjugate Gradient Method with Guaranteed Descent and an Efficient Line Search",
+                "abstract": "A new nonlinear conjugate gradient method and an associated implementation, based on an inexact line search, are proposed and analyzed. With exact line search, our method reduces to a nonlinear version of the Hestenes--Stiefel conjugate gradient scheme. For any (inexact) line search, our scheme satisfies the descent condition ${\\bf g}_k^{\\sf T} {\\bf d}_k \\le -\\frac{7}{8} \\|{\\bf g}_k\\|^2$. Moreover, a global convergence result is established when the line search fulfills the Wolfe conditions. A new line search scheme is developed that is efficient and highly accurate. Efficiency is achieved by exploiting properties of linear interpolants in a neighborhood of a local minimizer. High accuracy is achieved by using a convergence criterion, which we call the ``approximate Wolfe'' conditions, obtained by replacing the sufficient decrease criterion in the Wolfe conditions with an approximation that can be evaluated with greater precision in a neighborhood of a local minimum than the usual sufficient decrease criterion. Numerical comparisons are given with both L-BFGS and conjugate gradient methods using the unconstrained optimization problems in the CUTE library.",
+                "id": "0089"
+            },
+            {
+                "title": "Recent Advances in Bound Constrained Optimization",
+                "abstract": "A new active set algorithm (ASA) for large-scale box constrained optimization is introduced. The algorithm consists of a nonmonotone gradient projection step, an unconstrained optimization step, and a set of rules for switching between the two steps. Numerical experiments and comparisons are presented using box constrained problems in the CUTEr and MINPACK test problem libraries.",
+                "id": "00810"
+            },
+            {
+                "title": "Error estimation in nonlinear optimization",
+                "abstract": "Methods are developed and analyzed for estimating the distance to a local minimizer of a nonlinear programming problem. One estimate, based on the solution of a constrained convex quadratic program, can be used when strict complementary slackness and the second-order sufficient optimality conditions hold. A second estimate, based on the solution of an unconstrained nonconvex, nonsmooth optimization problem, is valid even when strict complementary slackness is violated. Both estimates are valid in a neighborhood of a local minimizer. An active set algorithm is developed for computing a stationary point of the nonsmooth error estimator. Each iteration of the algorithm requires the solution of a symmetric, positive semidefinite linear system, followed by a line search. Convergence is achieved in a finite number of iterations. The error bounds are based on stability properties for nonlinear programs. The theory is illustrated by some numerical examples.",
+                "id": "00811"
+            },
+            {
+                "title": "An efficient gradient method using the Yuan steplength",
+                "abstract": "We propose a new gradient method for quadratic programming, named SDC, which alternates some steepest descent (SD) iterates with some gradient iterates that use a constant steplength computed through the Yuan formula. The SDC method exploits the asymptotic spectral behaviour of the Yuan steplength to foster a selective elimination of the components of the gradient along the eigenvectors of the Hessian matrix, i.e., to push the search in subspaces of smaller and smaller dimensions. The new method has global and $$R$$ R -linear convergence. Furthermore, numerical experiments show that it tends to outperform the Dai---Yuan method, which is one of the fastest methods among the gradient ones. In particular, SDC appears superior as the Hessian condition number and the accuracy requirement increase. Finally, if the number of consecutive SD iterates is not too small, the SDC method shows a monotonic behaviour.",
+                "id": "00812"
+            },
+            {
+                "title": "Multiset graph partitioning",
+                "abstract": ".\u00a0\u00a0 Local optimality conditions are given for a quadratic programming formulation of the multiset graph partitioning problem.\n These conditions are related to the structure of the graph and properties of the weights.",
+                "id": "00813"
+            },
+            {
+                "title": "The Gradient Projection Method with Exact Line Search",
+                "abstract": "The gradient projection algorithm for function minimization is often implemented using an approximate local minimization along the projected negative gradient. On the other hand, for some difficult combinational optimization problems, where a starting guess may be far from a solution, it may be advantageous to perform a nonlocal (exact) line search. In this paper we show how to evaluate the piece-wise smooth projection associated with a constraint set described by bounds on the variables and a single linear equation. When the NP hard graph partitioning problem is formulated as a continuous quadratic programming problem, the constraints have this structure.",
+                "id": "00814"
+            },
+            {
+                "title": "Direct trajectory optimization and costate estimation of\u00a0finite-horizon and infinite-horizon optimal control problems using a Radau pseudospectral method",
+                "abstract": "A method is presented for direct trajectory optimization and costate estimation of finite-horizon and infinite-horizon optimal\n control problems using global collocation at Legendre-Gauss-Radau (LGR) points. A key feature of the method is that it provides\n an accurate way to map the KKT multipliers of the nonlinear programming problem to the costates of the optimal control problem.\n More precisely, it is shown that the dual multipliers for the discrete scheme correspond to a pseudospectral approximation\n of the adjoint equation using polynomials one degree smaller than that used for the state equation. The relationship between\n the coefficients of the pseudospectral scheme for the state equation and for the adjoint equation is established. Also, it\n is shown that the inverse of the pseudospectral LGR differentiation matrix is precisely the matrix associated with an implicit\n LGR integration scheme. Hence, the method presented in this paper can be thought of as either a global implicit integration\n method or a pseudospectral method. Numerical results show that the use of LGR collocation as described in this paper leads\n to the ability to determine accurate primal and dual solutions for both finite and infinite-horizon optimal control problems.",
+                "id": "00815"
+            },
+            {
+                "title": "Dual active sets and constrained optimization",
+                "abstract": "Two dual methods for solving constrained optimization problems are presented: the Dual Active Set algorithm and an algorithm combining an unconstrained minimization scheme, an augmented Lagrangian and multiplier updates. A new preconditioner is introduced that has a significant impact on the speed of convergence.",
+                "id": "00816"
+            },
+            {
+                "title": "Adaptive mesh refinement method for optimal control using nonsmoothness detection and mesh size reduction",
+                "abstract": "An adaptive mesh refinement method for solving optimal control problems is developed. The method employs orthogonal collocation at Legendre\u2013Gauss\u2013Radau points, and adjusts both the mesh size and the degree of the approximating polynomials in the refinement process. A previously derived convergence rate is used to guide the refinement process. The method brackets discontinuities and improves solution accuracy by checking for large increases in higher-order derivatives of the state. In regions between discontinuities, where the solution is smooth, the error in the approximation is reduced by increasing the degree of the approximating polynomial. On mesh intervals where the error tolerance has been met, mesh density may be reduced either by merging adjacent mesh intervals or lowering the degree of the approximating polynomial. Finally, the method is demonstrated on two examples from the open literature and its performance is compared against a previously developed adaptive method.",
+                "id": "00817"
+            },
+            {
+                "title": "A Continuous Refinement Strategy for the Multilevel Computation of Vertex Separators.",
+                "abstract": "  The Vertex Separator Problem (VSP) on a graph is the problem of finding the smallest collection of vertices whose removal separates the graph into two disjoint subsets of roughly equal size. Recently, Hager and Hungerford [1] developed a continuous bilinear programming formulation of the VSP. In this paper, we reinforce the bilinear programming approach with a multilevel scheme for learning the structure of the graph. ",
+                "id": "00818"
+            },
+            {
+                "title": "Load Balancing and Continuous Quadratic Programming",
+                "abstract": "A quadratic programming approach is described for solving the graph partitioning problem, in which the optimal solution to a continuous problem is the exact solution to the discrete graph partitioning problem. We discuss techniques for approximating the solution to the quadratic program using gradient projections, preconditioned conjugate gradients, and a block exchange method.",
+                "id": "00819"
+            },
+            {
+                "title": "Algorithm 851: CG_DESCENT, a conjugate gradient method with guaranteed descent",
+                "abstract": "Recently, a new nonlinear conjugate gradient scheme was developed which satisfies the descent condition gTkdk \u2264 \u22127/8 &Verbar;gk&Verbar;2 and which is globally convergent whenever the line search fulfills the Wolfe conditions. This article studies the convergence behavior of the algorithm; extensive numerical tests and comparisons with other methods for large-scale unconstrained optimization are given.",
+                "id": "00820"
+            },
+            {
+                "title": "Partially parallel MR image reconstruction using sensitivity encoding",
+                "abstract": "A new algorithm is presented for efficiently solving image reconstruction problems that arise in partially parallel magnetic resonance imaging. This algorithm minimizes an objective function of the form \u03c6(Bu) + 1/2||FpSu - f||2, where \u03c6 is the regularization term which may be nonsmooth. In image reconstruction, the \u03c6 term corresponds to total variation smoothing and/or L1 regularization term. The least square term 1/2||FpSu - f||2 is the fidelity term. In our application, f represents undersampled data from a partially parallel imaging (PPI) system. The proposed algorithm is a generalization of the Bregman operator splitting algorithm with variable stepsize (BOSVS) in which the previous Barzilai-Borwein (BB) step is replaced by a cyclic BB (CBB) step, and an L1 term \u03a8 is added to the energy function. Experimental results on clinical partially parallel imaging data are given.",
+                "id": "00821"
+            },
+            {
+                "title": "Row Modifications of a Sparse Cholesky Factorization",
+                "abstract": "Given a sparse, symmetric positive definite matrix C and an associated sparse Cholesky factorization LDL$\\tr$, we develop sparse techniques for updating the factorization after a symmetric modification of a row and column of C. We show how the modification in the Cholesky factorization associated with this rank-2 modification of C can be computed efficiently using a sparse rank-1 technique developed in [T. A. Davis and W. W. Hager, SIAM J. Matrix Anal. Appl., 20 (1999), pp. 606--627]. We also determine how the solution of a linear system Lx = b changes after changing a row and column of C or after a rank-r change in C.",
+                "id": "00822"
+            },
+            {
+                "title": "Pseudospectral methods for solving infinite-horizon optimal control problems",
+                "abstract": "An important aspect of numerically approximating the solution of an infinite-horizon optimal control problem is the manner in which the horizon is treated. Generally, an infinite-horizon optimal control problem is approximated with a finite-horizon problem. In such cases, regardless of the finite duration of the approximation, the final time lies an infinite duration from the actual horizon at t=+\u221e. In this paper we describe two new direct pseudospectral methods using Legendre\u2013Gauss (LG) and Legendre\u2013Gauss\u2013Radau (LGR) collocation for solving infinite-horizon optimal control problems numerically. A smooth, strictly monotonic transformation is used to map the infinite time domain t\u2208[0,\u221e) onto a half-open interval \u03c4\u2208[\u22121,1). The resulting problem on the finite interval is transcribed to a nonlinear programming problem using collocation. The proposed methods yield approximations to the state and the costate on the entire horizon, including approximations at t=+\u221e. These pseudospectral methods can be written equivalently in either a differential or an implicit integral form. In numerical experiments, the discrete solution exhibits exponential convergence as a function of the number of collocation points. It is shown that the map \u03d5:[\u22121,+1)\u2192[0,+\u221e) can be tuned to improve the quality of the discrete approximation.",
+                "id": "00823"
+            },
+            {
+                "title": "Implicit Functions, Lipschitz Maps, and Stability in Optimization",
+                "abstract": "We present an implicit function theorem for set-valued maps associated with the solutions of generalized equations. As corollaries of this theorem, we derive both known and new results. Strong regularity of variational inequalities and Lipschitz stability of optimization problems are discussed.",
+                "id": "00824"
+            },
+            {
+                "title": "Modifying a Sparse Cholesky Factorization",
+                "abstract": "Given a sparse symmetric positive definite matrix ${\\bf AA}^{\\sf T}$ and an associated sparse Cholesky factorization ${\\bf LDL}^{\\sf T}$ or ${\\bf LL}^{\\sf T}$, we develop sparse techniques for obtaining the new factorization associated with either adding a column to ${\\bf A}$ or deleting a column from ${\\bf A}$. Our techniques are based on an analysis and manipulation of the underlying graph structure and on ideas of Gill et al.\\ [ Math. Comp., 28 (1974), pp. 505--535] for modifying a dense Cholesky factorization. We show that our methods extend to the general case where an arbitrary sparse symmetric positive definite matrix is modified. Our methods are optimal in the sense that they take time proportional to the number of nonzero entries in ${\\bf L}$ and ${\\bf D}$ that change.",
+                "id": "00825"
+            },
+            {
+                "title": "The Euler approximation in state constrained optimal control",
+                "abstract": "We analyze the Euler approximation to a state constrained control problem. We show that if the active constraints satisfy an independence con- dition and the Lagrangian satises a coercivity condition, then locally there exists a solution to the Euler discretization, and the error is bounded by a constant times the mesh size. The proof couples recent stability results for state constrained control problems with results established here on discrete- time regularity. The analysis utilizes mappings of the discrete variables into continuous spaces where classical nite element estimates can be invoked.",
+                "id": "00826"
+            },
+            {
+                "title": "Iterative Methods for Nearly Singular Linear Systems",
+                "abstract": "Iterative methods are developed and studied for near-singular linear systems Cx = b. Our approach, called the transformed minimal residual algorithm (TMRES), is derived from any convergent iterative scheme Sxk+1 = Txk + b associated with a splitting C = S - T. In each step of TMRES, the transformed residual S-1(b- Cx) is minimized over a Krylov space generated by S-1 T. The original iterative scheme typically converges slowly when C is nearly singular, while a Krylov space generated by S-1 T often contains a much better approximation to a solution. TMRES is algebraically equivalent to the generalized minimal residual algorithm (GMRES) preconditioned by S-1, although there are numerical differences since a different matrix S-1 C is used to generate the Krylov space in preconditioned GMRES. Special attention is given to sparsity and convergence issues related to linear systems of the form $({\\bf AA}\\tr + \\sigma{\\bf I}){\\bf x} =$ ${\\bf b}$, where $\\sigma \\ge 0$.",
+                "id": "00827"
+            },
+            {
+                "title": "A New Active Set Algorithm for Box Constrained Optimization",
+                "abstract": "An active set algorithm (ASA) for box constrained optimization is developed. The algorithm consists of a nonmonotone gradient projection step, an unconstrained optimization step, and a set of rules for branching between the two steps. Global convergence to a stationary point is established. For a nondegenerate stationary point, the algorithm eventually reduces to unconstrained optimization without restarts. Similarly, for a degenerate stationary point, where the strong second-order sufficient optimality condition holds, the algorithm eventually reduces to unconstrained optimization without restarts. A specific implementation of the ASA is given which exploits the recently developed cyclic Barzilai-Borwein (CBB) algorithm for the gradient projection step and the recently developed conjugate gradient algorithm CG_DESCENT for unconstrained optimization. Numerical experiments are presented using box constrained problems in the CUTEr and MINPACK-2 test problem libraries.",
+                "id": "00828"
+            },
+            {
+                "title": "Self-adaptive inexact proximal point methods",
+                "abstract": "We propose a class of self-adaptive proximal point methods suitable for degenerate optimization problems where multiple minimizers may exist, or where the Hessian may be singular at a local minimizer. If the proximal regularization parameter has the form $\\mu({\\bf{x}})=\\beta\\|\\nabla f({\\bf{x}})\\|^{\\eta}$ where \u9a74\u9a74[0,2) and \u03b20 is a constant, we obtain convergence to the set of minimizers that is linear for \u9a74=0 and \u03b2 sufficiently small, superlinear for \u9a74\u9a74(0,1), and at least quadratic for \u9a74\u9a74[1,2). Two different acceptance criteria for an approximate solution to the proximal problem are analyzed. These criteria are expressed in terms of the gradient of the proximal function, the gradient of the original function, and the iteration difference. With either acceptance criterion, the convergence results are analogous to those of the exact iterates. Preliminary numerical results are presented using some ill-conditioned CUTE test problems.",
+                "id": "00829"
+            },
+            {
+                "title": "Optimization of Generalized Mean-Square Error in Noisy Linear Estimation",
+                "abstract": "A class of least squares problems that arises in linear Bayesian estimation is analyzed. The data vector ${\\bf y}$ is given by the model ${\\bf y} = {\\bf P}({\\bf H}\\bm{\\theta} + \\bm{\\eta}) + {\\bf w}$, where ${\\bf H}$ is a known matrix, while $\\bm{\\theta}$, $\\bm{\\eta}$, and ${\\bf w}$ are uncorrelated random vectors. The goal is to obtain the best estimate for $\\bm{\\theta}$ from the measured data. Applications of this estimation problem arise in multisensor data fusion problems and in wireless communication. The unknown matrix ${\\bf P}$ is chosen to minimize the expected mean-squared error ${\\bf E}(\\|\\bm{\\theta} - \\hat{\\bm{\\theta}}\\|^2)$ subject to a power constraint \u201ctrace $({\\bf P}{\\bf P}^*) \\le P$,\u201d where $\\hat{\\bm{\\theta}}$ is the best affine estimate of $\\bm{\\theta}$. Earlier work characterized an optimal ${\\bf P}$ in the case where the noise term $\\bm{\\eta}$ vanished, while this paper analyzes the effect of $\\bm{\\eta}$, assuming its covariance is a multiple of ${\\bf I}$. The singular value decomposition of an optimal ${\\bf P}$ is expressed in the form ${\\bf V}\\bm{\\Sigma}\\bm{\\Pi}{\\bf U}^*$ where ${\\bf V}$ and ${\\bf U}$ are unitary matrices related to the covariance of either $\\bm{\\theta}$ or ${\\bf w}$, and singular vectors of ${\\bf H}$, $\\bm{\\Sigma}$ is diagonal, and $\\bm{\\Pi}$ is a permutation matrix. The analysis is carried out in two special cases: (i) ${\\bf H} = {\\bf I}$ and (ii) covariance of $\\bm{\\theta}$ is ${\\bf I}$. In case (i), $\\bm{\\Pi}$ does not depend on the power $P$. In case (ii), $\\bm{\\Pi}$ generally depends on $P$. The optimal $\\bm{\\Pi}$ is determined in the limit as the power tends to zero or infinity; a good approximation to an optimal $\\bm{\\Pi}$ is found for general $P$.",
+                "id": "00830"
+            },
+            {
+                "title": "Minimizing a Quadratic Over a Sphere",
+                "abstract": "A new method, the sequential subspace method (SSM), is developed for the problem of minimizing a quadratic over a sphere. In our scheme, the quadratic is minimized over a subspace which is adjusted in successive iterations to ensure convergence to an optimum. When a sequential quadratic programming iterate is included in the subspace, convergence is locally quadratic. Numerical comparisons with other recent methods are given.",
+                "id": "00831"
+            },
+            {
+                "title": "The Limited Memory Conjugate Gradient Method.",
+                "abstract": "In theory, the successive gradients generated by the conjugate gradient method applied to a quadratic should be orthogonal. However, for some ill-conditioned problems, orthogonality is quickly lost due to rounding errors, and convergence is much slower than expected. A limited memory version of the nonlinear conjugate gradient method is developed. The memory is used to both detect the loss of orthogonality and to restore orthogonality. An implementation of the algorithm is presented based on the CG_DESCENT nonlinear conjugate gradient method. Limited memory CG_DESCENT (L-CG_DESCENT) possesses a global convergence property similar to that of the memoryless algorithm but has much better practical performance. Numerical comparisons to the limited memory BFGS method (L-BFGS) are given using the CUTEr test problems.",
+                "id": "00832"
+            },
+            {
+                "title": "An Affine-Scaling Interior-Point Method for Continuous Knapsack Constraints with Application to Support Vector Machines",
+                "abstract": "An affine-scaling algorithm (ASL) for optimization problems with a single linear equality constraint and box restrictions is developed. The algorithm has the property that each iterate lies in the relative interior of the feasible set. The search direction is obtained by approximating the Hessian of the objective function in Newton's method by a multiple of the identity matrix. The algorithm is particularly well suited for optimization problems where the Hessian of the objective function is a large, dense, and possibly ill-conditioned matrix. Global convergence to a stationary point is established for a nonmonotone line search. When the objective function is strongly convex, ASL converges R-linearly to the global optimum provided the constraint multiplier is unique and a nondegeneracy condition holds. A specific implementation of the algorithm is developed in which the Hessian approximation is given by the cyclic Barzilai-Borwein (CBB) formula. The algorithm is evaluated numerically using support vector machine test problems.",
+                "id": "00833"
+            },
+            {
+                "title": "A Nonmonotone Line Search Technique and Its Application to Unconstrained Optimization",
+                "abstract": "A new nonmonotone line search algorithm is proposed and analyzed. In our scheme, we require that an average of the successive function values decreases, while the traditional nonmonotone approach of Grippo, Lampariello, and Lucidi [SIAM J. Numer. Anal., 23 (1986), pp. 707--716] requires that a maximum of recent function values decreases. We prove global convergence for nonconvex, smooth functions, and R-linear convergence for strongly convex functions. For the L-BFGS method and the unconstrained optimization problems in the CUTE library, the new nonmonotone line search algorithm used fewer function and gradient evaluations, on average, than either the monotone or the traditional nonmonotone scheme.",
+                "id": "00834"
+            },
+            {
+                "title": "Minimizing the Profile of a Symmetric Matrix",
+                "abstract": "New approaches are developed for minimizing the profile of a sparse, symmetric matrix. The heuristic approaches seek to minimize the profile growth, either absolutely or in a weighted sense. The exchange methods make a series of permutations in an initial ordering to strictly improve the profile. Comparisons with the spectral algorithm, a level structure method, and a wave front method are presented.",
+                "id": "00835"
+            },
+            {
+                "title": "An Ellipsoidal Branch and Bound Algorithm for Global Optimization",
+                "abstract": "A branch and bound algorithm is developed for global optimization. Branching in the algorithm is accomplished by subdividing the feasible set using ellipses. Lower bounds are obtained by replacing the concave part of the objective function by an affine underestimate. A ball approximation algorithm, obtained by generalizing of a scheme of Lin and Han, is used to solve the convex relaxation of the original problem. The ball approximation algorithm is compared to SEDUMI as well as to gradient projection algorithms using randomly generated test problems with a quadratic objective and ellipsoidal constraints.",
+                "id": "00836"
+            },
+            {
+                "title": "Stability in the presence of degeneracy and error estimation",
+                "abstract": "\u00a0\u00a0",
+                "id": "00837"
+            },
+            {
+                "title": "Dynamic Supernodes in Sparse Cholesky Update/Downdate and Triangular Solves",
+                "abstract": "The supernodal method for sparse Cholesky factorization represents the factor L as a set of supernodes, each consisting of a contiguous set of columns of L with identical nonzero pattern. A conventional supernode is stored as a dense submatrix. While this is suitable for sparse Cholesky factorization where the nonzero pattern of L does not change, it is not suitable for methods that modify a sparse Cholesky factorization after a low-rank change to A (an update/downdate, &Amacr; = A \u00b1 WWT). Supernodes merge and split apart during an update/downdate. Dynamic supernodes are introduced which allow a sparse Cholesky update/downdate to obtain performance competitive with conventional supernodal methods. A dynamic supernodal solver is shown to exceed the performance of the conventional (BLAS-based) supernodal method for solving triangular systems. These methods are incorporated into CHOLMOD, a sparse Cholesky factorization and update/downdate package which forms the basis of x = A\\b MATLAB when A is sparse and symmetric positive definite.",
+                "id": "00838"
+            },
+            {
+                "title": "An hp mesh refinement method for optimal control using discontinuity detection and mesh size reduction",
+                "abstract": "A variable-order adaptive mesh refinement method for solving optimal control problems is described. The method employs orthogonal collocation at Legendre-Gauss-Radau points. The mesh refinement method uses a previously derived convergence rate in order to modify the mesh. First, in regions where the solution is not sufficiently smooth, the method employs mesh interval refinement to place mesh points near discontinuities in the solution. Next, in regions where the solution is smooth the method increases the degree of the approximating polynomial. Furthermore, the method can decrease the size of the mesh in one of two ways. First, by representing the state using a power series approximation it is possible to decrease the required polynomial degree when it is determined that the coefficients of the highest powers of the power series are insignificant in comparison to the mesh refinement accuracy tolerance. Second, mesh intervals can be combined if it is determined that the power series representations are the same in two or more adjacent mesh intervals. Finally, the method is described in detail and is applied successfully to an example from the open literature.",
+                "id": "00839"
+            },
+            {
+                "title": "Application of the dual active set algorithm to quadratic network optimization",
+                "abstract": "A new algorithm, the dual active set algorithm, is presented for solving a minimization problem with equality constraints and bounds on the variables. The algorithm identifies the active bound constraints by maximizing an unconstrained dual function in a finite number of iterations. Convergence of the method is established, and it is applied to convex quadratic programming. In its implementable form, the algorithm is combined with the proximal point method. A computational study of large-scale quadratic network problems compares the algorithm to a coordinate ascent method and to conjugate gradient methods for the dual problem. This study shows that combining the new algorithm with the nonlinear conjugate gradient method is particularly effective on difficult network problems from the literature.",
+                "id": "00840"
+            },
+            {
+                "title": "Multiple-Rank Modifications of a Sparse Cholesky Factorization",
+                "abstract": "Given a sparse symmetric positive definite matrix $\\mathbf{AA}\\tr$ and an associated sparse Cholesky factorization $\\mathbf{LDL}\\tr$ or $\\mathbf{LL}\\tr$, we develop sparse techniques for updating the factorization after either adding a collection of columns to A or deleting a collection of columns from A. Our techniques are based on an analysis and manipulation of the underlying graph structure, using the framework developed in an earlier paper on rank-1 modifications [T. A. Davis and W. W. Hager, SIAM J. Matrix Anal. Appl., 20 (1999), pp. 606--627]. Computationally, the multiple-rank update has better memory traffic and executes much faster than an equivalent series of rank-1 updates since the multiple-rank update makes one pass through L computing the new entries, while a series of rank-1 updates requires multiple passes through L.",
+                "id": "00841"
+            },
+            {
+                "title": "Dual multilevel optimization",
+                "abstract": "We study the structure of dual optimization problems associated with linear constraints, bounds on the variables, and separable cost. We show how the separability of the dual cost function is related to the sparsity structure of the linear equations. As a result, techniques for ordering sparse matrices based on nested dissection or graph partitioning can be used to decompose a dual optimization problem into independent subproblems that could be solved in parallel. The performance of a multilevel implementation of the Dual Active Set\u00a0algorithm is compared with CPLEX Simplex and Barrier codes using Netlib linear programming test problems.",
+                "id": "00842"
+            },
+            {
+                "title": "A unified framework for the numerical solution of optimal control problems using pseudospectral methods",
+                "abstract": "A unified framework is presented for the numerical solution of optimal control problems using collocation at Legendre\u2013Gauss (LG), Legendre\u2013Gauss\u2013Radau (LGR), and Legendre\u2013Gauss\u2013Lobatto (LGL) points. It is shown that the LG and LGR differentiation matrices are rectangular and full rank whereas the LGL differentiation matrix is square and singular. Consequently, the LG and LGR schemes can be expressed equivalently in either differential or integral form, while the LGL differential and integral forms are not equivalent. Transformations are developed that relate the Lagrange multipliers of the discrete nonlinear programming problem to the costates of the continuous optimal control problem. The LG and LGR discrete costate systems are full rank while the LGL discrete costate system is rank-deficient. The LGL costate approximation is found to have an error that oscillates about the true solution and this error is shown by example to be due to the null space in the LGL discrete costate system. An example is considered to assess the accuracy and features of each collocation scheme.",
+                "id": "00843"
+            },
+            {
+                "title": "Bregman operator splitting with variable stepsize for total variation image reconstruction",
+                "abstract": "This paper develops a Bregman operator splitting algorithm with variable stepsize (BOSVS) for solving problems of the form $\\min\\{\\phi(Bu) +1/2\\|Au-f\\|_{2}^{2}\\}$ , where \u9a74 may be nonsmooth. The original Bregman Operator Splitting (BOS) algorithm employed a fixed stepsize, while BOSVS uses a line search to achieve better efficiency. These schemes are applicable to total variation (TV)-based image reconstruction. The stepsize rule starts with a Barzilai-Borwein (BB) step, and increases the nominal step until a termination condition is satisfied. The stepsize rule is related to the scheme used in SpaRSA (Sparse Reconstruction by Separable Approximation). Global convergence of the proposed BOSVS algorithm to a solution of the optimization problem is established. BOSVS is compared with other operator splitting schemes using partially parallel magnetic resonance image reconstruction problems. The experimental results indicate that the proposed BOSVS algorithm is more efficient than the BOS algorithm and another split Bregman Barzilai-Borwein algorithm known as SBB.",
+                "id": "00844"
+            },
+            {
+                "title": "Projection onto a Polyhedron that Exploits Sparsity.",
+                "abstract": "An algorithm is developed for projecting a point onto a polyhedron. The algorithm solves a dual version of the projection problem and then uses the relationship between the primal and dual to recover the projection. The techniques in the paper exploit sparsity. Sparse reconstruction by separable approximation (SpaRSA) is used to approximately identify active constraints in the polyhedron, and the dual active set algorithm (DASA) is used to compute a high precision solution. A linear convergence result is established for SpaRSA that does not require the strong concavity of the dual to the projection problem, and an earlier R-linear convergence rate is strengthened to a Q-linear convergence property. An algorithmic framework is developed for combining SpaRSA with an asymptotically preferred algorithm such as DASA. It is shown that only the preferred algorithm is executed asymptotically. Numerical results are given using the polyhedra associated with the Netlib LP test set. A comparison is made to the interior point method contained in the general purpose open source software package IPOPT for nonlinear optimization, and to the commercial package CPLEX, which contains an implementation of the barrier method that is targeted to problems with the structure of the polyhedral projection problem.",
+                "id": "00845"
+            },
+            {
+                "title": "Graph Partitioning and Continuous Quadratic Programming",
+                "abstract": "A continuous quadratic programming formulation is given for min-cut graph partitioning problems. In these problems, we partition the vertices of a graph into a collection of disjoint sets satisfying specified size constraints, while minimizing the sum of weights of edges connecting vertices in different sets. An optimal solution is related to an eigenvector (Fiedler vector) corresponding to the second smallest eigenvalue of the graph's Laplacian. Necessary and sufficient conditions characterizing local minima of the quadratic program are given. The effect of diagonal perturbations on the number of local minimizers is investigated using a test problem from the literature.",
+                "id": "00846"
+            },
+            {
+                "title": "Asymptotic Convergence Analysis of a New Class of Proximal Point Methods",
+                "abstract": "Finite dimensional local convergence results for self-adaptive proximal point methods and nonlinear functions with multiple minimizers are generalized and extended to a Hilbert space setting. The principle assumption is a local error bound condition which relates the growth in the function to the distance to the set of minimizers. A local convergence result is established for almost exact iterates. Less restrictive acceptance criteria for the proximal iterates are also analyzed. These criteria are expressed in terms of a subdifferential of the proximal function and either a subdifferential of the original function or an iteration difference. If the proximal regularization parameter $\\mu({\\bf x})$ is sufficiently small and bounded away from zero and $f$ is sufficiently smooth, then there is local linear convergence to the set of minimizers. For a locally convex function, a convergence result similar to that for almost exact iterates is established. For a locally convex solution set and smooth functions, it is shown that if the proximal regularization parameter has the form $\\mu({\\bf x})=\\beta\\|f'[{\\bf x}]\\|^{\\eta}$, where $\\eta\\in(0,2)$, then the convergence is at least superlinear if $\\eta\\in(0,1)$ and at least quadratic if $\\eta\\in[1,2)$.",
+                "id": "00847"
+            },
+            {
+                "title": "Projection algorithms for non-convex minimization, with application to sparse principal component analysis.",
+                "abstract": "We consider concave minimization problems over nonconvex sets. Optimization problems with this structure arise in sparse principal component analysis. We analyze both a gradient projection algorithm and an approximate Newton algorithm where the Hessian approximation is a multiple of the identity. Convergence results are established. In numerical experiments arising in sparse principal component analysis, it is seen that the performance of the gradient projection algorithm is very similar to that of the truncated power method and the generalized power method. In some cases, the approximate Newton algorithm with a Barzilai---Borwein Hessian approximation and a nonmonotone line search can be substantially faster than the other algorithms, and can converge to a better solution.",
+                "id": "00848"
+            },
+            {
+                "title": "Gradient-Based Methods for Sparse Recovery",
+                "abstract": "The convergence rate is analyzed for the sparse reconstruction by separable approximation (SpaRSA) algorithm for minimizing a sum $f(\\mathbf{x})+\\psi(\\mathbf{x})$, where $f$ is smooth and $\\psi$ is convex, but possibly nonsmooth. It is shown that if $f$ is convex, then the error in the objective function at iteration $k$ is bounded by $a/k$ for some $a$ independent of $k$. Moreover, if the objective function is strongly convex, then the convergence is $R$-linear. An improved version of the algorithm based on a cyclic version of the BB iteration and an adaptive line search is given. The performance of the algorithm is investigated using applications in the areas of signal processing and image reconstruction.",
+                "id": "00849"
+            },
+            {
+                "title": "The Dual Active Set Algorithm and Its Application to Linear Programming",
+                "abstract": "The Dual Active Set Algorithm (DASA), presented in Hager, Advances in Optimization and Parallel Computing, P.M. Pardalos (Ed.), North Holland: Amsterdam, 1992, pp. 137\u2013142, for strictly convex optimization problems, is extended to handle linear programming problems. Line search versions of both the DASA and the LPDASA are given.",
+                "id": "00850"
+            },
+            {
+                "title": "An affine scaling method for optimization problems with polyhedral constraints",
+                "abstract": "Recently an affine scaling, interior point algorithm ASL was developed for box constrained optimization problems with a single linear constraint (Gonzalez-Lima et al., SIAM J. Optim. 21:361---390, 2011 ). This note extends the algorithm to handle more general polyhedral constraints. With a line search, the resulting algorithm ASP maintains the global and R-linear convergence properties of ASL. In addition, it is shown that the unit step version of the algorithm (without line search) is locally R-linearly convergent at a nondegenerate local minimizer where the second-order sufficient optimality conditions hold. For a quadratic objective function, a sublinear convergence property is obtained without assuming either nondegeneracy or the second-order sufficient optimality conditions.",
+                "id": "00851"
+            },
+            {
+                "title": "Two New Regularized Adaboost Algorithms",
+                "abstract": "AdaBoost rarely suffers from overfitting problems in low noise data cases. However, recent studies with highly noisy patterns clearly showed that overfitting can occur. A natural strategy to alleviate the problem is to penalize the distribution skewness in the learning process to prevent several hardest examples from spoiling decision boundaries. In this paper, we describe in detail how a penalty scheme can be pursued in the mathematical programming setting as well as in the Boosting setting. By using two smooth convex penalty functions, two new soft margin concepts are defined and two new regularized AdaBoost algorithms are proposed. The effectiveness of the proposed algorithms is demonstrated through a large scale experiment. Compared with other regularized AdaBoost algorithms, our methods can achieve at least the same or much better performances.",
+                "id": "00852"
+            },
+            {
+                "title": "Runge-Kutta Methods in Optimal Control and the Transformed Adjoint System",
+                "abstract": " The convergence rate is determined for Runge-Kutta discretizations of nonlinear control problems. The analysis utilizes a connection between the Kuhn-Tucker multipliers for the discrete problem and the adjoint variables associated with the continuous minimum principle. This connection can also be exploited in numerical solution techniques that require the gradient of the discrete cost function. ",
+                "id": "00853"
+            },
+            {
+                "title": "Second-Order Runge--Kutta Approximations in Control Constrained Optimal Control",
+                "abstract": "In this paper, we analyze second-order Runge--Kutta approximations to a nonlinear optimal control problem with control constraints. If the optimal control has a derivative of bounded variation and a coercivity condition holds, we show that for a special class of Runge--Kutta schemes, the error in the discrete approximating control is O(h2) where h is the mesh spacing.",
+                "id": "00854"
+            },
+            {
+                "title": "Adaptive Mesh Refinement Method for Optimal Control Using Decay Rates of Legendre Polynomial Coefficients.",
+                "abstract": "An adaptive mesh refinement method for solving optimal control problems is described. The method employs orthogonal collocation at Legendre-Gauss-Radau points. Accuracy in the method is achieved by adjusting the number of mesh intervals, the polynomial degree within each mesh interval, and, when possible, reducing the mesh size. The decision to increase the degree of the polynomial within a mesh i...",
+                "id": "00855"
+            },
+            {
+                "title": "Global convergence of SSM for minimizing a quadratic over a sphere",
+                "abstract": "In an earlier paper [Minimizing a quadratic over a sphere, SIAM J. Optim., 12 (2001), 188-208], we presented the sequential subspace method (SSM) for minimizing a quadratic over a sphere. This method generates approximations to a minimizer by carrying out the minimization over a sequence of subspaces that are adjusted after each iterate is computed. We showed in this earlier paper that when the subspace contains a vector obtained by applying one step of Newton's method to the first-order optimality system, SSM is locally, quadratically convergent, even when the original problem is degenerate with multiple solutions and with a singular Jacobian in the optimality system. In this paper, we prove (nonlocal) convergence of SSM to a global minimizer whenever each SSM subspace contains the following three vectors: (i) the current iterate, (ii) the gradient of the cost function evaluated at the current iterate, and (iii) an eigenvector associated with the smallest eigenvalue of the cost function Hessian. For nondegenerate problems, the convergence rate is at least linear when vectors (i)-(iii) are included in the SSM subspace.",
+                "id": "00856"
+            },
+            {
+                "title": "An exact algorithm for graph partitioning",
+                "abstract": "An exact algorithm is presented for solving edge weighted graph partitioning problems. The algorithm is based on a branch and bound method applied to a continuous quadratic programming formulation of the problem. Lower bounds are obtained by decomposing the objective function into convex and concave parts and replacing the concave part by an affine underestimate. It is shown that the best affine underestimate can be expressed in terms of the center and the radius of the smallest sphere containing the feasible set. The concave term is obtained either by a constant diagonal shift associated with the smallest eigenvalue of the objective function Hessian, or by a diagonal shift obtained by solving a semidefinite programming problem. Numerical results show that the proposed algorithm is competitive with state-of-the-art graph partitioning codes.",
+                "id": "00857"
+            }
+        ]
     }
 ]

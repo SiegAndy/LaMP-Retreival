@@ -1,3 +1,4 @@
+from genericpath import isfile
 import json
 import os
 from typing import Any, Callable, Dict, List
@@ -25,7 +26,7 @@ class LaMPTask:
     task_type: str
     task_name: str  # name of LaMP dataset (LaMP_1 or LaMP_2 in this case)
 
-    parsed_prompts: Dict[str, str]
+    parsed_prompts: Dict[str, List[str]]
     evaluation: LaMPEvaluation
     preds: Dict[str, labels]
     score: List[Dict]
@@ -107,21 +108,10 @@ class LaMPTask:
                 curr_preds_save_name, self.task_name
             )
 
-    def run(self) -> None:
-        self.parsed_prompts = parse_dataset_to_prompt(
-            self.task_question_file, self.task_name
-        )
-
-        if self.prompt_save_path is not None and self.prompt_save_path != "":
-            prompt_save_name = os.path.join(
-                self.prompt_save_path,
-                f"LaMP_{self.task_id}_{self.task_type}_prompts.json",
-            )
-            with open(prompt_save_name, "w", encoding="utf-8") as output:
-                json.dump(self.parsed_prompts, output, cls=DTOEncoder, indent=4)
-
+    def subscribe(self) -> None:
         self.preds = dict()
         self.score = dict()
+
         # feed prompt into subscriber
         for subscriber_name, subscriber_func in self.subscribers.items():
             curr_preds = labels(task=self.task_name, golds=list())
@@ -142,5 +132,34 @@ class LaMPTask:
                     preds_save_name, self.task_name
                 )
 
-    def __call__(self) -> Any:
-        self.run()
+    def construct_prompt(self) -> None:
+        self.parsed_prompts = parse_dataset_to_prompt(
+            self.task_question_file, self.task_name
+        )
+
+        if self.prompt_save_path is not None and self.prompt_save_path != "":
+            prompt_save_name = os.path.join(
+                self.prompt_save_path,
+                f"LaMP_{self.task_id}_{self.task_type}_prompts.json",
+            )
+            with open(prompt_save_name, "w", encoding="utf-8") as output:
+                json.dump(self.parsed_prompts, output, cls=DTOEncoder, indent=4)
+
+    def run(self) -> None:
+        self.construct_prompt()
+        self.subscribe()
+
+    def __call__(self, prompt_path: str = None) -> Any:
+        if prompt_path is None or prompt_path == "":
+            if self.prompt_save_path is None or self.prompt_save_path == "":
+                return self.run()
+            prompt_path = os.path.join(
+                self.prompt_save_path,
+                f"LaMP_{self.task_id}_{self.task_type}_prompts.json",
+            )
+        if os.path.isfile(prompt_path):
+            with open(prompt_path, "r", encoding="utf-8") as prompt_file:
+                self.parsed_prompts = json.load(prompt_file)
+            self.subscribe()
+        else:
+            self.run()

@@ -1,3 +1,4 @@
+import time
 from typing import Callable, Dict, List, Type
 
 from src.utils import labels, label, check_config
@@ -47,6 +48,7 @@ class HuggingFaceModel(LMModel):
 
 
 class DistilBERTModel(HuggingFaceModel):
+    # Source: https://huggingface.co/distilbert-base-uncased-distilled-squad
     model_name = "distilbert-base-uncased-distilled-squad"
 
     def conversation(self, message: List[str]) -> str:
@@ -62,14 +64,75 @@ class DistilBERTModel(HuggingFaceModel):
                 },
             },
         )
-        return response.json()["answer"]
+        result_json = response.json()
+        if "answer" not in result_json:
+            time.sleep(1)
+            return self.conversation(message)
+        return result_json["answer"]
+
+
+class BERTSERINIModel(HuggingFaceModel):
+    # Source: https://huggingface.co/rsvp-ai/bertserini-bert-base-squad
+    model_name = "rsvp-ai/bertserini-bert-base-squad"
+
+    def conversation(self, message: List[str]) -> str:
+        message = message[1 : len(message) - 1]  # remove the first and last sentence
+        message = "\n".join(message)
+        response = requests.post(
+            self.API_URL,
+            headers=self.headers,
+            json={
+                "inputs": {
+                    "question": "is reference 1 or 2 related? Just answer with one token.",
+                    "context": message,
+                },
+            },
+        )
+        result_json = response.json()
+        if "answer" not in result_json:
+            time.sleep(1)
+            return self.conversation(message)
+        return result_json["answer"]
+
+
+class MiniLM(HuggingFaceModel):
+    # Source: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+    model_name = "sentence-transformers/all-MiniLM-L6-v2"
+
+    def conversation(self, message: List[str]) -> str:
+        prompt_with_refs = message[-2]
+        message = message[1 : len(message) - 1]  # remove the first and last sentence
+        message = "\n".join(message)
+
+        _, opt1, _, opt2, *_ = prompt_with_refs.split('"')
+        response = requests.post(
+            self.API_URL,
+            headers=self.headers,
+            json={
+                "inputs": {
+                    "source_sentence": message,
+                    "sentences": [
+                        opt1,
+                        opt2,
+                    ],
+                },
+            },
+        )
+        result: List[float] = response.json()
+        maximum_score = 0.0
+        for score in result:
+            if score > maximum_score:
+                maximum_score = score
+        maximum_score_index = result.index(maximum_score)
+        return maximum_score_index + 1
 
 
 def task_1_parse_response(response: str, prompts: List[str]) -> str:
     prompt_with_refs = prompts[-2]
 
-    _, opt1, _, opt2, *_ = prompt_with_refs.split("\"")
-    print(response)
+    _, opt1, _, opt2, *_ = prompt_with_refs.split('"')
+    if not isinstance(response, str):
+        response = str(response)
     potential_answer = []
     if "1" in response or opt1 in response:
         potential_answer.append("[1]")
@@ -83,6 +146,7 @@ def task_1_parse_response(response: str, prompts: List[str]) -> str:
     else:
         # no answer
         return "[0]"
+
 
 def feed_prompt_to_lm(
     prompts: Dict[str, str],
