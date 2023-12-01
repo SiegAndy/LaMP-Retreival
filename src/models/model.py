@@ -1,3 +1,4 @@
+import copy
 import json
 import time
 from typing import Callable, Dict, List, Type
@@ -53,6 +54,7 @@ class DistilBERTModel(HuggingFaceModel):
     model_name = "distilbert-base-uncased-distilled-squad"
 
     def conversation(self, message: List[str]) -> str:
+        message_before_modify = copy.copy(message)
         message = message[1 : len(message) - 1]  # remove the first and last sentence
         message = "\n".join(message)
         response = requests.post(
@@ -69,10 +71,10 @@ class DistilBERTModel(HuggingFaceModel):
             result_json = response.json()
         except json.JSONDecodeError:
             time.sleep(1)
-            return self.conversation(message)
+            return self.conversation(message_before_modify)
         if "answer" not in result_json:
             time.sleep(1)
-            return self.conversation(message)
+            return self.conversation(message_before_modify)
         return result_json["answer"]
 
 
@@ -81,6 +83,7 @@ class BERTSERINIModel(HuggingFaceModel):
     model_name = "rsvp-ai/bertserini-bert-base-squad"
 
     def conversation(self, message: List[str]) -> str:
+        message_before_modify = copy.copy(message)
         message = message[1 : len(message) - 1]  # remove the first and last sentence
         message = "\n".join(message)
         response = requests.post(
@@ -96,11 +99,12 @@ class BERTSERINIModel(HuggingFaceModel):
         try:
             result_json = response.json()
         except json.JSONDecodeError:
+            print("BERTSERINIModel catched json error")
             time.sleep(1)
-            return self.conversation(message)
+            return self.conversation(message_before_modify)
         if "answer" not in result_json:
             time.sleep(1)
-            return self.conversation(message)
+            return self.conversation(message_before_modify)
         return result_json["answer"]
 
 
@@ -109,6 +113,7 @@ class MiniLM(HuggingFaceModel):
     model_name = "sentence-transformers/all-MiniLM-L6-v2"
 
     def conversation(self, message: List[str]) -> str:
+        message_before_modify = copy.copy(message)
         prompt_with_refs = message[-2]
         message = message[1 : len(message) - 1]  # remove the first and last sentence
         message = "\n".join(message)
@@ -130,7 +135,7 @@ class MiniLM(HuggingFaceModel):
         result: List[float] = response.json()
         if not isinstance(result, List):
             time.sleep(1)
-            return self.conversation(message)
+            return self.conversation(message_before_modify)
         maximum_score = 0.0
         for score in result:
             if score > maximum_score:
@@ -168,15 +173,16 @@ def feed_prompt_to_lm(
 ) -> labels:
     if ret is None:
         ret = labels(golds=list())
-    count = 0
     container = ret.golds
-
+    print(f"{model.__class__.__name__} is processing the questions")
     for id, prompt in prompts.items():
-        count += 1
-        print(count)
+        print(f"{model.__class__.__name__} is processing the question {id}")
+        start_time = time.time()
         model_response = model.conversation(message=prompt)
+        finished_time = time.time()
         if callback is not None:
             model_response = callback(model_response, prompt)
-        # print(model_response)
         container.append(label(id=id, output=model_response))
+        print(f"{model.__class__.__name__} finished the question {id} took {finished_time-start_time}")
+        time.sleep(5)
     return ret

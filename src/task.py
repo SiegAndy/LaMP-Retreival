@@ -160,21 +160,21 @@ class LaMPTask:
                 self.prompt_save_path,
                 f"LaMP_{self.task_id}_{self.task_type}_prompts_{self.suffix}.json",
             )
-        cur_suffix = "_".join(prompt_path.split(".")[1].split("_")[-2:])
-        if cur_suffix != self.suffix:
-            task_purpose = (
-                "keyword-extraction"
-                if self.keyword_extraction
-                else "non-keyword-extraction"
-            )
-            file_purpose = (
-                "keyword-extraction"
-                if cur_suffix == "with_keyword"
-                else "non-keyword-extraction"
-            )
-            raise RuntimeError(
-                f"the file pass in is for {file_purpose}, but the task is for {task_purpose}"
-            )
+        # cur_suffix = "_".join(prompt_path.split(".")[1].split("_")[-2:])
+        # if cur_suffix != self.suffix:
+        #     task_purpose = (
+        #         "keyword-extraction"
+        #         if self.keyword_extraction
+        #         else "non-keyword-extraction"
+        #     )
+        #     file_purpose = (
+        #         "keyword-extraction"
+        #         if cur_suffix == "with_keyword"
+        #         else "non-keyword-extraction"
+        #     )
+        #     raise RuntimeError(
+        #         f"the file pass in is for {file_purpose}, but the task is for {task_purpose}"
+        #     )
         if os.path.isfile(prompt_path):
             with open(prompt_path, "r", encoding="utf-8") as prompt_file:
                 self.parsed_prompts = json.load(prompt_file)
