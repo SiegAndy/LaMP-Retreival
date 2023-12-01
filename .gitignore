@@ -24,6 +24,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.DS_Store
 MANIFEST
 
 # PyInstaller
@@ -163,6 +164,8 @@ cython_debug/
 test.py
 *src/models/T5*
 *src/data/*.json
+*src/data/orginal_data/*.json
+*src/data/sample_results/*.json
 
 !*src/data/LaMP_11_*
-!*src/data/LaMP_22_*
+!*src/data/LaMP_12_*
