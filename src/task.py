@@ -102,7 +102,7 @@ class LaMPTask:
             if save_name_not_provided:
                 curr_preds_save_name = os.path.join(
                     self.store_path,
-                    f"LaMP_{self.task_id}_{self.task_type}_preds_{subscriber_name}.json",
+                    f"LaMP_{self.task_id}_{self.task_type}_preds_{subscriber_name}_{self.suffix}.json",
                 )
             else:
                 curr_preds_save_name = preds_save_name[index]

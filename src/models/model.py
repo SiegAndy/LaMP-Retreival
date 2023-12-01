@@ -59,7 +59,7 @@ class DistilBERTModel(HuggingFaceModel):
 
     def conversation(self, message: List[str]) -> str:
         message_before_modify = copy.copy(message)
-        message = message[1: len(message) - 1]  # remove the first and last sentence
+        message = message[1 : len(message) - 1]  # remove the first and last sentence
         message = "\n".join(message)
         response = requests.post(
             self.API_URL,
@@ -88,7 +88,7 @@ class BERTSERINIModel(HuggingFaceModel):
 
     def conversation(self, message: List[str]) -> str:
         message_before_modify = copy.copy(message)
-        message = message[1: len(message) - 1]  # remove the first and last sentence
+        message = message[1 : len(message) - 1]  # remove the first and last sentence
         message = "\n".join(message)
         response = requests.post(
             self.API_URL,
@@ -119,7 +119,7 @@ class MiniLM(HuggingFaceModel):
     def conversation(self, message: List[str]) -> str:
         message_before_modify = copy.copy(message)
         prompt_with_refs = message[-2]
-        message = message[1: len(message) - 1]  # remove the first and last sentence
+        message = message[1 : len(message) - 1]  # remove the first and last sentence
         message = "\n".join(message)
 
         _, opt1, _, opt2, *_ = prompt_with_refs.split('"')
@@ -172,10 +172,10 @@ def task_1_parse_response(response: str, prompts: List[str]) -> str:
 
 
 def feed_prompt_to_lm(
-        prompts: Dict[str, str],
-        model: Type[LMModel],
-        ret: labels = None,
-        callback: Callable[[str, List[str]], str] = None,
+    prompts: Dict[str, str],
+    model: Type[LMModel],
+    ret: labels = None,
+    callback: Callable[[str, List[str]], str] = None,
 ) -> labels:
     if ret is None:
         ret = labels(golds=list())
@@ -189,6 +189,8 @@ def feed_prompt_to_lm(
         if callback is not None:
             model_response = callback(model_response, prompt)
         container.append(label(id=id, output=model_response))
-        print(f"{model.__class__.__name__} finished the question {id} took {finished_time - start_time}")
+        print(
+            f"{model.__class__.__name__} finished the question {id} took {finished_time - start_time}"
+        )
         time.sleep(5)
     return ret

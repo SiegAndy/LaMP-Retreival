@@ -93,11 +93,11 @@ def generate_X_y(purpose: str, task: str):
 
 
 def generate_limited_questions_outpus(
-        question_path: str,
-        outputs_path: str,
-        limited: int,
-        limited_question_path: str,
-        limited_outputs_path: str,
+    question_path: str,
+    outputs_path: str,
+    limited: int,
+    limited_question_path: str,
+    limited_outputs_path: str,
 ):
     questions = None
     outputs = None
@@ -105,8 +105,8 @@ def generate_limited_questions_outpus(
         questions = json.load(question_file)
     with open(outputs_path, "r", encoding="utf-8") as outputs_file:
         outputs = json.load(outputs_file)
-    new_questions = questions[: limited]
-    new_outputs = {"task": outputs["task"], "golds": outputs["golds"][: limited]}
+    new_questions = questions[:limited]
+    new_outputs = {"task": outputs["task"], "golds": outputs["golds"][:limited]}
     with open(limited_question_path, "w", encoding="utf-8") as limited_question_file:
         json.dump(new_questions, limited_question_file, cls=DTOEncoder, indent=4)
     with open(limited_outputs_path, "w", encoding="utf-8") as limited_outputs_file:
@@ -136,7 +136,7 @@ generate_limited_questions_outpus(
     outputs_path=old_outputs_path,
     limited=limited,
     limited_question_path=new_questions_path,
-    limited_outputs_path=new_outputs_path
+    limited_outputs_path=new_outputs_path,
 )
 
 print(verify_output_length(new_outputs_path, limited))

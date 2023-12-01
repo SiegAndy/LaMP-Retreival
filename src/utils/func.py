@@ -4,7 +4,6 @@ import subprocess
 from copy import copy
 import string
 from typing import Any, List, Union
-
 from src.utils.param import config_path
 
 
@@ -28,16 +27,19 @@ def remove_enter_punctuation(prompt: str):
     return new_prompt
 
 
-def extract_prompt_tokens_stats(
-    flatten_prompts: List[str], price_per_1k_tokens: float = 0.001
-):
+def extract_prompt_tokens_stats(prompt_json_path, price_per_1k_tokens: float = 0.001):
     total_tokens = 0
-    for prompt in flatten_prompts:
-        cur_num_tokens = number_of_tokens(remove_enter_punctuation(prompt))
-        total_tokens += cur_num_tokens
+    length_of_json = 0
+    with open(prompt_json_path, "r", encoding="utf-8") as file:
+        id_prompts = json.load(file)
+        length_of_json = len(id_prompts)
+        for prompts in id_prompts.values():
+            for prompt in prompts:
+                cur_num_tokens = number_of_tokens(remove_enter_punctuation(prompt))
+                total_tokens += cur_num_tokens
     return (
         total_tokens,
-        total_tokens / len(flatten_prompts),
+        total_tokens / length_of_json,
         round(total_tokens * price_per_1k_tokens / 1000, 2),
     )
 
