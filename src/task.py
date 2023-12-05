@@ -146,6 +146,9 @@ class LaMPTask:
                 single_gold_json_file_addr=self.task_output_file
             )
 
+        if self.score is None:
+            self.score = dict()
+            
         for index, subscriber_name in enumerate(self.subscribers.keys()):
             if save_name_not_provided:
                 curr_preds_save_name = os.path.join(

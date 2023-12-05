@@ -79,6 +79,11 @@ class DistilBERTModel(HuggingFaceModel):
             time.sleep(1)
             return self.conversation(message_before_modify)
         if "answer" not in result_json:
+            if "error" in result_json and "Rate limit reached" in result_json["error"]:
+                print(
+                    "Rate limit reached. You reached free usage limit (reset hourly). Please subscribe to a plan at https://huggingface.co/pricing to use the API at this rate"
+                )
+                exit()
             time.sleep(1)
             return self.conversation(message_before_modify)
         return result_json["answer"]
@@ -113,6 +118,7 @@ class BERTSERINIModel(HuggingFaceModel):
                 print(
                     "Rate limit reached. You reached free usage limit (reset hourly). Please subscribe to a plan at https://huggingface.co/pricing to use the API at this rate"
                 )
+                exit()
             time.sleep(1)
             return self.conversation(message_before_modify)
         return result_json["answer"]

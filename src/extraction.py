@@ -32,6 +32,8 @@ task_2_category = 'categories: ["women", "religion", "politics", "style & beauty
 
 task_2_template = f"\nGiven above information, which category does the following article relate to? Just answer with the category name without further explanation. {task_2_category} article: {{article}} with keywords: {{article_keywords}}."
 
+task_2_template_no_keyword = f"\nGiven above information, which category does the following article relate to? Just answer with the category name without further explanation. {task_2_category} article: {{article}}."
+
 
 def collect_feedback(text: str, copy_to_clipboard: bool = True):
     # ignore manual feedback collection loop where take feedback from input()
@@ -71,7 +73,7 @@ def extract_info_LaMP_1(
             curr_prompt = [
                 f"Here are the documents ranked by relevance, with titles and keywords, from most relevant to least relevant, for the topic of '{author_title}':"
             ]
-            ranker = BM25(corpus=question["profile"])
+            ranker = BM25(corpus=question["profile"], task_name="LaMP_1")
             rel_sequence = ranker.get_top_n(
                 tokenizer(author_title), n=bm25_top_k, sequence_only=True
             )
@@ -138,31 +140,44 @@ def extract_info_LaMP_2(
 
 
 def extract_PPEP_LaMP_2_alt(
-    question: Dict[str, str | List], tokenizer: Callable[[str], str] = lemma_tokenizer
-) -> Dict[str, Counter[str]]:
-    categories_txt: Dict[str, Counter[str]] = defaultdict(Counter)
+    question: Dict[str, str | List],
+    tokenizer: Callable[[str], str] = lemma_tokenizer,
+    keyword_extraction: bool = True,
+) -> Dict[str, Counter[str]] | Dict[str, list[Dict]]:
+    categories_txt: Dict[str, list[str]] = defaultdict(list)
+    if keyword_extraction:
+        categories_txt: Dict[str, Counter[str]] = defaultdict(Counter)
+
     for curr_profile in question["profile"]:
         curr_category = curr_profile["category"]
-        curr_tokens = tokenizer(curr_profile["text"])
-        curr_keywords = text_rank(curr_tokens)
-        categories_txt[curr_category].update(curr_keywords)
+        if keyword_extraction:
+            curr_tokens = tokenizer(curr_profile["text"])
+            curr_keywords = text_rank(curr_tokens)
+            categories_txt[curr_category].update(curr_keywords)
+        else:
+            categories_txt[curr_category].append(curr_profile)
+
     return categories_txt
 
 
-def extract_isntance_info_LaMP_2_alt(
+def extract_instance_info_LaMP_2_alt(
     question: Dict[str, str | List],
     tokenizer: Callable[[str], str] = lemma_tokenizer,
     keyword_extraction: bool = True,
     **params,
 ) -> str:
+    if not keyword_extraction:
+        return extract_instance_info_LaMP_2_alt_no_keyword(
+            question=question, tokenizer=tokenizer
+        )
     *_, curr_article = question["input"].split("article: ")
 
     curr_prompt = [
         "Answer following question:",
-        "Here are keywords associated with different categories, along with titles and keywords:",
+        "Here are keywords associated with different categories:",
     ]
     curr_category_keywords_map = extract_PPEP_LaMP_2_alt(
-        question=question, tokenizer=tokenizer
+        question=question, tokenizer=tokenizer, keyword_extraction=True
     )
     for category, keywords in curr_category_keywords_map.items():
         keywords = [token for token, _ in keywords.most_common(default_top_k_keywords)]
@@ -175,6 +190,32 @@ def extract_isntance_info_LaMP_2_alt(
             article=curr_article, article_keywords=curr_article_keywords
         )
     )
+
+    collect_feedback(curr_prompt)
+    return curr_prompt
+
+
+def extract_instance_info_LaMP_2_alt_no_keyword(
+    question: Dict[str, str | List],
+    tokenizer: Callable[[str], str] = lemma_tokenizer,
+    **params,
+) -> str:
+    *_, curr_article = question["input"].split("article: ")
+
+    curr_prompt = [
+        "Answer following question:",
+        "Here are top article associated with different categories",
+    ]
+    curr_category_article_map = extract_PPEP_LaMP_2_alt(
+        question=question, tokenizer=tokenizer, keyword_extraction=False
+    )
+    for category, profiles in curr_category_article_map.items():
+        ranker = BM25(profiles, task_name="LaMP_2")
+        rel_sequence = ranker.get_top_n(tokenizer(category), n=1, sequence_only=True)
+        _, best_article = ranker.corpus[rel_sequence[0]]
+        curr_prompt.append(f'category: "{category}" has article: "{best_article}"')
+    # curr_article_keywords = text_rank(tokenizer(curr_article))
+    curr_prompt.append(task_2_template_no_keyword.format(article=curr_article))
 
     collect_feedback(curr_prompt)
     return curr_prompt
@@ -196,29 +237,7 @@ def extract_info_LaMP_2_alt(
     """
     prompt_collection = dict()
     for question in questions:
-        # *_, curr_article = question["input"].split("article: ")
-
-        # curr_prompt = [
-        #     "Answer following question:",
-        #     "Here are keywords associated with different categories, along with titles and keywords:",
-        # ]
-        # curr_category_keywords_map = extract_PPEP_LaMP_2_alt(
-        #     question=question, tokenizer=tokenizer
-        # )
-        # for category, keywords in curr_category_keywords_map.items():
-        #     curr_prompt.append(
-        #         f"category: \"{category}\" has keywords: \"[{', '.join(keywords)}]\""
-        #     )
-        # curr_article_keywords = text_rank(tokenizer(curr_article))
-        # curr_prompt.append(
-        #     task_2_template.format(
-        #         article=curr_article, article_keywords=curr_article_keywords
-        #     )
-        # )
-
-        # collect_feedback(curr_prompt)
-
-        prompt_collection[question["id"]] = extract_isntance_info_LaMP_2_alt(
+        prompt_collection[question["id"]] = extract_instance_info_LaMP_2_alt(
             question=question,
             tokenizer=tokenizer,
             keyword_extraction=keyword_extraction,

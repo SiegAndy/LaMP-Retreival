@@ -173,4 +173,5 @@ test.py
 
 
 !*src/data/LaMP_2_train_*_12.json
-!*src/data/LaMP_2_train_preds_*_with_keyword.json
+!*src/data/LaMP_2_train_preds_*_keyword*.json
+!*src/data/LaMP_2_train_prompts_*_keyword*.json

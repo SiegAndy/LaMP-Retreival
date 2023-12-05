@@ -14,7 +14,7 @@ class BM25:
     doc_len: List[int]
     corpus: List[Tuple[str, str, str]]  # map profile id to abstract
 
-    def __init__(self, corpus: List[Dict[str, str]]):
+    def __init__(self, corpus: List[Dict[str, str]], task_name: str):
         self.corpus_size = 0
         self.avgdl = 0
         self.doc_freqs = []
@@ -22,15 +22,20 @@ class BM25:
         self.doc_len = []
         self.corpus = []
 
-        nd = self._initialize(corpus)
+        nd = self._initialize(corpus, task_name)
         self._calc_idf(nd)
 
-    def _initialize(self, corpus: List[Dict[str, str]]):
+    def _initialize(self, corpus: List[Dict[str, str]], task_name: str):
         nd = {}  # word -> number of documents with word
         num_doc = 0
         for profile in corpus:
-            document = profile["abstract"]
-            self.corpus.append([profile["id"], profile["title"], document])
+            if task_name == "LaMP_1":
+                document = profile["abstract"]
+                self.corpus.append([profile["id"], profile["title"], document])
+            else:
+                document = profile["text"]
+                self.corpus.append([profile["id"], document])
+
             self.doc_len.append(len(document))
             num_doc += len(document)
 
@@ -72,11 +77,11 @@ class BM25:
 
 
 class BM25Okapi(BM25):
-    def __init__(self, corpus, k1=1.5, b=0.75, epsilon=0.25):
+    def __init__(self, corpus, task_name: str, k1=1.5, b=0.75, epsilon=0.25):
         self.k1 = k1
         self.b = b
         self.epsilon = epsilon
-        super().__init__(corpus)
+        super().__init__(corpus, task_name)
 
     def _calc_idf(self, nd: Dict[str, float]):
         """
