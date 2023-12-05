@@ -1,7 +1,10 @@
 from genericpath import isfile
 import json
 import os
-from typing import Any, Callable, Dict, List
+from queue import Queue
+from threading import Thread
+import time
+from typing import Any, Callable, Dict, List, Tuple
 
 from src.utils import (
     default_data_path,
@@ -11,6 +14,47 @@ from src.utils import (
 )
 from src.extraction import parse_dataset_to_prompt
 from src.evaluation import LaMPEvaluation
+from rich.progress import Progress, TaskID
+
+default_total = 100
+
+
+def subscriber_proc_thread(
+    prog: Progress,
+    task_dict: Dict[str, Tuple[TaskID, Callable, labels]],
+    pipeline: Queue,
+):
+    """
+    task_dict: dict of tuple of (taskID and subscriber func and labels)
+    read content from pipeline (tuple of subscriber name and (id, prompt) and total number)
+    """
+    while True:
+        content = pipeline.get()
+        if content == "finished":
+            break
+        sub_name, (p_id, prompt), total_num = content
+        task, sub_func, curr_labels = task_dict[sub_name]
+        curr_label = sub_func(p_id, prompt)
+        curr_labels.golds.append(curr_label)
+        prog.update(task, advance=100 / total_num)
+
+
+def subscriber_task_thread(
+    prog: Progress,
+    task_info: Tuple[str, TaskID],
+    parsed_prompts: Dict[str, List[str]],
+    pipeline: Queue,
+):
+    """
+    task_info: tuple of subscriber name and taskID for progress
+    send content to pipeline (tuple of subscriber name and (id, prompt) and total number)
+    """
+    sub_name, task = task_info
+    total_num = len(parsed_prompts)
+    for id, prompt in parsed_prompts.items():
+        pipeline.put((sub_name, (id, prompt), total_num))
+        prog.update(task, advance=default_total / total_num)
+    time.sleep(1)
 
 
 class LaMPTask:
@@ -43,6 +87,7 @@ class LaMPTask:
         store_path: str = default_data_path,
         extract_path: str = default_extract_path,
         keyword_extraction: bool = True,
+        worker_count: int = 1,
     ) -> None:
         assert (
             subscribers is not None
@@ -54,6 +99,9 @@ class LaMPTask:
             list(subscribers.values())[0], Callable
         ), "subscriber(s) need to be a function"
 
+        assert worker_count >= 1, "Must have at least one worker"
+
+        self.worker_count = worker_count
         self.subscribers = subscribers
         self.store_path = ""
         if save_lables:
@@ -114,24 +162,80 @@ class LaMPTask:
         self.preds = dict()
         self.score = dict()
 
-        # feed prompt into subscriber
-        for subscriber_name, subscriber_func in self.subscribers.items():
-            curr_preds = labels(task=self.task_name, golds=list())
-            subscriber_func(self.parsed_prompts, curr_preds)
-            self.preds[subscriber_name] = curr_preds
+        with Progress() as prog:
+            task_dict: Dict[str, Tuple[TaskID, Callable]] = dict()
+            proc_worker: List[Thread] = list()
+            task_worker: List[Thread] = list()
+            worker_pipeline = Queue()
 
-            if self.store_path is not None and self.store_path != "":
-                preds_save_name = os.path.join(
-                    self.store_path,
-                    f"LaMP_{self.task_id}_{self.task_type}_preds_{subscriber_name}_{self.suffix}.json",
+            for i in range(self.worker_count):
+                curr_worker = Thread(
+                    target=subscriber_proc_thread,
+                    args=(
+                        prog,
+                        task_dict,
+                        worker_pipeline,
+                    ),
                 )
-                os.makedirs(self.store_path, exist_ok=True)
-                with open(preds_save_name, "w", encoding="utf-8") as output:
-                    json.dump(curr_preds, output, cls=DTOEncoder, indent=4)
-            if self.evaluation is not None:
-                self.score[subscriber_name] = self.evaluation.evaluate_task(
-                    preds_save_name, self.task_name
+                curr_worker.start()
+                proc_worker.append(curr_worker)
+
+            for subscriber_name, subscriber_func in self.subscribers.items():
+                self.preds[subscriber_name] = labels(task=self.task_name, golds=list())
+                curr_p_task = prog.add_task(
+                    f"Processing Requests for {subscriber_name}", total=default_total
                 )
+                task_dict[subscriber_name] = (
+                    curr_p_task,
+                    subscriber_func,
+                    self.preds[subscriber_name],
+                )
+
+                curr_q_task = prog.add_task(
+                    f"Queuing Requests for {subscriber_name}", total=default_total
+                )
+                curr_worker = Thread(
+                    target=subscriber_task_thread,
+                    args=(
+                        prog,
+                        (subscriber_name, curr_q_task),
+                        self.parsed_prompts,
+                        worker_pipeline,
+                    ),
+                )
+                curr_worker.start()
+                task_worker.append(curr_worker)
+
+            [worker.join() for worker in task_worker]
+
+            for i in range(self.worker_count):
+                worker_pipeline.put("finished")
+
+            [worker.join() for worker in proc_worker]
+
+            # feed prompt into subscriber
+            for subscriber_name, subscriber_func in self.subscribers.items():
+                # curr_preds = labels(task=self.task_name, golds=list())
+                # subscriber_func(self.parsed_prompts, curr_preds)
+                # self.preds[subscriber_name] = curr_preds
+
+                if self.store_path is not None and self.store_path != "":
+                    preds_save_name = os.path.join(
+                        self.store_path,
+                        f"LaMP_{self.task_id}_{self.task_type}_preds_{subscriber_name}_{self.suffix}.json",
+                    )
+                    os.makedirs(self.store_path, exist_ok=True)
+                    with open(preds_save_name, "w", encoding="utf-8") as output:
+                        json.dump(
+                            self.preds[subscriber_name],
+                            output,
+                            cls=DTOEncoder,
+                            indent=4,
+                        )
+                if self.evaluation is not None:
+                    self.score[subscriber_name] = self.evaluation.evaluate_task(
+                        preds_save_name, self.task_name
+                    )
 
     def construct_prompt(self) -> None:
         self.parsed_prompts = parse_dataset_to_prompt(

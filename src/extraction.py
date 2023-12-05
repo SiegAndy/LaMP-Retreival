@@ -5,7 +5,7 @@
 #           mention such rank order in the prompt.
 from __future__ import annotations
 
-from collections import defaultdict
+from collections import Counter, defaultdict
 import json
 import os
 from typing import Callable, Dict, List, Set
@@ -15,7 +15,7 @@ from src.models.BM25 import BM25Okapi as BM25
 
 from src.models.TextRank import text_rank
 
-from src.utils import DatasetType, copy2clip
+from src.utils import DatasetType, copy2clip, default_top_k_keywords
 from src.tokenization import lemma_tokenizer
 
 
@@ -30,7 +30,7 @@ task_1_options = '1 is "{title_opt1}", 2 is "{title_opt2}".'
 
 task_2_category = 'categories: ["women", "religion", "politics", "style & beauty", "entertainment", "culture & arts", "sports", "science & technology", "travel", "business", "crime", "education", "healthy living", "parents", "food & drink"]'
 
-task_2_template = f"\nGiven above information, which category does the following article relate to? Just answer with the category name without further explanation. {task_2_category} article: {{article}}"
+task_2_template = f"\nGiven above information, which category does the following article relate to? Just answer with the category name without further explanation. {task_2_category} article: {{article}} with keywords: {{article_keywords}}."
 
 
 def collect_feedback(text: str, copy_to_clipboard: bool = True):
@@ -139,14 +139,45 @@ def extract_info_LaMP_2(
 
 def extract_PPEP_LaMP_2_alt(
     question: Dict[str, str | List], tokenizer: Callable[[str], str] = lemma_tokenizer
-) -> Dict[str, Set[str]]:
-    categories_txt: Dict[str, Set[str]] = defaultdict(set)
+) -> Dict[str, Counter[str]]:
+    categories_txt: Dict[str, Counter[str]] = defaultdict(Counter)
     for curr_profile in question["profile"]:
         curr_category = curr_profile["category"]
         curr_tokens = tokenizer(curr_profile["text"])
         curr_keywords = text_rank(curr_tokens)
         categories_txt[curr_category].update(curr_keywords)
     return categories_txt
+
+
+def extract_isntance_info_LaMP_2_alt(
+    question: Dict[str, str | List],
+    tokenizer: Callable[[str], str] = lemma_tokenizer,
+    keyword_extraction: bool = True,
+    **params,
+) -> str:
+    *_, curr_article = question["input"].split("article: ")
+
+    curr_prompt = [
+        "Answer following question:",
+        "Here are keywords associated with different categories, along with titles and keywords:",
+    ]
+    curr_category_keywords_map = extract_PPEP_LaMP_2_alt(
+        question=question, tokenizer=tokenizer
+    )
+    for category, keywords in curr_category_keywords_map.items():
+        keywords = [token for token, _ in keywords.most_common(default_top_k_keywords)]
+        curr_prompt.append(
+            f"category: \"{category}\" has keywords: \"[{', '.join(keywords)}]\""
+        )
+    curr_article_keywords = text_rank(tokenizer(curr_article))
+    curr_prompt.append(
+        task_2_template.format(
+            article=curr_article, article_keywords=curr_article_keywords
+        )
+    )
+
+    collect_feedback(curr_prompt)
+    return curr_prompt
 
 
 def extract_info_LaMP_2_alt(
@@ -165,23 +196,33 @@ def extract_info_LaMP_2_alt(
     """
     prompt_collection = dict()
     for question in questions:
-        *_, curr_article = question["input"].split("article: ")
+        # *_, curr_article = question["input"].split("article: ")
 
-        curr_prompt = [
-            f"Here are the keywords associated with different category, with titles and keywords:"
-        ]
-        curr_category_keywords_map = extract_PPEP_LaMP_2_alt(
-            question=question, tokenizer=tokenizer
+        # curr_prompt = [
+        #     "Answer following question:",
+        #     "Here are keywords associated with different categories, along with titles and keywords:",
+        # ]
+        # curr_category_keywords_map = extract_PPEP_LaMP_2_alt(
+        #     question=question, tokenizer=tokenizer
+        # )
+        # for category, keywords in curr_category_keywords_map.items():
+        #     curr_prompt.append(
+        #         f"category: \"{category}\" has keywords: \"[{', '.join(keywords)}]\""
+        #     )
+        # curr_article_keywords = text_rank(tokenizer(curr_article))
+        # curr_prompt.append(
+        #     task_2_template.format(
+        #         article=curr_article, article_keywords=curr_article_keywords
+        #     )
+        # )
+
+        # collect_feedback(curr_prompt)
+
+        prompt_collection[question["id"]] = extract_isntance_info_LaMP_2_alt(
+            question=question,
+            tokenizer=tokenizer,
+            keyword_extraction=keyword_extraction,
         )
-        for category, keywords in curr_category_keywords_map.items():
-            curr_prompt.append(
-                f"category: \"{category}\" has keywords: \"[{', '.join(keywords)}]\""
-            )
-        curr_prompt.append(task_2_template.format(article=curr_article))
-
-        collect_feedback(curr_prompt)
-
-        prompt_collection[question["id"]] = curr_prompt
     return prompt_collection
 
 

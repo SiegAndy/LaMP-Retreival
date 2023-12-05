@@ -1,14 +1,16 @@
 import copy
 import json
+import random
 import time
 from typing import Callable, Dict, List, Type
 
-from src.utils import labels, label, check_config
+from src.utils import labels, label, check_config, task_2_categories
 import requests
 
 from openai import OpenAI
 
 default_model_name = "gpt-3.5-turbo"
+random.seed(0)
 
 
 class LMModel:
@@ -107,6 +109,10 @@ class BERTSERINIModel(HuggingFaceModel):
             time.sleep(1)
             return self.conversation(message_before_modify)
         if "answer" not in result_json:
+            if "error" in result_json and "Rate limit reached" in result_json["error"]:
+                print(
+                    "Rate limit reached. You reached free usage limit (reset hourly). Please subscribe to a plan at https://huggingface.co/pricing to use the API at this rate"
+                )
             time.sleep(1)
             return self.conversation(message_before_modify)
         return result_json["answer"]
@@ -171,7 +177,17 @@ def task_1_parse_response(response: str, prompts: List[str]) -> str:
         return "[0]"
 
 
-def feed_prompt_to_lm(
+def task_2_parse_response(response: str, prompts: List[str]) -> str:
+    possible_category = []
+    for category in task_2_categories:
+        if category in response:
+            possible_category.append(category)
+    if len(possible_category) == 0:
+        return ""
+    return random.choice(possible_category)
+
+
+def feed_prompts_to_lm(
     prompts: Dict[str, str],
     model: Type[LMModel],
     ret: labels = None,
@@ -194,3 +210,21 @@ def feed_prompt_to_lm(
         )
         time.sleep(5)
     return ret
+
+
+def feed_prompt_to_lm(
+    id: str,
+    prompt: str | List[str],
+    model: Type[LMModel],
+    callback: Callable[[str, List[str]], str] = None,
+) -> label:
+    print(f"{model.__class__.__name__} is processing the question {id}")
+    start_time = time.time()
+    model_response = model.conversation(message=prompt)
+    finished_time = time.time()
+    if callback is not None:
+        model_response = callback(model_response, prompt)
+    print(
+        f"{model.__class__.__name__} finished the question {id} took {finished_time - start_time}"
+    )
+    return label(id=id, output=model_response)

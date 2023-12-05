@@ -15,4 +15,5 @@ from .param import (
     default_prompt_path,
     default_text_rank_window_size,
     default_top_k_keywords,
+    task_2_categories,
 )

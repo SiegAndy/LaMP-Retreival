@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
     with Progress() as progress:
         task_index = 0
-        for i in range(1, 3, 1):
+        for i in range(3, 4, 1):
             for category in data_category:
                 for curr_type in data_type:
                     file_name = f"LaMP_{i}_{category}_{curr_type}.json"

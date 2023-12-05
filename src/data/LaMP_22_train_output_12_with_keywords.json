@@ -1,0 +1,21 @@
+{
+    "task": "LaMP_2",
+    "golds": [
+        {
+            "id": "100",
+            "output": "business"
+        },
+        {
+            "id": "101",
+            "output": "style & beauty"
+        },
+        {
+            "id": "102",
+            "output": "style & beauty"
+        },
+        {
+            "id": "103",
+            "output": "entertainment"
+        }
+    ]
+}

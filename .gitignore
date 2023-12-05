@@ -169,3 +169,8 @@ test.py
 
 !*src/data/LaMP_11_*
 !*src/data/LaMP_12_*
+!*src/data/LaMP_22_*
+
+
+!*src/data/LaMP_2_train_*_12.json
+!*src/data/LaMP_2_train_preds_*_with_keyword.json
