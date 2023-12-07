@@ -1,0 +1,965 @@
+{
+    "task": "LaMP_2",
+    "golds": [
+        {
+            "id": "104287",
+            "output": "business"
+        },
+        {
+            "id": "104980",
+            "output": "business"
+        },
+        {
+            "id": "10810",
+            "output": "business"
+        },
+        {
+            "id": "103224",
+            "output": "business"
+        },
+        {
+            "id": "103307",
+            "output": "business"
+        },
+        {
+            "id": "102762",
+            "output": "business"
+        },
+        {
+            "id": "105020",
+            "output": "business"
+        },
+        {
+            "id": "102244",
+            "output": "business"
+        },
+        {
+            "id": "10210",
+            "output": "business"
+        },
+        {
+            "id": "10294",
+            "output": "business"
+        },
+        {
+            "id": "103324",
+            "output": "business"
+        },
+        {
+            "id": "103243",
+            "output": "business"
+        },
+        {
+            "id": "105803",
+            "output": "business"
+        },
+        {
+            "id": "105556",
+            "output": "business"
+        },
+        {
+            "id": "105302",
+            "output": "business"
+        },
+        {
+            "id": "10308",
+            "output": "business"
+        },
+        {
+            "id": "104049",
+            "output": "style & beauty"
+        },
+        {
+            "id": "104039",
+            "output": "style & beauty"
+        },
+        {
+            "id": "104030",
+            "output": "style & beauty"
+        },
+        {
+            "id": "104042",
+            "output": "style & beauty"
+        },
+        {
+            "id": "104617",
+            "output": "style & beauty"
+        },
+        {
+            "id": "104027",
+            "output": "style & beauty"
+        },
+        {
+            "id": "101856",
+            "output": "style & beauty"
+        },
+        {
+            "id": "103512",
+            "output": "style & beauty"
+        },
+        {
+            "id": "10503",
+            "output": "style & beauty"
+        },
+        {
+            "id": "104017",
+            "output": "style & beauty"
+        },
+        {
+            "id": "102",
+            "output": "style & beauty"
+        },
+        {
+            "id": "10440",
+            "output": "style & beauty"
+        },
+        {
+            "id": "101094",
+            "output": "style & beauty"
+        },
+        {
+            "id": "104056",
+            "output": "style & beauty"
+        },
+        {
+            "id": "104043",
+            "output": "style & beauty"
+        },
+        {
+            "id": "101118",
+            "output": "style & beauty"
+        },
+        {
+            "id": "104103",
+            "output": "entertainment"
+        },
+        {
+            "id": "10431",
+            "output": "entertainment"
+        },
+        {
+            "id": "101078",
+            "output": "entertainment"
+        },
+        {
+            "id": "105683",
+            "output": "entertainment"
+        },
+        {
+            "id": "102192",
+            "output": "entertainment"
+        },
+        {
+            "id": "102847",
+            "output": "entertainment"
+        },
+        {
+            "id": "103706",
+            "output": "entertainment"
+        },
+        {
+            "id": "102198",
+            "output": "entertainment"
+        },
+        {
+            "id": "103477",
+            "output": "entertainment"
+        },
+        {
+            "id": "101793",
+            "output": "entertainment"
+        },
+        {
+            "id": "10501",
+            "output": "entertainment"
+        },
+        {
+            "id": "101093",
+            "output": "entertainment"
+        },
+        {
+            "id": "103611",
+            "output": "entertainment"
+        },
+        {
+            "id": "10755",
+            "output": "entertainment"
+        },
+        {
+            "id": "102864",
+            "output": "entertainment"
+        },
+        {
+            "id": "102628",
+            "output": "entertainment"
+        },
+        {
+            "id": "102323",
+            "output": "politics"
+        },
+        {
+            "id": "10656",
+            "output": "politics"
+        },
+        {
+            "id": "105225",
+            "output": "politics"
+        },
+        {
+            "id": "102491",
+            "output": "politics"
+        },
+        {
+            "id": "104819",
+            "output": "politics"
+        },
+        {
+            "id": "105616",
+            "output": "politics"
+        },
+        {
+            "id": "101983",
+            "output": "politics"
+        },
+        {
+            "id": "102522",
+            "output": "politics"
+        },
+        {
+            "id": "103894",
+            "output": "politics"
+        },
+        {
+            "id": "102360",
+            "output": "politics"
+        },
+        {
+            "id": "101871",
+            "output": "politics"
+        },
+        {
+            "id": "104142",
+            "output": "politics"
+        },
+        {
+            "id": "105184",
+            "output": "politics"
+        },
+        {
+            "id": "105258",
+            "output": "politics"
+        },
+        {
+            "id": "103579",
+            "output": "politics"
+        },
+        {
+            "id": "102145",
+            "output": "politics"
+        },
+        {
+            "id": "105641",
+            "output": "sports"
+        },
+        {
+            "id": "104343",
+            "output": "sports"
+        },
+        {
+            "id": "10467",
+            "output": "sports"
+        },
+        {
+            "id": "10600",
+            "output": "sports"
+        },
+        {
+            "id": "105389",
+            "output": "sports"
+        },
+        {
+            "id": "10466",
+            "output": "sports"
+        },
+        {
+            "id": "109",
+            "output": "sports"
+        },
+        {
+            "id": "102841",
+            "output": "sports"
+        },
+        {
+            "id": "103602",
+            "output": "sports"
+        },
+        {
+            "id": "102860",
+            "output": "sports"
+        },
+        {
+            "id": "103421",
+            "output": "sports"
+        },
+        {
+            "id": "104224",
+            "output": "sports"
+        },
+        {
+            "id": "104622",
+            "output": "sports"
+        },
+        {
+            "id": "102850",
+            "output": "sports"
+        },
+        {
+            "id": "102832",
+            "output": "sports"
+        },
+        {
+            "id": "105815",
+            "output": "sports"
+        },
+        {
+            "id": "101508",
+            "output": "religion"
+        },
+        {
+            "id": "105118",
+            "output": "religion"
+        },
+        {
+            "id": "103553",
+            "output": "religion"
+        },
+        {
+            "id": "102070",
+            "output": "religion"
+        },
+        {
+            "id": "10388",
+            "output": "religion"
+        },
+        {
+            "id": "105134",
+            "output": "religion"
+        },
+        {
+            "id": "105105",
+            "output": "religion"
+        },
+        {
+            "id": "105137",
+            "output": "religion"
+        },
+        {
+            "id": "103647",
+            "output": "religion"
+        },
+        {
+            "id": "105100",
+            "output": "religion"
+        },
+        {
+            "id": "10587",
+            "output": "religion"
+        },
+        {
+            "id": "102958",
+            "output": "religion"
+        },
+        {
+            "id": "101485",
+            "output": "religion"
+        },
+        {
+            "id": "10118",
+            "output": "religion"
+        },
+        {
+            "id": "105146",
+            "output": "religion"
+        },
+        {
+            "id": "101488",
+            "output": "religion"
+        },
+        {
+            "id": "10736",
+            "output": "food & drink"
+        },
+        {
+            "id": "101001",
+            "output": "food & drink"
+        },
+        {
+            "id": "101030",
+            "output": "food & drink"
+        },
+        {
+            "id": "102731",
+            "output": "food & drink"
+        },
+        {
+            "id": "10803",
+            "output": "food & drink"
+        },
+        {
+            "id": "105909",
+            "output": "food & drink"
+        },
+        {
+            "id": "105908",
+            "output": "food & drink"
+        },
+        {
+            "id": "10736",
+            "output": "food & drink"
+        },
+        {
+            "id": "101035",
+            "output": "food & drink"
+        },
+        {
+            "id": "104761",
+            "output": "food & drink"
+        },
+        {
+            "id": "105631",
+            "output": "food & drink"
+        },
+        {
+            "id": "102645",
+            "output": "food & drink"
+        },
+        {
+            "id": "105656",
+            "output": "food & drink"
+        },
+        {
+            "id": "101021",
+            "output": "food & drink"
+        },
+        {
+            "id": "102646",
+            "output": "food & drink"
+        },
+        {
+            "id": "102646",
+            "output": "food & drink"
+        },
+        {
+            "id": "102737",
+            "output": "travel"
+        },
+        {
+            "id": "10898",
+            "output": "travel"
+        },
+        {
+            "id": "102585",
+            "output": "travel"
+        },
+        {
+            "id": "10918",
+            "output": "travel"
+        },
+        {
+            "id": "101319",
+            "output": "travel"
+        },
+        {
+            "id": "105876",
+            "output": "travel"
+        },
+        {
+            "id": "105617",
+            "output": "travel"
+        },
+        {
+            "id": "103471",
+            "output": "travel"
+        },
+        {
+            "id": "10299",
+            "output": "travel"
+        },
+        {
+            "id": "10779",
+            "output": "travel"
+        },
+        {
+            "id": "101268",
+            "output": "travel"
+        },
+        {
+            "id": "103341",
+            "output": "travel"
+        },
+        {
+            "id": "104071",
+            "output": "travel"
+        },
+        {
+            "id": "102496",
+            "output": "travel"
+        },
+        {
+            "id": "103183",
+            "output": "travel"
+        },
+        {
+            "id": "103428",
+            "output": "travel"
+        },
+        {
+            "id": "10523",
+            "output": "women"
+        },
+        {
+            "id": "10563",
+            "output": "women"
+        },
+        {
+            "id": "105085",
+            "output": "women"
+        },
+        {
+            "id": "10392",
+            "output": "women"
+        },
+        {
+            "id": "101745",
+            "output": "women"
+        },
+        {
+            "id": "10488",
+            "output": "women"
+        },
+        {
+            "id": "10116",
+            "output": "women"
+        },
+        {
+            "id": "104945",
+            "output": "women"
+        },
+        {
+            "id": "102277",
+            "output": "women"
+        },
+        {
+            "id": "10874",
+            "output": "women"
+        },
+        {
+            "id": "10856",
+            "output": "women"
+        },
+        {
+            "id": "103630",
+            "output": "women"
+        },
+        {
+            "id": "105751",
+            "output": "women"
+        },
+        {
+            "id": "103528",
+            "output": "women"
+        },
+        {
+            "id": "105130",
+            "output": "women"
+        },
+        {
+            "id": "103528",
+            "output": "women"
+        },
+        {
+            "id": "102917",
+            "output": "healthy living"
+        },
+        {
+            "id": "103645",
+            "output": "healthy living"
+        },
+        {
+            "id": "104691",
+            "output": "healthy living"
+        },
+        {
+            "id": "104643",
+            "output": "healthy living"
+        },
+        {
+            "id": "105894",
+            "output": "healthy living"
+        },
+        {
+            "id": "104640",
+            "output": "healthy living"
+        },
+        {
+            "id": "105343",
+            "output": "healthy living"
+        },
+        {
+            "id": "101044",
+            "output": "healthy living"
+        },
+        {
+            "id": "102748",
+            "output": "healthy living"
+        },
+        {
+            "id": "102922",
+            "output": "healthy living"
+        },
+        {
+            "id": "104855",
+            "output": "healthy living"
+        },
+        {
+            "id": "102618",
+            "output": "healthy living"
+        },
+        {
+            "id": "104658",
+            "output": "healthy living"
+        },
+        {
+            "id": "102157",
+            "output": "healthy living"
+        },
+        {
+            "id": "102919",
+            "output": "healthy living"
+        },
+        {
+            "id": "105015",
+            "output": "healthy living"
+        },
+        {
+            "id": "104061",
+            "output": "education"
+        },
+        {
+            "id": "102497",
+            "output": "education"
+        },
+        {
+            "id": "10128",
+            "output": "education"
+        },
+        {
+            "id": "101691",
+            "output": "education"
+        },
+        {
+            "id": "101732",
+            "output": "education"
+        },
+        {
+            "id": "101699",
+            "output": "education"
+        },
+        {
+            "id": "10838",
+            "output": "education"
+        },
+        {
+            "id": "105156",
+            "output": "education"
+        },
+        {
+            "id": "105624",
+            "output": "education"
+        },
+        {
+            "id": "101705",
+            "output": "education"
+        },
+        {
+            "id": "101721",
+            "output": "education"
+        },
+        {
+            "id": "104286",
+            "output": "education"
+        },
+        {
+            "id": "10838",
+            "output": "education"
+        },
+        {
+            "id": "102182",
+            "output": "education"
+        },
+        {
+            "id": "101039",
+            "output": "education"
+        },
+        {
+            "id": "101703",
+            "output": "education"
+        },
+        {
+            "id": "103625",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10138",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10136",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10419",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10430",
+            "output": "culture & arts"
+        },
+        {
+            "id": "104240",
+            "output": "culture & arts"
+        },
+        {
+            "id": "102508",
+            "output": "culture & arts"
+        },
+        {
+            "id": "102201",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10154",
+            "output": "culture & arts"
+        },
+        {
+            "id": "105460",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10417",
+            "output": "culture & arts"
+        },
+        {
+            "id": "102104",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10410",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10137",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10427",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10154",
+            "output": "culture & arts"
+        },
+        {
+            "id": "10283",
+            "output": "science & technology"
+        },
+        {
+            "id": "103423",
+            "output": "science & technology"
+        },
+        {
+            "id": "103427",
+            "output": "science & technology"
+        },
+        {
+            "id": "10589",
+            "output": "science & technology"
+        },
+        {
+            "id": "103278",
+            "output": "science & technology"
+        },
+        {
+            "id": "102723",
+            "output": "science & technology"
+        },
+        {
+            "id": "102898",
+            "output": "science & technology"
+        },
+        {
+            "id": "104976",
+            "output": "science & technology"
+        },
+        {
+            "id": "103231",
+            "output": "science & technology"
+        },
+        {
+            "id": "105275",
+            "output": "science & technology"
+        },
+        {
+            "id": "103356",
+            "output": "science & technology"
+        },
+        {
+            "id": "103212",
+            "output": "science & technology"
+        },
+        {
+            "id": "103427",
+            "output": "science & technology"
+        },
+        {
+            "id": "102704",
+            "output": "science & technology"
+        },
+        {
+            "id": "10754",
+            "output": "science & technology"
+        },
+        {
+            "id": "103980",
+            "output": "science & technology"
+        },
+        {
+            "id": "105737",
+            "output": "parents"
+        },
+        {
+            "id": "105757",
+            "output": "parents"
+        },
+        {
+            "id": "101164",
+            "output": "parents"
+        },
+        {
+            "id": "105772",
+            "output": "parents"
+        },
+        {
+            "id": "105759",
+            "output": "parents"
+        },
+        {
+            "id": "105772",
+            "output": "parents"
+        },
+        {
+            "id": "105767",
+            "output": "parents"
+        },
+        {
+            "id": "105744",
+            "output": "parents"
+        },
+        {
+            "id": "105760",
+            "output": "parents"
+        },
+        {
+            "id": "105726",
+            "output": "parents"
+        },
+        {
+            "id": "105757",
+            "output": "parents"
+        },
+        {
+            "id": "102215",
+            "output": "parents"
+        },
+        {
+            "id": "105757",
+            "output": "parents"
+        },
+        {
+            "id": "105299",
+            "output": "parents"
+        },
+        {
+            "id": "105754",
+            "output": "parents"
+        },
+        {
+            "id": "105417",
+            "output": "parents"
+        },
+        {
+            "id": "104893",
+            "output": "crime"
+        },
+        {
+            "id": "10821",
+            "output": "crime"
+        },
+        {
+            "id": "10699",
+            "output": "crime"
+        },
+        {
+            "id": "105482",
+            "output": "crime"
+        },
+        {
+            "id": "103815",
+            "output": "crime"
+        },
+        {
+            "id": "105442",
+            "output": "crime"
+        },
+        {
+            "id": "105514",
+            "output": "crime"
+        },
+        {
+            "id": "104814",
+            "output": "crime"
+        },
+        {
+            "id": "104405",
+            "output": "crime"
+        },
+        {
+            "id": "101247",
+            "output": "crime"
+        },
+        {
+            "id": "10887",
+            "output": "crime"
+        },
+        {
+            "id": "104919",
+            "output": "crime"
+        },
+        {
+            "id": "105391",
+            "output": "crime"
+        },
+        {
+            "id": "104890",
+            "output": "crime"
+        },
+        {
+            "id": "104837",
+            "output": "crime"
+        },
+        {
+            "id": "103198",
+            "output": "crime"
+        }
+    ]
+}

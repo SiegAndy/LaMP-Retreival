@@ -26,3 +26,4 @@ task_2_categories = [
     "parents",
     "food & drink",
 ]
+task_2_categories_str = 'Categories: ["women", "religion", "politics", "style & beauty", "entertainment", "culture & arts", "sports", "science & technology", "travel", "business", "crime", "education", "healthy living", "parents", "food & drink"]'

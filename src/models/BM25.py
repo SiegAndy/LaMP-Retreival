@@ -32,9 +32,20 @@ class BM25:
             if task_name == "LaMP_1":
                 document = profile["abstract"]
                 self.corpus.append([profile["id"], profile["title"], document])
-            else:
+            if task_name == "LaMP_1_alt":
+                if profile["title"].endswith("."):
+                    document = profile["title"]
+                else:
+                    document = profile["title"] + "."
+                document += f' {profile["abstract"]}'
+                self.corpus.append([profile["id"], document])
+            elif task_name == "LaMP_2":
                 document = profile["text"]
                 self.corpus.append([profile["id"], document])
+            else:
+                raise NotImplementedError(
+                    "Can only initialize with LaMP_1 and LaMP_2 profiles"
+                )
 
             self.doc_len.append(len(document))
             num_doc += len(document)

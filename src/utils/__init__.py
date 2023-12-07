@@ -16,4 +16,5 @@ from .param import (
     default_text_rank_window_size,
     default_top_k_keywords,
     task_2_categories,
+    task_2_categories_str,
 )

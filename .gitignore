@@ -167,11 +167,16 @@ test.py
 *src/data/orginal_data/*.json
 *src/data/sample_results/*.json
 
-!*src/data/LaMP_11_*
-!*src/data/LaMP_12_*
-!*src/data/LaMP_22_*
+*src/data/backup/
 
 
-!*src/data/LaMP_2_train_*_12.json
-!*src/data/LaMP_2_train_preds_*_keyword*.json
-!*src/data/LaMP_2_train_prompts_*_keyword*.json
+# !*src/data/LaMP_11_*
+# !*src/data/LaMP_12_*
+# !*src/data/LaMP_22_*
+
+
+# !*src/data/LaMP_2_train_*_12.json
+# !*src/data/LaMP_2_train_preds_*_keyword*.json
+# !*src/data/LaMP_2_train_prompts_*_keyword*.json
+# !*src/data/LaMP_2_train_prompts_questions_with_keyword_*.json
+# !*src/data/LaMP_2_train_prompts_output_with_keyword_*.json

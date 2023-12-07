@@ -61,6 +61,7 @@ class LaMPTask:
     store_path: str  # where query, label, and results are stored
     extract_path: str  # where the results/lables are extract to for evaluation
     prompt_save_path: str
+    preds_save_path: Dict[str, str]  # map subscriber and preds save name
 
     subscribers: Dict[str, Callable[[Dict[str, str], labels], None]]
 
@@ -82,6 +83,7 @@ class LaMPTask:
         task_output_file: str,
         subscribers: Dict[str, Callable[[Dict[str, str], labels], None]],
         prompt_save_path: str = None,
+        preds_save_path: Dict[str, str] = None,
         save_lables: bool = True,
         run_eval: bool = False,
         store_path: str = default_data_path,
@@ -106,6 +108,11 @@ class LaMPTask:
         self.store_path = ""
         if save_lables:
             self.store_path = store_path
+            if preds_save_path is not None:
+                assert len(preds_save_path) == len(
+                    subscribers
+                ), "Need a save path for all subscribers or use the default one!"
+                self.preds_save_path = preds_save_path
 
         self.extract_path = extract_path
         self.prompt_save_path = prompt_save_path
@@ -113,8 +120,8 @@ class LaMPTask:
         self.parsed_prompts = None
         self.preds = None
         self.score = None
-        _, q_id, q_type, *_ = task_question_file.split("_")
-        _, o_id, o_type, *_ = task_output_file.split("_")
+        _, q_id, q_type, *_ = task_question_file.split(os.sep)[-1].split("_")
+        _, o_id, o_type, *_ = task_output_file.split(os.sep)[-1].split("_")
         assert (
             q_id == o_id and q_type == o_type
         ), "question file and output file id not match"
@@ -135,7 +142,7 @@ class LaMPTask:
                 single_gold_json_file_addr=self.task_output_file
             )
 
-    def evaluate(self, preds_save_name: List[str] = None):
+    def evaluate(self, preds_save_name: Dict[str, str] = None):
         save_name_not_provided = preds_save_name is None or len(preds_save_name) == 0
         assert save_name_not_provided or len(preds_save_name) == len(
             self.subscribers.keys()
@@ -148,20 +155,20 @@ class LaMPTask:
 
         if self.score is None:
             self.score = dict()
-            
-        for index, subscriber_name in enumerate(self.subscribers.keys()):
+
+        for _, subscriber_name in enumerate(self.subscribers.keys()):
             if save_name_not_provided:
                 curr_preds_save_name = os.path.join(
                     self.store_path,
                     f"LaMP_{self.task_id}_{self.task_type}_preds_{subscriber_name}_{self.suffix}.json",
                 )
             else:
-                curr_preds_save_name = preds_save_name[index]
+                curr_preds_save_name = preds_save_name[subscriber_name]
             self.score[subscriber_name] = self.evaluation.evaluate_task(
                 curr_preds_save_name, self.task_name
             )
 
-    def subscribe(self) -> None:
+    def subscribe(self, skip_eval: bool = False) -> None:
         self.preds = dict()
         self.score = dict()
 
@@ -185,6 +192,9 @@ class LaMPTask:
 
             for subscriber_name, subscriber_func in self.subscribers.items():
                 self.preds[subscriber_name] = labels(task=self.task_name, golds=list())
+                curr_q_task = prog.add_task(
+                    f"Queuing Requests for {subscriber_name}", total=default_total
+                )
                 curr_p_task = prog.add_task(
                     f"Processing Requests for {subscriber_name}", total=default_total
                 )
@@ -192,10 +202,6 @@ class LaMPTask:
                     curr_p_task,
                     subscriber_func,
                     self.preds[subscriber_name],
-                )
-
-                curr_q_task = prog.add_task(
-                    f"Queuing Requests for {subscriber_name}", total=default_total
                 )
                 curr_worker = Thread(
                     target=subscriber_task_thread,
@@ -223,10 +229,13 @@ class LaMPTask:
                 # self.preds[subscriber_name] = curr_preds
 
                 if self.store_path is not None and self.store_path != "":
-                    preds_save_name = os.path.join(
-                        self.store_path,
-                        f"LaMP_{self.task_id}_{self.task_type}_preds_{subscriber_name}_{self.suffix}.json",
-                    )
+                    if self.preds_save_path is None:
+                        preds_save_name = os.path.join(
+                            self.store_path,
+                            f"LaMP_{self.task_id}_{self.task_type}_preds_{subscriber_name}_{self.suffix}.json",
+                        )
+                    else:
+                        preds_save_name = self.preds_save_path[subscriber_name]
                     os.makedirs(self.store_path, exist_ok=True)
                     with open(preds_save_name, "w", encoding="utf-8") as output:
                         json.dump(
@@ -235,7 +244,7 @@ class LaMPTask:
                             cls=DTOEncoder,
                             indent=4,
                         )
-                if self.evaluation is not None:
+                if self.evaluation is not None and not skip_eval:
                     self.score[subscriber_name] = self.evaluation.evaluate_task(
                         preds_save_name, self.task_name
                     )
@@ -254,6 +263,12 @@ class LaMPTask:
             )
             with open(prompt_save_name, "w", encoding="utf-8") as output:
                 json.dump(self.parsed_prompts, output, cls=DTOEncoder, indent=4)
+
+    def load_prompts(self, prompt_path: str) -> None:
+        if not os.path.isfile(prompt_path):
+            raise FileNotFoundError("Try to parse prompts from non-existed file")
+        with open(prompt_path, "r", encoding="utf-8") as prompt_file:
+            self.parsed_prompts = json.load(prompt_file)
 
     def run(self) -> None:
         self.construct_prompt()

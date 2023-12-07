@@ -1,0 +1,413 @@
+BERTSERINIModel is processing the question 00397
+BERTSERINIModel is processing the question 00145
+BERTSERINIModel is processing the question 00412
+BERTSERINIModel is processing the question 00324
+BERTSERINIModel is processing the question 00372
+BERTSERINIModel is processing the question 00181
+BERTSERINIModel is processing the question 00288
+BERTSERINIModel is processing the question 005
+BERTSERINIModel is processing the question 00517
+BERTSERINIModel is processing the question 00795
+BERTSERINIModel is processing the question 0094
+BERTSERINIModel is processing the question 00297
+BERTSERINIModel is processing the question 00417
+BERTSERINIModel is processing the question 00233
+BERTSERINIModel is processing the question 00375
+BERTSERINIModel is processing the question 00537
+BERTSERINIModel finished the question 00537 took 1.6753530502319336
+BERTSERINIModel is processing the question 00725
+BERTSERINIModel finished the question 00412 took 1.7295489311218262
+BERTSERINIModel is processing the question 00824
+BERTSERINIModel finished the question 00375 took 1.6958694458007812
+BERTSERINIModel is processing the question 001155
+BERTSERINIModel finished the question 00517 took 1.7218694686889648
+BERTSERINIModel is processing the question 00108
+BERTSERINIModel finished the question 00324 took 1.754549503326416
+BERTSERINIModel finished the question 00181 took 1.750549554824829
+BERTSERINIModel finished the question 00372 took 1.7555501461029053
+BERTSERINIModel is processing the question 001002
+BERTSERINIModel is processing the question 00212
+BERTSERINIModel is processing the question 00622
+BERTSERINIModel finished the question 00145 took 1.7735705375671387
+BERTSERINIModel is processing the question 00769
+BERTSERINIModel finished the question 00795 took 1.755868911743164
+BERTSERINIModel is processing the question 00448
+BERTSERINIModel finished the question 0094 took 1.7788708209991455
+BERTSERINIModel is processing the question 0051
+BERTSERINIModel finished the question 00297 took 1.784386157989502
+BERTSERINIModel is processing the question 001211
+BERTSERINIModel finished the question 00397 took 1.8280868530273438
+BERTSERINIModel is processing the question 001250
+BERTSERINIModel is processing the question 001130
+BERTSERINIModel finished the question 005 took 1.8256213665008545
+BERTSERINIModel is processing the question 001431
+BERTSERINIModel finished the question 00288 took 1.8371365070343018
+BERTSERINIModel finished the question 00233 took 1.8129031658172607
+BERTSERINIModel is processing the question 00601
+BERTSERINIModel is processing the question 001300
+BERTSERINIModel finished the question 00725 took 1.5498771667480469
+BERTSERINIModel is processing the question 001291
+BERTSERINIModel finished the question 00824 took 1.5809240341186523
+BERTSERINIModel is processing the question 001274
+BERTSERINIModel finished the question 001155 took 1.6339592933654785
+BERTSERINIModel finished the question 00622 took 1.6079583168029785
+BERTSERINIModel is processing the question 00719
+BERTSERINIModel finished the question 00108 took 1.6369562149047852
+BERTSERINIModel is processing the question 001566
+BERTSERINIModel finished the question 001002 took 1.623957633972168
+BERTSERINIModel finished the question 00769 took 1.616957664489746
+BERTSERINIModel is processing the question 001779
+BERTSERINIModel is processing the question 001897
+BERTSERINIModel finished the question 00212 took 1.675992727279663
+BERTSERINIModel is processing the question 001624
+BERTSERINIModel finished the question 00448 took 1.6669917106628418
+BERTSERINIModel is processing the question 001752
+BERTSERINIModel finished the question 001211 took 1.6634743213653564
+BERTSERINIModel is processing the question 001517
+BERTSERINIModel finished the question 0051 took 1.711463212966919
+BERTSERINIModel is processing the question 00846
+BERTSERINIModel finished the question 001300 took 1.6774730682373047
+BERTSERINIModel is processing the question 001958
+BERTSERINIModel finished the question 001130 took 1.7089896202087402
+BERTSERINIModel is processing the question 001901
+BERTSERINIModel finished the question 001250 took 1.7165052890777588
+BERTSERINIModel is processing the question 002351
+BERTSERINIModel finished the question 00601 took 1.71299147605896
+BERTSERINIModel finished the question 001431 took 1.7285048961639404
+BERTSERINIModel is processing the question 002152
+BERTSERINIModel finished the question 001291 took 1.5362098217010498
+BERTSERINIModel is processing the question 002501
+BERTSERINIModel finished the question 001274 took 1.539212703704834
+BERTSERINIModel is processing the question 002005
+BERTSERINIModel finished the question 001897 took 1.5712082386016846
+BERTSERINIModel finished the question 001775 took 1.5732057094573975
+BERTSERINIModel is processing the question 002363
+BERTSERINIModel is processing the question 002570
+BERTSERINIModel finished the question 001779 took 1.6022090911865234
+BERTSERINIModel is processing the question 002613
+BERTSERINIModel finished the question 001566 took 1.618208885192871
+BERTSERINIModel finished the question 00719 took 1.625208854675293
+BERTSERINIModel is processing the question 002722
+BERTSERINIModel is processing the question 002380
+BERTSERINIModel finished the question 001624 took 1.590174913406372
+BERTSERINIModel is processing the question 002743
+BERTSERINIModel finished the question 001752 took 1.9678082466125488
+BERTSERINIModel is processing the question 001577
+BERTSERINIModel finished the question 001517 took 2.2189207077026367
+BERTSERINIModel finished the question 001958 took 2.1744086742401123
+BERTSERINIModel finished the question 00846 took 2.185922384262085
+BERTSERINIModel finished the question 001940 took 2.1393704414367676
+BERTSERINIModel finished the question 001901 took 2.1738898754119873
+BERTSERINIModel finished the question 002152 took 2.147890090942383
+BERTSERINIModel finished the question 002351 took 2.1718904972076416
+BERTSERINIModel is processing the question 001931
+BERTSERINIModel is processing the question 003075
+BERTSERINIModel is processing the question 002368
+BERTSERINIModel is processing the question 001373
+BERTSERINIModel is processing the question 003123
+BERTSERINIModel is processing the question 003132
+BERTSERINIModel is processing the question 003232
+BERTSERINIModel finished the question 002005 took 1.4099373817443848
+BERTSERINIModel is processing the question 002522
+BERTSERINIModel finished the question 002501 took 1.4579694271087646
+BERTSERINIModel is processing the question 001604
+BERTSERINIModel finished the question 002722 took 1.8188583850860596
+BERTSERINIModel finished the question 002363 took 1.859858751296997
+BERTSERINIModel is processing the question 002550
+BERTSERINIModel finished the question 002380 took 1.8248589038848877
+BERTSERINIModel finished the question 002570 took 1.8688580989837646
+BERTSERINIModel finished the question 003232 took 1.958221197128296
+BERTSERINIModel finished the question 001373 took 1.9672200679779053
+BERTSERINIModel is processing the question 001446
+BERTSERINIModel is processing the question 003424
+BERTSERINIModel finished the question 002368 took 2.0282633304595947
+BERTSERINIModel finished the question 003123 took 2.0287795066833496
+BERTSERINIModel finished the question 003132 took 2.0317800045013428
+BERTSERINIModel finished the question 001931 took 2.0407791137695312
+BERTSERINIModel finished the question 003075 took 2.0417797565460205
+BERTSERINIModel is processing the question 003672
+BERTSERINIModel finished the question 002522 took 1.5071396827697754
+BERTSERINIModel finished the question 001604 took 1.5031406879425049
+BERTSERINIModel is processing the question 003821
+BERTSERINIModel is processing the question 003477
+BERTSERINIModel is processing the question 003845
+BERTSERINIModel is processing the question 003355
+BERTSERINIModel is processing the question 003444
+BERTSERINIModel is processing the question 003135
+BERTSERINIModel finished the question 002550 took 1.7593998908996582
+BERTSERINIModel finished the question 003297 took 1.7344021797180176
+BERTSERINIModel finished the question 003436 took 1.7414031028747559
+BERTSERINIModel finished the question 003236 took 1.7494003772735596
+BERTSERINIModel finished the question 002697 took 1.7444016933441162
+BERTSERINIModel finished the question 003061 took 1.7504026889801025
+BERTSERINIModel finished the question 00425 took 1.7544019222259521
+BERTSERINIModel is processing the question 003502
+BERTSERINIModel is processing the question 003465
+BERTSERINIModel is processing the question 003529
+BERTSERINIModel is processing the question 004095
+BERTSERINIModel is processing the question 004230
+BERTSERINIModel is processing the question 004078
+BERTSERINIModel is processing the question 003384
+BERTSERINIModel finished the question 001446 took 2.001518487930298
+BERTSERINIModel is processing the question 004247
+BERTSERINIModel finished the question 003444 took 1.9199590682983398
+BERTSERINIModel finished the question 003477 took 1.9289581775665283
+BERTSERINIModel finished the question 003672 took 1.9379591941833496
+BERTSERINIModel finished the question 003845 took 1.9384722709655762
+BERTSERINIModel finished the question 003135 took 1.925959587097168
+BERTSERINIModel finished the question 003424 took 2.019040584564209
+BERTSERINIModel finished the question 003355 took 1.939471960067749
+BERTSERINIModel is processing the question 004480
+BERTSERINIModel finished the question 003821 took 1.9414732456207275
+BERTSERINIModel is processing the question 004019
+BERTSERINIModel is processing the question 003998
+BERTSERINIModel is processing the question 004524
+BERTSERINIModel is processing the question 004610
+BERTSERINIModel is processing the question 004258
+BERTSERINIModel is processing the question 003842
+BERTSERINIModel is processing the question 004547
+BERTSERINIModel finished the question 003529 took 1.5613796710968018
+BERTSERINIModel finished the question 003465 took 1.5663800239562988
+BERTSERINIModel finished the question 004095 took 1.5683798789978027
+BERTSERINIModel finished the question 004078 took 1.5663795471191406
+BERTSERINIModel finished the question 003502 took 1.5743794441223145
+BERTSERINIModel finished the question 003384 took 1.5663790702819824
+BERTSERINIModel is processing the question 004748
+BERTSERINIModel is processing the question 004544
+BERTSERINIModel is processing the question 004781
+BERTSERINIModel is processing the question 004690
+BERTSERINIModel is processing the question 005024
+BERTSERINIModel is processing the question 004066
+BERTSERINIModel finished the question 004247 took 1.3793919086456299
+BERTSERINIModel is processing the question 003401
+BERTSERINIModel finished the question 004480 took 1.9105334281921387
+BERTSERINIModel finished the question 004547 took 2.2369678020477295
+BERTSERINIModel finished the question 004019 took 2.2475032806396484
+BERTSERINIModel finished the question 003998 took 2.2495031356811523
+BERTSERINIModel finished the question 004524 took 2.2485082149505615
+BERTSERINIModel finished the question 004610 took 2.2495038509368896
+BERTSERINIModel is processing the question 004819
+BERTSERINIModel is processing the question 005103
+BERTSERINIModel is processing the question 005274
+BERTSERINIModel is processing the question 005343
+BERTSERINIModel is processing the question 005027
+BERTSERINIModel finished the question 003842 took 2.3574342727661133
+BERTSERINIModel is processing the question 004710
+BERTSERINIModel finished the question 004258 took 2.3629558086395264
+BERTSERINIModel is processing the question 003908
+BERTSERINIModel finished the question 004690 took 1.9593634605407715
+BERTSERINIModel finished the question 005024 took 1.960364580154419
+BERTSERINIModel finished the question 004066 took 1.9623661041259766
+BERTSERINIModel finished the question 004748 took 2.0038888454437256
+BERTSERINIModel is processing the question 004712
+BERTSERINIModel finished the question 005054 took 0.591942310333252
+BERTSERINIModel is processing the question 005149
+BERTSERINIModel finished the question 005027 took 1.576354742050171
+BERTSERINIModel is processing the question 005407
+BERTSERINIModel finished the question 005103 took 2.224212646484375
+BERTSERINIModel is processing the question 005487
+BERTSERINIModel finished the question 005274 took 2.296563148498535
+BERTSERINIModel finished the question 004819 took 2.3045852184295654
+BERTSERINIModel finished the question 005343 took 2.300565004348755
+BERTSERINIModel is processing the question 005604
+BERTSERINIModel is processing the question 005319
+BERTSERINIModel is processing the question 005421
+BERTSERINIModel finished the question 005221 took 2.1702616214752197
+BERTSERINIModel finished the question 004712 took 2.1532599925994873
+BERTSERINIModel finished the question 003908 took 2.255786895751953
+BERTSERINIModel finished the question 005396 took 2.17326021194458
+BERTSERINIModel finished the question 004710 took 2.2663114070892334
+BERTSERINIModel finished the question 003032 took 2.1712613105773926
+BERTSERINIModel finished the question 005407 took 0.8011722564697266
+BERTSERINIModel is processing the question 005731
+BERTSERINIModel finished the question 003108 took 2.181260108947754
+BERTSERINIModel is processing the question 005798
+BERTSERINIModel is processing the question 005374
+BERTSERINIModel is processing the question 005823
+BERTSERINIModel is processing the question 005733
+BERTSERINIModel is processing the question 005989
+BERTSERINIModel is processing the question 005895
+BERTSERINIModel is processing the question 005552
+BERTSERINIModel finished the question 005487 took 1.0474233627319336
+BERTSERINIModel is processing the question 005753
+BERTSERINIModel finished the question 005319 took 2.067795515060425
+BERTSERINIModel is processing the question 005513
+BERTSERINIModel finished the question 005421 took 2.0749619007110596
+BERTSERINIModel finished the question 005604 took 2.0789613723754883
+BERTSERINIModel is processing the question 005562
+BERTSERINIModel is processing the question 006067
+BERTSERINIModel finished the question 005895 took 2.2700586318969727
+BERTSERINIModel finished the question 005374 took 2.279057502746582
+BERTSERINIModel finished the question 005552 took 2.272581100463867
+BERTSERINIModel finished the question 005731 took 2.2865819931030273
+BERTSERINIModel finished the question 005798 took 2.2865827083587646
+BERTSERINIModel finished the question 005733 took 2.2825815677642822
+BERTSERINIModel is processing the question 006288
+BERTSERINIModel is processing the question 006298
+BERTSERINIModel is processing the question 006497
+BERTSERINIModel is processing the question 006614
+BERTSERINIModel is processing the question 006318
+BERTSERINIModel is processing the question 006599
+BERTSERINIModel finished the question 005149 took 4.494473934173584
+BERTSERINIModel finished the question 005453 took 4.544000864028931
+BERTSERINIModel finished the question 003531 took 4.554432392120361
+BERTSERINIModel finished the question 005445 took 4.547433376312256
+BERTSERINIModel finished the question 005753 took 1.4890615940093994
+BERTSERINIModel is processing the question 006491
+BERTSERINIModel is processing the question 005847
+BERTSERINIModel is processing the question 005990
+BERTSERINIModel is processing the question 005351
+BERTSERINIModel is processing the question 006504
+BERTSERINIModel finished the question 005513 took 1.238175868988037
+BERTSERINIModel finished the question 006067 took 1.231008529663086
+BERTSERINIModel finished the question 005562 took 1.2340083122253418
+BERTSERINIModel is processing the question 006364
+BERTSERINIModel is processing the question 006543
+BERTSERINIModel is processing the question 006712
+BERTSERINIModel finished the question 006288 took 2.132473945617676
+BERTSERINIModel is processing the question 006852
+BERTSERINIModel finished the question 006298 took 2.234870195388794
+BERTSERINIModel finished the question 006491 took 2.1536614894866943
+BERTSERINIModel finished the question 006599 took 2.2332353591918945
+BERTSERINIModel finished the question 005990 took 2.1546595096588135
+BERTSERINIModel is processing the question 006004
+BERTSERINIModel is processing the question 006871
+BERTSERINIModel is processing the question 006977
+BERTSERINIModel is processing the question 006976
+BERTSERINIModel is processing the question 006981
+BERTSERINIModel finished the question 006504 took 2.507702350616455
+BERTSERINIModel finished the question 006318 took 2.597280263900757
+BERTSERINIModel finished the question 005847 took 2.519700765609741
+BERTSERINIModel finished the question 006614 took 2.607795238494873
+BERTSERINIModel finished the question 005351 took 2.5192198753356934
+BERTSERINIModel is processing the question 006180
+BERTSERINIModel finished the question 006852 took 0.8549854755401611
+BERTSERINIModel is processing the question 006875
+BERTSERINIModel finished the question 006004 took 1.6373848915100098
+BERTSERINIModel finished the question 006976 took 1.63938570022583
+BERTSERINIModel is processing the question 007443
+BERTSERINIModel finished the question 006977 took 1.644385814666748
+BERTSERINIModel finished the question 006871 took 1.6483867168426514
+BERTSERINIModel finished the question 006981 took 1.583385944366455
+BERTSERINIModel is processing the question 007519
+BERTSERINIModel is processing the question 007724
+BERTSERINIModel is processing the question 007489
+BERTSERINIModel is processing the question 007192
+BERTSERINIModel finished the question 006435 took 1.918426752090454
+BERTSERINIModel is processing the question 007168
+BERTSERINIModel finished the question 006180 took 2.185218334197998
+BERTSERINIModel finished the question 007281 took 2.162217617034912
+BERTSERINIModel finished the question 007484 took 2.170619249343872
+BERTSERINIModel finished the question 007519 took 1.3579885959625244
+BERTSERINIModel finished the question 007443 took 1.3689892292022705
+BERTSERINIModel finished the question 007192 took 1.359473705291748
+BERTSERINIModel finished the question 007724 took 1.3649885654449463
+BERTSERINIModel finished the question 007489 took 1.366990089416504
+BERTSERINIModel is processing the question 008060
+BERTSERINIModel is processing the question 007827
+BERTSERINIModel is processing the question 008124
+BERTSERINIModel is processing the question 008162
+BERTSERINIModel is processing the question 008474
+BERTSERINIModel finished the question 007168 took 1.3053596019744873
+BERTSERINIModel is processing the question 007492
+BERTSERINIModel finished the question 007853 took 2.081902503967285
+BERTSERINIModel is processing the question 008571
+BERTSERINIModel finished the question 008030 took 2.5273447036743164
+BERTSERINIModel finished the question 007963 took 2.5333425998687744
+BERTSERINIModel finished the question 007961 took 2.5473430156707764
+BERTSERINIModel finished the question 007621 took 2.5433428287506104
+BERTSERINIModel is processing the question 007405
+BERTSERINIModel is processing the question 008587
+BERTSERINIModel is processing the question 008088
+BERTSERINIModel is processing the question 007864
+BERTSERINIModel finished the question 006034 took 2.661752939224243
+BERTSERINIModel finished the question 007703 took 2.6747539043426514
+BERTSERINIModel finished the question 007109 took 2.6787526607513428
+BERTSERINIModel finished the question 007577 took 2.67075514793396
+BERTSERINIModel finished the question 008060 took 2.2686283588409424
+BERTSERINIModel finished the question 007827 took 2.2726285457611084
+BERTSERINIModel finished the question 007492 took 1.6581411361694336
+BERTSERINIModel finished the question 007486 took 4.892444372177124
+BERTSERINIModel is processing the question 008779
+BERTSERINIModel finished the question 008162 took 2.260110855102539
+BERTSERINIModel is processing the question 008176
+BERTSERINIModel finished the question 008124 took 2.2781450748443604
+BERTSERINIModel finished the question 008571 took 0.6278841495513916
+BERTSERINIModel is processing the question 006286
+BERTSERINIModel is processing the question 008265
+BERTSERINIModel is processing the question 009086
+BERTSERINIModel is processing the question 008944
+BERTSERINIModel finished the question 008474 took 2.2666287422180176
+BERTSERINIModel is processing the question 007410
+BERTSERINIModel is processing the question 009022
+BERTSERINIModel is processing the question 008831
+BERTSERINIModel is processing the question 009074
+BERTSERINIModel is processing the question 008899
+BERTSERINIModel is processing the question 009084
+BERTSERINIModel finished the question 008587 took 1.663750171661377
+BERTSERINIModel is processing the question 007417
+BERTSERINIModel finished the question 007405 took 1.6707518100738525
+BERTSERINIModel finished the question 007864 took 1.6697475910186768
+BERTSERINIModel finished the question 008088 took 1.6737496852874756
+BERTSERINIModel is processing the question 008956
+BERTSERINIModel is processing the question 008767
+BERTSERINIModel is processing the question 008652
+BERTSERINIModel finished the question 008831 took 2.4474008083343506
+BERTSERINIModel is processing the question 009145
+BERTSERINIModel finished the question 009086 took 2.654390335083008
+BERTSERINIModel is processing the question 008934
+BERTSERINIModel finished the question 008944 took 2.716933012008667
+BERTSERINIModel finished the question 007410 took 2.7174577713012695
+BERTSERINIModel finished the question 008899 took 2.7094624042510986
+BERTSERINIModel finished the question 009074 took 2.725984811782837
+BERTSERINIModel finished the question 008779 took 2.738492012023926
+BERTSERINIModel finished the question 008956 took 1.2451872825622559
+BERTSERINIModel finished the question 009022 took 2.7239856719970703
+BERTSERINIModel finished the question 008176 took 2.742018938064575
+BERTSERINIModel finished the question 009084 took 2.711460590362549
+BERTSERINIModel finished the question 008652 took 1.2376759052276611
+BERTSERINIModel finished the question 007417 took 1.253185749053955
+BERTSERINIModel finished the question 008767 took 1.2416613101959229
+BERTSERINIModel finished the question 008265 took 2.740017890930176
+BERTSERINIModel is processing the question 008911
+BERTSERINIModel is processing the question 008009
+BERTSERINIModel is processing the question 009248
+BERTSERINIModel finished the question 009145 took 0.5354647636413574
+BERTSERINIModel is processing the question 009167
+BERTSERINIModel finished the question 008934 took 1.4565701484680176
+BERTSERINIModel is processing the question 009168
+BERTSERINIModel finished the question 009248 took 2.351400136947632
+BERTSERINIModel is processing the question 009180
+BERTSERINIModel finished the question 008911 took 2.5444717407226562
+BERTSERINIModel finished the question 009528 took 2.534456491470337
+BERTSERINIModel finished the question 008009 took 2.5484704971313477
+BERTSERINIModel finished the question 009128 took 2.5484495162963867
+BERTSERINIModel finished the question 009401 took 2.534456729888916
+BERTSERINIModel finished the question 009168 took 1.209001064300537
+BERTSERINIModel finished the question 009666 took 2.5364556312561035
+BERTSERINIModel finished the question 009142 took 2.5499765872955322
+BERTSERINIModel finished the question 009167 took 2.3211100101470947
+BERTSERINIModel finished the question 009567 took 2.549973964691162
+BERTSERINIModel finished the question 009192 took 2.5579733848571777
+BERTSERINIModel finished the question 008805 took 2.5589733123779297
+BERTSERINIModel is processing the question 009357
+BERTSERINIModel finished the question 009223 took 2.553987741470337
+BERTSERINIModel finished the question 006286 took 5.333020925521851
+BERTSERINIModel is processing the question 008410
+BERTSERINIModel is processing the question 009472
+BERTSERINIModel is processing the question 009595
+BERTSERINIModel is processing the question 009599
+BERTSERINIModel is processing the question 009159
+BERTSERINIModel is processing the question 009553
+BERTSERINIModel is processing the question 008622
+BERTSERINIModel finished the question 009180 took 0.587000846862793
+BERTSERINIModel finished the question 009357 took 1.5526254177093506
+BERTSERINIModel finished the question 008410 took 1.6165485382080078
+BERTSERINIModel finished the question 009599 took 1.6145577430725098
+BERTSERINIModel finished the question 009553 took 1.6135563850402832
+BERTSERINIModel finished the question 009595 took 1.6215541362762451
+BERTSERINIModel finished the question 009472 took 1.625558614730835
+BERTSERINIModel finished the question 009159 took 1.6215598583221436
+BERTSERINIModel finished the question 007808 took 4.206901550292969
+BERTSERINIModel finished the question 008622 took 3.0860519409179688
+BERTSERINIModel is processing the question 001775

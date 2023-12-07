@@ -4,6 +4,8 @@ import random
 import time
 from typing import Callable, Dict, List, Type
 
+from sys import exit
+
 from src.utils import labels, label, check_config, task_2_categories
 import requests
 
@@ -14,7 +16,7 @@ random.seed(0)
 
 
 class LMModel:
-    def conversation(self, message: str) -> str:
+    def conversation(self, message: str, *args, **kwargs) -> str:
         raise NotImplementedError
 
 
@@ -48,104 +50,112 @@ class HuggingFaceModel(LMModel):
     API_URL = "https://api-inference.huggingface.co/models/{model_name}"
     headers = {"Authorization": "Bearer {Hugging_Face_Key}"}
 
-    def __init__(self) -> None:
+    def __init__(self, *args, **kwargs) -> None:
         self.API_URL = self.API_URL.format(model_name=self.model_name)
         self.headers["Authorization"] = self.headers["Authorization"].format(
             Hugging_Face_Key=check_config("HUGGING_FACE_KEY")
         )
 
+    def is_rate_limit(self, result_json: Dict) -> bool:
+        if "error" in result_json and "Rate limit reached" in result_json["error"]:
+            print(
+                "Rate limit reached. You reached free usage limit (reset hourly). Please subscribe to a plan at https://huggingface.co/pricing to use the API at this rate"
+            )
+            return True
+        return False
 
-class DistilBERTModel(HuggingFaceModel):
+
+class QAModel(HuggingFaceModel):
+    def __init__(self, task_name: str) -> None:
+        self.task_name = task_name
+        super().__init__(self)
+
+    def conversation(self, message: List[str]) -> str:
+        message_before_modify = copy.copy(message)
+
+        if self.task_name == "LaMP_1":
+            message = message[1:-1]  # remove the first and last sentence
+            message = "\n".join(message)
+            question = "is reference 1 or 2 related? Just answer with one token."
+        elif self.task_name == "LaMP_1_alt":
+            message = message[1:-1]  # remove the first and last sentence
+            message = "\n".join(message)
+            question = "is reference 1 or 2 related? Just answer with one token."
+        elif self.task_name == "LaMP_2":
+            message = message[1:-1]  # remove the first and last sentence
+            message = "\n".join(message)
+            question = message[-1]
+        else:
+            raise NotImplementedError(
+                f"Need to deal with other dataset: {self.task_name}"
+            )
+
+        response = requests.post(
+            self.API_URL,
+            headers=self.headers,
+            json={
+                "inputs": {
+                    "question": question,
+                    "context": message,
+                },
+            },
+        )
+        try:
+            result_json = response.json()
+        except json.JSONDecodeError:
+            time.sleep(1)
+            return self.conversation(message_before_modify)
+
+        if self.is_rate_limit(result_json):
+            exit(0)
+        if "answer" not in result_json:
+            time.sleep(1)
+            return self.conversation(message_before_modify)
+        return result_json["answer"]
+
+
+class DistilBERTModel(QAModel):
     # Source: https://huggingface.co/distilbert-base-uncased-distilled-squad
     model_name = "distilbert-base-uncased-distilled-squad"
 
-    def conversation(self, message: List[str]) -> str:
-        message_before_modify = copy.copy(message)
-        message = message[1 : len(message) - 1]  # remove the first and last sentence
-        message = "\n".join(message)
-        response = requests.post(
-            self.API_URL,
-            headers=self.headers,
-            json={
-                "inputs": {
-                    "question": "is reference 1 or 2 related? Just answer with one token.",
-                    "context": message,
-                },
-            },
-        )
-        try:
-            result_json = response.json()
-        except json.JSONDecodeError:
-            time.sleep(1)
-            return self.conversation(message_before_modify)
-        if "answer" not in result_json:
-            if "error" in result_json and "Rate limit reached" in result_json["error"]:
-                print(
-                    "Rate limit reached. You reached free usage limit (reset hourly). Please subscribe to a plan at https://huggingface.co/pricing to use the API at this rate"
-                )
-                exit()
-            time.sleep(1)
-            return self.conversation(message_before_modify)
-        return result_json["answer"]
 
-
-class BERTSERINIModel(HuggingFaceModel):
+class BERTSERINIModel(QAModel):
     # Source: https://huggingface.co/rsvp-ai/bertserini-bert-base-squad
     model_name = "rsvp-ai/bertserini-bert-base-squad"
 
-    def conversation(self, message: List[str]) -> str:
-        message_before_modify = copy.copy(message)
-        message = message[1 : len(message) - 1]  # remove the first and last sentence
-        message = "\n".join(message)
-        response = requests.post(
-            self.API_URL,
-            headers=self.headers,
-            json={
-                "inputs": {
-                    "question": "is reference 1 or 2 related? Just answer with one token.",
-                    "context": message,
-                },
-            },
-        )
-        try:
-            result_json = response.json()
-        except json.JSONDecodeError:
-            print("BERTSERINIModel catched json error")
-            time.sleep(1)
-            return self.conversation(message_before_modify)
-        if "answer" not in result_json:
-            if "error" in result_json and "Rate limit reached" in result_json["error"]:
-                print(
-                    "Rate limit reached. You reached free usage limit (reset hourly). Please subscribe to a plan at https://huggingface.co/pricing to use the API at this rate"
-                )
-                exit()
-            time.sleep(1)
-            return self.conversation(message_before_modify)
-        return result_json["answer"]
 
-
-class MiniLM(HuggingFaceModel):
+class MiniLM(QAModel):
     # Source: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
     model_name = "sentence-transformers/all-MiniLM-L6-v2"
 
     def conversation(self, message: List[str]) -> str:
         message_before_modify = copy.copy(message)
-        prompt_with_refs = message[-2]
-        message = message[1 : len(message) - 1]  # remove the first and last sentence
-        message = "\n".join(message)
 
-        _, opt1, _, opt2, *_ = prompt_with_refs.split('"')
+        if self.task_name == "LaMP_1":
+            prompt_with_refs = message[-2]
+            message = message[1:-1]  # remove the first and last sentence
+            message = "\n".join(message)
+
+            _, opt1, _, opt2, *_ = prompt_with_refs.split('"')
+            options = [
+                opt1,
+                opt2,
+            ]
+
+        elif self.task_name == "LaMP_2":
+            message = message[1:]  # remove the first and last sentence
+            message = "\n".join(message)
+            options = task_2_categories
+        else:
+            raise NotImplementedError(
+                f"Need to deal with other dataset: {self.task_name}"
+            )
+
         response = requests.post(
             self.API_URL,
             headers=self.headers,
             json={
-                "inputs": {
-                    "source_sentence": message,
-                    "sentences": [
-                        opt1,
-                        opt2,
-                    ],
-                },
+                "inputs": {"source_sentence": message, "sentences": options},
             },
         )
         result: List[float] = response.json()
