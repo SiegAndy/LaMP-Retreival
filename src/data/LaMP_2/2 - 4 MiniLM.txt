@@ -1,0 +1,1868 @@
+MiniLM is processing the question 10299
+MiniLM is processing the question 10298
+MiniLM is processing the question 10383
+MiniLM is processing the question 10206
+MiniLM is processing the question 10204
+MiniLM is processing the question 10122
+MiniLM is processing the question 10131
+MiniLM is processing the question 1031
+MiniLM is processing the question 10122
+MiniLM finished the question 10122 took 1.1824429035186768
+MiniLM is processing the question 10298
+MiniLM finished the question 10298 took 1.183450698852539
+MiniLM is processing the question 10206
+MiniLM finished the question 10206 took 1.1844496726989746
+MiniLM is processing the question 10383
+MiniLM finished the question 10383 took 1.1944501399993896
+MiniLM is processing the question 10131
+MiniLM finished the question 10131 took 1.1984498500823975
+MiniLM is processing the question 10204
+MiniLM finished the question 10204 took 1.2004492282867432
+MiniLM is processing the question 1031
+MiniLM finished the question 1031 took 1.2024500370025635
+MiniLM is processing the question 10299
+MiniLM finished the question 10299 took 1.2154488563537598
+MiniLM is processing the question 10243
+MiniLM finished the question 10243 took 1.2711787223815918
+MiniLM is processing the question 10289
+MiniLM finished the question 10289 took 1.2841780185699463
+MiniLM is processing the question 10551
+MiniLM finished the question 10551 took 1.26517915725708
+MiniLM is processing the question 10518
+MiniLM finished the question 10518 took 1.3438119888305664
+MiniLM is processing the question 10646
+MiniLM finished the question 10646 took 1.3583292961120605
+MiniLM is processing the question 10736
+MiniLM finished the question 10736 took 0.9990668296813965
+MiniLM is processing the question 10511
+MiniLM finished the question 10511 took 1.0995821952819824
+MiniLM is processing the question 10726
+MiniLM finished the question 10726 took 1.1015815734863281
+MiniLM is processing the question 10469
+MiniLM finished the question 10469 took 1.1401829719543457
+MiniLM is processing the question 10167
+MiniLM finished the question 10167 took 0.7188205718994141
+MiniLM is processing the question 10193
+MiniLM finished the question 10193 took 2.735975980758667
+MiniLM is processing the question 10449
+MiniLM finished the question 10449 took 5.113766193389893
+MiniLM is processing the question 10160
+MiniLM finished the question 10160 took 5.116765260696411
+MiniLM is processing the question 10290
+MiniLM finished the question 10290 took 5.100764989852905
+MiniLM is processing the question 10392
+MiniLM finished the question 10392 took 0.777747392654419
+MiniLM is processing the question 10401
+MiniLM finished the question 10401 took 0.7781696319580078
+MiniLM is processing the question 10405
+MiniLM finished the question 10405 took 0.7806487083435059
+MiniLM is processing the question 10406
+MiniLM finished the question 10406 took 0.9449048042297363
+MiniLM is processing the question 10409
+MiniLM finished the question 10409 took 1.0127451419830322
+MiniLM is processing the question 10652
+MiniLM finished the question 10652 took 1.0607609748840332
+MiniLM is processing the question 10259
+MiniLM finished the question 10259 took 1.1428680419921875
+MiniLM is processing the question 10417
+MiniLM finished the question 10417 took 1.1968672275543213
+MiniLM is processing the question 10682
+MiniLM finished the question 10682 took 1.145866870880127
+MiniLM is processing the question 101043
+MiniLM finished the question 101043 took 0.5221996307373047
+MiniLM is processing the question 10327
+MiniLM finished the question 10327 took 0.7335553169250488
+MiniLM is processing the question 101005
+MiniLM finished the question 101005 took 0.7336223125457764
+MiniLM is processing the question 101023
+MiniLM finished the question 101023 took 0.7815253734588623
+MiniLM is processing the question 101009
+MiniLM finished the question 101009 took 0.8264455795288086
+MiniLM is processing the question 101266
+MiniLM finished the question 101266 took 0.5835916996002197
+MiniLM is processing the question 101267
+MiniLM finished the question 101267 took 0.512054443359375
+MiniLM is processing the question 101191
+MiniLM finished the question 101191 took 0.7263991832733154
+MiniLM is processing the question 101328
+MiniLM finished the question 101328 took 0.8274524211883545
+MiniLM is processing the question 10410
+MiniLM finished the question 10410 took 5.199750185012817
+MiniLM is processing the question 101129
+MiniLM finished the question 101129 took 3.190903663635254
+MiniLM is processing the question 101333
+MiniLM finished the question 101333 took 1.3382704257965088
+MiniLM is processing the question 101050
+MiniLM finished the question 101050 took 5.277495622634888
+MiniLM is processing the question 101546
+MiniLM finished the question 101546 took 0.41701769828796387
+MiniLM is processing the question 101512
+MiniLM finished the question 101512 took 0.6544170379638672
+MiniLM is processing the question 101656
+MiniLM finished the question 101656 took 0.47182607650756836
+MiniLM is processing the question 101698
+MiniLM finished the question 101698 took 0.505225658416748
+MiniLM is processing the question 101699
+MiniLM finished the question 101699 took 0.6571972370147705
+MiniLM is processing the question 101701
+MiniLM finished the question 101701 took 0.6772162914276123
+MiniLM is processing the question 101709
+MiniLM finished the question 101709 took 0.6920785903930664
+MiniLM is processing the question 101662
+MiniLM finished the question 101662 took 0.6792464256286621
+MiniLM is processing the question 101711
+MiniLM finished the question 101711 took 1.0656907558441162
+MiniLM is processing the question 10831
+MiniLM finished the question 10831 took 0.5493769645690918
+MiniLM is processing the question 101742
+MiniLM finished the question 101742 took 0.8618741035461426
+MiniLM is processing the question 10863
+MiniLM finished the question 10863 took 0.9518134593963623
+MiniLM is processing the question 101716
+MiniLM finished the question 101716 took 0.6204864978790283
+MiniLM is processing the question 10837
+MiniLM finished the question 10837 took 0.6493148803710938
+MiniLM is processing the question 10908
+MiniLM finished the question 10908 took 0.7622077465057373
+MiniLM is processing the question 101743
+MiniLM finished the question 101743 took 0.9632759094238281
+MiniLM is processing the question 101744
+MiniLM finished the question 101744 took 0.6365265846252441
+MiniLM is processing the question 101721
+MiniLM finished the question 101721 took 0.6008672714233398
+MiniLM is processing the question 101727
+MiniLM finished the question 101727 took 0.5626735687255859
+MiniLM is processing the question 102046
+MiniLM finished the question 102046 took 0.6382036209106445
+MiniLM is processing the question 101728
+MiniLM finished the question 101728 took 0.4350621700286865
+MiniLM is processing the question 102121
+MiniLM finished the question 102121 took 0.5067753791809082
+MiniLM is processing the question 10913
+MiniLM finished the question 10913 took 1.088728427886963
+MiniLM is processing the question 10940
+MiniLM finished the question 10940 took 0.6484818458557129
+MiniLM is processing the question 102215
+MiniLM finished the question 102215 took 1.058617353439331
+MiniLM is processing the question 102208
+MiniLM finished the question 102208 took 1.683807611465454
+MiniLM is processing the question 102185
+MiniLM finished the question 102185 took 1.9299142360687256
+MiniLM is processing the question 10953
+MiniLM finished the question 10953 took 0.4779942035675049
+MiniLM is processing the question 10939
+MiniLM finished the question 10939 took 1.702592134475708
+MiniLM is processing the question 10946
+MiniLM finished the question 10946 took 1.1046421527862549
+MiniLM is processing the question 102409
+MiniLM finished the question 102409 took 0.6601996421813965
+MiniLM is processing the question 102240
+MiniLM finished the question 102240 took 1.4392869472503662
+MiniLM is processing the question 102189
+MiniLM finished the question 102189 took 0.9131114482879639
+MiniLM is processing the question 10944
+MiniLM finished the question 10944 took 0.9162039756774902
+MiniLM is processing the question 102237
+MiniLM finished the question 102237 took 0.9396886825561523
+MiniLM is processing the question 102498
+MiniLM finished the question 102498 took 0.8782365322113037
+MiniLM is processing the question 102624
+MiniLM finished the question 102624 took 0.9708328247070312
+MiniLM is processing the question 101732
+MiniLM finished the question 101732 took 1.0378036499023438
+MiniLM is processing the question 102713
+MiniLM finished the question 102713 took 0.4349558353424072
+MiniLM is processing the question 102193
+MiniLM finished the question 102193 took 0.5805716514587402
+MiniLM is processing the question 102751
+MiniLM finished the question 102751 took 0.8069446086883545
+MiniLM is processing the question 102642
+MiniLM finished the question 102642 took 0.8379433155059814
+MiniLM is processing the question 102585
+MiniLM finished the question 102585 took 0.8490595817565918
+MiniLM is processing the question 102804
+MiniLM finished the question 102804 took 0.8480629920959473
+MiniLM is processing the question 102643
+MiniLM finished the question 102643 took 0.973109245300293
+MiniLM is processing the question 102736
+MiniLM finished the question 102736 took 0.9741120338439941
+MiniLM is processing the question 102508
+MiniLM finished the question 102508 took 0.5119357109069824
+MiniLM is processing the question 102888
+MiniLM finished the question 102888 took 0.507875919342041
+MiniLM is processing the question 102058
+MiniLM finished the question 102058 took 0.7317936420440674
+MiniLM is processing the question 101798
+MiniLM finished the question 101798 took 0.88686203956604
+MiniLM is processing the question 101824
+MiniLM finished the question 101824 took 0.7237780094146729
+MiniLM is processing the question 101775
+MiniLM finished the question 101775 took 0.9358634948730469
+MiniLM is processing the question 101826
+MiniLM finished the question 101826 took 0.8258697986602783
+MiniLM is processing the question 102560
+MiniLM finished the question 102560 took 1.0855412483215332
+MiniLM is processing the question 102922
+MiniLM finished the question 102922 took 0.5555074214935303
+MiniLM is processing the question 102902
+MiniLM finished the question 102902 took 0.8283181190490723
+MiniLM is processing the question 102923
+MiniLM finished the question 102923 took 0.4237406253814697
+MiniLM is processing the question 102999
+MiniLM finished the question 102999 took 0.7890405654907227
+MiniLM is processing the question 102788
+MiniLM finished the question 102788 took 0.8996477127075195
+MiniLM is processing the question 102423
+MiniLM finished the question 102423 took 0.8976497650146484
+MiniLM is processing the question 102808
+MiniLM finished the question 102808 took 0.903698205947876
+MiniLM is processing the question 102966
+MiniLM finished the question 102966 took 0.9046988487243652
+MiniLM is processing the question 102838
+MiniLM finished the question 102838 took 0.7521970272064209
+MiniLM is processing the question 102856
+MiniLM finished the question 102856 took 0.5687565803527832
+MiniLM is processing the question 102858
+MiniLM finished the question 102858 took 0.422558069229126
+MiniLM is processing the question 101920
+MiniLM finished the question 101920 took 0.6475214958190918
+MiniLM is processing the question 101973
+MiniLM finished the question 101973 took 0.8201992511749268
+MiniLM is processing the question 102327
+MiniLM finished the question 102327 took 0.8832011222839355
+MiniLM is processing the question 103346
+MiniLM finished the question 103346 took 0.9112086296081543
+MiniLM is processing the question 103342
+MiniLM finished the question 103342 took 0.9132068157196045
+MiniLM is processing the question 103348
+MiniLM finished the question 103348 took 0.8222086429595947
+MiniLM is processing the question 103019
+MiniLM finished the question 103019 took 0.818206787109375
+MiniLM is processing the question 103030
+MiniLM finished the question 103030 took 0.5917694568634033
+MiniLM is processing the question 103528
+MiniLM finished the question 103528 took 0.8693733215332031
+MiniLM is processing the question 103629
+MiniLM finished the question 103629 took 0.7215273380279541
+MiniLM is processing the question 103642
+MiniLM finished the question 103642 took 0.7461056709289551
+MiniLM is processing the question 103160
+MiniLM finished the question 103160 took 0.8421573638916016
+MiniLM is processing the question 103186
+MiniLM finished the question 103186 took 0.7364921569824219
+MiniLM is processing the question 103169
+MiniLM finished the question 103169 took 1.10931396484375
+MiniLM is processing the question 103645
+MiniLM finished the question 103645 took 1.215982437133789
+MiniLM is processing the question 103647
+MiniLM finished the question 103647 took 1.2164630889892578
+MiniLM is processing the question 103201
+MiniLM finished the question 103201 took 0.4832456111907959
+MiniLM is processing the question 103211
+MiniLM finished the question 103211 took 0.4781157970428467
+MiniLM is processing the question 103217
+MiniLM finished the question 103217 took 0.48160362243652344
+MiniLM is processing the question 103259
+MiniLM finished the question 103259 took 0.5144588947296143
+MiniLM is processing the question 103260
+MiniLM finished the question 103260 took 0.6093602180480957
+MiniLM is processing the question 103226
+MiniLM finished the question 103226 took 0.6781141757965088
+MiniLM is processing the question 103281
+MiniLM finished the question 103281 took 1.009547233581543
+MiniLM is processing the question 103283
+MiniLM finished the question 103283 took 1.0522019863128662
+MiniLM is processing the question 103502
+MiniLM finished the question 103502 took 0.6063570976257324
+MiniLM is processing the question 104021
+MiniLM finished the question 104021 took 0.48735713958740234
+MiniLM is processing the question 103710
+MiniLM finished the question 103710 took 0.9688398838043213
+MiniLM is processing the question 104226
+MiniLM finished the question 104226 took 0.8798387050628662
+MiniLM is processing the question 104101
+MiniLM finished the question 104101 took 0.4921720027923584
+MiniLM is processing the question 104097
+MiniLM finished the question 104097 took 0.5140764713287354
+MiniLM is processing the question 103287
+MiniLM finished the question 103287 took 0.47131896018981934
+MiniLM is processing the question 103300
+MiniLM finished the question 103300 took 0.500565767288208
+MiniLM is processing the question 104249
+MiniLM finished the question 104249 took 0.6197879314422607
+MiniLM is processing the question 104244
+MiniLM finished the question 104244 took 0.5390946865081787
+MiniLM is processing the question 104263
+MiniLM finished the question 104263 took 0.6581861972808838
+MiniLM is processing the question 104289
+MiniLM finished the question 104289 took 0.699641227722168
+MiniLM is processing the question 104227
+MiniLM finished the question 104227 took 0.8031580448150635
+MiniLM is processing the question 104036
+MiniLM finished the question 104036 took 0.4791262149810791
+MiniLM is processing the question 104045
+MiniLM finished the question 104045 took 0.758068323135376
+MiniLM is processing the question 104159
+MiniLM finished the question 104159 took 0.8337759971618652
+MiniLM is processing the question 104062
+MiniLM finished the question 104062 took 0.44106626510620117
+MiniLM is processing the question 104616
+MiniLM finished the question 104616 took 0.44881319999694824
+MiniLM is processing the question 104617
+MiniLM finished the question 104617 took 0.729170560836792
+MiniLM is processing the question 104167
+MiniLM finished the question 104167 took 0.6625549793243408
+MiniLM is processing the question 104621
+MiniLM finished the question 104621 took 0.714601993560791
+MiniLM is processing the question 104618
+MiniLM finished the question 104618 took 0.8829843997955322
+MiniLM is processing the question 104619
+MiniLM finished the question 104619 took 0.5475695133209229
+MiniLM is processing the question 104659
+MiniLM finished the question 104659 took 0.5525703430175781
+MiniLM is processing the question 104735
+MiniLM finished the question 104735 took 0.5542728900909424
+MiniLM is processing the question 104633
+MiniLM finished the question 104633 took 0.9784464836120605
+MiniLM is processing the question 104174
+MiniLM finished the question 104174 took 0.5187602043151855
+MiniLM is processing the question 104729
+MiniLM finished the question 104729 took 0.5843913555145264
+MiniLM is processing the question 104732
+MiniLM finished the question 104732 took 0.8324241638183594
+MiniLM is processing the question 104769
+MiniLM finished the question 104769 took 0.5188758373260498
+MiniLM is processing the question 104764
+MiniLM finished the question 104764 took 0.6198940277099609
+MiniLM is processing the question 104779
+MiniLM finished the question 104779 took 0.8612649440765381
+MiniLM is processing the question 104783
+MiniLM finished the question 104783 took 0.5499622821807861
+MiniLM is processing the question 103364
+MiniLM finished the question 103364 took 0.5129563808441162
+MiniLM is processing the question 104802
+MiniLM finished the question 104802 took 0.8270998001098633
+MiniLM is processing the question 104805
+MiniLM finished the question 104805 took 0.6317486763000488
+MiniLM is processing the question 104846
+MiniLM finished the question 104846 took 0.5293314456939697
+MiniLM is processing the question 104825
+MiniLM finished the question 104825 took 0.5558366775512695
+MiniLM is processing the question 104899
+MiniLM finished the question 104899 took 0.5149745941162109
+MiniLM is processing the question 103847
+MiniLM finished the question 103847 took 0.5204782485961914
+MiniLM is processing the question 104923
+MiniLM finished the question 104923 took 0.5491721630096436
+MiniLM is processing the question 103830
+MiniLM finished the question 103830 took 1.438997507095337
+MiniLM is processing the question 103915
+MiniLM finished the question 103915 took 0.6348037719726562
+MiniLM is processing the question 104943
+MiniLM finished the question 104943 took 0.6513185501098633
+MiniLM is processing the question 105080
+MiniLM finished the question 105080 took 0.6223392486572266
+MiniLM is processing the question 105083
+MiniLM finished the question 105083 took 0.6833865642547607
+MiniLM is processing the question 105098
+MiniLM finished the question 105098 took 0.5768983364105225
+MiniLM is processing the question 105123
+MiniLM finished the question 105123 took 0.6053915023803711
+MiniLM is processing the question 105107
+MiniLM finished the question 105107 took 0.6146807670593262
+MiniLM is processing the question 105129
+MiniLM finished the question 105129 took 0.446347713470459
+MiniLM is processing the question 104957
+MiniLM finished the question 104957 took 0.677933931350708
+MiniLM is processing the question 104947
+MiniLM finished the question 104947 took 0.6690957546234131
+MiniLM is processing the question 105176
+MiniLM finished the question 105176 took 0.8415486812591553
+MiniLM is processing the question 105179
+MiniLM finished the question 105179 took 0.8255493640899658
+MiniLM is processing the question 105302
+MiniLM finished the question 105302 took 0.6849100589752197
+MiniLM is processing the question 105361
+MiniLM finished the question 105361 took 0.7323856353759766
+MiniLM is processing the question 105303
+MiniLM finished the question 105303 took 0.807410478591919
+MiniLM is processing the question 105418
+MiniLM finished the question 105418 took 0.42752885818481445
+MiniLM is processing the question 104310
+MiniLM finished the question 104310 took 0.6115784645080566
+MiniLM is processing the question 104528
+MiniLM finished the question 104528 took 0.688307523727417
+MiniLM is processing the question 104422
+MiniLM finished the question 104422 took 0.8475680351257324
+MiniLM is processing the question 104384
+MiniLM finished the question 104384 took 0.8505654335021973
+MiniLM is processing the question 104568
+MiniLM finished the question 104568 took 0.4925351142883301
+MiniLM is processing the question 105137
+MiniLM finished the question 105137 took 0.5981972217559814
+MiniLM is processing the question 104570
+MiniLM finished the question 104570 took 0.6329827308654785
+MiniLM is processing the question 105555
+MiniLM finished the question 105555 took 0.5850527286529541
+MiniLM is processing the question 105031
+MiniLM finished the question 105031 took 0.4604790210723877
+MiniLM is processing the question 105627
+MiniLM finished the question 105627 took 0.5310299396514893
+MiniLM is processing the question 105141
+MiniLM finished the question 105141 took 0.6562626361846924
+MiniLM is processing the question 105625
+MiniLM finished the question 105625 took 0.8172788619995117
+MiniLM is processing the question 105146
+MiniLM finished the question 105146 took 0.5229566097259521
+MiniLM is processing the question 105376
+MiniLM finished the question 105376 took 0.6362168788909912
+MiniLM is processing the question 105402
+MiniLM finished the question 105402 took 0.6273849010467529
+MiniLM is processing the question 105571
+MiniLM finished the question 105571 took 0.6552343368530273
+MiniLM is processing the question 105578
+MiniLM finished the question 105578 took 0.40308380126953125
+MiniLM is processing the question 105592
+MiniLM finished the question 105592 took 0.4769432544708252
+MiniLM is processing the question 105230
+MiniLM finished the question 105230 took 0.5525631904602051
+MiniLM is processing the question 105743
+MiniLM finished the question 105743 took 0.6017980575561523
+MiniLM is processing the question 105739
+MiniLM finished the question 105739 took 0.6538851261138916
+MiniLM is processing the question 105248
+MiniLM finished the question 105248 took 0.6029274463653564
+MiniLM is processing the question 105760
+MiniLM finished the question 105760 took 0.5914361476898193
+MiniLM is processing the question 105750
+MiniLM finished the question 105750 took 0.8010437488555908
+MiniLM is processing the question 105879
+MiniLM finished the question 105879 took 0.4314405918121338
+MiniLM is processing the question 105284
+MiniLM finished the question 105284 took 0.6970911026000977
+MiniLM is processing the question 105885
+MiniLM finished the question 105885 took 0.617617130279541
+MiniLM is processing the question 105778
+MiniLM finished the question 105778 took 0.5958964824676514
+MiniLM is processing the question 105767
+MiniLM finished the question 105767 took 0.6598970890045166
+MiniLM is processing the question 105889
+MiniLM finished the question 105889 took 0.5527682304382324
+MiniLM is processing the question 105782
+MiniLM finished the question 105782 took 0.629042387008667
+MiniLM is processing the question 105783
+MiniLM finished the question 105783 took 0.5855319499969482
+MiniLM is processing the question 105495
+MiniLM finished the question 105495 took 0.6061661243438721
+MiniLM is processing the question 105513
+MiniLM finished the question 105513 took 0.5459964275360107
+MiniLM is processing the question 105525
+MiniLM finished the question 105525 took 0.6528561115264893
+MiniLM is processing the question 105799
+MiniLM finished the question 105799 took 0.6553809642791748
+MiniLM is processing the question 105524
+MiniLM finished the question 105524 took 0.9041097164154053
+MiniLM is processing the question 105801
+MiniLM finished the question 105801 took 0.6120266914367676
+MiniLM is processing the question 105876
+MiniLM finished the question 105876 took 0.50119948387146
+MiniLM is processing the question 10117
+MiniLM finished the question 10117 took 1.2680058479309082
+MiniLM is processing the question 10118
+MiniLM finished the question 10118 took 1.270165205001831
+MiniLM is processing the question 10131
+MiniLM finished the question 10131 took 1.2886443138122559
+MiniLM is processing the question 10201
+MiniLM finished the question 10201 took 1.292740821838379
+MiniLM is processing the question 1014
+MiniLM finished the question 1014 took 1.289799451828003
+MiniLM is processing the question 10149
+MiniLM finished the question 10149 took 1.457183837890625
+MiniLM is processing the question 10185
+MiniLM finished the question 10185 took 1.458184003829956
+MiniLM is processing the question 10440
+MiniLM finished the question 10440 took 1.457183599472046
+MiniLM is processing the question 10441
+MiniLM finished the question 10441 took 0.9968793392181396
+MiniLM is processing the question 1015
+MiniLM finished the question 1015 took 1.0598363876342773
+MiniLM is processing the question 10445
+MiniLM finished the question 10445 took 1.0809597969055176
+MiniLM is processing the question 10471
+MiniLM finished the question 10471 took 1.1466329097747803
+MiniLM is processing the question 10550
+MiniLM finished the question 10550 took 1.0536208152770996
+MiniLM is processing the question 10500
+MiniLM finished the question 10500 took 1.0556225776672363
+MiniLM is processing the question 10477
+MiniLM finished the question 10477 took 1.3142192363739014
+MiniLM is processing the question 1065
+MiniLM finished the question 1065 took 1.1463391780853271
+MiniLM is processing the question 10459
+MiniLM finished the question 10459 took 0.696709156036377
+MiniLM is processing the question 10162
+MiniLM finished the question 10162 took 0.7750318050384521
+MiniLM is processing the question 10527
+MiniLM finished the question 10527 took 0.8630380630493164
+MiniLM is processing the question 10155
+MiniLM finished the question 10155 took 0.8690354824066162
+MiniLM is processing the question 10147
+MiniLM finished the question 10147 took 0.8505797386169434
+MiniLM is processing the question 10733
+MiniLM finished the question 10733 took 1.2445642948150635
+MiniLM is processing the question 10584
+MiniLM finished the question 10584 took 1.3407411575317383
+MiniLM is processing the question 10485
+MiniLM finished the question 10485 took 1.3418021202087402
+MiniLM is processing the question 10576
+MiniLM finished the question 10576 took 0.515047550201416
+MiniLM is processing the question 10409
+MiniLM finished the question 10409 took 0.5849199295043945
+MiniLM is processing the question 10435
+MiniLM finished the question 10435 took 0.6233274936676025
+MiniLM is processing the question 1043
+MiniLM finished the question 1043 took 0.5489990711212158
+MiniLM is processing the question 10235
+MiniLM finished the question 10235 took 1.1689000129699707
+MiniLM is processing the question 10552
+MiniLM finished the question 10552 took 1.0200681686401367
+MiniLM is processing the question 1080
+MiniLM finished the question 1080 took 1.1383936405181885
+MiniLM is processing the question 10559
+MiniLM finished the question 10559 took 1.1413929462432861
+MiniLM is processing the question 10249
+MiniLM finished the question 10249 took 0.5968060493469238
+MiniLM is processing the question 10977
+MiniLM finished the question 10977 took 0.5337316989898682
+MiniLM is processing the question 101044
+MiniLM finished the question 101044 took 0.4953348636627197
+MiniLM is processing the question 10684
+MiniLM finished the question 10684 took 0.5579171180725098
+MiniLM is processing the question 101048
+MiniLM finished the question 101048 took 0.5772340297698975
+MiniLM is processing the question 10335
+MiniLM finished the question 10335 took 0.72524094581604
+MiniLM is processing the question 101094
+MiniLM finished the question 101094 took 0.7798047065734863
+MiniLM is processing the question 101024
+MiniLM finished the question 101024 took 0.7220115661621094
+MiniLM is processing the question 101037
+MiniLM finished the question 101037 took 0.9108846187591553
+MiniLM is processing the question 101084
+MiniLM finished the question 101084 took 0.453200101852417
+MiniLM is processing the question 10691
+MiniLM finished the question 10691 took 2.1067378520965576
+MiniLM is processing the question 101036
+MiniLM finished the question 101036 took 0.6237161159515381
+MiniLM is processing the question 101033
+MiniLM finished the question 101033 took 1.7102513313293457
+MiniLM is processing the question 101238
+MiniLM finished the question 101238 took 0.5646116733551025
+MiniLM is processing the question 101204
+MiniLM finished the question 101204 took 0.6560776233673096
+MiniLM is processing the question 101193
+MiniLM finished the question 101193 took 0.7276043891906738
+MiniLM is processing the question 101224
+MiniLM finished the question 101224 took 0.487811803817749
+MiniLM is processing the question 101301
+MiniLM finished the question 101301 took 1.8403921127319336
+MiniLM is processing the question 101303
+MiniLM finished the question 101303 took 1.371915578842163
+MiniLM is processing the question 101300
+MiniLM finished the question 101300 took 1.8644139766693115
+MiniLM is processing the question 101489
+MiniLM finished the question 101489 took 0.43054986000061035
+MiniLM is processing the question 101320
+MiniLM finished the question 101320 took 1.5780911445617676
+MiniLM is processing the question 101705
+MiniLM finished the question 101705 took 0.5726513862609863
+MiniLM is processing the question 101710
+MiniLM finished the question 101710 took 0.6765568256378174
+MiniLM is processing the question 101747
+MiniLM finished the question 101747 took 0.8325235843658447
+MiniLM is processing the question 101713
+MiniLM finished the question 101713 took 0.8429980278015137
+MiniLM is processing the question 101711
+MiniLM finished the question 101711 took 0.9791100025177002
+MiniLM is processing the question 101757
+MiniLM finished the question 101757 took 0.980109691619873
+MiniLM is processing the question 101503
+MiniLM finished the question 101503 took 0.9168732166290283
+MiniLM is processing the question 101490
+MiniLM finished the question 101490 took 1.2924442291259766
+MiniLM is processing the question 101856
+MiniLM finished the question 101856 took 0.4206225872039795
+MiniLM is processing the question 101620
+MiniLM finished the question 101620 took 0.631068229675293
+MiniLM is processing the question 102036
+MiniLM finished the question 102036 took 0.8951191902160645
+MiniLM is processing the question 102045
+MiniLM finished the question 102045 took 0.4807250499725342
+MiniLM is processing the question 10847
+MiniLM finished the question 10847 took 0.5072860717773438
+MiniLM is processing the question 101732
+MiniLM finished the question 101732 took 0.519284725189209
+MiniLM is processing the question 10853
+MiniLM finished the question 10853 took 0.6031742095947266
+MiniLM is processing the question 10822
+MiniLM finished the question 10822 took 0.6801741123199463
+MiniLM is processing the question 10893
+MiniLM finished the question 10893 took 0.536668062210083
+MiniLM is processing the question 102114
+MiniLM finished the question 102114 took 0.5630619525909424
+MiniLM is processing the question 102121
+MiniLM finished the question 102121 took 0.6160638332366943
+MiniLM is processing the question 10906
+MiniLM finished the question 10906 took 0.6289989948272705
+MiniLM is processing the question 10940
+MiniLM finished the question 10940 took 0.6535873413085938
+MiniLM is processing the question 10900
+MiniLM finished the question 10900 took 0.725679874420166
+MiniLM is processing the question 102184
+MiniLM finished the question 102184 took 0.5599915981292725
+MiniLM is processing the question 10913
+MiniLM finished the question 10913 took 0.5870842933654785
+MiniLM is processing the question 102230
+MiniLM finished the question 102230 took 0.5552423000335693
+MiniLM is processing the question 102191
+MiniLM finished the question 102191 took 0.6586384773254395
+MiniLM is processing the question 102496
+MiniLM finished the question 102496 took 0.5902137756347656
+MiniLM is processing the question 102620
+MiniLM finished the question 102620 took 0.5512118339538574
+MiniLM is processing the question 102623
+MiniLM finished the question 102623 took 0.50539231300354
+MiniLM is processing the question 102405
+MiniLM finished the question 102405 took 1.0807840824127197
+MiniLM is processing the question 102193
+MiniLM finished the question 102193 took 1.227189540863037
+MiniLM is processing the question 101784
+MiniLM finished the question 101784 took 0.5094935894012451
+MiniLM is processing the question 102632
+MiniLM finished the question 102632 took 0.49968552589416504
+MiniLM is processing the question 101791
+MiniLM finished the question 101791 took 1.608189344406128
+MiniLM is processing the question 102752
+MiniLM finished the question 102752 took 0.629335880279541
+MiniLM is processing the question 101807
+MiniLM finished the question 101807 took 0.7821910381317139
+MiniLM is processing the question 102747
+MiniLM finished the question 102747 took 1.197547197341919
+MiniLM is processing the question 102060
+MiniLM finished the question 102060 took 1.503251552581787
+MiniLM is processing the question 102101
+MiniLM finished the question 102101 took 1.1965491771697998
+MiniLM is processing the question 102595
+MiniLM finished the question 102595 took 1.3075456619262695
+MiniLM is processing the question 102104
+MiniLM finished the question 102104 took 0.41206955909729004
+MiniLM is processing the question 102107
+MiniLM finished the question 102107 took 0.45130372047424316
+MiniLM is processing the question 102643
+MiniLM finished the question 102643 took 1.4597070217132568
+MiniLM is processing the question 102958
+MiniLM finished the question 102958 took 0.7643227577209473
+MiniLM is processing the question 102966
+MiniLM finished the question 102966 took 0.8383224010467529
+MiniLM is processing the question 102799
+MiniLM finished the question 102799 took 0.8038647174835205
+MiniLM is processing the question 102835
+MiniLM finished the question 102835 took 0.7923803329467773
+MiniLM is processing the question 102821
+MiniLM finished the question 102821 took 0.97174072265625
+MiniLM is processing the question 101811
+MiniLM finished the question 101811 took 1.4976630210876465
+MiniLM is processing the question 102843
+MiniLM finished the question 102843 took 1.064690351486206
+MiniLM is processing the question 102855
+MiniLM finished the question 102855 took 0.5572202205657959
+MiniLM is processing the question 102249
+MiniLM finished the question 102249 took 0.8072879314422607
+MiniLM is processing the question 102280
+MiniLM finished the question 102280 took 0.8122646808624268
+MiniLM is processing the question 102298
+MiniLM finished the question 102298 took 0.8062396049499512
+MiniLM is processing the question 102312
+MiniLM finished the question 102312 took 0.8651604652404785
+MiniLM is processing the question 102303
+MiniLM finished the question 102303 took 0.8671586513519287
+MiniLM is processing the question 102345
+MiniLM finished the question 102345 took 0.4939885139465332
+MiniLM is processing the question 102851
+MiniLM finished the question 102851 took 1.843273639678955
+MiniLM is processing the question 103342
+MiniLM finished the question 103342 took 0.4107019901275635
+MiniLM is processing the question 103156
+MiniLM finished the question 103156 took 0.7692966461181641
+MiniLM is processing the question 103067
+MiniLM finished the question 103067 took 0.8453407287597656
+MiniLM is processing the question 103187
+MiniLM finished the question 103187 took 0.6952941417694092
+MiniLM is processing the question 103209
+MiniLM finished the question 103209 took 0.7456603050231934
+MiniLM is processing the question 103197
+MiniLM finished the question 103197 took 1.168513298034668
+MiniLM is processing the question 103534
+MiniLM finished the question 103534 took 1.169510841369629
+MiniLM is processing the question 103520
+MiniLM finished the question 103520 took 0.9367866516113281
+MiniLM is processing the question 103220
+MiniLM finished the question 103220 took 0.4519360065460205
+MiniLM is processing the question 103226
+MiniLM finished the question 103226 took 0.6889479160308838
+MiniLM is processing the question 103460
+MiniLM finished the question 103460 took 0.7589421272277832
+MiniLM is processing the question 103487
+MiniLM finished the question 103487 took 1.1279425621032715
+MiniLM is processing the question 103283
+MiniLM finished the question 103283 took 0.7530183792114258
+MiniLM is processing the question 103280
+MiniLM finished the question 103280 took 0.7954978942871094
+MiniLM is processing the question 103242
+MiniLM finished the question 103242 took 1.2720694541931152
+MiniLM is processing the question 103646
+MiniLM finished the question 103646 took 1.273069143295288
+MiniLM is processing the question 103663
+MiniLM finished the question 103663 took 1.25710129737854
+MiniLM is processing the question 103674
+MiniLM finished the question 103674 took 0.5319855213165283
+MiniLM is processing the question 103708
+MiniLM finished the question 103708 took 0.5093319416046143
+MiniLM is processing the question 103305
+MiniLM finished the question 103305 took 0.46556568145751953
+MiniLM is processing the question 103326
+MiniLM finished the question 103326 took 0.47759318351745605
+MiniLM is processing the question 103286
+MiniLM finished the question 103286 took 1.5404012203216553
+MiniLM is processing the question 103309
+MiniLM finished the question 103309 took 0.6363317966461182
+MiniLM is processing the question 104238
+MiniLM finished the question 104238 took 0.6313064098358154
+MiniLM is processing the question 104213
+MiniLM finished the question 104213 took 0.4938371181488037
+MiniLM is processing the question 104258
+MiniLM finished the question 104258 took 0.44981908798217773
+MiniLM is processing the question 103312
+MiniLM finished the question 103312 took 1.2351558208465576
+MiniLM is processing the question 104277
+MiniLM finished the question 104277 took 0.5323717594146729
+MiniLM is processing the question 103386
+MiniLM finished the question 103386 took 0.4654350280761719
+MiniLM is processing the question 103574
+MiniLM finished the question 103574 took 0.6318578720092773
+MiniLM is processing the question 103584
+MiniLM finished the question 103584 took 0.6571016311645508
+MiniLM is processing the question 103586
+MiniLM finished the question 103586 took 0.5927879810333252
+MiniLM is processing the question 103607
+MiniLM finished the question 103607 took 0.5407936573028564
+MiniLM is processing the question 104618
+MiniLM finished the question 104618 took 0.4899435043334961
+MiniLM is processing the question 104109
+MiniLM finished the question 104109 took 1.0474512577056885
+MiniLM is processing the question 104286
+MiniLM finished the question 104286 took 2.288515090942383
+MiniLM is processing the question 104620
+MiniLM finished the question 104620 took 1.0812146663665771
+MiniLM is processing the question 104631
+MiniLM finished the question 104631 took 0.7365353107452393
+MiniLM is processing the question 104027
+MiniLM finished the question 104027 took 0.7304322719573975
+MiniLM is processing the question 104024
+MiniLM finished the question 104024 took 0.7989625930786133
+MiniLM is processing the question 104687
+MiniLM finished the question 104687 took 0.5700373649597168
+MiniLM is processing the question 104728
+MiniLM finished the question 104728 took 0.8214774131774902
+MiniLM is processing the question 104725
+MiniLM finished the question 104725 took 1.5350415706634521
+MiniLM is processing the question 104766
+MiniLM finished the question 104766 took 0.7265772819519043
+MiniLM is processing the question 104835
+MiniLM finished the question 104835 took 0.8255016803741455
+MiniLM is processing the question 104727
+MiniLM finished the question 104727 took 1.7297708988189697
+MiniLM is processing the question 104803
+MiniLM finished the question 104803 took 0.8974945545196533
+MiniLM is processing the question 103746
+MiniLM finished the question 103746 took 0.4997079372406006
+MiniLM is processing the question 103804
+MiniLM finished the question 103804 took 0.5249979496002197
+MiniLM is processing the question 104792
+MiniLM finished the question 104792 took 1.625737190246582
+MiniLM is processing the question 103768
+MiniLM finished the question 103768 took 0.4320485591888428
+MiniLM is processing the question 104874
+MiniLM finished the question 104874 took 0.4332900047302246
+MiniLM is processing the question 105078
+MiniLM finished the question 105078 took 0.5855159759521484
+MiniLM is processing the question 104363
+MiniLM finished the question 104363 took 0.93756103515625
+MiniLM is processing the question 104324
+MiniLM finished the question 104324 took 1.0081267356872559
+MiniLM is processing the question 103952
+MiniLM finished the question 103952 took 1.3496530055999756
+MiniLM is processing the question 103868
+MiniLM finished the question 103868 took 1.351351261138916
+MiniLM is processing the question 104376
+MiniLM finished the question 104376 took 0.6264204978942871
+MiniLM is processing the question 103953
+MiniLM finished the question 103953 took 1.9861323833465576
+MiniLM is processing the question 104525
+MiniLM finished the question 104525 took 0.9115102291107178
+MiniLM is processing the question 104976
+MiniLM finished the question 104976 took 0.8750076293945312
+MiniLM is processing the question 104554
+MiniLM finished the question 104554 took 0.9160072803497314
+MiniLM is processing the question 104878
+MiniLM finished the question 104878 took 0.549628496170044
+MiniLM is processing the question 104973
+MiniLM finished the question 104973 took 1.4328548908233643
+MiniLM is processing the question 104992
+MiniLM finished the question 104992 took 1.433851957321167
+MiniLM is processing the question 105153
+MiniLM finished the question 105153 took 0.7784111499786377
+MiniLM is processing the question 104528
+MiniLM finished the question 104528 took 1.6968104839324951
+MiniLM is processing the question 104981
+MiniLM finished the question 104981 took 1.9045076370239258
+MiniLM is processing the question 104932
+MiniLM finished the question 104932 took 0.5216596126556396
+MiniLM is processing the question 105318
+MiniLM finished the question 105318 took 0.5552382469177246
+MiniLM is processing the question 105336
+MiniLM finished the question 105336 took 0.8116624355316162
+MiniLM is processing the question 105015
+MiniLM finished the question 105015 took 0.8566625118255615
+MiniLM is processing the question 105330
+MiniLM finished the question 105330 took 0.8102779388427734
+MiniLM is processing the question 105328
+MiniLM finished the question 105328 took 1.5250751972198486
+MiniLM is processing the question 105089
+MiniLM finished the question 105089 took 0.527862548828125
+MiniLM is processing the question 105544
+MiniLM finished the question 105544 took 0.549323558807373
+MiniLM is processing the question 105415
+MiniLM finished the question 105415 took 1.064894199371338
+MiniLM is processing the question 105080
+MiniLM finished the question 105080 took 1.765160322189331
+MiniLM is processing the question 105553
+MiniLM finished the question 105553 took 0.5444920063018799
+MiniLM is processing the question 105030
+MiniLM finished the question 105030 took 0.5515263080596924
+MiniLM is processing the question 105096
+MiniLM finished the question 105096 took 1.0005125999450684
+MiniLM is processing the question 105020
+MiniLM finished the question 105020 took 0.5586652755737305
+MiniLM is processing the question 105120
+MiniLM finished the question 105120 took 0.5657429695129395
+MiniLM is processing the question 105017
+MiniLM finished the question 105017 took 0.5417423248291016
+MiniLM is processing the question 105624
+MiniLM finished the question 105624 took 0.6347966194152832
+MiniLM is processing the question 105127
+MiniLM finished the question 105127 took 0.5063889026641846
+MiniLM is processing the question 105136
+MiniLM finished the question 105136 took 0.5883219242095947
+MiniLM is processing the question 105627
+MiniLM finished the question 105627 took 1.5192999839782715
+MiniLM is processing the question 105631
+MiniLM finished the question 105631 took 0.5506048202514648
+MiniLM is processing the question 105630
+MiniLM finished the question 105630 took 0.588930606842041
+MiniLM is processing the question 105635
+MiniLM finished the question 105635 took 0.6261272430419922
+MiniLM is processing the question 105379
+MiniLM finished the question 105379 took 0.6001241207122803
+MiniLM is processing the question 105066
+MiniLM finished the question 105066 took 0.4324660301208496
+MiniLM is processing the question 105613
+MiniLM finished the question 105613 took 0.9833626747131348
+MiniLM is processing the question 105647
+MiniLM finished the question 105647 took 0.8754761219024658
+MiniLM is processing the question 105230
+MiniLM finished the question 105230 took 0.6378090381622314
+MiniLM is processing the question 105265
+MiniLM finished the question 105265 took 0.5924875736236572
+MiniLM is processing the question 105726
+MiniLM finished the question 105726 took 0.6087241172790527
+MiniLM is processing the question 105285
+MiniLM finished the question 105285 took 0.6140754222869873
+MiniLM is processing the question 105588
+MiniLM finished the question 105588 took 1.497990608215332
+MiniLM is processing the question 105292
+MiniLM finished the question 105292 took 0.5166497230529785
+MiniLM is processing the question 105731
+MiniLM finished the question 105731 took 0.7194507122039795
+MiniLM is processing the question 105893
+MiniLM finished the question 105893 took 0.7984499931335449
+MiniLM is processing the question 105748
+MiniLM finished the question 105748 took 0.7495403289794922
+MiniLM is processing the question 105736
+MiniLM finished the question 105736 took 0.9740486145019531
+MiniLM is processing the question 105762
+MiniLM finished the question 105762 took 0.8360371589660645
+MiniLM is processing the question 105892
+MiniLM finished the question 105892 took 0.7095248699188232
+MiniLM is processing the question 105913
+MiniLM finished the question 105913 took 1.108245611190796
+MiniLM is processing the question 105764
+MiniLM finished the question 105764 took 1.0952458381652832
+MiniLM is processing the question 105896
+MiniLM finished the question 105896 took 0.5578744411468506
+MiniLM is processing the question 105481
+MiniLM finished the question 105481 took 1.0142288208007812
+MiniLM is processing the question 105905
+MiniLM finished the question 105905 took 1.0282316207885742
+MiniLM is processing the question 105769
+MiniLM finished the question 105769 took 0.6120238304138184
+MiniLM is processing the question 105722
+MiniLM finished the question 105722 took 0.7941069602966309
+MiniLM is processing the question 105767
+MiniLM finished the question 105767 took 0.8662374019622803
+MiniLM is processing the question 105772
+MiniLM finished the question 105772 took 0.627417802810669
+MiniLM is processing the question 105774
+MiniLM finished the question 105774 took 1.078057050704956
+MiniLM is processing the question 105839
+MiniLM finished the question 105839 took 0.43407440185546875
+MiniLM is processing the question 105859
+MiniLM finished the question 105859 took 0.5775346755981445
+MiniLM is processing the question 105856
+MiniLM finished the question 105856 took 0.5795347690582275
+MiniLM is processing the question 10160
+MiniLM finished the question 10160 took 1.1349997520446777
+MiniLM is processing the question 1018
+MiniLM finished the question 1018 took 1.4449162483215332
+MiniLM is processing the question 10458
+MiniLM finished the question 10458 took 1.4449167251586914
+MiniLM is processing the question 10411
+MiniLM finished the question 10411 took 1.4489161968231201
+MiniLM is processing the question 10368
+MiniLM finished the question 10368 took 1.4489171504974365
+MiniLM is processing the question 10136
+MiniLM finished the question 10136 took 2.0545589923858643
+MiniLM is processing the question 10427
+MiniLM finished the question 10427 took 2.060556650161743
+MiniLM is processing the question 10118
+MiniLM finished the question 10118 took 2.0565595626831055
+MiniLM is processing the question 101
+MiniLM finished the question 101 took 0.7304239273071289
+MiniLM is processing the question 10417
+MiniLM finished the question 10417 took 0.5374889373779297
+MiniLM is processing the question 10435
+MiniLM finished the question 10435 took 0.5414953231811523
+MiniLM is processing the question 10560
+MiniLM finished the question 10560 took 1.347456932067871
+MiniLM is processing the question 10581
+MiniLM finished the question 10581 took 1.3484573364257812
+MiniLM is processing the question 102
+MiniLM finished the question 102 took 1.3494563102722168
+MiniLM is processing the question 10561
+MiniLM finished the question 10561 took 1.3534607887268066
+MiniLM is processing the question 1030
+MiniLM finished the question 1030 took 0.8094794750213623
+MiniLM is processing the question 10128
+MiniLM finished the question 10128 took 0.6482052803039551
+MiniLM is processing the question 10155
+MiniLM finished the question 10155 took 0.7678666114807129
+MiniLM is processing the question 10185
+MiniLM finished the question 10185 took 0.8448641300201416
+MiniLM is processing the question 101001
+MiniLM finished the question 101001 took 1.5224792957305908
+MiniLM is processing the question 10596
+MiniLM finished the question 10596 took 1.5944795608520508
+MiniLM is processing the question 10202
+MiniLM finished the question 10202 took 1.5964796543121338
+MiniLM is processing the question 101002
+MiniLM finished the question 101002 took 0.8809640407562256
+MiniLM is processing the question 10530
+MiniLM finished the question 10530 took 1.5974798202514648
+MiniLM is processing the question 10567
+MiniLM finished the question 10567 took 1.5994822978973389
+MiniLM is processing the question 101028
+MiniLM finished the question 101028 took 0.4636819362640381
+MiniLM is processing the question 10798
+MiniLM finished the question 10798 took 0.5621070861816406
+MiniLM is processing the question 101007
+MiniLM finished the question 101007 took 0.9599366188049316
+MiniLM is processing the question 101031
+MiniLM finished the question 101031 took 0.5849313735961914
+MiniLM is processing the question 10959
+MiniLM finished the question 10959 took 1.231896162033081
+MiniLM is processing the question 10831
+MiniLM finished the question 10831 took 1.2328970432281494
+MiniLM is processing the question 101049
+MiniLM finished the question 101049 took 1.2348957061767578
+MiniLM is processing the question 101172
+MiniLM finished the question 101172 took 1.375304937362671
+MiniLM is processing the question 10772
+MiniLM finished the question 10772 took 0.9471304416656494
+MiniLM is processing the question 10897
+MiniLM finished the question 10897 took 2.011681079864502
+MiniLM is processing the question 10850
+MiniLM finished the question 10850 took 0.43854284286499023
+MiniLM is processing the question 10826
+MiniLM finished the question 10826 took 0.921184778213501
+MiniLM is processing the question 101330
+MiniLM finished the question 101330 took 0.9221847057342529
+MiniLM is processing the question 10747
+MiniLM finished the question 10747 took 0.7941761016845703
+MiniLM is processing the question 101347
+MiniLM finished the question 101347 took 1.0285260677337646
+MiniLM is processing the question 10652
+MiniLM finished the question 10652 took 1.0315265655517578
+MiniLM is processing the question 101331
+MiniLM finished the question 101331 took 0.9401261806488037
+MiniLM is processing the question 10946
+MiniLM finished the question 10946 took 0.41292834281921387
+MiniLM is processing the question 101507
+MiniLM finished the question 101507 took 0.41074419021606445
+MiniLM is processing the question 10822
+MiniLM finished the question 10822 took 1.2318272590637207
+MiniLM is processing the question 101191
+MiniLM finished the question 101191 took 1.339827537536621
+MiniLM is processing the question 101224
+MiniLM finished the question 101224 took 1.326824426651001
+MiniLM is processing the question 101296
+MiniLM finished the question 101296 took 1.3828277587890625
+MiniLM is processing the question 10824
+MiniLM finished the question 10824 took 1.2338299751281738
+MiniLM is processing the question 101662
+MiniLM finished the question 101662 took 1.2632789611816406
+MiniLM is processing the question 101151
+MiniLM finished the question 101151 took 1.3712804317474365
+MiniLM is processing the question 101701
+MiniLM finished the question 101701 took 0.8802785873413086
+MiniLM is processing the question 101721
+MiniLM finished the question 101721 took 0.9361374378204346
+MiniLM is processing the question 101724
+MiniLM finished the question 101724 took 0.9116053581237793
+MiniLM is processing the question 101218
+MiniLM finished the question 101218 took 0.9136054515838623
+MiniLM is processing the question 101699
+MiniLM finished the question 101699 took 1.4866855144500732
+MiniLM is processing the question 101438
+MiniLM finished the question 101438 took 1.487685203552246
+MiniLM is processing the question 101478
+MiniLM finished the question 101478 took 1.4912385940551758
+MiniLM is processing the question 101696
+MiniLM finished the question 101696 took 1.3026840686798096
+MiniLM is processing the question 101490
+MiniLM finished the question 101490 took 1.5626676082611084
+MiniLM is processing the question 101727
+MiniLM finished the question 101727 took 0.46250057220458984
+MiniLM is processing the question 101483
+MiniLM finished the question 101483 took 0.7779393196105957
+MiniLM is processing the question 101208
+MiniLM finished the question 101208 took 0.7784209251403809
+MiniLM is processing the question 101723
+MiniLM finished the question 101723 took 0.7854552268981934
+MiniLM is processing the question 101705
+MiniLM finished the question 101705 took 0.7904558181762695
+MiniLM is processing the question 101651
+MiniLM finished the question 101651 took 0.7308955192565918
+MiniLM is processing the question 102046
+MiniLM finished the question 102046 took 0.8309955596923828
+MiniLM is processing the question 101747
+MiniLM finished the question 101747 took 0.9835691452026367
+MiniLM is processing the question 101733
+MiniLM finished the question 101733 took 0.35710644721984863
+MiniLM is processing the question 102201
+MiniLM finished the question 102201 took 1.2449123859405518
+MiniLM is processing the question 102045
+MiniLM is processing the question 102141
+MiniLM finished the question 102141 took 1.2479133605957031
+MiniLM is processing the question 102053
+MiniLM finished the question 102053 took 0.701815128326416
+MiniLM is processing the question 101688
+MiniLM finished the question 101688 took 1.534888744354248
+MiniLM is processing the question 102033
+MiniLM finished the question 102033 took 1.5116322040557861
+MiniLM is processing the question 102172
+MiniLM finished the question 102172 took 1.5549066066741943
+MiniLM is processing the question 102126
+MiniLM finished the question 102126 took 1.193619966506958
+MiniLM is processing the question 102220
+MiniLM finished the question 102220 took 0.6315741539001465
+MiniLM is processing the question 102232
+MiniLM finished the question 102232 took 0.6887695789337158
+MiniLM is processing the question 102130
+MiniLM finished the question 102130 took 0.7366116046905518
+MiniLM is processing the question 101773
+MiniLM finished the question 101773 took 0.6481189727783203
+MiniLM is processing the question 102483
+MiniLM finished the question 102483 took 0.7440276145935059
+MiniLM is processing the question 102233
+MiniLM finished the question 102233 took 0.7460281848907471
+MiniLM is processing the question 101203
+MiniLM finished the question 101203 took 0.6839854717254639
+MiniLM is processing the question 102239
+MiniLM finished the question 102239 took 0.5244700908660889
+MiniLM is processing the question 101800
+MiniLM finished the question 101800 took 0.5512609481811523
+MiniLM is processing the question 10937
+MiniLM finished the question 10937 took 0.5517385005950928
+MiniLM is processing the question 102282
+MiniLM finished the question 102282 took 1.58192777633667
+MiniLM is processing the question 102407
+MiniLM finished the question 102407 took 1.6802234649658203
+MiniLM is processing the question 102023
+MiniLM finished the question 102023 took 1.5294654369354248
+MiniLM is processing the question 102589
+MiniLM finished the question 102589 took 0.8815913200378418
+MiniLM is processing the question 102374
+MiniLM finished the question 102374 took 1.7210068702697754
+MiniLM is processing the question 102281
+MiniLM finished the question 102281 took 1.3873698711395264
+MiniLM is processing the question 101834
+MiniLM finished the question 101834 took 1.5223274230957031
+MiniLM is processing the question 102824
+MiniLM finished the question 102824 took 1.1109001636505127
+MiniLM is processing the question 102717
+MiniLM finished the question 102717 took 1.1124868392944336
+MiniLM is processing the question 102496
+MiniLM finished the question 102496 took 1.1135377883911133
+MiniLM is processing the question 102514
+MiniLM finished the question 102514 took 0.9766035079956055
+MiniLM is processing the question 102098
+MiniLM finished the question 102098 took 1.5994441509246826
+MiniLM is processing the question 102665
+MiniLM finished the question 102665 took 1.7108550071716309
+MiniLM is processing the question 102647
+MiniLM finished the question 102647 took 1.7093324661254883
+MiniLM is processing the question 102810
+MiniLM finished the question 102810 took 0.4816462993621826
+MiniLM is processing the question 102888
+MiniLM finished the question 102888 took 0.5342755317687988
+MiniLM is processing the question 102634
+MiniLM finished the question 102634 took 0.9902374744415283
+MiniLM is processing the question 102809
+MiniLM finished the question 102809 took 0.4971330165863037
+MiniLM is processing the question 102976
+MiniLM finished the question 102976 took 1.11818528175354
+MiniLM is processing the question 102839
+MiniLM finished the question 102839 took 0.4903748035430908
+MiniLM is processing the question 101600
+MiniLM finished the question 101600 took 0.7655503749847412
+MiniLM is processing the question 102567
+MiniLM finished the question 102567 took 0.607130765914917
+MiniLM is processing the question 102224
+MiniLM finished the question 102224 took 0.6187927722930908
+MiniLM is processing the question 102838
+MiniLM finished the question 102838 took 0.5316002368927002
+MiniLM is processing the question 102694
+MiniLM finished the question 102694 took 0.8125162124633789
+MiniLM is processing the question 103052
+MiniLM finished the question 103052 took 0.6851799488067627
+MiniLM is processing the question 102741
+MiniLM finished the question 102741 took 1.0274546146392822
+MiniLM is processing the question 103423
+MiniLM finished the question 103423 took 0.7096965312957764
+MiniLM is processing the question 102915
+MiniLM finished the question 102915 took 0.8616983890533447
+MiniLM is processing the question 103350
+MiniLM finished the question 103350 took 0.8157048225402832
+MiniLM is processing the question 102858
+MiniLM finished the question 102858 took 0.4795567989349365
+MiniLM is processing the question 102662
+MiniLM finished the question 102662 took 0.8345389366149902
+MiniLM is processing the question 103256
+MiniLM finished the question 103256 took 0.8355386257171631
+MiniLM is processing the question 103392
+MiniLM finished the question 103392 took 0.7240133285522461
+MiniLM is processing the question 103178
+MiniLM finished the question 103178 took 0.7075135707855225
+MiniLM is processing the question 103518
+MiniLM finished the question 103518 took 0.8131828308105469
+MiniLM is processing the question 103242
+MiniLM finished the question 103242 took 0.8551838397979736
+MiniLM is processing the question 103482
+MiniLM finished the question 103482 took 0.6601836681365967
+MiniLM is processing the question 103293
+MiniLM finished the question 103293 took 0.7315530776977539
+MiniLM is processing the question 103450
+MiniLM finished the question 103450 took 0.732553243637085
+MiniLM is processing the question 103600
+MiniLM finished the question 103600 took 0.6516294479370117
+MiniLM is processing the question 103504
+MiniLM finished the question 103504 took 0.6154425144195557
+MiniLM is processing the question 103616
+MiniLM finished the question 103616 took 0.6601898670196533
+MiniLM is processing the question 103558
+MiniLM finished the question 103558 took 0.7301867008209229
+MiniLM is processing the question 103595
+MiniLM finished the question 103595 took 0.4556849002838135
+MiniLM is processing the question 103586
+MiniLM finished the question 103586 took 1.2002592086791992
+MiniLM is processing the question 103641
+MiniLM finished the question 103641 took 0.6978702545166016
+MiniLM is processing the question 103167
+MiniLM finished the question 103167 took 0.43108463287353516
+MiniLM is processing the question 103621
+MiniLM finished the question 103621 took 0.5978634357452393
+MiniLM is processing the question 102969
+MiniLM finished the question 102969 took 0.6406702995300293
+MiniLM is processing the question 103326
+MiniLM finished the question 103326 took 0.7115542888641357
+MiniLM is processing the question 103557
+MiniLM finished the question 103557 took 0.4170191287994385
+MiniLM is processing the question 103281
+MiniLM finished the question 103281 took 0.4031360149383545
+MiniLM is processing the question 102736
+MiniLM finished the question 102736 took 0.7751390933990479
+MiniLM is processing the question 103300
+MiniLM finished the question 103300 took 0.3665308952331543
+MiniLM is processing the question 104037
+MiniLM finished the question 104037 took 0.8815579414367676
+MiniLM is processing the question 104069
+MiniLM finished the question 104069 took 0.5607092380523682
+MiniLM is processing the question 103592
+MiniLM finished the question 103592 took 0.5036303997039795
+MiniLM is processing the question 103711
+MiniLM finished the question 103711 took 1.339437484741211
+MiniLM is processing the question 103527
+MiniLM finished the question 103527 took 1.340437889099121
+MiniLM is processing the question 103511
+MiniLM finished the question 103511 took 1.1809039115905762
+MiniLM is processing the question 104270
+MiniLM finished the question 104270 took 0.4709436893463135
+MiniLM is processing the question 103321
+MiniLM finished the question 103321 took 0.3595263957977295
+MiniLM is processing the question 104281
+MiniLM finished the question 104281 took 0.4581112861633301
+MiniLM is processing the question 104087
+MiniLM finished the question 104087 took 0.47408485412597656
+MiniLM is processing the question 104050
+MiniLM finished the question 104050 took 0.541024923324585
+MiniLM is processing the question 104275
+MiniLM finished the question 104275 took 0.6135604381561279
+MiniLM is processing the question 104196
+MiniLM finished the question 104196 took 1.058964729309082
+MiniLM is processing the question 104671
+MiniLM finished the question 104671 took 0.8811445236206055
+MiniLM is processing the question 104629
+MiniLM finished the question 104629 took 1.098778486251831
+MiniLM is processing the question 104654
+MiniLM finished the question 104654 took 0.45328736305236816
+MiniLM is processing the question 103980
+MiniLM finished the question 103980 took 0.4752504825592041
+MiniLM is processing the question 103741
+MiniLM finished the question 103741 took 0.8385496139526367
+MiniLM is processing the question 104110
+MiniLM finished the question 104110 took 0.7665376663208008
+MiniLM is processing the question 104771
+MiniLM finished the question 104771 took 0.8279542922973633
+MiniLM is processing the question 104743
+MiniLM finished the question 104743 took 0.8859546184539795
+MiniLM is processing the question 104633
+MiniLM finished the question 104633 took 0.7164647579193115
+MiniLM is processing the question 104780
+MiniLM finished the question 104780 took 1.6613008975982666
+MiniLM is processing the question 103686
+MiniLM finished the question 103686 took 2.125866413116455
+MiniLM is processing the question 104747
+MiniLM finished the question 104747 took 1.2593472003936768
+MiniLM is processing the question 103880
+MiniLM finished the question 103880 took 0.49880385398864746
+MiniLM is processing the question 103708
+MiniLM finished the question 103708 took 1.4676015377044678
+MiniLM is processing the question 104637
+MiniLM finished the question 104637 took 0.7108850479125977
+MiniLM is processing the question 104727
+MiniLM finished the question 104727 took 0.7698934078216553
+MiniLM is processing the question 104367
+MiniLM finished the question 104367 took 0.7147352695465088
+MiniLM is processing the question 104381
+MiniLM finished the question 104381 took 0.7245452404022217
+MiniLM is processing the question 104304
+MiniLM finished the question 104304 took 0.8125433921813965
+MiniLM is processing the question 104479
+MiniLM finished the question 104479 took 0.8265507221221924
+MiniLM is processing the question 103940
+MiniLM finished the question 103940 took 0.8205516338348389
+MiniLM is processing the question 104814
+MiniLM finished the question 104814 took 0.9100677967071533
+MiniLM is processing the question 104457
+MiniLM finished the question 104457 took 1.114119052886963
+MiniLM is processing the question 104851
+MiniLM finished the question 104851 took 0.37108755111694336
+MiniLM is processing the question 105080
+MiniLM finished the question 105080 took 0.5890238285064697
+MiniLM is processing the question 104873
+MiniLM finished the question 104873 took 0.8192136287689209
+MiniLM is processing the question 104887
+MiniLM finished the question 104887 took 0.724210262298584
+MiniLM is processing the question 104833
+MiniLM finished the question 104833 took 0.8132126331329346
+MiniLM is processing the question 105099
+MiniLM finished the question 105099 took 0.7452137470245361
+MiniLM is processing the question 105333
+MiniLM finished the question 105333 took 0.6227414608001709
+MiniLM is processing the question 105299
+MiniLM finished the question 105299 took 1.284031629562378
+MiniLM is processing the question 105136
+MiniLM finished the question 105136 took 0.35790395736694336
+MiniLM is processing the question 105102
+MiniLM finished the question 105102 took 0.6236841678619385
+MiniLM is processing the question 105297
+MiniLM finished the question 105297 took 0.9371001720428467
+MiniLM is processing the question 105326
+MiniLM finished the question 105326 took 0.7107226848602295
+MiniLM is processing the question 105148
+MiniLM finished the question 105148 took 0.7840902805328369
+MiniLM is processing the question 105412
+MiniLM finished the question 105412 took 0.6883373260498047
+MiniLM is processing the question 105031
+MiniLM finished the question 105031 took 0.5757904052734375
+MiniLM is processing the question 104981
+MiniLM finished the question 104981 took 0.7080848217010498
+MiniLM is processing the question 105284
+MiniLM finished the question 105284 took 0.7413029670715332
+MiniLM is processing the question 104909
+MiniLM finished the question 104909 took 0.6598949432373047
+MiniLM is processing the question 104830
+MiniLM finished the question 104830 took 0.6658859252929688
+MiniLM is processing the question 105606
+MiniLM finished the question 105606 took 0.7312209606170654
+MiniLM is processing the question 105245
+MiniLM finished the question 105245 took 0.7672278881072998
+MiniLM is processing the question 105100
+MiniLM finished the question 105100 took 0.41893959045410156
+MiniLM is processing the question 105308
+MiniLM finished the question 105308 took 0.8020424842834473
+MiniLM is processing the question 104863
+MiniLM finished the question 104863 took 0.6794190406799316
+MiniLM is processing the question 105730
+MiniLM finished the question 105730 took 0.7632238864898682
+MiniLM is processing the question 105623
+MiniLM finished the question 105623 took 0.7529494762420654
+MiniLM is processing the question 105743
+MiniLM finished the question 105743 took 0.5073566436767578
+MiniLM is processing the question 105544
+MiniLM finished the question 105544 took 0.5085577964782715
+MiniLM is processing the question 105429
+MiniLM finished the question 105429 took 1.847832202911377
+MiniLM is processing the question 105740
+MiniLM finished the question 105740 took 1.723768949508667
+MiniLM is processing the question 105782
+MiniLM finished the question 105782 took 0.36745738983154297
+MiniLM is processing the question 105765
+MiniLM finished the question 105765 took 0.5740137100219727
+MiniLM is processing the question 105754
+MiniLM finished the question 105754 took 0.6105294227600098
+MiniLM is processing the question 105636
+MiniLM finished the question 105636 took 0.5150790214538574
+MiniLM is processing the question 105674
+MiniLM finished the question 105674 took 1.1095657348632812
+MiniLM is processing the question 105523
+MiniLM finished the question 105523 took 0.5045204162597656
+MiniLM is processing the question 105771
+MiniLM finished the question 105771 took 0.5105440616607666
+MiniLM is processing the question 104991
+MiniLM finished the question 104991 took 0.5123891830444336
+MiniLM is processing the question 105533
+MiniLM finished the question 105533 took 0.4828202724456787
+MiniLM is processing the question 105769
+MiniLM finished the question 105769 took 0.4058089256286621
+MiniLM is processing the question 105538
+MiniLM finished the question 105538 took 0.43886399269104004
+MiniLM is processing the question 105763
+MiniLM finished the question 105763 took 0.41597461700439453
+MiniLM is processing the question 105744
+MiniLM finished the question 105744 took 0.5115129947662354
+MiniLM is processing the question 105722
+MiniLM finished the question 105722 took 0.5827493667602539
+MiniLM is processing the question 105899
+MiniLM finished the question 105899 took 0.5089714527130127
+MiniLM is processing the question 105648
+MiniLM finished the question 105648 took 0.4900689125061035
+MiniLM is processing the question 105834
+MiniLM finished the question 105834 took 0.5297698974609375
+MiniLM is processing the question 105814
+MiniLM finished the question 105814 took 0.6899430751800537
+MiniLM is processing the question 105821
+MiniLM finished the question 105821 took 0.43841981887817383
+MiniLM is processing the question 10297
+MiniLM is processing the question 104
+MiniLM is processing the question 10205
+MiniLM is processing the question 10168
+MiniLM is processing the question 10295
+MiniLM finished the question 10295 took 1.118319034576416
+MiniLM is processing the question 10139
+MiniLM finished the question 10139 took 1.263350009918213
+MiniLM is processing the question 10134
+MiniLM finished the question 10134 took 1.2653510570526123
+MiniLM is processing the question 1013
+MiniLM finished the question 1013 took 1.7523627281188965
+MiniLM is processing the question 10327
+MiniLM is processing the question 10166
+MiniLM finished the question 10166 took 0.45244646072387695
+MiniLM is processing the question 10441
+MiniLM finished the question 10441 took 0.4532740116119385
+MiniLM is processing the question 10388
+MiniLM finished the question 10388 took 3.7319223880767822
+MiniLM is processing the question 10364
+MiniLM finished the question 10364 took 4.219142913818359
+MiniLM is processing the question 10419
+MiniLM finished the question 10419 took 1.3129253387451172
+MiniLM is processing the question 10169
+MiniLM finished the question 10169 took 0.5821905136108398
+MiniLM is processing the question 10406
+MiniLM finished the question 10406 took 0.5942389965057373
+MiniLM is processing the question 10164
+MiniLM finished the question 10164 took 0.6763579845428467
+MiniLM is processing the question 1024
+MiniLM finished the question 1024 took 0.5588324069976807
+MiniLM is processing the question 10638
+MiniLM finished the question 10638 took 0.68251633644104
+MiniLM is processing the question 1051
+MiniLM finished the question 1051 took 0.6024949550628662
+MiniLM is processing the question 10583
+MiniLM finished the question 10583 took 0.5901749134063721
+MiniLM is processing the question 10153
+MiniLM finished the question 10153 took 0.3715698719024658
+MiniLM is processing the question 10729
+MiniLM finished the question 10729 took 3.735820770263672
+MiniLM is processing the question 10560
+MiniLM finished the question 10560 took 3.7475407123565674
+MiniLM is processing the question 10571
+MiniLM finished the question 10571 took 0.7844085693359375
+MiniLM is processing the question 10502
+MiniLM finished the question 10502 took 0.5360610485076904
+MiniLM is processing the question 10551
+MiniLM finished the question 10551 took 0.7680003643035889
+MiniLM is processing the question 10549
+MiniLM finished the question 10549 took 0.8309693336486816
+MiniLM is processing the question 10699
+MiniLM finished the question 10699 took 0.44530463218688965
+MiniLM is processing the question 101014
+MiniLM finished the question 101014 took 0.8839490413665771
+MiniLM is processing the question 10973
+MiniLM finished the question 10973 took 0.9480471611022949
+MiniLM is processing the question 1094
+MiniLM finished the question 1094 took 0.45079970359802246
+MiniLM is processing the question 10243
+MiniLM finished the question 10243 took 0.5060303211212158
+MiniLM is processing the question 101004
+MiniLM finished the question 101004 took 0.7900347709655762
+MiniLM is processing the question 101013
+MiniLM finished the question 101013 took 0.38852977752685547
+MiniLM is processing the question 10387
+MiniLM finished the question 10387 took 0.439741849899292
+MiniLM is processing the question 10482
+MiniLM is processing the question 101039
+MiniLM finished the question 101039 took 0.4420433044433594
+MiniLM is processing the question 101070
+MiniLM finished the question 101070 took 0.45561814308166504
+MiniLM is processing the question 10715
+MiniLM finished the question 10715 took 0.4971926212310791
+MiniLM is processing the question 101019
+MiniLM finished the question 101019 took 0.359846830368042
+MiniLM is processing the question 10969
+MiniLM finished the question 10969 took 0.43959951400756836
+MiniLM is processing the question 101026
+MiniLM finished the question 101026 took 0.35577940940856934
+MiniLM is processing the question 101046
+MiniLM finished the question 101046 took 0.4420151710510254
+MiniLM is processing the question 101140
+MiniLM finished the question 101140 took 0.5334742069244385
+MiniLM is processing the question 101302
+MiniLM finished the question 101302 took 1.0414252281188965
+MiniLM is processing the question 101275
+MiniLM finished the question 101275 took 0.5642993450164795
+MiniLM is processing the question 101257
+MiniLM finished the question 101257 took 0.7214493751525879
+MiniLM is processing the question 101246
+MiniLM finished the question 101246 took 0.357546329498291
+MiniLM is processing the question 101320
+MiniLM finished the question 101320 took 0.8758907318115234
+MiniLM is processing the question 101049
+MiniLM finished the question 101049 took 0.9079265594482422
+MiniLM is processing the question 10789
+MiniLM finished the question 10789 took 0.6815524101257324
+MiniLM is processing the question 101287
+MiniLM finished the question 101287 took 0.7536098957061768
+MiniLM is processing the question 10946
+MiniLM is processing the question 10234
+MiniLM finished the question 10234 took 0.5585143566131592
+MiniLM is processing the question 101345
+MiniLM is processing the question 102045
+MiniLM finished the question 102045 took 1.3024952411651611
+MiniLM is processing the question 10168
+MiniLM finished the question 10168 took 1.0543603897094727
+MiniLM is processing the question 10946
+MiniLM finished the question 10946 took 3.354423999786377
+MiniLM is processing the question 10327
+MiniLM finished the question 10327 took 3.356529474258423
+MiniLM is processing the question 10205
+MiniLM finished the question 10205 took 4.21986985206604
+MiniLM is processing the question 10297
+MiniLM finished the question 10297 took 4.220868110656738
+MiniLM is processing the question 10482
+MiniLM finished the question 10482 took 4.218885898590088
+MiniLM is processing the question 104
+MiniLM finished the question 104 took 4.2228844165802
+MiniLM is processing the question 101345
+MiniLM finished the question 101345 took 4.222885608673096
+MiniLM is processing the question 101164
+MiniLM finished the question 101164 took 2.168976068496704
+MiniLM is processing the question 101337
+MiniLM finished the question 101337 took 0.4855003356933594
+MiniLM is processing the question 101340
+MiniLM finished the question 101340 took 0.8626501560211182
+MiniLM is processing the question 101698
+MiniLM finished the question 101698 took 1.7525317668914795
+MiniLM is processing the question 10752
+MiniLM finished the question 10752 took 1.103487253189087
+MiniLM is processing the question 101720
+MiniLM finished the question 101720 took 1.10548996925354
+MiniLM is processing the question 101727
+MiniLM finished the question 101727 took 1.1074879169464111
+MiniLM is processing the question 101351
+MiniLM finished the question 101351 took 0.5293934345245361
+MiniLM is processing the question 10808
+MiniLM finished the question 10808 took 1.2534003257751465
+MiniLM is processing the question 101701
+MiniLM finished the question 101701 took 1.256408929824829
+MiniLM is processing the question 101705
+MiniLM finished the question 101705 took 0.6315679550170898
+MiniLM is processing the question 101600
+MiniLM finished the question 101600 took 0.8695003986358643
+MiniLM is processing the question 101355
+MiniLM finished the question 101355 took 0.8771243095397949
+MiniLM is processing the question 101719
+MiniLM finished the question 101719 took 0.8821225166320801
+MiniLM is processing the question 101854
+MiniLM finished the question 101854 took 0.9432790279388428
+MiniLM is processing the question 101735
+MiniLM finished the question 101735 took 0.3815579414367676
+MiniLM is processing the question 101193
+MiniLM finished the question 101193 took 2.357107639312744
+MiniLM is processing the question 10213
+MiniLM finished the question 10213 took 0.6430749893188477
+MiniLM is processing the question 102172
+MiniLM is processing the question 101750
+MiniLM finished the question 101750 took 1.1338984966278076
+MiniLM is processing the question 101619
+MiniLM finished the question 101619 took 0.6086299419403076
+MiniLM is processing the question 101279
+MiniLM finished the question 101279 took 2.4332528114318848
+MiniLM is processing the question 101653
+MiniLM finished the question 101653 took 2.463252067565918
+MiniLM is processing the question 102140
+MiniLM finished the question 102140 took 1.253974437713623
+MiniLM is processing the question 101728
+MiniLM finished the question 101728 took 0.8692281246185303
+MiniLM is processing the question 10824
+MiniLM finished the question 10824 took 0.8591256141662598
+MiniLM is processing the question 102238
+MiniLM finished the question 102238 took 0.974285364151001
+MiniLM is processing the question 101798
+MiniLM finished the question 101798 took 0.988938570022583
+MiniLM is processing the question 102130
+MiniLM finished the question 102130 took 2.5114383697509766
+MiniLM is processing the question 102409
+MiniLM finished the question 102409 took 2.5423288345336914
+MiniLM is processing the question 102380
+MiniLM finished the question 102380 took 1.01767897605896
+MiniLM is processing the question 102096
+MiniLM finished the question 102096 took 0.9019074440002441
+MiniLM is processing the question 102233
+MiniLM finished the question 102233 took 1.019679307937622
+MiniLM is processing the question 102587
+MiniLM finished the question 102587 took 0.8212087154388428
+MiniLM is processing the question 102064
+MiniLM finished the question 102064 took 0.8970451354980469
+MiniLM is processing the question 102523
+MiniLM finished the question 102523 took 0.9025888442993164
+MiniLM is processing the question 102041
+MiniLM finished the question 102041 took 0.9716811180114746
+MiniLM is processing the question 102821
+MiniLM finished the question 102821 took 0.8831877708435059
+MiniLM is processing the question 102181
+MiniLM finished the question 102181 took 0.9568328857421875
+MiniLM is processing the question 102054
+MiniLM finished the question 102054 took 0.6689598560333252
+MiniLM is processing the question 102368
+MiniLM finished the question 102368 took 1.0273845195770264
+MiniLM is processing the question 102813
+MiniLM finished the question 102813 took 0.7967262268066406
+MiniLM is processing the question 102824
+MiniLM finished the question 102824 took 0.7858810424804688
+MiniLM is processing the question 101983
+MiniLM finished the question 101983 took 2.428746461868286
+MiniLM is processing the question 102664
+MiniLM finished the question 102664 took 2.145402193069458
+MiniLM is processing the question 101760
+MiniLM finished the question 101760 took 2.2892348766326904
+MiniLM is processing the question 102347
+MiniLM finished the question 102347 took 2.1976332664489746
+MiniLM is processing the question 101784
+MiniLM is processing the question 102222
+MiniLM finished the question 102222 took 2.367502450942993
+MiniLM is processing the question 102638
+MiniLM finished the question 102638 took 2.2112224102020264
+MiniLM is processing the question 102848
+MiniLM finished the question 102848 took 2.1756551265716553
+MiniLM is processing the question 102736
+MiniLM finished the question 102736 took 2.179173469543457
+MiniLM is processing the question 101919
+MiniLM finished the question 101919 took 2.0414702892303467
+MiniLM is processing the question 103012
+MiniLM finished the question 103012 took 2.3076748847961426
+MiniLM is processing the question 102746
+MiniLM finished the question 102746 took 2.305156707763672
+MiniLM is processing the question 102796
+MiniLM finished the question 102796 took 2.3061559200286865
+MiniLM is processing the question 102822
+MiniLM finished the question 102822 took 0.8312439918518066
+MiniLM is processing the question 103346
+MiniLM finished the question 103346 took 0.8812437057495117
+MiniLM is processing the question 102918
+MiniLM finished the question 102918 took 0.9308862686157227
+MiniLM is processing the question 102922
+MiniLM finished the question 102922 took 0.8096375465393066
+MiniLM is processing the question 103400
+MiniLM finished the question 103400 took 0.8506619930267334
+MiniLM is processing the question 102756
+MiniLM finished the question 102756 took 0.9083418846130371
+MiniLM is processing the question 103205
+MiniLM finished the question 103205 took 0.8528544902801514
+MiniLM is processing the question 103235
+MiniLM finished the question 103235 took 0.8069844245910645
+MiniLM is processing the question 103165
+MiniLM finished the question 103165 took 1.9637458324432373
+MiniLM is processing the question 102707
+MiniLM finished the question 102707 took 1.857391595840454
+MiniLM is processing the question 103283
+MiniLM finished the question 103283 took 2.008837938308716
+MiniLM is processing the question 102973
+MiniLM finished the question 102973 took 2.0540266036987305
+MiniLM is processing the question 103576
+MiniLM finished the question 103576 took 1.574631929397583
+MiniLM is processing the question 103626
+MiniLM finished the question 103626 took 1.580615520477295
+MiniLM is processing the question 103641
+MiniLM finished the question 103641 took 0.6037960052490234
+MiniLM is processing the question 102958
+MiniLM finished the question 102958 took 0.6601123809814453
+MiniLM is processing the question 103298
+MiniLM finished the question 103298 took 0.4800426959991455
+MiniLM is processing the question 103470
+MiniLM finished the question 103470 took 1.9400014877319336
+MiniLM is processing the question 103452
+MiniLM is processing the question 103558
+MiniLM finished the question 103558 took 1.9431166648864746
+MiniLM is processing the question 103519
+MiniLM finished the question 103519 took 0.5715324878692627
+MiniLM is processing the question 103485
+MiniLM finished the question 103485 took 0.5831527709960938
+MiniLM is processing the question 103512
+MiniLM finished the question 103512 took 0.7459981441497803
+MiniLM is processing the question 103312
+MiniLM finished the question 103312 took 0.7465264797210693
+MiniLM is processing the question 103311
+MiniLM finished the question 103311 took 0.8250179290771484
+MiniLM is processing the question 103162
+MiniLM finished the question 103162 took 0.8072373867034912
+MiniLM is processing the question 103352
+MiniLM finished the question 103352 took 0.7406957149505615
+MiniLM is processing the question 104061
+MiniLM finished the question 104061 took 0.6236109733581543
+MiniLM is processing the question 104052
+MiniLM finished the question 104052 took 0.6639907360076904
+MiniLM is processing the question 104031
+MiniLM finished the question 104031 took 0.6691083908081055
+MiniLM is processing the question 103690
+MiniLM finished the question 103690 took 1.8265628814697266
+MiniLM is processing the question 103698
+MiniLM finished the question 103698 took 1.959413766860962
+MiniLM is processing the question 104276
+MiniLM finished the question 104276 took 0.7240209579467773
+MiniLM is processing the question 103267
+MiniLM finished the question 103267 took 0.526533842086792
+MiniLM is processing the question 104050
+MiniLM finished the question 104050 took 0.4749443531036377
+MiniLM is processing the question 103965
+MiniLM finished the question 103965 took 0.5975573062896729
+MiniLM is processing the question 104621
+MiniLM finished the question 104621 took 0.7586593627929688
+MiniLM is processing the question 104650
+MiniLM finished the question 104650 took 1.9534037113189697
+MiniLM is processing the question 104637
+MiniLM finished the question 104637 took 1.9847755432128906
+MiniLM is processing the question 104244
+MiniLM finished the question 104244 took 2.017397403717041
+MiniLM is processing the question 104623
+MiniLM finished the question 104623 took 0.6174919605255127
+MiniLM is processing the question 104196
+MiniLM finished the question 104196 took 0.43276238441467285
+MiniLM is processing the question 103675
+MiniLM finished the question 103675 took 0.7573683261871338
+MiniLM is processing the question 103770
+MiniLM finished the question 103770 took 0.910879373550415
+MiniLM is processing the question 104292
+MiniLM finished the question 104292 took 0.9747600555419922
+MiniLM is processing the question 104750
+MiniLM finished the question 104750 took 0.9767618179321289
+MiniLM is processing the question 104775
+MiniLM finished the question 104775 took 0.8697307109832764
+MiniLM is processing the question 104783
+MiniLM finished the question 104783 took 0.6850671768188477
+MiniLM is processing the question 104758
+MiniLM finished the question 104758 took 0.7215499877929688
+MiniLM is processing the question 104048
+MiniLM finished the question 104048 took 1.8552579879760742
+MiniLM is processing the question 104117
+MiniLM finished the question 104117 took 1.923870325088501
+MiniLM is processing the question 104087
+MiniLM finished the question 104087 took 1.925471305847168
+MiniLM is processing the question 104751
+MiniLM finished the question 104751 took 0.5055959224700928
+MiniLM is processing the question 104112
+MiniLM finished the question 104112 took 0.42252397537231445
+MiniLM is processing the question 104786
+MiniLM finished the question 104786 took 0.7073943614959717
+MiniLM is processing the question 104771
+MiniLM finished the question 104771 took 0.7256739139556885
+MiniLM is processing the question 103812
+MiniLM finished the question 103812 took 0.7723593711853027
+MiniLM is processing the question 104632
+MiniLM finished the question 104632 took 0.8190441131591797
+MiniLM is processing the question 104939
+MiniLM finished the question 104939 took 1.7590339183807373
+MiniLM is processing the question 103993
+MiniLM finished the question 103993 took 0.5708179473876953
+MiniLM is processing the question 104013
+MiniLM finished the question 104013 took 0.3623332977294922
+MiniLM is processing the question 104385
+MiniLM finished the question 104385 took 1.837132453918457
+MiniLM is processing the question 105020
+MiniLM finished the question 105020 took 1.7434775829315186
+MiniLM is processing the question 103745
+MiniLM finished the question 103745 took 1.9019274711608887
+MiniLM is processing the question 104850
+MiniLM finished the question 104850 took 0.44522762298583984
+MiniLM is processing the question 104877
+MiniLM finished the question 104877 took 0.7530550956726074
+MiniLM is processing the question 104796
+MiniLM finished the question 104796 took 0.6692066192626953
+MiniLM is processing the question 104992
+MiniLM finished the question 104992 took 0.7438697814941406
+MiniLM is processing the question 104987
+MiniLM finished the question 104987 took 0.8219330310821533
+MiniLM is processing the question 105073
+MiniLM finished the question 105073 took 1.7813217639923096
+MiniLM is processing the question 105070
+MiniLM finished the question 105070 took 0.4928712844848633
+MiniLM is processing the question 104791
+MiniLM finished the question 104791 took 0.5387775897979736
+MiniLM is processing the question 104922
+MiniLM finished the question 104922 took 1.8023104667663574
+MiniLM is processing the question 105105
+MiniLM finished the question 105105 took 1.993173599243164
+MiniLM is processing the question 104972
+MiniLM finished the question 104972 took 0.9026708602905273
+MiniLM is processing the question 105089
+MiniLM finished the question 105089 took 0.8403975963592529
+MiniLM is processing the question 105083
+MiniLM finished the question 105083 took 0.6745145320892334
+MiniLM is processing the question 105359
+MiniLM finished the question 105359 took 0.5377588272094727
+MiniLM is processing the question 104874
+MiniLM finished the question 104874 took 0.804673433303833
+MiniLM is processing the question 105085
+MiniLM finished the question 105085 took 2.041964530944824
+MiniLM is processing the question 104844
+MiniLM finished the question 104844 took 2.0470292568206787
+MiniLM is processing the question 105084
+MiniLM finished the question 105084 took 0.7788329124450684
+MiniLM is processing the question 105133
+MiniLM finished the question 105133 took 1.9780550003051758
+MiniLM is processing the question 105015
+MiniLM finished the question 105015 took 1.4613473415374756
+MiniLM is processing the question 104890
+MiniLM finished the question 104890 took 0.6662299633026123
+MiniLM is processing the question 105107
+MiniLM finished the question 105107 took 0.6791050434112549
+MiniLM is processing the question 105575
+MiniLM finished the question 105575 took 1.7641124725341797
+MiniLM is processing the question 105562
+MiniLM finished the question 105562 took 0.7030556201934814
+MiniLM is processing the question 105054
+MiniLM finished the question 105054 took 1.9287569522857666
+MiniLM is processing the question 105118
+MiniLM finished the question 105118 took 0.470059871673584
+MiniLM is processing the question 105627
+MiniLM finished the question 105627 took 0.6312093734741211
+MiniLM is processing the question 105623
+MiniLM finished the question 105623 took 1.7181744575500488
+MiniLM is processing the question 105625
+MiniLM finished the question 105625 took 1.7331995964050293
+MiniLM is processing the question 105725
+MiniLM finished the question 105725 took 0.5847547054290771
+MiniLM is processing the question 105417
+MiniLM finished the question 105417 took 1.7492752075195312
+MiniLM is processing the question 105768
+MiniLM finished the question 105768 took 2.1146626472473145
+MiniLM is processing the question 105779
+MiniLM finished the question 105779 took 2.116661787033081
+MiniLM is processing the question 105753
+MiniLM finished the question 105753 took 2.1176631450653076
+MiniLM is processing the question 105218
+MiniLM finished the question 105218 took 2.1216628551483154
+MiniLM is processing the question 105693
+MiniLM finished the question 105693 took 0.5162341594696045
+MiniLM is processing the question 105275
+MiniLM finished the question 105275 took 0.6918942928314209
+MiniLM is processing the question 105728
+MiniLM finished the question 105728 took 0.7019965648651123
+MiniLM is processing the question 105148
+MiniLM finished the question 105148 took 0.7068946361541748
+MiniLM is processing the question 105782
+MiniLM finished the question 105782 took 0.7189977169036865
+MiniLM is processing the question 105850
+MiniLM finished the question 105850 took 0.5808947086334229
+MiniLM is processing the question 105566
+MiniLM finished the question 105566 took 0.6505050659179688
+MiniLM is processing the question 105761
+MiniLM finished the question 105761 took 0.6534967422485352
+MiniLM is processing the question 105061
+MiniLM finished the question 105061 took 0.648064136505127
+MiniLM is processing the question 105882
+MiniLM finished the question 105882 took 0.6787619590759277
+MiniLM is processing the question 105399
+MiniLM finished the question 105399 took 1.8268494606018066
+MiniLM is processing the question 105507
+MiniLM finished the question 105507 took 1.6869306564331055
+MiniLM is processing the question 105230
+MiniLM finished the question 105230 took 1.6819090843200684
+MiniLM is processing the question 105906
+MiniLM finished the question 105906 took 0.7599420547485352
+MiniLM is processing the question 105884
+MiniLM finished the question 105884 took 0.7599411010742188
+MiniLM is processing the question 105524
+MiniLM finished the question 105524 took 1.9261224269866943
+MiniLM is processing the question 105879
+MiniLM finished the question 105879 took 0.6322946548461914
+MiniLM is processing the question 105911
+MiniLM finished the question 105911 took 0.7446038722991943
+MiniLM is processing the question 105908
+MiniLM finished the question 105908 took 1.8336904048919678
+MiniLM is processing the question 105847
+MiniLM finished the question 105847 took 1.8331689834594727
+MiniLM is processing the question 105487
+MiniLM finished the question 105487 took 1.9656753540039062
+MiniLM is processing the question 105862
+MiniLM finished the question 105862 took 0.5659468173980713
+MiniLM is processing the question 105872
+MiniLM finished the question 105872 took 0.5166645050048828
+MiniLM is processing the question 105855
+MiniLM finished the question 105855 took 0.5618622303009033
+MiniLM is processing the question 102172
+MiniLM finished the question 102172 took 0.6523563861846924
+MiniLM is processing the question 103452
+MiniLM finished the question 103452 took 0.6553561687469482
+MiniLM is processing the question 101784
+MiniLM finished the question 101784 took 1.134157419204712

@@ -103,6 +103,8 @@ class QAModel(HuggingFaceModel):
                 f"Need to deal with other dataset: {self.task_name}"
             )
 
+        # print(question)
+        # print(message)
         response = requests.post(
             self.API_URL,
             headers=self.headers,
@@ -185,8 +187,17 @@ class MiniLM(QAModel):
                 maximum_score = score
         if maximum_score == 0.0:
             return 0
-        maximum_score_index = result.index(maximum_score)
-        return maximum_score_index + 1
+
+        if self.task_name == "LaMP_1":
+            maximum_score_index = result.index(maximum_score)
+            return maximum_score_index + 1
+        elif self.task_name == "LaMP_2":
+            maximum_score_index = result.index(maximum_score)
+            return options[maximum_score_index]
+        else:
+            raise NotImplementedError(
+                f"Need to deal with other dataset: {self.task_name}"
+            )
 
 
 def task_1_parse_response(response: str, prompts: List[str]) -> str:

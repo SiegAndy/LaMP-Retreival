@@ -1,0 +1,1545 @@
+OpenAIModel is processing the question 10118
+OpenAIModel finished the question 10118 took 0.35668325424194336
+OpenAIModel is processing the question 10201
+OpenAIModel finished the question 10201 took 0.3963475227355957
+OpenAIModel is processing the question 10440
+OpenAIModel finished the question 10440 took 0.4177978038787842
+OpenAIModel is processing the question 1014
+OpenAIModel finished the question 1014 took 0.43547677993774414
+OpenAIModel is processing the question 10185
+OpenAIModel finished the question 10185 took 0.4537971019744873
+OpenAIModel is processing the question 10117
+OpenAIModel finished the question 10117 took 0.4477970600128174
+OpenAIModel is processing the question 10131
+OpenAIModel finished the question 10131 took 0.550156831741333
+OpenAIModel is processing the question 10149
+OpenAIModel finished the question 10149 took 0.527158260345459
+OpenAIModel is processing the question 1015
+OpenAIModel finished the question 1015 took 0.4712998867034912
+OpenAIModel is processing the question 10471
+OpenAIModel finished the question 10471 took 0.3848869800567627
+OpenAIModel is processing the question 10441
+OpenAIModel finished the question 10441 took 0.6310319900512695
+OpenAIModel is processing the question 10500
+OpenAIModel finished the question 10500 took 0.4324970245361328
+OpenAIModel is processing the question 10550
+OpenAIModel finished the question 10550 took 0.4021024703979492
+OpenAIModel is processing the question 10477
+OpenAIModel finished the question 10477 took 0.5189547538757324
+OpenAIModel is processing the question 10445
+OpenAIModel finished the question 10445 took 0.5199942588806152
+OpenAIModel is processing the question 1065
+OpenAIModel finished the question 1065 took 0.4889676570892334
+OpenAIModel is processing the question 10162
+OpenAIModel finished the question 10162 took 0.3635745048522949
+OpenAIModel is processing the question 10527
+OpenAIModel finished the question 10527 took 0.36473608016967773
+OpenAIModel is processing the question 10459
+OpenAIModel finished the question 10459 took 0.5197365283966064
+OpenAIModel is processing the question 10733
+OpenAIModel finished the question 10733 took 0.3669118881225586
+OpenAIModel is processing the question 10155
+OpenAIModel finished the question 10155 took 0.42391347885131836
+OpenAIModel is processing the question 10147
+OpenAIModel finished the question 10147 took 0.41243839263916016
+OpenAIModel is processing the question 10584
+OpenAIModel finished the question 10584 took 0.5041823387145996
+OpenAIModel is processing the question 10485
+OpenAIModel finished the question 10485 took 0.5271797180175781
+OpenAIModel is processing the question 10576
+OpenAIModel finished the question 10576 took 0.3956146240234375
+OpenAIModel is processing the question 10435
+OpenAIModel finished the question 10435 took 0.40897130966186523
+OpenAIModel is processing the question 10409
+OpenAIModel finished the question 10409 took 0.5250058174133301
+OpenAIModel is processing the question 10235
+OpenAIModel finished the question 10235 took 0.37398552894592285
+OpenAIModel is processing the question 10552
+OpenAIModel finished the question 10552 took 0.40399980545043945
+OpenAIModel is processing the question 1043
+OpenAIModel finished the question 1043 took 0.3689272403717041
+OpenAIModel is processing the question 10559
+OpenAIModel finished the question 10559 took 0.48263049125671387
+OpenAIModel is processing the question 1080
+OpenAIModel finished the question 1080 took 0.47167420387268066
+OpenAIModel is processing the question 10249
+OpenAIModel finished the question 10249 took 0.4176039695739746
+OpenAIModel is processing the question 10977
+OpenAIModel finished the question 10977 took 0.5725817680358887
+OpenAIModel is processing the question 101044
+OpenAIModel finished the question 101044 took 0.4995601177215576
+OpenAIModel is processing the question 101048
+OpenAIModel finished the question 101048 took 0.4728686809539795
+OpenAIModel is processing the question 10684
+OpenAIModel finished the question 10684 took 0.554877758026123
+OpenAIModel is processing the question 10691
+OpenAIModel finished the question 10691 took 0.5218796730041504
+OpenAIModel is processing the question 101094
+OpenAIModel finished the question 101094 took 0.4669060707092285
+OpenAIModel is processing the question 10335
+OpenAIModel finished the question 10335 took 0.48090171813964844
+OpenAIModel is processing the question 101024
+OpenAIModel finished the question 101024 took 0.3525848388671875
+OpenAIModel is processing the question 101033
+OpenAIModel finished the question 101033 took 0.44780540466308594
+OpenAIModel is processing the question 101037
+OpenAIModel finished the question 101037 took 0.5215175151824951
+OpenAIModel is processing the question 101036
+OpenAIModel finished the question 101036 took 0.4037315845489502
+OpenAIModel is processing the question 101301
+OpenAIModel finished the question 101301 took 0.4987337589263916
+OpenAIModel is processing the question 101238
+OpenAIModel finished the question 101238 took 0.5567641258239746
+OpenAIModel is processing the question 101300
+OpenAIModel finished the question 101300 took 0.6219215393066406
+OpenAIModel is processing the question 101303
+OpenAIModel finished the question 101303 took 0.48104238510131836
+OpenAIModel is processing the question 101084
+OpenAIModel finished the question 101084 took 0.7335677146911621
+OpenAIModel is processing the question 101320
+OpenAIModel finished the question 101320 took 0.3283679485321045
+OpenAIModel is processing the question 101193
+OpenAIModel finished the question 101193 took 0.47831249237060547
+OpenAIModel is processing the question 101204
+OpenAIModel finished the question 101204 took 0.3681159019470215
+OpenAIModel is processing the question 101224
+OpenAIModel finished the question 101224 took 0.33770251274108887
+OpenAIModel is processing the question 101489
+OpenAIModel finished the question 101489 took 0.3972618579864502
+OpenAIModel is processing the question 101747
+OpenAIModel finished the question 101747 took 0.352250337600708
+OpenAIModel is processing the question 101710
+OpenAIModel finished the question 101710 took 0.4325573444366455
+OpenAIModel is processing the question 101711
+OpenAIModel finished the question 101711 took 0.4493072032928467
+OpenAIModel is processing the question 101705
+OpenAIModel finished the question 101705 took 0.8182132244110107
+OpenAIModel is processing the question 101757
+OpenAIModel finished the question 101757 took 0.4139900207519531
+OpenAIModel is processing the question 101490
+OpenAIModel finished the question 101490 took 0.45253920555114746
+OpenAIModel is processing the question 101503
+OpenAIModel finished the question 101503 took 0.4305129051208496
+OpenAIModel is processing the question 102036
+OpenAIModel finished the question 102036 took 0.40762758255004883
+OpenAIModel is processing the question 102045
+OpenAIModel finished the question 102045 took 0.4376180171966553
+OpenAIModel is processing the question 101620
+OpenAIModel finished the question 101620 took 0.5126190185546875
+OpenAIModel is processing the question 101732
+OpenAIModel finished the question 101732 took 0.4893813133239746
+OpenAIModel is processing the question 10822
+OpenAIModel finished the question 10822 took 0.4070241451263428
+OpenAIModel is processing the question 10847
+OpenAIModel finished the question 10847 took 1.4012737274169922
+OpenAIModel is processing the question 10853
+OpenAIModel finished the question 10853 took 1.0358526706695557
+OpenAIModel is processing the question 102114
+OpenAIModel finished the question 102114 took 0.6878080368041992
+OpenAIModel is processing the question 102121
+OpenAIModel finished the question 102121 took 0.43845653533935547
+OpenAIModel is processing the question 10906
+OpenAIModel finished the question 10906 took 1.2080304622650146
+OpenAIModel is processing the question 102184
+OpenAIModel finished the question 102184 took 0.35007357597351074
+OpenAIModel is processing the question 10940
+OpenAIModel finished the question 10940 took 0.48375487327575684
+OpenAIModel is processing the question 10900
+OpenAIModel finished the question 10900 took 0.5034935474395752
+OpenAIModel is processing the question 10913
+OpenAIModel finished the question 10913 took 0.5371689796447754
+OpenAIModel is processing the question 10893
+OpenAIModel finished the question 10893 took 2.9624030590057373
+OpenAIModel is processing the question 101713
+OpenAIModel finished the question 101713 took 6.04301905632019
+OpenAIModel is processing the question 101856
+OpenAIModel finished the question 101856 took 5.952752590179443
+OpenAIModel is processing the question 102230
+OpenAIModel finished the question 102230 took 0.39936232566833496
+OpenAIModel is processing the question 102193
+OpenAIModel finished the question 102193 took 0.39949512481689453
+OpenAIModel is processing the question 102405
+OpenAIModel finished the question 102405 took 0.4415428638458252
+OpenAIModel is processing the question 102191
+OpenAIModel finished the question 102191 took 0.4860401153564453
+OpenAIModel is processing the question 102496
+OpenAIModel finished the question 102496 took 0.43942999839782715
+OpenAIModel is processing the question 102620
+OpenAIModel finished the question 102620 took 0.4657433032989502
+OpenAIModel is processing the question 102623
+OpenAIModel finished the question 102623 took 0.374253511428833
+OpenAIModel is processing the question 101784
+OpenAIModel finished the question 101784 took 0.5277934074401855
+OpenAIModel is processing the question 101791
+OpenAIModel finished the question 101791 took 0.5434446334838867
+OpenAIModel is processing the question 102632
+OpenAIModel finished the question 102632 took 0.4880406856536865
+OpenAIModel is processing the question 102752
+OpenAIModel finished the question 102752 took 0.5715198516845703
+OpenAIModel is processing the question 102060
+OpenAIModel finished the question 102060 took 0.6707026958465576
+OpenAIModel is processing the question 102747
+OpenAIModel finished the question 102747 took 0.42035388946533203
+OpenAIModel is processing the question 102595
+OpenAIModel finished the question 102595 took 0.5635466575622559
+OpenAIModel is processing the question 101807
+OpenAIModel finished the question 101807 took 0.49109840393066406
+OpenAIModel is processing the question 102101
+OpenAIModel finished the question 102101 took 0.3535590171813965
+OpenAIModel is processing the question 102104
+OpenAIModel finished the question 102104 took 0.46668219566345215
+OpenAIModel is processing the question 102643
+OpenAIModel finished the question 102643 took 0.37568211555480957
+OpenAIModel is processing the question 102107
+OpenAIModel finished the question 102107 took 0.4071044921875
+OpenAIModel is processing the question 101811
+OpenAIModel finished the question 101811 took 0.4161980152130127
+OpenAIModel is processing the question 102958
+OpenAIModel finished the question 102958 took 0.39519500732421875
+OpenAIModel is processing the question 102966
+OpenAIModel finished the question 102966 took 0.4422624111175537
+OpenAIModel is processing the question 102799
+OpenAIModel finished the question 102799 took 0.48126649856567383
+OpenAIModel is processing the question 102821
+OpenAIModel finished the question 102821 took 0.43156933784484863
+OpenAIModel is processing the question 102843
+OpenAIModel finished the question 102843 took 0.415722131729126
+OpenAIModel is processing the question 102835
+OpenAIModel finished the question 102835 took 0.4367215633392334
+OpenAIModel is processing the question 102851
+OpenAIModel finished the question 102851 took 0.3683044910430908
+OpenAIModel is processing the question 102249
+OpenAIModel finished the question 102249 took 0.49626588821411133
+OpenAIModel is processing the question 102280
+OpenAIModel finished the question 102280 took 0.5033280849456787
+OpenAIModel is processing the question 102855
+OpenAIModel finished the question 102855 took 0.5960845947265625
+OpenAIModel is processing the question 102298
+OpenAIModel finished the question 102298 took 0.547471284866333
+OpenAIModel is processing the question 102312
+OpenAIModel finished the question 102312 took 0.4503157138824463
+OpenAIModel is processing the question 102303
+OpenAIModel finished the question 102303 took 0.5158209800720215
+OpenAIModel is processing the question 102345
+OpenAIModel finished the question 102345 took 0.5087285041809082
+OpenAIModel is processing the question 103342
+OpenAIModel finished the question 103342 took 0.47307634353637695
+OpenAIModel is processing the question 103067
+OpenAIModel finished the question 103067 took 0.4812803268432617
+OpenAIModel is processing the question 103156
+OpenAIModel finished the question 103156 took 0.37119531631469727
+OpenAIModel is processing the question 103187
+OpenAIModel finished the question 103187 took 0.39921116828918457
+OpenAIModel is processing the question 103534
+OpenAIModel finished the question 103534 took 0.34144020080566406
+OpenAIModel is processing the question 103197
+OpenAIModel finished the question 103197 took 0.627638578414917
+OpenAIModel is processing the question 103209
+OpenAIModel finished the question 103209 took 0.3580632209777832
+OpenAIModel is processing the question 103520
+OpenAIModel finished the question 103520 took 0.4852442741394043
+OpenAIModel is processing the question 103220
+OpenAIModel finished the question 103220 took 0.44274020195007324
+OpenAIModel is processing the question 103226
+OpenAIModel finished the question 103226 took 0.5830926895141602
+OpenAIModel is processing the question 103460
+OpenAIModel finished the question 103460 took 0.535698413848877
+OpenAIModel is processing the question 103487
+OpenAIModel finished the question 103487 took 0.47424864768981934
+OpenAIModel is processing the question 103646
+OpenAIModel finished the question 103646 took 0.40924835205078125
+OpenAIModel is processing the question 103242
+OpenAIModel finished the question 103242 took 0.45131897926330566
+OpenAIModel is processing the question 103283
+OpenAIModel finished the question 103283 took 0.46727991104125977
+OpenAIModel is processing the question 103280
+OpenAIModel finished the question 103280 took 0.6552486419677734
+OpenAIModel is processing the question 103663
+OpenAIModel finished the question 103663 took 0.6033105850219727
+OpenAIModel is processing the question 103674
+OpenAIModel finished the question 103674 took 0.37186503410339355
+OpenAIModel is processing the question 103286
+OpenAIModel finished the question 103286 took 0.3755509853363037
+OpenAIModel is processing the question 103305
+OpenAIModel finished the question 103305 took 0.3784949779510498
+OpenAIModel is processing the question 103708
+OpenAIModel finished the question 103708 took 0.43455052375793457
+OpenAIModel is processing the question 103326
+OpenAIModel finished the question 103326 took 0.37421631813049316
+OpenAIModel is processing the question 103309
+OpenAIModel finished the question 103309 took 0.46731996536254883
+OpenAIModel is processing the question 104238
+OpenAIModel finished the question 104238 took 0.38986945152282715
+OpenAIModel is processing the question 103312
+OpenAIModel finished the question 103312 took 0.4853980541229248
+OpenAIModel is processing the question 104213
+OpenAIModel finished the question 104213 took 0.367753267288208
+OpenAIModel is processing the question 104258
+OpenAIModel finished the question 104258 took 0.41501879692077637
+OpenAIModel is processing the question 104277
+OpenAIModel finished the question 104277 took 0.4088168144226074
+OpenAIModel is processing the question 104286
+OpenAIModel finished the question 104286 took 0.4573400020599365
+OpenAIModel is processing the question 103386
+OpenAIModel finished the question 103386 took 0.4818737506866455
+OpenAIModel is processing the question 103574
+OpenAIModel finished the question 103574 took 0.3222932815551758
+OpenAIModel is processing the question 103584
+OpenAIModel finished the question 103584 took 0.4712362289428711
+OpenAIModel is processing the question 103586
+OpenAIModel finished the question 103586 took 0.40823841094970703
+OpenAIModel is processing the question 104109
+OpenAIModel finished the question 104109 took 0.43154311180114746
+OpenAIModel is processing the question 103607
+OpenAIModel finished the question 103607 took 0.49000120162963867
+OpenAIModel is processing the question 104618
+OpenAIModel finished the question 104618 took 0.5150003433227539
+OpenAIModel is processing the question 104620
+OpenAIModel finished the question 104620 took 0.5089998245239258
+OpenAIModel is processing the question 104631
+OpenAIModel finished the question 104631 took 0.44299888610839844
+OpenAIModel is processing the question 104024
+OpenAIModel finished the question 104024 took 0.5000169277191162
+OpenAIModel is processing the question 104027
+OpenAIModel finished the question 104027 took 0.5596780776977539
+OpenAIModel is processing the question 104725
+OpenAIModel finished the question 104725 took 0.5636992454528809
+OpenAIModel is processing the question 104728
+OpenAIModel finished the question 104728 took 0.45277953147888184
+OpenAIModel is processing the question 104727
+OpenAIModel finished the question 104727 took 0.5535566806793213
+OpenAIModel is processing the question 104687
+OpenAIModel finished the question 104687 took 0.4692420959472656
+OpenAIModel is processing the question 104766
+OpenAIModel finished the question 104766 took 0.4167633056640625
+OpenAIModel is processing the question 104792
+OpenAIModel finished the question 104792 took 0.42980289459228516
+OpenAIModel is processing the question 104803
+OpenAIModel finished the question 104803 took 0.42282700538635254
+OpenAIModel is processing the question 103746
+OpenAIModel finished the question 103746 took 0.42307090759277344
+OpenAIModel is processing the question 104835
+OpenAIModel finished the question 104835 took 0.48512721061706543
+OpenAIModel is processing the question 103804
+OpenAIModel finished the question 103804 took 0.3828620910644531
+OpenAIModel is processing the question 103768
+OpenAIModel finished the question 103768 took 0.39858150482177734
+OpenAIModel is processing the question 104874
+OpenAIModel finished the question 104874 took 0.34467625617980957
+OpenAIModel is processing the question 103868
+OpenAIModel finished the question 103868 took 0.43651747703552246
+OpenAIModel is processing the question 103952
+OpenAIModel finished the question 103952 took 0.4447307586669922
+OpenAIModel is processing the question 103953
+OpenAIModel finished the question 103953 took 0.4267117977142334
+OpenAIModel is processing the question 104324
+OpenAIModel finished the question 104324 took 0.423189640045166
+OpenAIModel is processing the question 105078
+OpenAIModel finished the question 105078 took 0.34244537353515625
+OpenAIModel is processing the question 104363
+OpenAIModel finished the question 104363 took 0.4428403377532959
+OpenAIModel is processing the question 104525
+OpenAIModel finished the question 104525 took 0.5915913581848145
+OpenAIModel is processing the question 104528
+OpenAIModel finished the question 104528 took 0.43723011016845703
+OpenAIModel is processing the question 104554
+OpenAIModel finished the question 104554 took 1.3028290271759033
+OpenAIModel is processing the question 105153
+OpenAIModel finished the question 105153 took 0.48915719985961914
+OpenAIModel is processing the question 104376
+OpenAIModel is processing the question 104973
+OpenAIModel is processing the question 104932
+OpenAIModel finished the question 104932 took 0.4424870014190674
+OpenAIModel is processing the question 104992
+OpenAIModel is processing the question 104981
+OpenAIModel is processing the question 104976
+OpenAIModel is processing the question 105318
+OpenAIModel finished the question 105318 took 0.48333215713500977
+OpenAIModel is processing the question 105328
+OpenAIModel finished the question 105328 took 0.4762401580810547
+OpenAIModel is processing the question 104878
+OpenAIModel finished the question 104878 took 3.42192006111145
+OpenAIModel is processing the question 105336
+OpenAIModel finished the question 105336 took 0.5660793781280518
+OpenAIModel is processing the question 105330
+OpenAIModel finished the question 105330 took 0.4461791515350342
+OpenAIModel is processing the question 105015
+OpenAIModel finished the question 105015 took 2.231299638748169
+OpenAIModel is processing the question 105080
+OpenAIModel finished the question 105080 took 0.45894956588745117
+OpenAIModel is processing the question 105415
+OpenAIModel finished the question 105415 took 0.48358583450317383
+OpenAIModel is processing the question 105089
+OpenAIModel finished the question 105089 took 0.449387788772583
+OpenAIModel is processing the question 105544
+OpenAIModel finished the question 105544 took 0.46567296981811523
+OpenAIModel is processing the question 105553
+OpenAIModel finished the question 105553 took 0.4376657009124756
+OpenAIModel is processing the question 105096
+OpenAIModel finished the question 105096 took 0.46590495109558105
+OpenAIModel is processing the question 105030
+OpenAIModel finished the question 105030 took 0.47446393966674805
+OpenAIModel is processing the question 105020
+OpenAIModel finished the question 105020 took 0.4709751605987549
+OpenAIModel is processing the question 105120
+OpenAIModel finished the question 105120 took 0.379302978515625
+OpenAIModel is processing the question 105017
+OpenAIModel finished the question 105017 took 0.419508695602417
+OpenAIModel is processing the question 105627
+OpenAIModel finished the question 105627 took 0.41181135177612305
+OpenAIModel is processing the question 105624
+OpenAIModel finished the question 105624 took 0.3835883140563965
+OpenAIModel is processing the question 105127
+OpenAIModel finished the question 105127 took 0.4896578788757324
+OpenAIModel is processing the question 105136
+OpenAIModel finished the question 105136 took 0.47145771980285645
+OpenAIModel is processing the question 105631
+OpenAIModel finished the question 105631 took 0.423769474029541
+OpenAIModel is processing the question 105630
+OpenAIModel finished the question 105630 took 0.43022656440734863
+OpenAIModel is processing the question 105635
+OpenAIModel finished the question 105635 took 0.5959196090698242
+OpenAIModel is processing the question 105379
+OpenAIModel finished the question 105379 took 0.3799479007720947
+OpenAIModel is processing the question 105066
+OpenAIModel finished the question 105066 took 0.4427480697631836
+OpenAIModel is processing the question 105588
+OpenAIModel finished the question 105588 took 0.3039865493774414
+OpenAIModel is processing the question 105613
+OpenAIModel finished the question 105613 took 0.4815187454223633
+OpenAIModel is processing the question 105647
+OpenAIModel finished the question 105647 took 0.36531996726989746
+OpenAIModel is processing the question 105230
+OpenAIModel finished the question 105230 took 0.4334580898284912
+OpenAIModel is processing the question 105265
+OpenAIModel finished the question 105265 took 0.4407808780670166
+OpenAIModel is processing the question 105726
+OpenAIModel finished the question 105726 took 0.41645312309265137
+OpenAIModel is processing the question 105285
+OpenAIModel finished the question 105285 took 0.3129098415374756
+OpenAIModel is processing the question 105292
+OpenAIModel finished the question 105292 took 0.3697640895843506
+OpenAIModel is processing the question 105893
+OpenAIModel finished the question 105893 took 0.4479832649230957
+OpenAIModel is processing the question 105731
+OpenAIModel finished the question 105731 took 0.3405933380126953
+OpenAIModel is processing the question 105748
+OpenAIModel finished the question 105748 took 0.3663902282714844
+OpenAIModel is processing the question 105736
+OpenAIModel finished the question 105736 took 0.4696769714355469
+OpenAIModel is processing the question 105762
+OpenAIModel finished the question 105762 took 0.3120605945587158
+OpenAIModel is processing the question 105913
+OpenAIModel finished the question 105913 took 0.4561002254486084
+OpenAIModel is processing the question 105764
+OpenAIModel finished the question 105764 took 0.4450080394744873
+OpenAIModel is processing the question 105892
+OpenAIModel finished the question 105892 took 0.3899962902069092
+OpenAIModel is processing the question 105896
+OpenAIModel finished the question 105896 took 0.4894676208496094
+OpenAIModel is processing the question 105481
+OpenAIModel finished the question 105481 took 0.4323885440826416
+OpenAIModel is processing the question 105905
+OpenAIModel finished the question 105905 took 0.4719524383544922
+OpenAIModel is processing the question 105767
+OpenAIModel finished the question 105767 took 0.4794919490814209
+OpenAIModel is processing the question 105769
+OpenAIModel finished the question 105769 took 0.40751099586486816
+OpenAIModel is processing the question 105722
+OpenAIModel finished the question 105722 took 0.44852590560913086
+OpenAIModel is processing the question 105772
+OpenAIModel finished the question 105772 took 0.4674079418182373
+OpenAIModel is processing the question 105774
+OpenAIModel finished the question 105774 took 0.4165029525756836
+OpenAIModel is processing the question 105839
+OpenAIModel finished the question 105839 took 0.48958373069763184
+OpenAIModel is processing the question 105856
+OpenAIModel finished the question 105856 took 0.4264259338378906
+OpenAIModel is processing the question 105859
+OpenAIModel finished the question 105859 took 0.3551173210144043
+OpenAIModel is processing the question 104981
+OpenAIModel finished the question 104981 took 0.4029219150543213
+OpenAIModel is processing the question 104376
+OpenAIModel finished the question 104376 took 0.4987497329711914
+OpenAIModel is processing the question 104973
+OpenAIModel finished the question 104973 took 0.4817478656768799
+OpenAIModel is processing the question 104992
+OpenAIModel finished the question 104992 took 0.5337457656860352
+OpenAIModel is processing the question 104976
+OpenAIModel finished the question 104976 took 0.5437667369842529
+OpenAIModel is processing the question 1018
+OpenAIModel finished the question 1018 took 0.45494556427001953
+OpenAIModel is processing the question 10427
+OpenAIModel finished the question 10427 took 0.45794034004211426
+OpenAIModel is processing the question 10136
+OpenAIModel finished the question 10136 took 0.45853519439697266
+OpenAIModel is processing the question 10411
+OpenAIModel finished the question 10411 took 0.4769704341888428
+OpenAIModel is processing the question 10368
+OpenAIModel finished the question 10368 took 0.5155303478240967
+OpenAIModel is processing the question 10118
+OpenAIModel finished the question 10118 took 0.5445427894592285
+OpenAIModel is processing the question 10458
+OpenAIModel finished the question 10458 took 0.5255420207977295
+OpenAIModel is processing the question 10160
+OpenAIModel finished the question 10160 took 0.5800728797912598
+OpenAIModel is processing the question 101
+OpenAIModel finished the question 101 took 0.4862635135650635
+OpenAIModel is processing the question 10561
+OpenAIModel finished the question 10561 took 0.4752962589263916
+OpenAIModel is processing the question 10560
+OpenAIModel finished the question 10560 took 0.4303879737854004
+OpenAIModel is processing the question 10435
+OpenAIModel finished the question 10435 took 0.44861316680908203
+OpenAIModel is processing the question 1030
+OpenAIModel finished the question 1030 took 0.473330020904541
+OpenAIModel is processing the question 102
+OpenAIModel finished the question 102 took 0.5947182178497314
+OpenAIModel is processing the question 10581
+OpenAIModel finished the question 10581 took 0.581089973449707
+OpenAIModel is processing the question 10417
+OpenAIModel finished the question 10417 took 0.837369441986084
+OpenAIModel is processing the question 10128
+OpenAIModel finished the question 10128 took 0.6761646270751953
+OpenAIModel is processing the question 10155
+OpenAIModel finished the question 10155 took 0.5484118461608887
+OpenAIModel is processing the question 10185
+OpenAIModel finished the question 10185 took 0.5254378318786621
+OpenAIModel is processing the question 10596
+OpenAIModel finished the question 10596 took 0.3979470729827881
+OpenAIModel is processing the question 10567
+OpenAIModel finished the question 10567 took 0.8044834136962891
+OpenAIModel is processing the question 10202
+OpenAIModel finished the question 10202 took 0.7865018844604492
+OpenAIModel is processing the question 10530
+OpenAIModel finished the question 10530 took 0.7694964408874512
+OpenAIModel is processing the question 101001
+OpenAIModel finished the question 101001 took 0.5220587253570557
+OpenAIModel is processing the question 101028
+OpenAIModel finished the question 101028 took 0.5190541744232178
+OpenAIModel is processing the question 10798
+OpenAIModel finished the question 10798 took 0.5028045177459717
+OpenAIModel is processing the question 10897
+OpenAIModel finished the question 10897 took 0.4275193214416504
+OpenAIModel is processing the question 101007
+OpenAIModel finished the question 101007 took 0.38351964950561523
+OpenAIModel is processing the question 10831
+OpenAIModel finished the question 10831 took 0.37599968910217285
+OpenAIModel is processing the question 101002
+OpenAIModel finished the question 101002 took 1.1158721446990967
+OpenAIModel is processing the question 101049
+OpenAIModel finished the question 101049 took 0.5461819171905518
+OpenAIModel is processing the question 10959
+OpenAIModel finished the question 10959 took 0.583244800567627
+OpenAIModel is processing the question 101172
+OpenAIModel finished the question 101172 took 0.5199363231658936
+OpenAIModel is processing the question 10772
+OpenAIModel finished the question 10772 took 0.5385715961456299
+OpenAIModel is processing the question 101031
+OpenAIModel finished the question 101031 took 0.5696496963500977
+OpenAIModel is processing the question 10826
+OpenAIModel finished the question 10826 took 0.5375864505767822
+OpenAIModel is processing the question 101330
+OpenAIModel finished the question 101330 took 0.4560117721557617
+OpenAIModel is processing the question 10652
+OpenAIModel finished the question 10652 took 0.5799858570098877
+OpenAIModel is processing the question 101347
+OpenAIModel finished the question 101347 took 0.5870840549468994
+OpenAIModel is processing the question 10850
+OpenAIModel finished the question 10850 took 0.7763910293579102
+OpenAIModel is processing the question 101331
+OpenAIModel finished the question 101331 took 0.37978386878967285
+OpenAIModel is processing the question 10747
+OpenAIModel finished the question 10747 took 0.510840654373169
+OpenAIModel is processing the question 10946
+OpenAIModel finished the question 10946 took 0.42995691299438477
+OpenAIModel is processing the question 101507
+OpenAIModel finished the question 101507 took 0.427079439163208
+OpenAIModel is processing the question 101296
+OpenAIModel finished the question 101296 took 0.38707828521728516
+OpenAIModel is processing the question 101191
+OpenAIModel finished the question 101191 took 0.4430806636810303
+OpenAIModel is processing the question 101224
+OpenAIModel finished the question 101224 took 0.44359660148620605
+OpenAIModel is processing the question 10822
+OpenAIModel finished the question 10822 took 0.5307834148406982
+OpenAIModel is processing the question 101151
+OpenAIModel finished the question 101151 took 0.43723249435424805
+OpenAIModel is processing the question 10824
+OpenAIModel finished the question 10824 took 0.5619750022888184
+OpenAIModel is processing the question 101662
+OpenAIModel finished the question 101662 took 0.9114129543304443
+OpenAIModel is processing the question 101701
+OpenAIModel finished the question 101701 took 0.4877002239227295
+OpenAIModel is processing the question 101478
+OpenAIModel finished the question 101478 took 0.5402193069458008
+OpenAIModel is processing the question 101438
+OpenAIModel finished the question 101438 took 0.3725759983062744
+OpenAIModel is processing the question 101699
+OpenAIModel finished the question 101699 took 0.36957621574401855
+OpenAIModel is processing the question 101490
+OpenAIModel finished the question 101490 took 0.4650382995605469
+OpenAIModel is processing the question 101696
+OpenAIModel finished the question 101696 took 0.4866921901702881
+OpenAIModel is processing the question 101721
+OpenAIModel finished the question 101721 took 0.6485335826873779
+OpenAIModel is processing the question 101724
+OpenAIModel finished the question 101724 took 0.49069762229919434
+OpenAIModel is processing the question 101218
+OpenAIModel finished the question 101218 took 0.36833930015563965
+OpenAIModel is processing the question 101727
+OpenAIModel finished the question 101727 took 0.5295779705047607
+OpenAIModel is processing the question 101483
+OpenAIModel finished the question 101483 took 0.49109625816345215
+OpenAIModel is processing the question 101208
+OpenAIModel finished the question 101208 took 0.4920961856842041
+OpenAIModel is processing the question 101723
+OpenAIModel finished the question 101723 took 0.4783289432525635
+OpenAIModel is processing the question 101747
+OpenAIModel finished the question 101747 took 0.3583807945251465
+OpenAIModel is processing the question 101705
+OpenAIModel finished the question 101705 took 0.4224555492401123
+OpenAIModel is processing the question 102046
+OpenAIModel finished the question 102046 took 0.47309303283691406
+OpenAIModel is processing the question 101651
+OpenAIModel finished the question 101651 took 0.3990952968597412
+OpenAIModel is processing the question 101733
+OpenAIModel finished the question 101733 took 0.39652466773986816
+OpenAIModel is processing the question 102201
+OpenAIModel finished the question 102201 took 0.38651180267333984
+OpenAIModel is processing the question 102172
+OpenAIModel finished the question 102172 took 0.3241696357727051
+OpenAIModel is processing the question 102045
+OpenAIModel finished the question 102045 took 0.5106890201568604
+OpenAIModel is processing the question 102141
+OpenAIModel finished the question 102141 took 0.6894874572753906
+OpenAIModel is processing the question 101688
+OpenAIModel finished the question 101688 took 0.45296263694763184
+OpenAIModel is processing the question 102033
+OpenAIModel finished the question 102033 took 0.3518826961517334
+OpenAIModel is processing the question 102053
+OpenAIModel finished the question 102053 took 0.5098824501037598
+OpenAIModel is processing the question 102126
+OpenAIModel finished the question 102126 took 0.35669755935668945
+OpenAIModel is processing the question 102130
+OpenAIModel finished the question 102130 took 0.5608823299407959
+OpenAIModel is processing the question 102233
+OpenAIModel finished the question 102233 took 0.3298337459564209
+OpenAIModel is processing the question 102220
+OpenAIModel finished the question 102220 took 0.5087835788726807
+OpenAIModel is processing the question 102232
+OpenAIModel finished the question 102232 took 0.46185946464538574
+OpenAIModel is processing the question 102483
+OpenAIModel finished the question 102483 took 0.48128461837768555
+OpenAIModel is processing the question 101773
+OpenAIModel finished the question 101773 took 0.46343183517456055
+OpenAIModel is processing the question 101203
+OpenAIModel finished the question 101203 took 0.5739827156066895
+OpenAIModel is processing the question 102239
+OpenAIModel finished the question 102239 took 0.5207691192626953
+OpenAIModel is processing the question 101800
+OpenAIModel finished the question 101800 took 0.33486342430114746
+OpenAIModel is processing the question 10937
+OpenAIModel finished the question 10937 took 0.5376543998718262
+OpenAIModel is processing the question 102374
+OpenAIModel finished the question 102374 took 0.5184545516967773
+OpenAIModel is processing the question 102407
+OpenAIModel finished the question 102407 took 0.5584578514099121
+OpenAIModel is processing the question 102282
+OpenAIModel finished the question 102282 took 0.5266916751861572
+OpenAIModel is processing the question 102023
+OpenAIModel finished the question 102023 took 0.5406544208526611
+OpenAIModel is processing the question 101834
+OpenAIModel finished the question 101834 took 0.4708683490753174
+OpenAIModel is processing the question 102281
+OpenAIModel finished the question 102281 took 0.3497600555419922
+OpenAIModel is processing the question 102589
+OpenAIModel finished the question 102589 took 0.5796470642089844
+OpenAIModel is processing the question 102717
+OpenAIModel finished the question 102717 took 0.40851426124572754
+OpenAIModel is processing the question 102098
+OpenAIModel finished the question 102098 took 0.36483263969421387
+OpenAIModel is processing the question 102824
+OpenAIModel finished the question 102824 took 0.4593546390533447
+OpenAIModel is processing the question 102665
+OpenAIModel finished the question 102665 took 0.3529825210571289
+OpenAIModel is processing the question 102514
+OpenAIModel finished the question 102514 took 0.49099063873291016
+OpenAIModel is processing the question 102496
+OpenAIModel finished the question 102496 took 0.7275078296661377
+OpenAIModel is processing the question 102634
+OpenAIModel finished the question 102634 took 0.3996694087982178
+OpenAIModel is processing the question 102647
+OpenAIModel finished the question 102647 took 0.508594274520874
+OpenAIModel is processing the question 102976
+OpenAIModel finished the question 102976 took 0.5215451717376709
+OpenAIModel is processing the question 102810
+OpenAIModel finished the question 102810 took 0.45322155952453613
+OpenAIModel is processing the question 102888
+OpenAIModel finished the question 102888 took 0.4482407569885254
+OpenAIModel is processing the question 102839
+OpenAIModel finished the question 102839 took 0.4330461025238037
+OpenAIModel is processing the question 102809
+OpenAIModel finished the question 102809 took 0.45204639434814453
+OpenAIModel is processing the question 101600
+OpenAIModel finished the question 101600 took 0.5566134452819824
+OpenAIModel is processing the question 102567
+OpenAIModel finished the question 102567 took 0.4346311092376709
+OpenAIModel is processing the question 102224
+OpenAIModel finished the question 102224 took 0.4555385112762451
+OpenAIModel is processing the question 102694
+OpenAIModel finished the question 102694 took 0.48273229598999023
+OpenAIModel is processing the question 102838
+OpenAIModel finished the question 102838 took 0.338726282119751
+OpenAIModel is processing the question 103052
+OpenAIModel finished the question 103052 took 0.3898811340332031
+OpenAIModel is processing the question 102915
+OpenAIModel finished the question 102915 took 0.4273698329925537
+OpenAIModel is processing the question 102741
+OpenAIModel finished the question 102741 took 0.49631500244140625
+OpenAIModel is processing the question 103350
+OpenAIModel finished the question 103350 took 0.4722466468811035
+OpenAIModel is processing the question 102858
+OpenAIModel finished the question 102858 took 0.4453775882720947
+OpenAIModel is processing the question 103423
+OpenAIModel finished the question 103423 took 0.5596387386322021
+OpenAIModel is processing the question 102662
+OpenAIModel finished the question 102662 took 0.5181341171264648
+OpenAIModel is processing the question 103256
+OpenAIModel finished the question 103256 took 0.4001305103302002
+OpenAIModel is processing the question 103392
+OpenAIModel finished the question 103392 took 0.4275472164154053
+OpenAIModel is processing the question 103178
+OpenAIModel finished the question 103178 took 0.5474176406860352
+OpenAIModel is processing the question 103518
+OpenAIModel finished the question 103518 took 0.44409871101379395
+OpenAIModel is processing the question 103242
+OpenAIModel finished the question 103242 took 0.5576353073120117
+OpenAIModel is processing the question 103293
+OpenAIModel finished the question 103293 took 0.4461667537689209
+OpenAIModel is processing the question 103482
+OpenAIModel finished the question 103482 took 0.6379425525665283
+OpenAIModel is processing the question 103450
+OpenAIModel finished the question 103450 took 0.4140963554382324
+OpenAIModel is processing the question 103600
+OpenAIModel finished the question 103600 took 0.525388240814209
+OpenAIModel is processing the question 103504
+OpenAIModel finished the question 103504 took 0.42949962615966797
+OpenAIModel is processing the question 103558
+OpenAIModel finished the question 103558 took 0.4315376281738281
+OpenAIModel is processing the question 103616
+OpenAIModel finished the question 103616 took 0.4725372791290283
+OpenAIModel is processing the question 103586
+OpenAIModel finished the question 103586 took 0.44853806495666504
+OpenAIModel is processing the question 103595
+OpenAIModel finished the question 103595 took 0.4726071357727051
+OpenAIModel is processing the question 103641
+OpenAIModel finished the question 103641 took 0.3625156879425049
+OpenAIModel is processing the question 103167
+OpenAIModel finished the question 103167 took 0.422224760055542
+OpenAIModel is processing the question 103621
+OpenAIModel finished the question 103621 took 0.43828654289245605
+OpenAIModel is processing the question 103326
+OpenAIModel finished the question 103326 took 0.49132657051086426
+OpenAIModel is processing the question 102736
+OpenAIModel finished the question 102736 took 0.35515356063842773
+OpenAIModel is processing the question 103281
+OpenAIModel finished the question 103281 took 0.4331820011138916
+OpenAIModel is processing the question 102969
+OpenAIModel finished the question 102969 took 0.6837553977966309
+OpenAIModel is processing the question 103557
+OpenAIModel finished the question 103557 took 0.672595739364624
+OpenAIModel is processing the question 104037
+OpenAIModel finished the question 104037 took 0.5609908103942871
+OpenAIModel is processing the question 103300
+OpenAIModel finished the question 103300 took 0.47142457962036133
+OpenAIModel is processing the question 103527
+OpenAIModel finished the question 103527 took 0.3574955463409424
+OpenAIModel is processing the question 103711
+OpenAIModel finished the question 103711 took 0.5373425483703613
+OpenAIModel is processing the question 103511
+OpenAIModel finished the question 103511 took 0.4365074634552002
+OpenAIModel is processing the question 103592
+OpenAIModel finished the question 103592 took 0.34652161598205566
+OpenAIModel is processing the question 104270
+OpenAIModel finished the question 104270 took 0.31487345695495605
+OpenAIModel is processing the question 104069
+OpenAIModel finished the question 104069 took 0.5386655330657959
+OpenAIModel is processing the question 104281
+OpenAIModel finished the question 104281 took 0.34261178970336914
+OpenAIModel is processing the question 103321
+OpenAIModel finished the question 103321 took 0.50850510597229
+OpenAIModel is processing the question 104275
+OpenAIModel finished the question 104275 took 0.5347707271575928
+OpenAIModel is processing the question 104087
+OpenAIModel finished the question 104087 took 0.5447463989257812
+OpenAIModel is processing the question 104050
+OpenAIModel finished the question 104050 took 0.518190860748291
+OpenAIModel is processing the question 104629
+OpenAIModel finished the question 104629 took 0.3686180114746094
+OpenAIModel is processing the question 104196
+OpenAIModel finished the question 104196 took 0.37177348136901855
+OpenAIModel is processing the question 104654
+OpenAIModel finished the question 104654 took 0.36492109298706055
+OpenAIModel is processing the question 104671
+OpenAIModel finished the question 104671 took 0.45111584663391113
+OpenAIModel is processing the question 103980
+OpenAIModel finished the question 103980 took 0.6256084442138672
+OpenAIModel is processing the question 104110
+OpenAIModel finished the question 104110 took 0.3664991855621338
+OpenAIModel is processing the question 103741
+OpenAIModel finished the question 103741 took 0.3974955081939697
+OpenAIModel is processing the question 104743
+OpenAIModel finished the question 104743 took 0.4476015567779541
+OpenAIModel is processing the question 104780
+OpenAIModel finished the question 104780 took 0.39107632637023926
+OpenAIModel is processing the question 104771
+OpenAIModel finished the question 104771 took 0.5820763111114502
+OpenAIModel is processing the question 103686
+OpenAIModel finished the question 103686 took 0.5125837326049805
+OpenAIModel is processing the question 104633
+OpenAIModel finished the question 104633 took 0.46502256393432617
+OpenAIModel is processing the question 103708
+OpenAIModel finished the question 103708 took 0.448897123336792
+OpenAIModel is processing the question 104747
+OpenAIModel finished the question 104747 took 0.49689674377441406
+OpenAIModel is processing the question 104727
+OpenAIModel finished the question 104727 took 0.5148968696594238
+OpenAIModel is processing the question 104637
+OpenAIModel finished the question 104637 took 0.4178948402404785
+OpenAIModel is processing the question 104367
+OpenAIModel finished the question 104367 took 0.32426023483276367
+OpenAIModel is processing the question 103880
+OpenAIModel finished the question 103880 took 0.4996464252471924
+OpenAIModel is processing the question 104381
+OpenAIModel finished the question 104381 took 0.3650093078613281
+OpenAIModel is processing the question 104304
+OpenAIModel finished the question 104304 took 0.4014925956726074
+OpenAIModel is processing the question 104479
+OpenAIModel finished the question 104479 took 0.38921070098876953
+OpenAIModel is processing the question 103940
+OpenAIModel finished the question 103940 took 0.3562188148498535
+OpenAIModel is processing the question 104457
+OpenAIModel finished the question 104457 took 0.4883081912994385
+OpenAIModel is processing the question 104814
+OpenAIModel finished the question 104814 took 0.4343075752258301
+OpenAIModel is processing the question 104851
+OpenAIModel finished the question 104851 took 0.5053019523620605
+OpenAIModel is processing the question 105080
+OpenAIModel finished the question 105080 took 0.41211557388305664
+OpenAIModel is processing the question 104873
+OpenAIModel finished the question 104873 took 0.5068848133087158
+OpenAIModel is processing the question 105299
+OpenAIModel finished the question 105299 took 0.3516097068786621
+OpenAIModel is processing the question 104887
+OpenAIModel finished the question 104887 took 1.1672096252441406
+OpenAIModel is processing the question 105136
+OpenAIModel finished the question 105136 took 0.5328996181488037
+OpenAIModel is processing the question 105102
+OpenAIModel finished the question 105102 took 0.45759057998657227
+OpenAIModel is processing the question 105148
+OpenAIModel finished the question 105148 took 0.4541807174682617
+OpenAIModel is processing the question 104833
+OpenAIModel is processing the question 105326
+OpenAIModel finished the question 105326 took 0.388944149017334
+OpenAIModel is processing the question 105412
+OpenAIModel finished the question 105412 took 0.592064380645752
+OpenAIModel is processing the question 105099
+OpenAIModel finished the question 105099 took 3.3103885650634766
+OpenAIModel is processing the question 105333
+OpenAIModel finished the question 105333 took 3.442546844482422
+OpenAIModel is processing the question 105297
+OpenAIModel finished the question 105297 took 3.2924678325653076
+OpenAIModel is processing the question 104909
+OpenAIModel finished the question 104909 took 0.3690006732940674
+OpenAIModel is processing the question 105606
+OpenAIModel finished the question 105606 took 0.38596010208129883
+OpenAIModel is processing the question 104981
+OpenAIModel is processing the question 105245
+OpenAIModel finished the question 105245 took 0.6129229068756104
+OpenAIModel is processing the question 105308
+OpenAIModel finished the question 105308 took 0.30556297302246094
+OpenAIModel is processing the question 105031
+OpenAIModel is processing the question 105100
+OpenAIModel finished the question 105100 took 0.47793149948120117
+OpenAIModel is processing the question 104830
+OpenAIModel is processing the question 105284
+OpenAIModel finished the question 105284 took 3.4270761013031006
+OpenAIModel is processing the question 105740
+OpenAIModel finished the question 105740 took 0.43331408500671387
+OpenAIModel is processing the question 105429
+OpenAIModel finished the question 105429 took 1.4398918151855469
+OpenAIModel is processing the question 105730
+OpenAIModel finished the question 105730 took 0.4100914001464844
+OpenAIModel is processing the question 105623
+OpenAIModel finished the question 105623 took 0.419966459274292
+OpenAIModel is processing the question 105743
+OpenAIModel finished the question 105743 took 0.4239664077758789
+OpenAIModel is processing the question 105544
+OpenAIModel finished the question 105544 took 0.3696269989013672
+OpenAIModel is processing the question 105782
+OpenAIModel finished the question 105782 took 0.36399197578430176
+OpenAIModel is processing the question 104863
+OpenAIModel finished the question 104863 took 4.456467151641846
+OpenAIModel is processing the question 105765
+OpenAIModel finished the question 105765 took 0.4701695442199707
+OpenAIModel is processing the question 105754
+OpenAIModel finished the question 105754 took 0.42437052726745605
+OpenAIModel is processing the question 105674
+OpenAIModel finished the question 105674 took 0.41901326179504395
+OpenAIModel is processing the question 105523
+OpenAIModel finished the question 105523 took 0.39304280281066895
+OpenAIModel is processing the question 105636
+OpenAIModel finished the question 105636 took 0.5327379703521729
+OpenAIModel is processing the question 105771
+OpenAIModel finished the question 105771 took 0.3476395606994629
+OpenAIModel is processing the question 105769
+OpenAIModel finished the question 105769 took 0.5531125068664551
+OpenAIModel is processing the question 104991
+OpenAIModel finished the question 104991 took 1.2436556816101074
+OpenAIModel is processing the question 105533
+OpenAIModel finished the question 105533 took 1.3328335285186768
+OpenAIModel is processing the question 105763
+OpenAIModel finished the question 105763 took 0.37291717529296875
+OpenAIModel is processing the question 105722
+OpenAIModel finished the question 105722 took 0.4915452003479004
+OpenAIModel is processing the question 105538
+OpenAIModel is processing the question 105744
+OpenAIModel finished the question 105744 took 0.4829137325286865
+OpenAIModel is processing the question 105899
+OpenAIModel finished the question 105899 took 0.5150165557861328
+OpenAIModel is processing the question 105648
+OpenAIModel finished the question 105648 took 0.5333425998687744
+OpenAIModel is processing the question 105834
+OpenAIModel finished the question 105834 took 0.7940340042114258
+OpenAIModel is processing the question 105821
+OpenAIModel finished the question 105821 took 0.3271021842956543
+OpenAIModel is processing the question 105814
+OpenAIModel finished the question 105814 took 0.7900583744049072
+OpenAIModel is processing the question 10297
+OpenAIModel finished the question 10297 took 0.41795849800109863
+OpenAIModel is processing the question 10168
+OpenAIModel finished the question 10168 took 0.4729950428009033
+OpenAIModel is processing the question 10205
+OpenAIModel finished the question 10205 took 0.5261788368225098
+OpenAIModel is processing the question 1013
+OpenAIModel finished the question 1013 took 0.580101728439331
+OpenAIModel is processing the question 10139
+OpenAIModel finished the question 10139 took 1.341219425201416
+OpenAIModel is processing the question 10134
+OpenAIModel finished the question 10134 took 1.5144321918487549
+OpenAIModel is processing the question 10295
+OpenAIModel finished the question 10295 took 1.565195083618164
+OpenAIModel is processing the question 10327
+OpenAIModel finished the question 10327 took 0.3715691566467285
+OpenAIModel is processing the question 10166
+OpenAIModel finished the question 10166 took 0.48752331733703613
+OpenAIModel is processing the question 104
+OpenAIModel is processing the question 10441
+OpenAIModel finished the question 10441 took 0.5259437561035156
+OpenAIModel is processing the question 10419
+OpenAIModel finished the question 10419 took 0.43353986740112305
+OpenAIModel is processing the question 10164
+OpenAIModel finished the question 10164 took 0.4790055751800537
+OpenAIModel is processing the question 10406
+OpenAIModel finished the question 10406 took 0.4860057830810547
+OpenAIModel is processing the question 10364
+OpenAIModel is processing the question 10388
+OpenAIModel is processing the question 1024
+OpenAIModel finished the question 1024 took 0.5625355243682861
+OpenAIModel is processing the question 10638
+OpenAIModel finished the question 10638 took 0.7389545440673828
+OpenAIModel is processing the question 1051
+OpenAIModel finished the question 1051 took 0.33483076095581055
+OpenAIModel is processing the question 10729
+OpenAIModel finished the question 10729 took 0.4525432586669922
+OpenAIModel is processing the question 10169
+OpenAIModel finished the question 10169 took 3.315922498703003
+OpenAIModel is processing the question 10583
+OpenAIModel finished the question 10583 took 0.6987473964691162
+OpenAIModel is processing the question 10153
+OpenAIModel finished the question 10153 took 0.5427954196929932
+OpenAIModel is processing the question 10502
+OpenAIModel finished the question 10502 took 0.4793713092803955
+OpenAIModel is processing the question 10571
+OpenAIModel finished the question 10571 took 1.3583152294158936
+OpenAIModel is processing the question 10549
+OpenAIModel finished the question 10549 took 0.4453310966491699
+OpenAIModel is processing the question 10560
+OpenAIModel finished the question 10560 took 3.4134609699249268
+OpenAIModel is processing the question 10551
+OpenAIModel finished the question 10551 took 1.3166608810424805
+OpenAIModel is processing the question 10973
+OpenAIModel finished the question 10973 took 0.5069334506988525
+OpenAIModel is processing the question 101014
+OpenAIModel finished the question 101014 took 0.3555257320404053
+OpenAIModel is processing the question 1094
+OpenAIModel finished the question 1094 took 0.43013620376586914
+OpenAIModel is processing the question 101004
+OpenAIModel finished the question 101004 took 0.5453753471374512
+OpenAIModel is processing the question 10699
+OpenAIModel finished the question 10699 took 3.0939509868621826
+OpenAIModel is processing the question 101013
+OpenAIModel finished the question 101013 took 0.3665738105773926
+OpenAIModel is processing the question 10482
+OpenAIModel finished the question 10482 took 0.44577479362487793
+OpenAIModel is processing the question 10243
+OpenAIModel is processing the question 101039
+OpenAIModel finished the question 101039 took 0.5485498905181885
+OpenAIModel is processing the question 101070
+OpenAIModel finished the question 101070 took 0.3877856731414795
+OpenAIModel is processing the question 10715
+OpenAIModel finished the question 10715 took 0.4352703094482422
+OpenAIModel is processing the question 10387
+OpenAIModel finished the question 10387 took 2.9854133129119873
+OpenAIModel is processing the question 10969
+OpenAIModel finished the question 10969 took 0.3110806941986084
+OpenAIModel is processing the question 101019
+OpenAIModel finished the question 101019 took 1.341747760772705
+OpenAIModel is processing the question 101046
+OpenAIModel finished the question 101046 took 0.46436047554016113
+OpenAIModel is processing the question 101026
+OpenAIModel finished the question 101026 took 0.552410364151001
+OpenAIModel is processing the question 101302
+OpenAIModel finished the question 101302 took 0.46535277366638184
+OpenAIModel is processing the question 101275
+OpenAIModel finished the question 101275 took 0.5356574058532715
+OpenAIModel is processing the question 101257
+OpenAIModel finished the question 101257 took 1.3373157978057861
+OpenAIModel is processing the question 101140
+OpenAIModel is processing the question 101246
+OpenAIModel finished the question 101246 took 0.5043015480041504
+OpenAIModel is processing the question 101049
+OpenAIModel finished the question 101049 took 0.41753292083740234
+OpenAIModel is processing the question 101320
+OpenAIModel finished the question 101320 took 0.33730101585388184
+OpenAIModel is processing the question 101287
+OpenAIModel finished the question 101287 took 0.5344536304473877
+OpenAIModel is processing the question 10234
+OpenAIModel finished the question 10234 took 0.4712364673614502
+OpenAIModel is processing the question 10789
+OpenAIModel is processing the question 101345
+OpenAIModel finished the question 101345 took 0.8406918048858643
+OpenAIModel is processing the question 10946
+OpenAIModel finished the question 10946 took 3.096977472305298
+OpenAIModel is processing the question 101164
+OpenAIModel finished the question 101164 took 0.45775747299194336
+OpenAIModel is processing the question 101337
+OpenAIModel finished the question 101337 took 0.5018577575683594
+OpenAIModel is processing the question 101698
+OpenAIModel finished the question 101698 took 0.35952115058898926
+OpenAIModel is processing the question 101701
+OpenAIModel finished the question 101701 took 0.3478207588195801
+OpenAIModel is processing the question 101340
+OpenAIModel finished the question 101340 took 0.36525940895080566
+OpenAIModel is processing the question 10752
+OpenAIModel finished the question 10752 took 0.5604472160339355
+OpenAIModel is processing the question 101727
+OpenAIModel finished the question 101727 took 0.4168069362640381
+OpenAIModel is processing the question 10808
+OpenAIModel is processing the question 101720
+OpenAIModel finished the question 101720 took 0.3513479232788086
+OpenAIModel is processing the question 101351
+OpenAIModel finished the question 101351 took 0.4799642562866211
+OpenAIModel is processing the question 101600
+OpenAIModel finished the question 101600 took 0.579047441482544
+OpenAIModel is processing the question 101705
+OpenAIModel finished the question 101705 took 0.3587074279785156
+OpenAIModel is processing the question 101355
+OpenAIModel finished the question 101355 took 0.5417461395263672
+OpenAIModel is processing the question 101854
+OpenAIModel finished the question 101854 took 0.3673422336578369
+OpenAIModel is processing the question 101719
+OpenAIModel finished the question 101719 took 0.6268506050109863
+OpenAIModel is processing the question 101193
+OpenAIModel finished the question 101193 took 0.4961662292480469
+OpenAIModel is processing the question 101653
+OpenAIModel finished the question 101653 took 0.9043219089508057
+OpenAIModel is processing the question 101279
+OpenAIModel finished the question 101279 took 0.46335506439208984
+OpenAIModel is processing the question 104830
+OpenAIModel finished the question 104830 took 0.3555741310119629
+OpenAIModel is processing the question 104981
+OpenAIModel finished the question 104981 took 0.3965718746185303
+OpenAIModel is processing the question 105538
+OpenAIModel finished the question 105538 took 0.5561947822570801
+OpenAIModel is processing the question 104833
+OpenAIModel finished the question 104833 took 1.7257978916168213
+OpenAIModel is processing the question 105031
+OpenAIModel finished the question 105031 took 2.45467209815979
+OpenAIModel is processing the question 10134
+OpenAIModel finished the question 10134 took 0.5495710372924805
+OpenAIModel is processing the question 10295
+OpenAIModel finished the question 10295 took 0.3955678939819336
+OpenAIModel is processing the question 10297
+OpenAIModel finished the question 10297 took 0.4458351135253906
+OpenAIModel is processing the question 10205
+OpenAIModel finished the question 10205 took 0.436830997467041
+OpenAIModel is processing the question 10168
+OpenAIModel finished the question 10168 took 0.45783257484436035
+OpenAIModel is processing the question 10139
+OpenAIModel finished the question 10139 took 0.4728572368621826
+OpenAIModel is processing the question 1013
+OpenAIModel finished the question 1013 took 0.5168156623840332
+OpenAIModel is processing the question 104
+OpenAIModel finished the question 104 took 0.6998300552368164
+OpenAIModel is processing the question 10166
+OpenAIModel finished the question 10166 took 0.36555981636047363
+OpenAIModel is processing the question 10327
+OpenAIModel finished the question 10327 took 0.49669837951660156
+OpenAIModel is processing the question 10364
+OpenAIModel finished the question 10364 took 0.36118102073669434
+OpenAIModel is processing the question 10441
+OpenAIModel finished the question 10441 took 0.3861808776855469
+OpenAIModel is processing the question 10388
+OpenAIModel finished the question 10388 took 0.4141831398010254
+OpenAIModel is processing the question 10419
+OpenAIModel finished the question 10419 took 0.47689223289489746
+OpenAIModel is processing the question 10169
+OpenAIModel finished the question 10169 took 0.48189234733581543
+OpenAIModel is processing the question 10164
+OpenAIModel finished the question 10164 took 0.5119054317474365
+OpenAIModel is processing the question 10406
+OpenAIModel finished the question 10406 took 0.4479386806488037
+OpenAIModel is processing the question 1024
+OpenAIModel finished the question 1024 took 0.4528234004974365
+OpenAIModel is processing the question 10560
+OpenAIModel finished the question 10560 took 0.32083940505981445
+OpenAIModel is processing the question 10583
+OpenAIModel finished the question 10583 took 0.32784080505371094
+OpenAIModel is processing the question 10638
+OpenAIModel finished the question 10638 took 0.46486520767211914
+OpenAIModel is processing the question 10729
+OpenAIModel finished the question 10729 took 0.4572916030883789
+OpenAIModel is processing the question 1051
+OpenAIModel finished the question 1051 took 0.4628314971923828
+OpenAIModel is processing the question 10153
+OpenAIModel finished the question 10153 took 0.49877047538757324
+OpenAIModel is processing the question 10571
+OpenAIModel finished the question 10571 took 0.3246791362762451
+OpenAIModel is processing the question 10699
+OpenAIModel finished the question 10699 took 0.30005884170532227
+OpenAIModel is processing the question 10502
+OpenAIModel finished the question 10502 took 0.4370594024658203
+OpenAIModel is processing the question 10551
+OpenAIModel finished the question 10551 took 0.46355295181274414
+OpenAIModel is processing the question 10973
+OpenAIModel finished the question 10973 took 0.3520236015319824
+OpenAIModel is processing the question 10549
+OpenAIModel finished the question 10549 took 0.5095679759979248
+OpenAIModel is processing the question 1094
+OpenAIModel finished the question 1094 took 0.36504173278808594
+OpenAIModel is processing the question 101014
+OpenAIModel finished the question 101014 took 0.4580414295196533
+OpenAIModel is processing the question 10243
+OpenAIModel finished the question 10243 took 0.9339416027069092
+OpenAIModel is processing the question 101013
+OpenAIModel finished the question 101013 took 0.46420812606811523
+OpenAIModel is processing the question 101004
+OpenAIModel finished the question 101004 took 0.5521645545959473
+OpenAIModel is processing the question 101070
+OpenAIModel finished the question 101070 took 0.32009172439575195
+OpenAIModel is processing the question 10715
+OpenAIModel finished the question 10715 took 0.3205902576446533
+OpenAIModel is processing the question 101039
+OpenAIModel finished the question 101039 took 0.3861064910888672
+OpenAIModel is processing the question 10387
+OpenAIModel finished the question 10387 took 0.477630615234375
+OpenAIModel is processing the question 10482
+OpenAIModel finished the question 10482 took 0.5422286987304688
+OpenAIModel is processing the question 101019
+OpenAIModel finished the question 101019 took 0.4627859592437744
+OpenAIModel is processing the question 10969
+OpenAIModel finished the question 10969 took 0.44652652740478516
+OpenAIModel is processing the question 101026
+OpenAIModel finished the question 101026 took 0.3764231204986572
+OpenAIModel is processing the question 101046
+OpenAIModel finished the question 101046 took 0.30207324028015137
+OpenAIModel is processing the question 101302
+OpenAIModel finished the question 101302 took 0.36754322052001953
+OpenAIModel is processing the question 101257
+OpenAIModel finished the question 101257 took 0.3835480213165283
+OpenAIModel is processing the question 101275
+OpenAIModel finished the question 101275 took 0.47054553031921387
+OpenAIModel is processing the question 101140
+OpenAIModel finished the question 101140 took 0.7231349945068359
+OpenAIModel is processing the question 101246
+OpenAIModel finished the question 101246 took 0.4296610355377197
+OpenAIModel is processing the question 101320
+OpenAIModel finished the question 101320 took 0.43370985984802246
+OpenAIModel is processing the question 101049
+OpenAIModel finished the question 101049 took 0.9650604724884033
+OpenAIModel is processing the question 101287
+OpenAIModel finished the question 101287 took 0.5568182468414307
+OpenAIModel is processing the question 10234
+OpenAIModel finished the question 10234 took 0.6097440719604492
+OpenAIModel is processing the question 101345
+OpenAIModel finished the question 101345 took 0.4427628517150879
+OpenAIModel is processing the question 101164
+OpenAIModel finished the question 101164 took 0.539492130279541
+OpenAIModel is processing the question 10789
+OpenAIModel finished the question 10789 took 0.9595232009887695
+OpenAIModel is processing the question 10946
+OpenAIModel finished the question 10946 took 0.8945825099945068
+OpenAIModel is processing the question 101337
+OpenAIModel finished the question 101337 took 0.5550222396850586
+OpenAIModel is processing the question 101698
+OpenAIModel finished the question 101698 took 0.35512495040893555
+OpenAIModel is processing the question 101701
+OpenAIModel finished the question 101701 took 0.36826181411743164
+OpenAIModel is processing the question 101340
+OpenAIModel finished the question 101340 took 0.40509843826293945
+OpenAIModel is processing the question 10808
+OpenAIModel finished the question 10808 took 0.6293573379516602
+OpenAIModel is processing the question 101720
+OpenAIModel finished the question 101720 took 0.5052845478057861
+OpenAIModel is processing the question 101351
+OpenAIModel finished the question 101351 took 0.4153106212615967
+OpenAIModel is processing the question 101705
+OpenAIModel finished the question 101705 took 0.43091368675231934
+OpenAIModel is processing the question 101854
+OpenAIModel finished the question 101854 took 0.4415245056152344
+OpenAIModel is processing the question 101719
+OpenAIModel finished the question 101719 took 0.36234140396118164
+OpenAIModel is processing the question 101355
+OpenAIModel finished the question 101355 took 1.5707387924194336
+OpenAIModel is processing the question 10752
+OpenAIModel is processing the question 101279
+OpenAIModel finished the question 101279 took 0.4219326972961426
+OpenAIModel is processing the question 101600
+OpenAIModel is processing the question 101727
+OpenAIModel finished the question 101727 took 3.596815824508667
+OpenAIModel is processing the question 101735
+OpenAIModel finished the question 101735 took 0.4468042850494385
+OpenAIModel is processing the question 101750
+OpenAIModel finished the question 101750 took 1.4601407051086426
+OpenAIModel is processing the question 101193
+OpenAIModel is processing the question 102172
+OpenAIModel finished the question 102172 took 0.3148007392883301
+OpenAIModel is processing the question 101653
+OpenAIModel is processing the question 101619
+OpenAIModel finished the question 101619 took 0.5054268836975098
+OpenAIModel is processing the question 102140
+OpenAIModel finished the question 102140 took 0.4438662528991699
+OpenAIModel is processing the question 101728
+OpenAIModel finished the question 101728 took 0.5166952610015869
+OpenAIModel is processing the question 10213
+OpenAIModel finished the question 10213 took 3.5334866046905518
+OpenAIModel is processing the question 102238
+OpenAIModel finished the question 102238 took 0.5185964107513428
+OpenAIModel is processing the question 102409
+OpenAIModel finished the question 102409 took 0.40421342849731445
+OpenAIModel is processing the question 102130
+OpenAIModel finished the question 102130 took 0.5116877555847168
+OpenAIModel is processing the question 10824
+OpenAIModel is processing the question 102233
+OpenAIModel finished the question 102233 took 0.48616933822631836
+OpenAIModel is processing the question 102380
+OpenAIModel finished the question 102380 took 1.5239124298095703
+OpenAIModel is processing the question 101798
+OpenAIModel finished the question 101798 took 5.262412071228027
+OpenAIModel is processing the question 102096
+OpenAIModel finished the question 102096 took 0.4930577278137207
+OpenAIModel is processing the question 102064
+OpenAIModel finished the question 102064 took 0.36760544776916504
+OpenAIModel is processing the question 102041
+OpenAIModel finished the question 102041 took 0.4948089122772217
+OpenAIModel is processing the question 102587
+OpenAIModel finished the question 102587 took 1.4476215839385986
+OpenAIModel is processing the question 102523
+OpenAIModel finished the question 102523 took 1.4853041172027588
+OpenAIModel is processing the question 102368
+OpenAIModel finished the question 102368 took 0.5050113201141357
+OpenAIModel is processing the question 102181
+OpenAIModel finished the question 102181 took 1.5311577320098877
+OpenAIModel is processing the question 102821
+OpenAIModel finished the question 102821 took 0.500694990158081
+OpenAIModel is processing the question 102813
+OpenAIModel finished the question 102813 took 0.5390160083770752
+OpenAIModel is processing the question 102054
+OpenAIModel finished the question 102054 took 0.5847110748291016
+OpenAIModel is processing the question 101983
+OpenAIModel finished the question 101983 took 0.3915233612060547
+OpenAIModel is processing the question 102222
+OpenAIModel finished the question 102222 took 1.4081308841705322
+OpenAIModel is processing the question 101760
+OpenAIModel finished the question 101760 took 0.46868062019348145
+OpenAIModel is processing the question 102824
+OpenAIModel finished the question 102824 took 0.4260749816894531
+OpenAIModel is processing the question 102347
+OpenAIModel finished the question 102347 took 0.5254495143890381
+OpenAIModel is processing the question 102664
+OpenAIModel finished the question 102664 took 0.9871208667755127
+OpenAIModel is processing the question 102638
+OpenAIModel finished the question 102638 took 1.3522553443908691
+OpenAIModel is processing the question 101784
+OpenAIModel finished the question 101784 took 0.5371673107147217
+OpenAIModel is processing the question 103012
+OpenAIModel finished the question 103012 took 0.41973018646240234
+OpenAIModel is processing the question 102848
+OpenAIModel finished the question 102848 took 0.4176764488220215
+OpenAIModel is processing the question 102796
+OpenAIModel finished the question 102796 took 0.4192354679107666
+OpenAIModel is processing the question 102746
+OpenAIModel finished the question 102746 took 0.6070456504821777
+OpenAIModel is processing the question 101919
+OpenAIModel finished the question 101919 took 0.4351181983947754
+OpenAIModel is processing the question 102736
+OpenAIModel finished the question 102736 took 3.609846591949463
+OpenAIModel is processing the question 102918
+OpenAIModel finished the question 102918 took 0.4709596633911133
+OpenAIModel is processing the question 102822
+OpenAIModel finished the question 102822 took 0.4375925064086914
+OpenAIModel is processing the question 103346
+OpenAIModel finished the question 103346 took 0.37016916275024414
+OpenAIModel is processing the question 102756
+OpenAIModel finished the question 102756 took 0.40137147903442383
+OpenAIModel is processing the question 102922
+OpenAIModel finished the question 102922 took 0.5033915042877197
+OpenAIModel is processing the question 103400
+OpenAIModel finished the question 103400 took 0.3485527038574219
+OpenAIModel is processing the question 103205
+OpenAIModel finished the question 103205 took 0.557426929473877
+OpenAIModel is processing the question 103235
+OpenAIModel finished the question 103235 took 0.37073636054992676
+OpenAIModel is processing the question 103165
+OpenAIModel finished the question 103165 took 1.432558298110962
+OpenAIModel is processing the question 103283
+OpenAIModel finished the question 103283 took 1.319467544555664
+OpenAIModel is processing the question 102707
+OpenAIModel finished the question 102707 took 0.6801128387451172
+OpenAIModel is processing the question 102973
+OpenAIModel is processing the question 103626
+OpenAIModel finished the question 103626 took 0.4269900321960449
+OpenAIModel is processing the question 103576
+OpenAIModel finished the question 103576 took 0.5042729377746582
+OpenAIModel is processing the question 103641
+OpenAIModel finished the question 103641 took 0.3303399085998535
+OpenAIModel is processing the question 102958
+OpenAIModel finished the question 102958 took 0.42005300521850586
+OpenAIModel is processing the question 103470
+OpenAIModel finished the question 103470 took 0.7874770164489746
+OpenAIModel is processing the question 103558
+OpenAIModel finished the question 103558 took 0.45003747940063477
+OpenAIModel is processing the question 103452
+OpenAIModel finished the question 103452 took 0.4856114387512207
+OpenAIModel is processing the question 103298
+OpenAIModel finished the question 103298 took 2.457996129989624
+OpenAIModel is processing the question 103519
+OpenAIModel finished the question 103519 took 0.4911196231842041
+OpenAIModel is processing the question 103485
+OpenAIModel finished the question 103485 took 0.45374488830566406
+OpenAIModel is processing the question 103512
+OpenAIModel finished the question 103512 took 0.4864349365234375
+OpenAIModel is processing the question 103312
+OpenAIModel finished the question 103312 took 0.5526747703552246
+OpenAIModel is processing the question 103311
+OpenAIModel finished the question 103311 took 0.686687707901001
+OpenAIModel is processing the question 103352
+OpenAIModel finished the question 103352 took 0.3929579257965088
+OpenAIModel is processing the question 103162
+OpenAIModel finished the question 103162 took 0.4375338554382324
+OpenAIModel is processing the question 104061
+OpenAIModel finished the question 104061 took 0.4085423946380615
+OpenAIModel is processing the question 104052
+OpenAIModel finished the question 104052 took 0.5836658477783203
+OpenAIModel is processing the question 104031
+OpenAIModel finished the question 104031 took 0.6326367855072021
+OpenAIModel is processing the question 103690
+OpenAIModel finished the question 103690 took 0.5327727794647217
+OpenAIModel is processing the question 104276
+OpenAIModel finished the question 104276 took 0.5427777767181396
+OpenAIModel is processing the question 103698
+OpenAIModel finished the question 103698 took 0.6818752288818359
+OpenAIModel is processing the question 104050
+OpenAIModel finished the question 104050 took 0.545184850692749
+OpenAIModel is processing the question 103267
+OpenAIModel finished the question 103267 took 0.5911977291107178
+OpenAIModel is processing the question 104244
+OpenAIModel finished the question 104244 took 0.4008200168609619
+OpenAIModel is processing the question 103965
+OpenAIModel finished the question 103965 took 0.5274293422698975
+OpenAIModel is processing the question 104621
+OpenAIModel finished the question 104621 took 0.4371023178100586
+OpenAIModel is processing the question 104637
+OpenAIModel finished the question 104637 took 0.41167688369750977
+OpenAIModel is processing the question 104650
+OpenAIModel finished the question 104650 took 0.43883180618286133
+OpenAIModel is processing the question 104623
+OpenAIModel finished the question 104623 took 0.44083356857299805
+OpenAIModel is processing the question 104196
+OpenAIModel finished the question 104196 took 0.525277853012085
+OpenAIModel is processing the question 104292
+OpenAIModel finished the question 104292 took 0.6014742851257324
+OpenAIModel is processing the question 103675
+OpenAIModel finished the question 103675 took 0.5301713943481445
+OpenAIModel is processing the question 104750
+OpenAIModel finished the question 104750 took 0.6527421474456787
+OpenAIModel is processing the question 103770
+OpenAIModel finished the question 103770 took 0.5523161888122559
+OpenAIModel is processing the question 104775
+OpenAIModel finished the question 104775 took 0.5656836032867432
+OpenAIModel is processing the question 104783
+OpenAIModel finished the question 104783 took 0.4376072883605957
+OpenAIModel is processing the question 104087
+OpenAIModel finished the question 104087 took 0.5715358257293701
+OpenAIModel is processing the question 104117
+OpenAIModel finished the question 104117 took 0.6049661636352539
+OpenAIModel is processing the question 104758
+OpenAIModel finished the question 104758 took 0.5110683441162109
+OpenAIModel is processing the question 104048
+OpenAIModel finished the question 104048 took 0.5251331329345703
+OpenAIModel is processing the question 104751
+OpenAIModel finished the question 104751 took 0.41318750381469727
+OpenAIModel is processing the question 104112
+OpenAIModel finished the question 104112 took 0.4909706115722656
+OpenAIModel is processing the question 103812
+OpenAIModel finished the question 103812 took 0.387347936630249
+OpenAIModel is processing the question 104786
+OpenAIModel finished the question 104786 took 0.5012788772583008
+OpenAIModel is processing the question 104771
+OpenAIModel finished the question 104771 took 0.4770772457122803
+OpenAIModel is processing the question 104632
+OpenAIModel finished the question 104632 took 0.5484883785247803
+OpenAIModel is processing the question 104939
+OpenAIModel finished the question 104939 took 0.4694035053253174
+OpenAIModel is processing the question 103993
+OpenAIModel finished the question 103993 took 0.45449137687683105
+OpenAIModel is processing the question 103745
+OpenAIModel finished the question 103745 took 1.0283141136169434
+OpenAIModel is processing the question 104385
+OpenAIModel finished the question 104385 took 0.49057650566101074
+OpenAIModel is processing the question 104013
+OpenAIModel finished the question 104013 took 0.3587687015533447
+OpenAIModel is processing the question 104850
+OpenAIModel finished the question 104850 took 0.7014021873474121
+OpenAIModel is processing the question 105020
+OpenAIModel finished the question 105020 took 3.4944047927856445
+OpenAIModel is processing the question 104796
+OpenAIModel finished the question 104796 took 0.48723721504211426
+OpenAIModel is processing the question 104877
+OpenAIModel finished the question 104877 took 0.6248221397399902
+OpenAIModel is processing the question 104987
+OpenAIModel finished the question 104987 took 0.5029146671295166
+OpenAIModel is processing the question 104992
+OpenAIModel finished the question 104992 took 0.5182955265045166
+OpenAIModel is processing the question 105073
+OpenAIModel finished the question 105073 took 0.3464512825012207
+OpenAIModel is processing the question 105070
+OpenAIModel finished the question 105070 took 0.46759986877441406
+OpenAIModel is processing the question 104922
+OpenAIModel finished the question 104922 took 0.38083744049072266
+OpenAIModel is processing the question 104791
+OpenAIModel finished the question 104791 took 0.7182538509368896
+OpenAIModel is processing the question 105105
+OpenAIModel finished the question 105105 took 0.47276902198791504
+OpenAIModel is processing the question 104972
+OpenAIModel finished the question 104972 took 0.44553279876708984
+OpenAIModel is processing the question 105089
+OpenAIModel finished the question 105089 took 0.5364944934844971
+OpenAIModel is processing the question 105083
+OpenAIModel finished the question 105083 took 0.4238619804382324
+OpenAIModel is processing the question 105359
+OpenAIModel finished the question 105359 took 0.49593329429626465
+OpenAIModel is processing the question 104844
+OpenAIModel finished the question 104844 took 0.5479519367218018
+OpenAIModel is processing the question 105085
+OpenAIModel finished the question 105085 took 0.68699049949646
+OpenAIModel is processing the question 104874
+OpenAIModel finished the question 104874 took 0.9954032897949219
+OpenAIModel is processing the question 105133
+OpenAIModel finished the question 105133 took 0.4437742233276367
+OpenAIModel is processing the question 105084
+OpenAIModel finished the question 105084 took 0.5191807746887207
+OpenAIModel is processing the question 105015
+OpenAIModel finished the question 105015 took 0.5214715003967285
+OpenAIModel is processing the question 105054
+OpenAIModel finished the question 105054 took 0.44915318489074707
+OpenAIModel is processing the question 105575
+OpenAIModel finished the question 105575 took 0.4657888412475586
+OpenAIModel is processing the question 105107
+OpenAIModel finished the question 105107 took 0.33231258392333984
+OpenAIModel is processing the question 104890
+OpenAIModel finished the question 104890 took 0.4764242172241211
+OpenAIModel is processing the question 105562
+OpenAIModel finished the question 105562 took 0.5509774684906006
+OpenAIModel is processing the question 105625
+OpenAIModel finished the question 105625 took 0.3248589038848877
+OpenAIModel is processing the question 105623
+OpenAIModel finished the question 105623 took 0.5639066696166992
+OpenAIModel is processing the question 105627
+OpenAIModel finished the question 105627 took 0.43688058853149414
+OpenAIModel is processing the question 105118
+OpenAIModel finished the question 105118 took 0.6796162128448486
+OpenAIModel is processing the question 105725
+OpenAIModel finished the question 105725 took 0.5970809459686279
+OpenAIModel is processing the question 105218
+OpenAIModel finished the question 105218 took 0.4231436252593994
+OpenAIModel is processing the question 105768
+OpenAIModel finished the question 105768 took 0.38802647590637207
+OpenAIModel is processing the question 105753
+OpenAIModel finished the question 105753 took 0.5405173301696777
+OpenAIModel is processing the question 105779
+OpenAIModel finished the question 105779 took 0.39267396926879883
+OpenAIModel is processing the question 105417
+OpenAIModel finished the question 105417 took 0.3395988941192627
+OpenAIModel is processing the question 105693
+OpenAIModel finished the question 105693 took 0.4295327663421631
+OpenAIModel is processing the question 105782
+OpenAIModel finished the question 105782 took 0.31739163398742676
+OpenAIModel is processing the question 105148
+OpenAIModel finished the question 105148 took 0.4756906032562256
+OpenAIModel is processing the question 105728
+OpenAIModel finished the question 105728 took 0.3429863452911377
+OpenAIModel is processing the question 105275
+OpenAIModel finished the question 105275 took 0.46744871139526367
+OpenAIModel is processing the question 105850
+OpenAIModel finished the question 105850 took 0.4840564727783203
+OpenAIModel is processing the question 105399
+OpenAIModel finished the question 105399 took 0.36242103576660156
+OpenAIModel is processing the question 105566
+OpenAIModel finished the question 105566 took 0.440824031829834
+OpenAIModel is processing the question 105761
+OpenAIModel finished the question 105761 took 0.38208436965942383
+OpenAIModel is processing the question 105061
+OpenAIModel finished the question 105061 took 0.7514686584472656
+OpenAIModel is processing the question 105882
+OpenAIModel finished the question 105882 took 0.6759955883026123
+OpenAIModel is processing the question 105524
+OpenAIModel finished the question 105524 took 0.32277607917785645
+OpenAIModel is processing the question 105507
+OpenAIModel finished the question 105507 took 0.5359492301940918
+OpenAIModel is processing the question 105230
+OpenAIModel finished the question 105230 took 0.4651370048522949
+OpenAIModel is processing the question 105906
+OpenAIModel finished the question 105906 took 0.4225935935974121
+OpenAIModel is processing the question 105884
+OpenAIModel finished the question 105884 took 0.6767923831939697
+OpenAIModel is processing the question 105911
+OpenAIModel finished the question 105911 took 0.4619472026824951
+OpenAIModel is processing the question 105879
+OpenAIModel finished the question 105879 took 0.41850733757019043
+OpenAIModel is processing the question 105908
+OpenAIModel finished the question 105908 took 0.5102813243865967
+OpenAIModel is processing the question 105487
+OpenAIModel finished the question 105487 took 1.2793269157409668
+OpenAIModel is processing the question 105847
+OpenAIModel finished the question 105847 took 0.48288726806640625
+OpenAIModel is processing the question 105862
+OpenAIModel finished the question 105862 took 0.5346386432647705
+OpenAIModel is processing the question 105872
+OpenAIModel finished the question 105872 took 0.5586767196655273
+OpenAIModel is processing the question 105855
+OpenAIModel finished the question 105855 took 0.6266064643859863
+OpenAIModel is processing the question 101653
+OpenAIModel finished the question 101653 took 0.3872244358062744
+OpenAIModel is processing the question 101193
+OpenAIModel finished the question 101193 took 0.4231846332550049
+OpenAIModel is processing the question 101600
+OpenAIModel finished the question 101600 took 0.46719789505004883
+OpenAIModel is processing the question 102973
+OpenAIModel finished the question 102973 took 0.5232388973236084
+OpenAIModel is processing the question 10752
+OpenAIModel finished the question 10752 took 0.600257158279419
+OpenAIModel is processing the question 10824
+OpenAIModel finished the question 10824 took 0.6036603450775146
