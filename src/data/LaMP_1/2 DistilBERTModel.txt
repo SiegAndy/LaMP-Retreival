@@ -1,0 +1,466 @@
+DistilBERTModel is processing the question 00252
+DistilBERTModel finished the question 00252 took 1.6135668754577637
+DistilBERTModel is processing the question 00228
+DistilBERTModel finished the question 00228 took 1.6135668754577637
+DistilBERTModel is processing the question 00169
+DistilBERTModel finished the question 00169 took 2.0710768699645996
+DistilBERTModel is processing the question 00137
+DistilBERTModel finished the question 00137 took 2.074078321456909
+DistilBERTModel is processing the question 0079
+DistilBERTModel finished the question 0079 took 2.0780794620513916
+DistilBERTModel is processing the question 0018
+DistilBERTModel finished the question 0018 took 2.0810792446136475
+DistilBERTModel is processing the question 00244
+DistilBERTModel finished the question 00244 took 2.0820775032043457
+DistilBERTModel is processing the question 00254
+DistilBERTModel finished the question 00254 took 2.1130754947662354
+DistilBERTModel is processing the question 00297
+DistilBERTModel finished the question 00297 took 0.9222526550292969
+DistilBERTModel is processing the question 00453
+DistilBERTModel finished the question 00453 took 0.9232561588287354
+DistilBERTModel is processing the question 00623
+DistilBERTModel finished the question 00623 took 1.1786651611328125
+DistilBERTModel is processing the question 00502
+DistilBERTModel finished the question 00502 took 1.7960851192474365
+DistilBERTModel is processing the question 00805
+DistilBERTModel finished the question 00805 took 1.7555670738220215
+DistilBERTModel is processing the question 00720
+DistilBERTModel finished the question 00720 took 1.788564682006836
+DistilBERTModel is processing the question 00574
+DistilBERTModel finished the question 00574 took 1.7950880527496338
+DistilBERTModel is processing the question 00592
+DistilBERTModel finished the question 00592 took 1.793088674545288
+DistilBERTModel is processing the question 00810
+DistilBERTModel finished the question 00810 took 1.0799155235290527
+DistilBERTModel is processing the question 00809
+DistilBERTModel finished the question 00809 took 1.0814414024353027
+DistilBERTModel is processing the question 00882
+DistilBERTModel finished the question 00882 took 0.6359560489654541
+DistilBERTModel is processing the question 00970
+DistilBERTModel finished the question 00970 took 0.8944694995880127
+DistilBERTModel is processing the question 001004
+DistilBERTModel finished the question 001004 took 0.7340764999389648
+DistilBERTModel is processing the question 00901
+DistilBERTModel finished the question 00901 took 1.8327701091766357
+DistilBERTModel is processing the question 00985
+DistilBERTModel finished the question 00985 took 1.8276307582855225
+DistilBERTModel is processing the question 00997
+DistilBERTModel finished the question 00997 took 1.827666997909546
+DistilBERTModel is processing the question 00911
+DistilBERTModel finished the question 00911 took 1.8327677249908447
+DistilBERTModel is processing the question 001083
+DistilBERTModel finished the question 001083 took 1.1352283954620361
+DistilBERTModel is processing the question 001122
+DistilBERTModel finished the question 001122 took 0.8607299327850342
+DistilBERTModel is processing the question 001157
+DistilBERTModel finished the question 001157 took 0.4429893493652344
+DistilBERTModel is processing the question 001191
+DistilBERTModel finished the question 001191 took 0.530787467956543
+DistilBERTModel is processing the question 001491
+DistilBERTModel finished the question 001491 took 1.0696120262145996
+DistilBERTModel is processing the question 001580
+DistilBERTModel finished the question 001580 took 0.5211606025695801
+DistilBERTModel is processing the question 001314
+DistilBERTModel finished the question 001314 took 2.116032361984253
+DistilBERTModel is processing the question 001338
+DistilBERTModel finished the question 001338 took 2.119041681289673
+DistilBERTModel is processing the question 001418
+DistilBERTModel finished the question 001418 took 2.1200501918792725
+DistilBERTModel is processing the question 001420
+DistilBERTModel finished the question 001420 took 2.069972276687622
+DistilBERTModel is processing the question 001398
+DistilBERTModel finished the question 001398 took 2.1234285831451416
+DistilBERTModel is processing the question 001571
+DistilBERTModel finished the question 001571 took 1.6169745922088623
+DistilBERTModel is processing the question 001622
+DistilBERTModel finished the question 001622 took 0.8202157020568848
+DistilBERTModel is processing the question 001651
+DistilBERTModel finished the question 001651 took 0.5450654029846191
+DistilBERTModel is processing the question 001855
+DistilBERTModel finished the question 001855 took 1.1648108959197998
+DistilBERTModel is processing the question 001872
+DistilBERTModel finished the question 001872 took 1.1658103466033936
+DistilBERTModel is processing the question 001919
+DistilBERTModel finished the question 001919 took 0.5042035579681396
+DistilBERTModel is processing the question 001714
+DistilBERTModel finished the question 001714 took 2.063710927963257
+DistilBERTModel is processing the question 001757
+DistilBERTModel finished the question 001757 took 2.054270029067993
+DistilBERTModel is processing the question 001718
+DistilBERTModel finished the question 001718 took 2.056802988052368
+DistilBERTModel is processing the question 001884
+DistilBERTModel finished the question 001884 took 2.0562753677368164
+DistilBERTModel is processing the question 001944
+DistilBERTModel finished the question 001944 took 0.9336845874786377
+DistilBERTModel is processing the question 002128
+DistilBERTModel finished the question 002128 took 1.0453369617462158
+DistilBERTModel is processing the question 002136
+DistilBERTModel finished the question 002136 took 0.8837785720825195
+DistilBERTModel is processing the question 002021
+DistilBERTModel finished the question 002021 took 1.0493364334106445
+DistilBERTModel is processing the question 002385
+DistilBERTModel finished the question 002385 took 1.3321692943572998
+DistilBERTModel is processing the question 002159
+DistilBERTModel finished the question 002159 took 1.3401837348937988
+DistilBERTModel is processing the question 002202
+DistilBERTModel finished the question 002202 took 1.4317352771759033
+DistilBERTModel is processing the question 002379
+DistilBERTModel finished the question 002379 took 1.4327352046966553
+DistilBERTModel is processing the question 002369
+DistilBERTModel finished the question 002369 took 1.43473482131958
+DistilBERTModel is processing the question 002452
+DistilBERTModel finished the question 002452 took 0.7865533828735352
+DistilBERTModel is processing the question 002393
+DistilBERTModel finished the question 002393 took 1.2558021545410156
+DistilBERTModel is processing the question 002436
+DistilBERTModel finished the question 002436 took 1.2568016052246094
+DistilBERTModel is processing the question 002569
+DistilBERTModel finished the question 002569 took 0.7541186809539795
+DistilBERTModel is processing the question 002626
+DistilBERTModel finished the question 002626 took 1.0656487941741943
+DistilBERTModel is processing the question 002697
+DistilBERTModel finished the question 002697 took 1.074544906616211
+DistilBERTModel is processing the question 002688
+DistilBERTModel finished the question 002688 took 1.292053461074829
+DistilBERTModel is processing the question 002879
+DistilBERTModel finished the question 002879 took 1.2890634536743164
+DistilBERTModel is processing the question 002917
+DistilBERTModel finished the question 002917 took 0.7845077514648438
+DistilBERTModel is processing the question 002992
+DistilBERTModel finished the question 002992 took 0.5171444416046143
+DistilBERTModel is processing the question 002982
+DistilBERTModel finished the question 002982 took 0.7796688079833984
+DistilBERTModel is processing the question 003064
+DistilBERTModel finished the question 003064 took 0.6717238426208496
+DistilBERTModel is processing the question 003120
+DistilBERTModel finished the question 003120 took 0.5942196846008301
+DistilBERTModel is processing the question 003123
+DistilBERTModel finished the question 003123 took 0.6709637641906738
+DistilBERTModel is processing the question 003124
+DistilBERTModel finished the question 003124 took 1.093761920928955
+DistilBERTModel is processing the question 003142
+DistilBERTModel finished the question 003142 took 1.0967624187469482
+DistilBERTModel is processing the question 003381
+DistilBERTModel finished the question 003381 took 0.7184274196624756
+DistilBERTModel is processing the question 003387
+DistilBERTModel finished the question 003387 took 0.5364289283752441
+DistilBERTModel is processing the question 003174
+DistilBERTModel finished the question 003174 took 2.447906970977783
+DistilBERTModel is processing the question 003182
+DistilBERTModel finished the question 003182 took 2.248751640319824
+DistilBERTModel is processing the question 003248
+DistilBERTModel finished the question 003248 took 1.9884576797485352
+DistilBERTModel is processing the question 003318
+DistilBERTModel finished the question 003318 took 1.4207496643066406
+DistilBERTModel is processing the question 003463
+DistilBERTModel finished the question 003463 took 0.5600206851959229
+DistilBERTModel is processing the question 003449
+DistilBERTModel finished the question 003449 took 0.7055695056915283
+DistilBERTModel is processing the question 003518
+DistilBERTModel finished the question 003518 took 0.8548719882965088
+DistilBERTModel is processing the question 003513
+DistilBERTModel finished the question 003513 took 0.8568675518035889
+DistilBERTModel is processing the question 003729
+DistilBERTModel finished the question 003729 took 0.8960320949554443
+DistilBERTModel is processing the question 003735
+DistilBERTModel finished the question 003735 took 1.094327449798584
+DistilBERTModel is processing the question 003873
+DistilBERTModel finished the question 003873 took 0.9548060894012451
+DistilBERTModel is processing the question 003562
+DistilBERTModel finished the question 003562 took 2.2872748374938965
+DistilBERTModel is processing the question 003989
+DistilBERTModel finished the question 003989 took 0.9764816761016846
+DistilBERTModel is processing the question 003997
+DistilBERTModel finished the question 003997 took 0.9754810333251953
+DistilBERTModel is processing the question 003606
+DistilBERTModel finished the question 003606 took 3.3490471839904785
+DistilBERTModel is processing the question 003657
+DistilBERTModel finished the question 003657 took 3.3500449657440186
+DistilBERTModel is processing the question 003889
+DistilBERTModel finished the question 003889 took 1.9701306819915771
+DistilBERTModel is processing the question 003924
+DistilBERTModel finished the question 003924 took 1.9681315422058105
+DistilBERTModel is processing the question 003937
+DistilBERTModel finished the question 003937 took 1.4625647068023682
+DistilBERTModel is processing the question 003999
+DistilBERTModel finished the question 003999 took 0.4904615879058838
+DistilBERTModel is processing the question 004067
+DistilBERTModel finished the question 004067 took 1.591831922531128
+DistilBERTModel is processing the question 004258
+DistilBERTModel finished the question 004258 took 1.506789207458496
+DistilBERTModel is processing the question 004363
+DistilBERTModel finished the question 004363 took 1.507270097732544
+DistilBERTModel is processing the question 004022
+DistilBERTModel finished the question 004022 took 2.533965587615967
+DistilBERTModel is processing the question 004211
+DistilBERTModel finished the question 004211 took 2.463923454284668
+DistilBERTModel is processing the question 004390
+DistilBERTModel finished the question 004390 took 2.0404052734375
+DistilBERTModel is processing the question 004138
+DistilBERTModel finished the question 004138 took 2.46592378616333
+DistilBERTModel is processing the question 004291
+DistilBERTModel finished the question 004291 took 2.455402135848999
+DistilBERTModel is processing the question 004456
+DistilBERTModel finished the question 004456 took 0.7658283710479736
+DistilBERTModel is processing the question 004407
+DistilBERTModel finished the question 004407 took 1.4907512664794922
+DistilBERTModel is processing the question 004486
+DistilBERTModel finished the question 004486 took 1.4892406463623047
+DistilBERTModel is processing the question 004665
+DistilBERTModel finished the question 004665 took 0.5796244144439697
+DistilBERTModel is processing the question 004701
+DistilBERTModel finished the question 004701 took 0.8620076179504395
+DistilBERTModel is processing the question 004700
+DistilBERTModel finished the question 004700 took 0.8650076389312744
+DistilBERTModel is processing the question 004496
+DistilBERTModel finished the question 004496 took 2.702024221420288
+DistilBERTModel is processing the question 004662
+DistilBERTModel finished the question 004662 took 2.693437337875366
+DistilBERTModel is processing the question 004632
+DistilBERTModel finished the question 004632 took 2.6954360008239746
+DistilBERTModel is processing the question 004539
+DistilBERTModel finished the question 004539 took 2.6964340209960938
+DistilBERTModel is processing the question 004592
+DistilBERTModel finished the question 004592 took 2.698435068130493
+DistilBERTModel is processing the question 004760
+DistilBERTModel finished the question 004760 took 0.48700857162475586
+DistilBERTModel is processing the question 004805
+DistilBERTModel finished the question 004805 took 1.0192151069641113
+DistilBERTModel is processing the question 004863
+DistilBERTModel finished the question 004863 took 1.0202128887176514
+DistilBERTModel is processing the question 005039
+DistilBERTModel finished the question 005039 took 1.2966225147247314
+DistilBERTModel is processing the question 005205
+DistilBERTModel finished the question 005205 took 1.1133196353912354
+DistilBERTModel is processing the question 004864
+DistilBERTModel finished the question 004864 took 1.633347511291504
+DistilBERTModel is processing the question 005110
+DistilBERTModel finished the question 005110 took 1.629345417022705
+DistilBERTModel is processing the question 004927
+DistilBERTModel finished the question 004927 took 1.6303436756134033
+DistilBERTModel is processing the question 004979
+DistilBERTModel finished the question 004979 took 1.6323468685150146
+DistilBERTModel is processing the question 005220
+DistilBERTModel finished the question 005220 took 0.6540958881378174
+DistilBERTModel is processing the question 005235
+DistilBERTModel finished the question 005235 took 0.6590933799743652
+DistilBERTModel is processing the question 005272
+DistilBERTModel finished the question 005272 took 0.737743616104126
+DistilBERTModel is processing the question 005413
+DistilBERTModel finished the question 005413 took 0.7387433052062988
+DistilBERTModel is processing the question 005470
+DistilBERTModel finished the question 005470 took 0.9885954856872559
+DistilBERTModel is processing the question 005616
+DistilBERTModel finished the question 005616 took 1.399914026260376
+DistilBERTModel is processing the question 005628
+DistilBERTModel finished the question 005628 took 1.40291428565979
+DistilBERTModel is processing the question 005520
+DistilBERTModel finished the question 005520 took 1.4029204845428467
+DistilBERTModel is processing the question 005736
+DistilBERTModel finished the question 005736 took 0.5886549949645996
+DistilBERTModel is processing the question 005668
+DistilBERTModel finished the question 005668 took 1.5139727592468262
+DistilBERTModel is processing the question 005693
+DistilBERTModel finished the question 005693 took 1.5056259632110596
+DistilBERTModel is processing the question 005817
+DistilBERTModel finished the question 005817 took 0.858675479888916
+DistilBERTModel is processing the question 005829
+DistilBERTModel finished the question 005829 took 0.8092834949493408
+DistilBERTModel is processing the question 006061
+DistilBERTModel finished the question 006061 took 0.5089037418365479
+DistilBERTModel is processing the question 006121
+DistilBERTModel finished the question 006121 took 0.9032156467437744
+DistilBERTModel is processing the question 006152
+DistilBERTModel finished the question 006152 took 0.5828168392181396
+DistilBERTModel is processing the question 006037
+DistilBERTModel finished the question 006037 took 2.817811965942383
+DistilBERTModel is processing the question 005933
+DistilBERTModel finished the question 005933 took 2.825421094894409
+DistilBERTModel is processing the question 005940
+DistilBERTModel finished the question 005940 took 2.826810836791992
+DistilBERTModel is processing the question 006143
+DistilBERTModel finished the question 006143 took 1.9661407470703125
+DistilBERTModel is processing the question 006083
+DistilBERTModel finished the question 006083 took 1.9711754322052002
+DistilBERTModel is processing the question 006150
+DistilBERTModel finished the question 006150 took 1.4347560405731201
+DistilBERTModel is processing the question 006157
+DistilBERTModel finished the question 006157 took 0.4831569194793701
+DistilBERTModel is processing the question 006185
+DistilBERTModel finished the question 006185 took 0.8427438735961914
+DistilBERTModel is processing the question 006209
+DistilBERTModel finished the question 006209 took 1.475724697113037
+DistilBERTModel is processing the question 006452
+DistilBERTModel finished the question 006452 took 1.4662001132965088
+DistilBERTModel is processing the question 006508
+DistilBERTModel finished the question 006508 took 1.0476036071777344
+DistilBERTModel is processing the question 006263
+DistilBERTModel finished the question 006263 took 2.051164150238037
+DistilBERTModel is processing the question 006475
+DistilBERTModel finished the question 006475 took 2.0475473403930664
+DistilBERTModel is processing the question 006453
+DistilBERTModel finished the question 006453 took 2.0511634349823
+DistilBERTModel is processing the question 006376
+DistilBERTModel finished the question 006376 took 2.0551631450653076
+DistilBERTModel is processing the question 006587
+DistilBERTModel finished the question 006587 took 0.5625524520874023
+DistilBERTModel is processing the question 006798
+DistilBERTModel finished the question 006798 took 0.8477790355682373
+DistilBERTModel is processing the question 006919
+DistilBERTModel finished the question 006919 took 0.9667794704437256
+DistilBERTModel is processing the question 006921
+DistilBERTModel finished the question 006921 took 0.5913269519805908
+DistilBERTModel is processing the question 006697
+DistilBERTModel finished the question 006697 took 2.6561119556427
+DistilBERTModel is processing the question 006757
+DistilBERTModel finished the question 006757 took 3.130202531814575
+DistilBERTModel is processing the question 006899
+DistilBERTModel finished the question 006899 took 2.5489957332611084
+DistilBERTModel is processing the question 006897
+DistilBERTModel finished the question 006897 took 2.549995183944702
+DistilBERTModel is processing the question 006825
+DistilBERTModel finished the question 006825 took 2.55975341796875
+DistilBERTModel is processing the question 006893
+DistilBERTModel finished the question 006893 took 2.553009510040283
+DistilBERTModel is processing the question 006938
+DistilBERTModel finished the question 006938 took 0.5371308326721191
+DistilBERTModel is processing the question 006969
+DistilBERTModel finished the question 006969 took 0.5732686519622803
+DistilBERTModel is processing the question 006976
+DistilBERTModel finished the question 006976 took 0.5911929607391357
+DistilBERTModel is processing the question 007000
+DistilBERTModel finished the question 007000 took 1.2277228832244873
+DistilBERTModel is processing the question 006997
+DistilBERTModel finished the question 006997 took 1.2357220649719238
+DistilBERTModel is processing the question 007148
+DistilBERTModel finished the question 007148 took 0.5688343048095703
+DistilBERTModel is processing the question 007152
+DistilBERTModel finished the question 007152 took 0.584954023361206
+DistilBERTModel is processing the question 007035
+DistilBERTModel finished the question 007035 took 3.323763132095337
+DistilBERTModel is processing the question 007009
+DistilBERTModel finished the question 007009 took 3.3267621994018555
+DistilBERTModel is processing the question 007094
+DistilBERTModel finished the question 007094 took 3.3257625102996826
+DistilBERTModel is processing the question 007114
+DistilBERTModel finished the question 007114 took 3.1717488765716553
+DistilBERTModel is processing the question 007272
+DistilBERTModel finished the question 007272 took 1.1231653690338135
+DistilBERTModel is processing the question 007198
+DistilBERTModel finished the question 007198 took 1.306746482849121
+DistilBERTModel is processing the question 007300
+DistilBERTModel finished the question 007300 took 1.0852820873260498
+DistilBERTModel is processing the question 007341
+DistilBERTModel finished the question 007341 took 0.8459208011627197
+DistilBERTModel is processing the question 007484
+DistilBERTModel finished the question 007484 took 1.6713638305664062
+DistilBERTModel is processing the question 007467
+DistilBERTModel finished the question 007467 took 1.6773681640625
+DistilBERTModel is processing the question 007438
+DistilBERTModel finished the question 007438 took 1.6783666610717773
+DistilBERTModel is processing the question 007365
+DistilBERTModel finished the question 007365 took 2.012500524520874
+DistilBERTModel is processing the question 007639
+DistilBERTModel finished the question 007639 took 1.8038597106933594
+DistilBERTModel is processing the question 007549
+DistilBERTModel finished the question 007549 took 1.9898874759674072
+DistilBERTModel is processing the question 007655
+DistilBERTModel finished the question 007655 took 1.7998006343841553
+DistilBERTModel is processing the question 007590
+DistilBERTModel finished the question 007590 took 1.8088860511779785
+DistilBERTModel is processing the question 007872
+DistilBERTModel finished the question 007872 took 1.4357883930206299
+DistilBERTModel is processing the question 007860
+DistilBERTModel finished the question 007860 took 1.4377851486206055
+DistilBERTModel is processing the question 007919
+DistilBERTModel finished the question 007919 took 1.4397854804992676
+DistilBERTModel is processing the question 007924
+DistilBERTModel finished the question 007924 took 0.8205327987670898
+DistilBERTModel is processing the question 007662
+DistilBERTModel finished the question 007662 took 4.3992674350738525
+DistilBERTModel is processing the question 007787
+DistilBERTModel finished the question 007787 took 5.457198619842529
+DistilBERTModel is processing the question 007757
+DistilBERTModel finished the question 007757 took 5.794199466705322
+DistilBERTModel is processing the question 007717
+DistilBERTModel finished the question 007717 took 5.7952001094818115
+DistilBERTModel is processing the question 007877
+DistilBERTModel finished the question 007877 took 5.4551966190338135
+DistilBERTModel is processing the question 008240
+DistilBERTModel finished the question 008240 took 0.5707955360412598
+DistilBERTModel is processing the question 008086
+DistilBERTModel finished the question 008086 took 3.3157453536987305
+DistilBERTModel is processing the question 007928
+DistilBERTModel finished the question 007928 took 3.3177449703216553
+DistilBERTModel is processing the question 008175
+DistilBERTModel finished the question 008175 took 1.4997458457946777
+DistilBERTModel is processing the question 008560
+DistilBERTModel finished the question 008560 took 1.1381738185882568
+DistilBERTModel is processing the question 008335
+DistilBERTModel finished the question 008335 took 2.207685947418213
+DistilBERTModel is processing the question 008357
+DistilBERTModel finished the question 008357 took 2.2136998176574707
+DistilBERTModel is processing the question 008431
+DistilBERTModel finished the question 008431 took 2.214700222015381
+DistilBERTModel is processing the question 008266
+DistilBERTModel finished the question 008266 took 2.2186970710754395
+DistilBERTModel is processing the question 008578
+DistilBERTModel finished the question 008578 took 1.9186854362487793
+DistilBERTModel is processing the question 008583
+DistilBERTModel finished the question 008583 took 1.9186673164367676
+DistilBERTModel is processing the question 008638
+DistilBERTModel finished the question 008638 took 1.9186692237854004
+DistilBERTModel is processing the question 008672
+DistilBERTModel finished the question 008672 took 0.6630487442016602
+DistilBERTModel is processing the question 008714
+DistilBERTModel finished the question 008714 took 1.2091829776763916
+DistilBERTModel is processing the question 008766
+DistilBERTModel finished the question 008766 took 0.6841421127319336
+DistilBERTModel is processing the question 008737
+DistilBERTModel finished the question 008737 took 2.4040284156799316
+DistilBERTModel is processing the question 008731
+DistilBERTModel finished the question 008731 took 2.4170279502868652
+DistilBERTModel is processing the question 008732
+DistilBERTModel finished the question 008732 took 2.41302752494812
+DistilBERTModel is processing the question 008688
+DistilBERTModel finished the question 008688 took 2.4225449562072754
+DistilBERTModel is processing the question 008673
+DistilBERTModel finished the question 008673 took 2.4305429458618164
+DistilBERTModel is processing the question 008744
+DistilBERTModel finished the question 008744 took 2.4170284271240234
+DistilBERTModel is processing the question 008781
+DistilBERTModel finished the question 008781 took 0.9776763916015625
+DistilBERTModel is processing the question 008866
+DistilBERTModel finished the question 008866 took 0.7511847019195557
+DistilBERTModel is processing the question 008935
+DistilBERTModel finished the question 008935 took 1.2478992938995361
+DistilBERTModel is processing the question 008995
+DistilBERTModel finished the question 008995 took 1.2459003925323486
+DistilBERTModel is processing the question 008879
+DistilBERTModel finished the question 008879 took 1.4800999164581299
+DistilBERTModel is processing the question 009158
+DistilBERTModel finished the question 009158 took 0.7545385360717773
+DistilBERTModel is processing the question 008989
+DistilBERTModel finished the question 008989 took 2.2283811569213867
+DistilBERTModel is processing the question 009070
+DistilBERTModel finished the question 009070 took 2.229811668395996
+DistilBERTModel is processing the question 009035
+DistilBERTModel finished the question 009035 took 2.2318081855773926
+DistilBERTModel is processing the question 009324
+DistilBERTModel finished the question 009324 took 1.461808204650879
+DistilBERTModel is processing the question 009577
+DistilBERTModel finished the question 009577 took 0.8897585868835449
+DistilBERTModel is processing the question 009338
+DistilBERTModel finished the question 009338 took 2.1847095489501953
+DistilBERTModel is processing the question 009452
+DistilBERTModel finished the question 009452 took 2.3949897289276123
+DistilBERTModel is processing the question 009495
+DistilBERTModel finished the question 009495 took 2.1754133701324463
+DistilBERTModel is processing the question 009594
+DistilBERTModel finished the question 009594 took 1.4200396537780762
+DistilBERTModel is processing the question 009676
+DistilBERTModel finished the question 009676 took 1.4185116291046143
+DistilBERTModel is processing the question 009644
+DistilBERTModel finished the question 009644 took 1.4195115566253662
+DistilBERTModel is processing the question 009641
+DistilBERTModel finished the question 009641 took 1.4230389595031738

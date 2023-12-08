@@ -3,7 +3,7 @@ import os
 import subprocess
 from copy import copy
 import string
-from typing import Any, List, Union
+from typing import Any, Union
 from src.utils.param import config_path
 
 

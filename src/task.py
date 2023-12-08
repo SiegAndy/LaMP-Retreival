@@ -6,6 +6,8 @@ from threading import Thread
 import time
 from typing import Any, Callable, Dict, List, Tuple
 
+from src.utils import label
+
 from src.utils import (
     default_data_path,
     default_extract_path,
@@ -22,6 +24,7 @@ default_total = 100
 def subscriber_proc_thread(
     prog: Progress,
     task_dict: Dict[str, Tuple[TaskID, Callable, labels]],
+    api_key: str,
     pipeline: Queue,
 ):
     """
@@ -34,27 +37,33 @@ def subscriber_proc_thread(
             break
         sub_name, (p_id, prompt), total_num = content
         task, sub_func, curr_labels = task_dict[sub_name]
-        curr_label = sub_func(p_id, prompt)
+        curr_label = sub_func(p_id, prompt, api_key)
         curr_labels.golds.append(curr_label)
         prog.update(task, advance=100 / total_num)
+        time.sleep(1)
 
 
 def subscriber_task_thread(
     prog: Progress,
     task_info: Tuple[str, TaskID],
     parsed_prompts: Dict[str, List[str]],
+    processed_prompts: List[str],
     pipeline: Queue,
 ):
     """
     task_info: tuple of subscriber name and taskID for progress
+    processed_prompts: prompt ids that have already got response from previous runs
+
     send content to pipeline (tuple of subscriber name and (id, prompt) and total number)
     """
     sub_name, task = task_info
-    total_num = len(parsed_prompts)
-    for id, prompt in parsed_prompts.items():
-        pipeline.put((sub_name, (id, prompt), total_num))
+    total_num = len(parsed_prompts) - len(processed_prompts)
+    for curr_prompt_id, curr_prompt in parsed_prompts.items():
+        # ignore processed prompts
+        if curr_prompt_id in processed_prompts:
+            continue
+        pipeline.put((sub_name, (curr_prompt_id, curr_prompt), total_num))
         prog.update(task, advance=default_total / total_num)
-    time.sleep(1)
 
 
 class LaMPTask:
@@ -168,9 +177,61 @@ class LaMPTask:
                 curr_preds_save_name, self.task_name
             )
 
-    def subscribe(self, skip_eval: bool = False) -> None:
+    def fetch_complete_task(self, subscriber_name: str) -> List[str]:
+        """
+        return list of id for completed task (task id found in preds file)
+        """
+        output_save_name = self.preds_save_path[subscriber_name]
+        if not os.path.exists(output_save_name) or not os.path.isfile(output_save_name):
+            return []
+        with open(output_save_name, "r", encoding="utf-8") as prev_preds:
+            labels_json = json.load(prev_preds)
+            assert labels_json["task"] == self.task_name.rstrip("_alt")
+            prev_preds = labels(task=self.task_name, golds=list())
+            prev_preds_list = []
+            for task in labels_json["golds"]:
+                prev_preds_list.append(task["id"])
+                prev_preds.golds.append(label(**task))
+            self.preds[subscriber_name] = prev_preds
+            return prev_preds_list
+
+    def subscribe(
+        self,
+        skip_eval: bool = False,
+        continue_previous_run: bool = True,
+        api_keys: List[str] = None,
+    ) -> None:
+        """
+        skip_eval controls whether we conduct evaluation right after fetch preds from LM
+
+        continue_previous_run controls whether we read previous preds file and remove those task from potential tasks list
+        """
+        assert (
+            api_keys is None or len(api_keys) == self.worker_count
+        ), "Either specify api key for every worker or just use the default one"
         self.preds = dict()
         self.score = dict()
+        self.prev_preds = dict()
+
+        # check whether we have path to store the preds (either created from designated store path or take given one)
+        if (
+            self.store_path is not None and self.store_path != ""
+        ) or self.preds_save_path is not None:
+            if self.store_path is not None:
+                os.makedirs(self.store_path, exist_ok=True)
+            if self.preds_save_path is None:
+                self.preds_save_path = dict()
+
+            for subscriber_name in self.subscribers.keys():
+                if subscriber_name not in self.preds_save_path:
+                    self.preds_save_path[subscriber_name] = os.path.join(
+                        self.store_path,
+                        f"LaMP_{self.task_id}_{self.task_type}_preds_{subscriber_name}_{self.suffix}.json",
+                    )
+                if continue_previous_run:
+                    self.prev_preds[subscriber_name] = self.fetch_complete_task(
+                        subscriber_name
+                    )
 
         with Progress() as prog:
             task_dict: Dict[str, Tuple[TaskID, Callable]] = dict()
@@ -179,19 +240,32 @@ class LaMPTask:
             worker_pipeline = Queue()
 
             for i in range(self.worker_count):
+                if api_keys is not None:
+                    api_key = api_keys[i]
+                else:
+                    api_key = None
                 curr_worker = Thread(
                     target=subscriber_proc_thread,
                     args=(
                         prog,
                         task_dict,
+                        api_key,
                         worker_pipeline,
                     ),
                 )
                 curr_worker.start()
                 proc_worker.append(curr_worker)
 
+            # feed prompt into subscriber
             for subscriber_name, subscriber_func in self.subscribers.items():
-                self.preds[subscriber_name] = labels(task=self.task_name, golds=list())
+                # could be initialized by fetch_complete_task
+                if (
+                    subscriber_name not in self.preds
+                    or self.preds[subscriber_name] is None
+                ):
+                    self.preds[subscriber_name] = labels(
+                        task=self.task_name, golds=list()
+                    )
                 curr_q_task = prog.add_task(
                     f"Queuing Requests for {subscriber_name}", total=default_total
                 )
@@ -203,12 +277,14 @@ class LaMPTask:
                     subscriber_func,
                     self.preds[subscriber_name],
                 )
+                print(self.prev_preds[subscriber_name])
                 curr_worker = Thread(
                     target=subscriber_task_thread,
                     args=(
                         prog,
                         (subscriber_name, curr_q_task),
                         self.parsed_prompts,
+                        self.prev_preds[subscriber_name],
                         worker_pipeline,
                     ),
                 )
@@ -222,31 +298,25 @@ class LaMPTask:
 
             [worker.join() for worker in proc_worker]
 
-            # feed prompt into subscriber
-            for subscriber_name, subscriber_func in self.subscribers.items():
+            # no need to store preds
+            if self.preds_save_path is None:
+                return self.preds
+
+            for subscriber_name in self.subscribers.keys():
                 # curr_preds = labels(task=self.task_name, golds=list())
                 # subscriber_func(self.parsed_prompts, curr_preds)
                 # self.preds[subscriber_name] = curr_preds
-
-                if self.store_path is not None and self.store_path != "":
-                    if self.preds_save_path is None:
-                        preds_save_name = os.path.join(
-                            self.store_path,
-                            f"LaMP_{self.task_id}_{self.task_type}_preds_{subscriber_name}_{self.suffix}.json",
-                        )
-                    else:
-                        preds_save_name = self.preds_save_path[subscriber_name]
-                    os.makedirs(self.store_path, exist_ok=True)
-                    with open(preds_save_name, "w", encoding="utf-8") as output:
-                        json.dump(
-                            self.preds[subscriber_name],
-                            output,
-                            cls=DTOEncoder,
-                            indent=4,
-                        )
+                curr_preds_save_name = self.preds_save_path[subscriber_name]
+                with open(curr_preds_save_name, "w", encoding="utf-8") as output:
+                    json.dump(
+                        self.preds[subscriber_name],
+                        output,
+                        cls=DTOEncoder,
+                        indent=4,
+                    )
                 if self.evaluation is not None and not skip_eval:
                     self.score[subscriber_name] = self.evaluation.evaluate_task(
-                        preds_save_name, self.task_name
+                        curr_preds_save_name, self.task_name
                     )
 
     def construct_prompt(self) -> None:
