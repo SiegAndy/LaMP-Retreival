@@ -38,6 +38,8 @@ def subscriber_proc_thread(
         sub_name, (p_id, prompt), total_num = content
         task, sub_func, curr_labels = task_dict[sub_name]
         curr_label = sub_func(p_id, prompt, api_key)
+        if curr_label is None:
+            continue
         curr_labels.golds.append(curr_label)
         prog.update(task, advance=100 / total_num)
         time.sleep(1)
